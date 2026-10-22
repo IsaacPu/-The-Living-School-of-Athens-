@@ -1,0 +1,276 @@
+{
+  "schema_version": 1,
+  "asset_id": "plato-v001",
+  "relative_glb_path": "export/plato-baseline-diagnostic.glb",
+  "sha256": "121d42a2df197fe860410dd7f99317318e368ebd1d5253fb58245d13c6cc33a4",
+  "bytes": 7722596,
+  "source": {
+    "provider": "Aholo Lux3D",
+    "region": "international",
+    "task_id": "4277623",
+    "relative_original_path": "source/plato-lux3d-task-4277623.glb",
+    "sha256": "904ab6adec70c941a877918435b3c655a89a6d67be5c52610d4d210689afd8ce",
+    "provenance": "source/provenance.json",
+    "new_generation": false,
+    "license_status": "not_verified"
+  },
+  "units": "meters",
+  "up_axis": "+Y",
+  "forward_axis": "+Z",
+  "orientation_verified": true,
+  "orientation_evidence": {
+    "front": "../../../../qa/characters/plato/v001/axis_plus_z_candidate_front.png",
+    "back": "../../../../qa/characters/plato/v001/axis_minus_z_candidate_back.png",
+    "source_to_canonical_yaw_degrees": 0,
+    "note": "Actual front/back local Blender renders reviewed; glTF +Z maps to Blender -Y. Do not add a default 180-degree turn."
+  },
+  "body_height_m": 1.75,
+  "body_height_method": "Lowest foot vertex to top of hair/head; actual images confirm no raised hand extends above head. Not a historical height claim.",
+  "bounds_m": {
+    "min": [
+      -0.3424467146396637,
+      0.0,
+      -0.2786567807197571
+    ],
+    "max": [
+      0.3424467146396637,
+      1.75,
+      0.2786567807197571
+    ],
+    "size": [
+      0.6848934292793274,
+      1.75,
+      0.5573135614395142
+    ]
+  },
+  "overall_bounds_m": {
+    "min": [
+      -0.3424467146396637,
+      0.0,
+      -0.2786567807197571
+    ],
+    "max": [
+      0.3424467146396637,
+      1.75,
+      0.2786567807197571
+    ],
+    "size": [
+      0.6848934292793274,
+      1.75,
+      0.5573135614395142
+    ]
+  },
+  "triangles": 28314,
+  "materials": {
+    "count": 1,
+    "policy": "preserve_source",
+    "textures": [
+      {
+        "role": "base_color",
+        "width": 2048,
+        "height": 2048,
+        "embedded": true
+      },
+      {
+        "role": "metallic_roughness",
+        "width": 2048,
+        "height": 2048,
+        "embedded": true
+      }
+    ],
+    "normal_map": false,
+    "nonmetal_candidate_adopted": false
+  },
+  "skins": 0,
+  "animations": 0,
+  "relative_blend_path": "work/plato-baseline-diagnostic.blend",
+  "qa_images": [
+    "../../../../qa/characters/plato/v001/axis_plus_z_candidate_front.png",
+    "../../../../qa/characters/plato/v001/axis_minus_z_candidate_back.png",
+    "../../../../qa/characters/plato/v001/axis_plus_x_subject_left.png",
+    "../../../../qa/characters/plato/v001/axis_minus_x_subject_right.png",
+    "../../../../qa/characters/plato/v001/front_three_quarter.png",
+    "../../../../qa/characters/plato/v001/face_front.png",
+    "../../../../qa/characters/plato/v001/face_three_quarter.png",
+    "../../../../qa/characters/plato/v001/hands_book_front.png",
+    "../../../../qa/characters/plato/v001/hands_book_side.png",
+    "../../../../qa/characters/plato/v001/feet_front.png",
+    "../../../../qa/characters/plato/v001/material_before.png",
+    "../../../../qa/characters/plato/v001/material_nonmetal_candidate.png",
+    "../../../../qa/characters/plato/v001/front_metric_ruler.png",
+    "../../../../qa/characters/plato/v001/source_before_same_conditions.png",
+    "../../../../qa/characters/plato/v001/delivery_after_same_conditions.png"
+  ],
+  "geometry_changed": false,
+  "changes": [
+    {
+      "type": "source_isolation",
+      "description": "Independent read-only source copy, exact SHA-256 preserved."
+    },
+    {
+      "type": "rigid_root_rebase",
+      "translation_gltf_m": [
+        0,
+        0.875,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "yaw_degrees": 0,
+      "description": "Feet-centred empty root at origin. No rescale, smoothing, subdivision or topology edit."
+    },
+    {
+      "type": "serialization",
+      "description": "Blender GLB roundtrip; corner/UV splits can change vertex count while all triangle positions are preserved."
+    },
+    {
+      "type": "editable_source",
+      "description": "Packed-texture Blender source with QA cameras, lights and preserved source/candidate materials. Helpers are excluded from GLB."
+    }
+  ],
+  "rollback": {
+    "relative_source_path": "source/plato-lux3d-task-4277623.glb",
+    "undo_rebase_translation_gltf_m": [
+      0,
+      -0.875,
+      0
+    ],
+    "material_changes_in_export": false
+  },
+  "known_defects": [
+    {
+      "id": "D01_FACE",
+      "description": "鼻梁、额头、发须的多边形棱面与模糊底色在近景明显；眼睑与嘴部缺乏可信体积，未达到主角近景标准。",
+      "qa_image": "../../../../qa/characters/plato/v001/face_front.png",
+      "region_normalized_xywh": [
+        0.22,
+        0.14,
+        0.53,
+        0.76
+      ],
+      "status": "open",
+      "next_step": "按统一角色设定重建头脸、眼睑和发须体积，重拓扑与重做贴图；不能靠全局平滑解决。"
+    },
+    {
+      "id": "D02_HAND_BOOK",
+      "description": "手指细节和指节不清，手与书接触处有尖角、狭缝及薄片感；书脊和封面边缘变形。",
+      "qa_image": "../../../../qa/characters/plato/v001/hands_book_front.png",
+      "region_normalized_xywh": [
+        0.24,
+        0.17,
+        0.53,
+        0.53
+      ],
+      "status": "open",
+      "next_step": "保留中性手部母版，局部重建手/书的独立结构，再安排真实握持。"
+    },
+    {
+      "id": "D03_GESTURE",
+      "description": "双手抱书，与原画柏拉图向上指点的标志手势不一致；书上也没有可确认的《蒂迈欧篇》标识。",
+      "qa_image": "../../../../qa/characters/plato/v001/axis_plus_z_candidate_front.png",
+      "region_normalized_xywh": [
+        0.3,
+        0.26,
+        0.42,
+        0.24
+      ],
+      "status": "open",
+      "next_step": "统一原画姿态与书籍设计后重建手臂和持书关系。"
+    },
+    {
+      "id": "D04_CLOTH_FRONT",
+      "description": "披衣存在大块尖锐三角折片，内袍臂部有黑色裂隙外观；不能用底色掩盖。裂隙的拓扑成因尚需局部检查。",
+      "qa_image": "../../../../qa/characters/plato/v001/hands_book_front.png",
+      "region_normalized_xywh": [
+        0.02,
+        0.06,
+        0.94,
+        0.94
+      ],
+      "status": "open",
+      "next_step": "围绕肩、肘、腰受力点重建衣褶，逐处检查开口与穿插。"
+    },
+    {
+      "id": "D05_CLOTH_BACK",
+      "description": "背面披衣有不连续的凹槽/黑缝外观和尖锐折面，后背近距离不可验收。",
+      "qa_image": "../../../../qa/characters/plato/v001/axis_minus_z_candidate_back.png",
+      "region_normalized_xywh": [
+        0.3,
+        0.23,
+        0.43,
+        0.56
+      ],
+      "status": "open",
+      "next_step": "补足背面参考和真实厚度，局部重建披衣而非仅细分。"
+    },
+    {
+      "id": "D06_FEET",
+      "description": "脚趾与足部贴图模糊、脚跟轮廓粗糙；地面接触已技术落地，但不等于足部解剖通过。",
+      "qa_image": "../../../../qa/characters/plato/v001/feet_front.png",
+      "region_normalized_xywh": [
+        0.12,
+        0.1,
+        0.77,
+        0.77
+      ],
+      "status": "open",
+      "next_step": "局部重建足部或统一鞋履方案，并复查袍摆与地面关系。"
+    },
+    {
+      "id": "D07_MATERIAL",
+      "description": "单材质同时覆盖皮肤、衣料和书籍；原件金属度贴图含非零值，没有法线细节贴图。候选金属度归零仅供同条件对照，未采用。",
+      "qa_image": "../../../../qa/characters/plato/v001/material_before.png",
+      "region_normalized_xywh": [
+        0.18,
+        0.12,
+        0.64,
+        0.78
+      ],
+      "status": "open",
+      "next_step": "先制作材质分区与有效金属遮罩；结合近景和最终场景照明决定局部修正。"
+    },
+    {
+      "id": "D08_STRUCTURE",
+      "description": "一个静态网格，无骨骼、动画、形变目标；可编辑源不代表具备可换装或可动画母版。",
+      "qa_image": "../../../../qa/characters/plato/v001/hands_book_side.png",
+      "region_normalized_xywh": [
+        0.1,
+        0.08,
+        0.82,
+        0.83
+      ],
+      "status": "open",
+      "next_step": "后续重建中性姿态身体、服装、手和道具，并单独验收蒙皮与动作。"
+    },
+    {
+      "id": "D09_TOPOLOGY",
+      "description": "以 1 微米位置量化合并后的诊断统计为 0 条边界边、579 条被超过两个三角形共享的边；接触或重合也可能产生此结果，尚未逐处定位，不能认定所有黑缝都是开口。",
+      "qa_image": "../../../../qa/characters/plato/v001/axis_minus_z_candidate_back.png",
+      "region_normalized_xywh": [
+        0.18,
+        0.19,
+        0.64,
+        0.7
+      ],
+      "status": "open",
+      "next_step": "按局部区域检查重复面、穿插与高连接边，先保留证据，不执行自动焊接或全局修复。"
+    }
+  ],
+  "technical_status": "local_export_verified_unity_pending",
+  "art_status": "baseline_diagnostic",
+  "qa_report": "../../../../qa/characters/plato/v001/REPORT.md",
+  "verification_report": "../../../../qa/characters/plato/v001/verification.json",
+  "roundtrip_report": "../../../../qa/characters/plato/v001/roundtrip.json",
+  "reference_sources": "source/references.json",
+  "reproduction": "../../../../scripts/characters/run-plato-diagnostic.ps1",
+  "integration_notes": [
+    "Copy GLB and required metadata into A-owned Unity project; no runtime reference to test-project.",
+    "Place root at intended ground point with localScale=1; orientation is +Z. Scene-specific yaw belongs to the placement transform.",
+    "Use a separate simple interaction collider; GLB intentionally contains no collision mesh.",
+    "Unity material/load/performance validation belongs to integration; old test reports do not validate this GLB."
+  ],
+  "verification_scope": "Local source isolation, export and actual renders; final art, formal Unity integration, animation and commercial rights remain unaccepted."
+}

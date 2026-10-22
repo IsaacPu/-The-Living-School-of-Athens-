@@ -1,0 +1,131 @@
+{
+  "schema_version": 1,
+  "verified_utc": "2026-10-22T12:26:54.062Z",
+  "passed": true,
+  "checks": [
+    {
+      "name": "source_hash",
+      "passed": true,
+      "detail": "904ab6adec70c941a877918435b3c655a89a6d67be5c52610d4d210689afd8ce"
+    },
+    {
+      "name": "triangles_preserved",
+      "passed": true,
+      "detail": 28314
+    },
+    {
+      "name": "feet_y_zero",
+      "passed": true,
+      "detail": 0
+    },
+    {
+      "name": "no_rescale",
+      "passed": true,
+      "detail": 1.75
+    },
+    {
+      "name": "finite_geometry",
+      "passed": true,
+      "detail": 29166
+    },
+    {
+      "name": "no_skins_or_animations",
+      "passed": true,
+      "detail": {
+        "skins": 0,
+        "animations": 0
+      }
+    },
+    {
+      "name": "embedded_images",
+      "passed": true,
+      "detail": [
+        {
+          "bufferView": 4,
+          "mimeType": "image/png",
+          "name": "Image_0"
+        },
+        {
+          "bufferView": 5,
+          "mimeType": "image/png",
+          "name": "Image_1"
+        }
+      ]
+    },
+    {
+      "name": "no_external_buffers",
+      "passed": true,
+      "detail": [
+        {
+          "byteLength": 7721004
+        }
+      ]
+    },
+    {
+      "name": "no_unrequested_helpers",
+      "passed": true,
+      "detail": [
+        "geometry_0",
+        "Plato_CANONICAL_FEET_ROOT"
+      ]
+    },
+    {
+      "name": "triangle_shape_preserved_after_rebase",
+      "passed": true,
+      "detail": "Triangle corner positions compared at 0.1mm quantization; no smoothing/remeshing."
+    },
+    {
+      "name": "blend_header",
+      "passed": true,
+      "detail": "plato-baseline-diagnostic.blend"
+    },
+    {
+      "name": "all_real_render_files_present",
+      "passed": true,
+      "detail": 12
+    },
+    {
+      "name": "delivery_hash_and_bytes",
+      "passed": true,
+      "detail": {
+        "sha256": "121d42a2df197fe860410dd7f99317318e368ebd1d5253fb58245d13c6cc33a4",
+        "bytes": 7722596
+      }
+    },
+    {
+      "name": "delivery_paths_exist",
+      "passed": true,
+      "detail": "All handoff paths resolve from manifest"
+    },
+    {
+      "name": "all_report_references_exist",
+      "passed": true,
+      "detail": "Reports, provenance, reproduction script and every defect image resolve"
+    },
+    {
+      "name": "blend_reopened_and_export_reimported",
+      "passed": true,
+      "detail": "Actual fresh Blender open/import recorded"
+    },
+    {
+      "name": "honest_art_status",
+      "passed": true,
+      "detail": "baseline_diagnostic"
+    }
+  ],
+  "actual_sha256": "121d42a2df197fe860410dd7f99317318e368ebd1d5253fb58245d13c6cc33a4",
+  "actual_bytes": 7722596,
+  "actual_bounds_m": {
+    "min": [
+      -0.3424467146396637,
+      0,
+      -0.2786567807197571
+    ],
+    "max": [
+      0.3424467146396637,
+      1.75,
+      0.2786567807197571
+    ]
+  },
+  "scope": "Real source/export bytes and output existence. Does not replace visual likeness, topology, licensing or Unity acceptance."
+}

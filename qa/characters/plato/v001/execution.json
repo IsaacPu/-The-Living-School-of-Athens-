@@ -1,0 +1,21 @@
+{
+  "started_utc": "2026-10-22T11:40:18.5283582Z",
+  "executable": "D:/AI/PROJECT/hackathon_projects/Aholo_3D_AI_Hackathon/production/.tools/blender/blender-4.5.15-windows-x64/blender.exe",
+  "script": "D:\\AI\\PROJECT\\hackathon_projects\\Aholo_3D_AI_Hackathon\\production\\scripts\\characters\\plato_diagnostic.py",
+  "arguments": [
+    "--background",
+    "--factory-startup",
+    "--python-exit-code",
+    "1",
+    "--python",
+    "D:\\AI\\PROJECT\\hackathon_projects\\Aholo_3D_AI_Hackathon\\production\\scripts\\characters\\plato_diagnostic.py",
+    "--",
+    "--asset-dir",
+    "D:\\AI\\PROJECT\\hackathon_projects\\Aholo_3D_AI_Hackathon\\production\\art\\characters\\plato\\v001",
+    "--qa-dir",
+    "D:\\AI\\PROJECT\\hackathon_projects\\Aholo_3D_AI_Hackathon\\production\\qa\\characters\\plato\\v001"
+  ],
+  "status": "completed",
+  "finished_utc": "2026-10-22T11:43:32.6651435Z",
+  "exit_code": 0
+}

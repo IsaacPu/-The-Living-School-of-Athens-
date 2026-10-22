@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "review_date_local": "2026-10-22",
+  "reviewer": "project_lead",
+  "method": "computer-use skill, native Unity Player window through sky; screenshots observed directly in the conversation",
+  "window_title": "The Academy - Production Sample",
+  "build_evidence": "../environment/runs/20261022-204216-666/verification.json",
+  "managed_assembly_sha256": "34cf9ff189860696d067427669e255bae250bdd3a9bc18563a481bb6dc3eb09f",
+  "checks": [
+    {"name": "physical_window_present", "passed": true, "detail": "Actual titled window showed architecture, Plato and Chinese controls."},
+    {"name": "key_2_close", "passed": true, "detail": "Real keyboard input visibly switched to the complete head/upper-body close view."},
+    {"name": "key_4_return", "passed": true, "detail": "Real keyboard input visibly switched to rear view, showing entrance arch, boundary parapet and unfinished exterior."},
+    {"name": "enter_roaming", "passed": true, "detail": "Real Enter input changed from return preset to the near-stairs first-person starting view."},
+    {"name": "short_w_response", "passed": true, "detail": "Only a short forward response was inspected; this is not a full manual traversal test."},
+    {"name": "escape_and_normal_close", "passed": true, "detail": "Escape released pointer; Alt+F4 shut down the target Player normally. Copied log shows normal Input System shutdown."}
+  ],
+  "log": "visible-player.log",
+  "final_build_recheck": {
+    "status": "interrupted_by_user_physical_escape",
+    "player_launched": true,
+    "final_window_screenshot_obtained": false,
+    "log": "final-window-player.log",
+    "computer_use_resumed": false
+  },
+  "limits": [
+    "The reviewed build predates the final mesh-anchor and return-route evidence repairs. Recheck final build separately.",
+    "No complete physical WASD route, sustained mouse-look, click selection or long-run performance acceptance.",
+    "Bottom status text has weak contrast on pale floor in some views.",
+    "Character and architectural art remain unfinished."
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "asset_id": "plato-v001",
+  "provider": "Aholo Lux3D",
+  "region": "international",
+  "task_id": "4277623",
+  "operation": "text-to-3d",
+  "parameters": {
+    "prompt": "One full-body static game character representing the ancient Greek philosopher Plato, an elderly man with a long grey beard and thoughtful face, wearing a muted purple tunic and a warm red draped cloak. Standing upright in a calm natural pose with both feet flat on the ground, holding a closed book close to his torso. Historically inspired, believable human proportions, clearly readable silhouette, realistic cloth and skin materials. One isolated character only, no pedestal, no architecture, no surrounding props, no text.",
+    "version": "G1",
+    "style": "photorealistic",
+    "faceCount": 30000,
+    "outputFormat": [
+      "glb"
+    ]
+  },
+  "original_project_relative_path": "test-project/artifacts/lux3d/plato-static-20261022/source/plato_glb.glb",
+  "local_source": "plato-lux3d-task-4277623.glb",
+  "sha256": "904ab6adec70c941a877918435b3c655a89a6d67be5c52610d4d210689afd8ce",
+  "bytes": 7892176,
+  "copied_utc": "2026-10-22T11:36:13.3121368Z",
+  "new_generation_submitted": false,
+  "license_status": "not_verified",
+  "source_is_read_only": true,
+  "runtime_dependency_on_test_project": false
+}

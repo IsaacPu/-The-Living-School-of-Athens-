@@ -1,0 +1,39 @@
+{
+  "blend_reopened": true,
+  "mesh_objects": 1,
+  "packed_images": 4,
+  "height_m": 1.75,
+  "metric_ruler_exported": false,
+  "before_after": {
+    "before": "source_before_same_conditions.png",
+    "after": "delivery_after_same_conditions.png",
+    "same_relative_camera_lights_ground": true,
+    "before_stage_offset_blender_m": [
+      0,
+      0,
+      -0.875
+    ],
+    "note": "Original source freshly imported; stage translated with source solely to preserve identical relative framing and lighting."
+  },
+  "quantized_topology_audit": {
+    "weld_tolerance_m": 1e-06,
+    "boundary_edges": 0,
+    "edges_more_than_two_triangles": 579,
+    "note": "Position-welded diagnostic only. Boundary edges can be garment openings; no automatic repair performed."
+  },
+  "export_reimported": true,
+  "export_mesh_objects": 1,
+  "export_bounds_blender_m": {
+    "min": [
+      -0.3424467146396637,
+      -0.2786567807197571,
+      0.0
+    ],
+    "max": [
+      0.3424467146396637,
+      0.2786567807197571,
+      1.75
+    ]
+  },
+  "passed": true
+}

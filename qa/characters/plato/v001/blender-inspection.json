@@ -1,0 +1,357 @@
+{
+  "schema_version": 1,
+  "executed_at": "2026-10-22T11:43:32.165602+00:00",
+  "blender_version": "4.5.15 LTS",
+  "source_sha256": "904ab6adec70c941a877918435b3c655a89a6d67be5c52610d4d210689afd8ce",
+  "source_hash_after": "904ab6adec70c941a877918435b3c655a89a6d67be5c52610d4d210689afd8ce",
+  "source_bounds_blender_m": {
+    "min": [
+      -0.3424467146396637,
+      -0.2786567807197571,
+      -0.875
+    ],
+    "max": [
+      0.3424467146396637,
+      0.2786567807197571,
+      0.875
+    ]
+  },
+  "canonical_bounds_m": {
+    "min": [
+      -0.3424467146396637,
+      0.0,
+      -0.2786567807197571
+    ],
+    "max": [
+      0.3424467146396637,
+      1.75,
+      0.2786567807197571
+    ],
+    "size": [
+      0.6848934292793274,
+      1.75,
+      0.5573135614395142
+    ]
+  },
+  "body_height_m": 1.75,
+  "top_is_head_requires_visual_review": true,
+  "source_axis_front_candidate": "+Z",
+  "canonical_yaw_degrees": 0,
+  "rebase_blender_m": [
+    -0.0,
+    -0.0,
+    0.875
+  ],
+  "geometry_changed": false,
+  "geometry_note": "Mesh vertex data and topology preserved; rigid object transforms only; no rescale.",
+  "triangles": 28314,
+  "materials_source": [
+    {
+      "name": "Designer_Logic_PBR",
+      "images": [
+        {
+          "name": "Image_0",
+          "size": [
+            2048,
+            2048
+          ],
+          "colorspace": "sRGB"
+        },
+        {
+          "name": "Image_1",
+          "size": [
+            2048,
+            2048
+          ],
+          "colorspace": "Non-Color"
+        }
+      ],
+      "metallic_linked": true,
+      "normal_linked": false,
+      "roughness_linked": true
+    }
+  ],
+  "material_policy": "preserve",
+  "mesh_objects": [
+    {
+      "name": "geometry_0",
+      "vertices": 29140,
+      "polygons": 28314,
+      "modifiers": 0
+    }
+  ],
+  "skins": 0,
+  "animations": 0,
+  "qa_images": [
+    {
+      "path": "../../../../qa/characters/plato/v001/axis_plus_z_candidate_front.png",
+      "view": "axis_plus_z_candidate_front",
+      "material_policy": "preserve",
+      "camera_blender": [
+        0,
+        -4,
+        0.875
+      ],
+      "target_blender": [
+        0,
+        0,
+        0.875
+      ],
+      "orthographic_span_m": 2.0475,
+      "resolution": [
+        768,
+        1024
+      ],
+      "samples": 12,
+      "classification": "actual_mesh_render"
+    },
+    {
+      "path": "../../../../qa/characters/plato/v001/axis_minus_z_candidate_back.png",
+      "view": "axis_minus_z_candidate_back",
+      "material_policy": "preserve",
+      "camera_blender": [
+        0,
+        4,
+        0.875
+      ],
+      "target_blender": [
+        0,
+        0,
+        0.875
+      ],
+      "orthographic_span_m": 2.0475,
+      "resolution": [
+        768,
+        1024
+      ],
+      "samples": 12,
+      "classification": "actual_mesh_render"
+    },
+    {
+      "path": "../../../../qa/characters/plato/v001/axis_plus_x_subject_left.png",
+      "view": "axis_plus_x_subject_left",
+      "material_policy": "preserve",
+      "camera_blender": [
+        4,
+        0,
+        0.875
+      ],
+      "target_blender": [
+        0,
+        0,
+        0.875
+      ],
+      "orthographic_span_m": 2.0475,
+      "resolution": [
+        768,
+        1024
+      ],
+      "samples": 12,
+      "classification": "actual_mesh_render"
+    },
+    {
+      "path": "../../../../qa/characters/plato/v001/axis_minus_x_subject_right.png",
+      "view": "axis_minus_x_subject_right",
+      "material_policy": "preserve",
+      "camera_blender": [
+        -4,
+        0,
+        0.875
+      ],
+      "target_blender": [
+        0,
+        0,
+        0.875
+      ],
+      "orthographic_span_m": 2.0475,
+      "resolution": [
+        768,
+        1024
+      ],
+      "samples": 12,
+      "classification": "actual_mesh_render"
+    },
+    {
+      "path": "../../../../qa/characters/plato/v001/front_three_quarter.png",
+      "view": "front_three_quarter",
+      "material_policy": "preserve",
+      "camera_blender": [
+        2.7,
+        -4,
+        0.875
+      ],
+      "target_blender": [
+        0,
+        0,
+        0.875
+      ],
+      "orthographic_span_m": 2.0475,
+      "resolution": [
+        768,
+        1024
+      ],
+      "samples": 12,
+      "classification": "actual_mesh_render"
+    },
+    {
+      "path": "../../../../qa/characters/plato/v001/face_front.png",
+      "view": "face_front",
+      "material_policy": "preserve",
+      "camera_blender": [
+        0,
+        -4,
+        1.59
+      ],
+      "target_blender": [
+        0,
+        0,
+        1.59
+      ],
+      "orthographic_span_m": 0.44,
+      "resolution": [
+        1024,
+        1024
+      ],
+      "samples": 12,
+      "classification": "actual_mesh_render"
+    },
+    {
+      "path": "../../../../qa/characters/plato/v001/face_three_quarter.png",
+      "view": "face_three_quarter",
+      "material_policy": "preserve",
+      "camera_blender": [
+        2.1,
+        -4,
+        1.59
+      ],
+      "target_blender": [
+        0,
+        0,
+        1.59
+      ],
+      "orthographic_span_m": 0.44,
+      "resolution": [
+        1024,
+        1024
+      ],
+      "samples": 12,
+      "classification": "actual_mesh_render"
+    },
+    {
+      "path": "../../../../qa/characters/plato/v001/hands_book_front.png",
+      "view": "hands_book_front",
+      "material_policy": "preserve",
+      "camera_blender": [
+        0,
+        -4,
+        1.0675
+      ],
+      "target_blender": [
+        0,
+        0,
+        1.0675
+      ],
+      "orthographic_span_m": 0.76,
+      "resolution": [
+        1024,
+        1024
+      ],
+      "samples": 12,
+      "classification": "actual_mesh_render"
+    },
+    {
+      "path": "../../../../qa/characters/plato/v001/hands_book_side.png",
+      "view": "hands_book_side",
+      "material_policy": "preserve",
+      "camera_blender": [
+        2.7,
+        -4,
+        1.0675
+      ],
+      "target_blender": [
+        0,
+        0,
+        1.0675
+      ],
+      "orthographic_span_m": 0.76,
+      "resolution": [
+        1024,
+        1024
+      ],
+      "samples": 12,
+      "classification": "actual_mesh_render"
+    },
+    {
+      "path": "../../../../qa/characters/plato/v001/feet_front.png",
+      "view": "feet_front",
+      "material_policy": "preserve",
+      "camera_blender": [
+        0,
+        -4,
+        0.12
+      ],
+      "target_blender": [
+        0,
+        0,
+        0.12
+      ],
+      "orthographic_span_m": 0.48,
+      "resolution": [
+        1024,
+        768
+      ],
+      "samples": 12,
+      "classification": "actual_mesh_render"
+    },
+    {
+      "path": "../../../../qa/characters/plato/v001/material_before.png",
+      "view": "material_before",
+      "material_policy": "preserve",
+      "camera_blender": [
+        2.7,
+        -4,
+        0.875
+      ],
+      "target_blender": [
+        0,
+        0,
+        0.875
+      ],
+      "orthographic_span_m": 2.0475,
+      "resolution": [
+        768,
+        1024
+      ],
+      "samples": 12,
+      "classification": "actual_mesh_render"
+    },
+    {
+      "path": "../../../../qa/characters/plato/v001/material_nonmetal_candidate.png",
+      "view": "material_nonmetal_candidate",
+      "material_policy": "nonmetal",
+      "camera_blender": [
+        2.7,
+        -4,
+        0.875
+      ],
+      "target_blender": [
+        0,
+        0,
+        0.875
+      ],
+      "orthographic_span_m": 2.0475,
+      "resolution": [
+        768,
+        1024
+      ],
+      "samples": 12,
+      "classification": "actual_mesh_render"
+    }
+  ],
+  "relative_glb_path": "export/plato-baseline-diagnostic.glb",
+  "export_sha256": "121d42a2df197fe860410dd7f99317318e368ebd1d5253fb58245d13c6cc33a4",
+  "export_bytes": 7722596,
+  "relative_blend_path": "work/plato-baseline-diagnostic.blend",
+  "art_status": "baseline_diagnostic",
+  "orientation_verified": false
+}

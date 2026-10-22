@@ -1,0 +1,138 @@
+{
+  "schema_version": 1,
+  "utc": "2026-10-22T13:54:59.507035+00:00",
+  "passed": true,
+  "checks": [
+    {
+      "name": "manifest_fields",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "coordinate_contract",
+      "passed": true,
+      "detail": "Orientation image judgment remains a separate visual review."
+    },
+    {
+      "name": "delivered_bytes_hash",
+      "passed": true,
+      "detail": {
+        "sha256": "121d42a2df197fe860410dd7f99317318e368ebd1d5253fb58245d13c6cc33a4",
+        "bytes": 7722596
+      }
+    },
+    {
+      "name": "glb_container",
+      "passed": true,
+      "detail": {
+        "version": 2,
+        "length": 7722596
+      }
+    },
+    {
+      "name": "self_contained_glb",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "geometry_metadata",
+      "passed": true,
+      "detail": {
+        "triangles": 28314,
+        "skins": 0,
+        "animations": 0
+      }
+    },
+    {
+      "name": "independent_source_hash",
+      "passed": true,
+      "detail": "art/characters/plato/v001/source/plato-lux3d-task-4277623.glb"
+    },
+    {
+      "name": "all_declared_delivery_evidence",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "art_status_is_honest",
+      "passed": true,
+      "detail": "An unchanged diagnostic mesh is not a refined/rigged character."
+    },
+    {
+      "name": "unity_physical_copy",
+      "passed": true,
+      "detail": "unity/Assets/_Project/Characters/plato-v001.glb"
+    },
+    {
+      "name": "no_test_runtime_literals",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "no_art_asset_links",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "no_test_package_dependencies",
+      "passed": true,
+      "detail": {}
+    },
+    {
+      "name": "fresh_player_gate",
+      "passed": true,
+      "detail": "qa\\environment\\runs\\20261022-214215-017\\verification.json"
+    },
+    {
+      "name": "player_character_matches_delivery",
+      "passed": true,
+      "detail": "121d42a2df197fe860410dd7f99317318e368ebd1d5253fb58245d13c6cc33a4"
+    },
+    {
+      "name": "player_carries_diagnostic_status",
+      "passed": true,
+      "detail": "baseline_diagnostic"
+    },
+    {
+      "name": "capture_hero.png",
+      "passed": true,
+      "detail": {
+        "width": 1600,
+        "height": 1200
+      }
+    },
+    {
+      "name": "capture_close.png",
+      "passed": true,
+      "detail": {
+        "width": 1600,
+        "height": 1200
+      }
+    },
+    {
+      "name": "capture_side.png",
+      "passed": true,
+      "detail": {
+        "width": 1600,
+        "height": 1200
+      }
+    },
+    {
+      "name": "capture_return.png",
+      "passed": true,
+      "detail": {
+        "width": 1600,
+        "height": 1200
+      }
+    },
+    {
+      "name": "capture_return-reached.png",
+      "passed": true,
+      "detail": {
+        "width": 1600,
+        "height": 1200
+      }
+    }
+  ],
+  "scope": "Independent manifest/file/dependency inspection plus supplied fresh Player report. No aesthetic, physical input, historical likeness or commercial-rights verdict."
+}

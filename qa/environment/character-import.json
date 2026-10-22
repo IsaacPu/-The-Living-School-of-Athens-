@@ -1,0 +1,13 @@
+{
+    "schema": "athens.character-import/1",
+    "delivery": "art/characters/plato/v001/delivery.json",
+    "source_glb": "art/characters/plato/v001/export/plato-baseline-diagnostic.glb",
+    "imported_glb": "Assets/_Project/Characters/plato-v001.glb",
+    "sha256": "121d42a2df197fe860410dd7f99317318e368ebd1d5253fb58245d13c6cc33a4",
+    "art_status": "baseline_diagnostic",
+    "bytes": 7722596,
+    "body_height_m": 1.75,
+    "placement_yaw_degrees": 180.0,
+    "scale_applied": false,
+    "importer_rotation_applied": false
+}

@@ -1,0 +1,21 @@
+{
+  "project_id": "athens-production",
+  "phase": "P0_camera_architecture_character_sample",
+  "phase_status": "technical_sample_accepted_art_not_accepted",
+  "acceptance_report": "qa/integration/P0_ACCEPTANCE.md",
+  "company_name": "Athens Studio",
+  "product_name": "The Academy - Production Sample",
+  "backend_port": 8788,
+  "backend_required_for_current_phase": false,
+  "unity_version": "6000.0.85f1",
+  "render_pipeline": "URP",
+  "target_platform": "Windows64",
+  "character_delivery": "art/characters/plato/v001/delivery.json",
+  "reference_image": "references/original/school-of-athens.jpg",
+  "units": "meters",
+  "unity_up": "+Y",
+  "canonical_character_forward": "+Z",
+  "art_direction": "原画色彩的绘画写实；先结构和材质可信度，再逐级增加细节",
+  "paid_generation_budget_authorized": false,
+  "live_llm_authorized_for_current_phase": false
+}

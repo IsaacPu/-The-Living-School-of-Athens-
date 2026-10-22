@@ -1,0 +1,12 @@
+{
+  "run": "qa/environment/runs/20261022-214215-017",
+  "passed": true,
+  "checks": 37,
+  "runtime_errors": 0,
+  "build_log": "unity/Logs/build-history/20261022-213213-405-build.log",
+  "art_status": "P0_structure_sample_not_final_art",
+  "known_uncovered_boundary": "Z27-30 lateral edges",
+  "return_eye_error_m": 0.027867784723639488,
+  "anchors_from_actual_mesh": true,
+  "report": "qa/environment/REPORT.md"
+}

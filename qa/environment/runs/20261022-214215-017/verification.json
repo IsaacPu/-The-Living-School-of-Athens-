@@ -1,0 +1,888 @@
+{
+    "stage": "P0_structure_and_integration",
+    "started_utc": "2026-10-22T13:42:20.6000933Z",
+    "finished_utc": "2026-10-22T13:42:40.1520719Z",
+    "unity_version": "6000.0.85f1",
+    "graphics_device": "Direct3D11 / NVIDIA GeForce RTX 3050 Laptop GPU",
+    "character_sha256": "121d42a2df197fe860410dd7f99317318e368ebd1d5253fb58245d13c6cc33a4",
+    "character_art_status": "baseline_diagnostic",
+    "failure": "",
+    "scope": "Independent Windows Player. Actual saved meshes/materials, GPU camera renders, projected reference anchors and CharacterController collision route. No real mouse/keyboard simulation, no finished art/LLM/animation claim.",
+    "screenshot_source": "Same Player camera rendered through URP StandardRequest; GPU offscreen images do not prove physical window presentation.",
+    "reference_measurement": "Manual annotation of original reference, approximately +/-8 pixels; crop [128,128,1024,768] fixed before first build. Outer decorated frame is outside P0.",
+    "passed": true,
+    "checks": [
+        {
+            "name": "single_entry",
+            "detail": "Exactly one explicit production sample; no test Bootstrap.",
+            "passed": true
+        },
+        {
+            "name": "urp",
+            "detail": "Actual rendering pipeline.",
+            "passed": true
+        },
+        {
+            "name": "production_identity",
+            "detail": "Athens Studio / The Academy - Production Sample",
+            "passed": true
+        },
+        {
+            "name": "actual_character",
+            "detail": "baseline_diagnostic / 121d42a2df197fe860410dd7f99317318e368ebd1d5253fb58245d13c6cc33a4",
+            "passed": true
+        },
+        {
+            "name": "character_materials",
+            "detail": "Every actual character material has a supported shader.",
+            "passed": true
+        },
+        {
+            "name": "character_embedded_textures",
+            "detail": "Actual character texture count=2 sizes=2048x2048,2048x2048",
+            "passed": true
+        },
+        {
+            "name": "feet_on_platform",
+            "detail": "mesh_min_y=0.8 platform=0.8",
+            "passed": true
+        },
+        {
+            "name": "no_import_rescale",
+            "detail": "Actual renderer height=1.75 delivery=1.75; P0 source has no raised arm.",
+            "passed": true
+        },
+        {
+            "name": "imported_root_transform",
+            "detail": "Imported prefab root scale=(1.00, 1.00, 1.00) rotation=(0.00, 0.00, 0.00); visual front/side/back review also required.",
+            "passed": true
+        },
+        {
+            "name": "facing_viewer",
+            "detail": "One scene yaw maps canonical +Z to world -Z; importer applies none.",
+            "passed": true
+        },
+        {
+            "name": "longitudinal_geometry",
+            "detail": "Actual saved mesh objects exist in increasing Z order.",
+            "passed": true
+        },
+        {
+            "name": "anchors_bound_to_actual_geometry",
+            "detail": "Every point is derived from an actual saved mesh vertex/edge or actual imported Renderer bounds, with object/mesh identity.",
+            "passed": true
+        },
+        {
+            "name": "anchor_projection_within_3pct_width",
+            "detail": "Projected world features vs manually annotated painting crop; geometric gate only, not an art verdict.",
+            "passed": true
+        },
+        {
+            "name": "image_hero.png",
+            "detail": "GPU pixels colors=1455 dark=0 pink=0; requires visual review.",
+            "passed": true
+        },
+        {
+            "name": "image_close.png",
+            "detail": "GPU pixels colors=2244 dark=0 pink=0; requires visual review.",
+            "passed": true
+        },
+        {
+            "name": "image_side.png",
+            "detail": "GPU pixels colors=1180 dark=0 pink=0; requires visual review.",
+            "passed": true
+        },
+        {
+            "name": "image_return.png",
+            "detail": "GPU pixels colors=682 dark=0 pink=0; requires visual review.",
+            "passed": true
+        },
+        {
+            "name": "near_character_first_hit",
+            "detail": "Plato placement - one scene yaw only",
+            "passed": true
+        },
+        {
+            "name": "range_limit",
+            "detail": "Target beyond four meters is not picked.",
+            "passed": true
+        },
+        {
+            "name": "route_1",
+            "detail": "target=(0.00, 0.00, -2.80) actual=(0.00, 0.02, -2.88) error=0.08319998",
+            "passed": true
+        },
+        {
+            "name": "route_2",
+            "detail": "target=(0.00, 0.20, -1.70) actual=(0.00, 0.22, -1.79) error=0.08524787",
+            "passed": true
+        },
+        {
+            "name": "route_3",
+            "detail": "target=(0.00, 0.60, -0.70) actual=(0.00, 0.62, -0.78) error=0.08015865",
+            "passed": true
+        },
+        {
+            "name": "route_4",
+            "detail": "target=(0.00, 0.80, 0.80) actual=(0.00, 0.82, 0.71) error=0.08970153",
+            "passed": true
+        },
+        {
+            "name": "route_5",
+            "detail": "target=(1.80, 0.80, 1.20) actual=(1.72, 0.82, 1.18) error=0.0802715",
+            "passed": true
+        },
+        {
+            "name": "route_6",
+            "detail": "target=(1.80, 0.80, 5.50) actual=(1.80, 0.82, 5.42) error=0.07793057",
+            "passed": true
+        },
+        {
+            "name": "route_7",
+            "detail": "target=(0.00, 0.80, 8.00) actual=(0.01, 0.82, 7.99) error=0.01231343",
+            "passed": true
+        },
+        {
+            "name": "return_camera_reached_continuously",
+            "detail": "Actual controller eye=(0.01, 2.48, 7.99) preset=(0.00, 2.45, 8.00) delta_m=0.02786778; no teleport in route.",
+            "passed": true
+        },
+        {
+            "name": "image_return-reached.png",
+            "detail": "GPU pixels colors=672 dark=0 pink=0; requires visual review.",
+            "passed": true
+        },
+        {
+            "name": "route_8",
+            "detail": "target=(-2.40, 0.80, 5.50) actual=(-2.34, 0.82, 5.56) error=0.08522233",
+            "passed": true
+        },
+        {
+            "name": "route_9",
+            "detail": "target=(-2.40, 0.80, 1.00) actual=(-2.40, 0.82, 1.08) error=0.07786024",
+            "passed": true
+        },
+        {
+            "name": "route_10",
+            "detail": "target=(0.00, 0.80, 0.60) actual=(-0.09, 0.82, 0.62) error=0.08711546",
+            "passed": true
+        },
+        {
+            "name": "route_11",
+            "detail": "target=(0.00, 0.00, -3.20) actual=(0.00, 0.02, -3.12) error=0.08190347",
+            "passed": true
+        },
+        {
+            "name": "stairs_reached_upper_platform",
+            "detail": "CharacterController moved continuously from ground through actual stair colliders.",
+            "passed": true
+        },
+        {
+            "name": "continuous_ground_height",
+            "detail": "Maximum stair-transition support delta=0.2249888m; step rise is 0.20m and capsule skin is 0.025m.",
+            "passed": true
+        },
+        {
+            "name": "descending_returns_to_ground",
+            "detail": "Actual descent endpoint is near ground level.",
+            "passed": true
+        },
+        {
+            "name": "wall_blocks_motion",
+            "detail": "After continuous push x=11.025; teleport before this separate wall test is not part of route evidence.",
+            "passed": true
+        },
+        {
+            "name": "runtime_errors",
+            "detail": "Error/Exception/Assert count=0",
+            "passed": true
+        }
+    ],
+    "anchors": [
+        {
+            "id": "middle_sky_apex",
+            "source_object": "Central longitudinal hall - editable generated modules/Middle sky aperture",
+            "source_mesh": "arch_3.0000_0.3600_0.6500",
+            "feature": "crown",
+            "sampling": "actual inner edge vertex at front bevel",
+            "vertex_index": 1054,
+            "second_vertex_index": -1,
+            "vertex_count": 1552,
+            "local_vertex": {
+                "x": -1.3113415775478644e-7,
+                "y": 3.0,
+                "z": -0.2849999964237213
+            },
+            "second_local_vertex": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "actual_renderer_bounds": {
+                "m_Center": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "m_Extent": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            "world": {
+                "x": -1.3113415775478644e-7,
+                "y": 7.599999904632568,
+                "z": 17.71500015258789
+            },
+            "reference_uv_top": {
+                "x": 0.5098000168800354,
+                "y": 0.3359000086784363
+            },
+            "actual_uv_top": {
+                "x": 0.5135461688041687,
+                "y": 0.33530259132385256
+            },
+            "error_fraction_of_width": 0.0037728522438555958
+        },
+        {
+            "id": "far_arch_apex",
+            "source_object": "Central longitudinal hall - editable generated modules/Far nested arch",
+            "source_mesh": "arch_2.3000_0.3500_0.8000",
+            "feature": "crown",
+            "sampling": "actual inner edge vertex at front bevel",
+            "vertex_index": 1054,
+            "second_vertex_index": -1,
+            "vertex_count": 1552,
+            "local_vertex": {
+                "x": -1.0053619092786903e-7,
+                "y": 2.299999952316284,
+                "z": -0.36000001430511477
+            },
+            "second_local_vertex": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "actual_renderer_bounds": {
+                "m_Center": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "m_Extent": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            "world": {
+                "x": -1.0857908705474984e-7,
+                "y": 5.25,
+                "z": 25.639999389648439
+            },
+            "reference_uv_top": {
+                "x": 0.5116999745368958,
+                "y": 0.4569999873638153
+            },
+            "actual_uv_top": {
+                "x": 0.5104470252990723,
+                "y": 0.4548759460449219
+            },
+            "error_fraction_of_width": 0.002026728820055723
+        },
+        {
+            "id": "far_spring_left",
+            "source_object": "Central longitudinal hall - editable generated modules/Far nested arch",
+            "source_mesh": "arch_2.3000_0.3500_0.8000",
+            "feature": "left",
+            "sampling": "actual inner edge vertex at front bevel",
+            "vertex_index": 1150,
+            "second_vertex_index": -1,
+            "vertex_count": 1552,
+            "local_vertex": {
+                "x": -2.299999952316284,
+                "y": 0.0,
+                "z": -0.36000001430511477
+            },
+            "second_local_vertex": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "actual_renderer_bounds": {
+                "m_Center": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "m_Extent": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            "world": {
+                "x": -2.4839999675750734,
+                "y": 2.950000047683716,
+                "z": 25.639999389648439
+            },
+            "reference_uv_top": {
+                "x": 0.45410001277923586,
+                "y": 0.5246999859809876
+            },
+            "actual_uv_top": {
+                "x": 0.4527793824672699,
+                "y": 0.5260705947875977
+            },
+            "error_fraction_of_width": 0.00167354685254395
+        },
+        {
+            "id": "far_spring_right",
+            "source_object": "Central longitudinal hall - editable generated modules/Far nested arch",
+            "source_mesh": "arch_2.3000_0.3500_0.8000",
+            "feature": "right",
+            "sampling": "actual inner edge vertex at front bevel",
+            "vertex_index": 963,
+            "second_vertex_index": -1,
+            "vertex_count": 1552,
+            "local_vertex": {
+                "x": 2.299999952316284,
+                "y": 0.0,
+                "z": -0.36000001430511477
+            },
+            "second_local_vertex": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "actual_renderer_bounds": {
+                "m_Center": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "m_Extent": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            "world": {
+                "x": 2.4839999675750734,
+                "y": 2.950000047683716,
+                "z": 25.639999389648439
+            },
+            "reference_uv_top": {
+                "x": 0.5684000253677368,
+                "y": 0.5246999859809876
+            },
+            "actual_uv_top": {
+                "x": 0.568114697933197,
+                "y": 0.5260705947875977
+            },
+            "error_fraction_of_width": 0.0010668208124116064
+        },
+        {
+            "id": "platform_front",
+            "source_object": "Central longitudinal hall - editable generated modules/Upper platform",
+            "source_mesh": "box_20.0000_0.8000_30.4300_0.0250",
+            "feature": "front face upper edge midpoint",
+            "sampling": "midpoint of two actual beveled mesh edge vertices",
+            "vertex_index": 19,
+            "second_vertex_index": 18,
+            "vertex_count": 96,
+            "local_vertex": {
+                "x": -9.975000381469727,
+                "y": 0.375,
+                "z": -15.21500015258789
+            },
+            "second_local_vertex": {
+                "x": 9.975000381469727,
+                "y": 0.375,
+                "z": -15.21500015258789
+            },
+            "actual_renderer_bounds": {
+                "m_Center": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "m_Extent": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            "world": {
+                "x": 0.0,
+                "y": 0.7749999761581421,
+                "z": -0.43000030517578127
+            },
+            "reference_uv_top": {
+                "x": 0.5440000295639038,
+                "y": 0.7526000142097473
+            },
+            "actual_uv_top": {
+                "x": 0.542227029800415,
+                "y": 0.755827009677887
+            },
+            "error_fraction_of_width": 0.003000186989083886
+        },
+        {
+            "id": "plato_crown",
+            "source_object": "Plato placement - one scene yaw only/Plato v001 - baseline_diagnostic/geometry_0",
+            "source_mesh": "actual imported renderer union",
+            "feature": "actual bounds top center",
+            "sampling": "actual Renderer bounds",
+            "vertex_index": -1,
+            "second_vertex_index": -1,
+            "vertex_count": 0,
+            "local_vertex": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "second_local_vertex": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "actual_renderer_bounds": {
+                "m_Center": {
+                    "x": -0.699999988079071,
+                    "y": 1.6749999523162842,
+                    "z": 0.0
+                },
+                "m_Extent": {
+                    "x": 0.3424467444419861,
+                    "y": 0.875,
+                    "z": 0.27865681052207949
+                }
+            },
+            "world": {
+                "x": -0.699999988079071,
+                "y": 2.549999952316284,
+                "z": 0.0
+            },
+            "reference_uv_top": {
+                "x": 0.47749999165534975,
+                "y": 0.5273000001907349
+            },
+            "actual_uv_top": {
+                "x": 0.4776614010334015,
+                "y": 0.5340430736541748
+            },
+            "error_fraction_of_width": 0.005059880204498768
+        },
+        {
+            "id": "plato_support",
+            "source_object": "Plato placement - one scene yaw only/Plato v001 - baseline_diagnostic/geometry_0",
+            "source_mesh": "actual imported renderer union",
+            "feature": "actual bounds bottom center",
+            "sampling": "actual Renderer bounds",
+            "vertex_index": -1,
+            "second_vertex_index": -1,
+            "vertex_count": 0,
+            "local_vertex": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "second_local_vertex": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "actual_renderer_bounds": {
+                "m_Center": {
+                    "x": -0.699999988079071,
+                    "y": 1.6749999523162842,
+                    "z": 0.0
+                },
+                "m_Extent": {
+                    "x": 0.3424467444419861,
+                    "y": 0.875,
+                    "z": 0.27865681052207949
+                }
+            },
+            "world": {
+                "x": -0.699999988079071,
+                "y": 0.7999999523162842,
+                "z": 0.0
+            },
+            "reference_uv_top": {
+                "x": 0.4794999957084656,
+                "y": 0.7422000169754028
+            },
+            "actual_uv_top": {
+                "x": 0.4776614010334015,
+                "y": 0.7425367832183838
+            },
+            "error_fraction_of_width": 0.0018558622105047107
+        },
+        {
+            "id": "front_vault_rear_crown",
+            "source_object": "Central longitudinal hall - editable generated modules/Front coffered barrel closed stone shell",
+            "source_mesh": "arch_4.2000_0.3500_9.0000",
+            "feature": "crown",
+            "sampling": "actual inner edge vertex at rear bevel",
+            "vertex_index": 1246,
+            "second_vertex_index": -1,
+            "vertex_count": 1552,
+            "local_vertex": {
+                "x": -1.8358782938321384e-7,
+                "y": 4.199999809265137,
+                "z": 4.460000038146973
+            },
+            "second_local_vertex": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "actual_renderer_bounds": {
+                "m_Center": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "m_Extent": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            "world": {
+                "x": -1.8358782938321384e-7,
+                "y": 11.350000381469727,
+                "z": 12.460000038146973
+            },
+            "reference_uv_top": {
+                "x": 0.5,
+                "y": 0.12110000103712082
+            },
+            "actual_uv_top": {
+                "x": 0.516863226890564,
+                "y": 0.09780794382095337
+            },
+            "error_fraction_of_width": 0.024280359968543054
+        },
+        {
+            "id": "front_vault_rear_spring_left",
+            "source_object": "Central longitudinal hall - editable generated modules/Front coffered barrel closed stone shell",
+            "source_mesh": "arch_4.2000_0.3500_9.0000",
+            "feature": "left",
+            "sampling": "actual inner edge vertex at rear bevel",
+            "vertex_index": 1342,
+            "second_vertex_index": -1,
+            "vertex_count": 1552,
+            "local_vertex": {
+                "x": -4.199999809265137,
+                "y": 0.0,
+                "z": 4.460000038146973
+            },
+            "second_local_vertex": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "actual_renderer_bounds": {
+                "m_Center": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "m_Extent": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            "world": {
+                "x": -4.199999809265137,
+                "y": 7.150000095367432,
+                "z": 12.460000038146973
+            },
+            "reference_uv_top": {
+                "x": 0.34279999136924746,
+                "y": 0.30730000138282778
+            },
+            "actual_uv_top": {
+                "x": 0.3594728708267212,
+                "y": 0.307661771774292
+            },
+            "error_fraction_of_width": 0.016675086691975595
+        },
+        {
+            "id": "front_vault_rear_spring_right",
+            "source_object": "Central longitudinal hall - editable generated modules/Front coffered barrel closed stone shell",
+            "source_mesh": "arch_4.2000_0.3500_9.0000",
+            "feature": "right",
+            "sampling": "actual inner edge vertex at rear bevel",
+            "vertex_index": 1155,
+            "second_vertex_index": -1,
+            "vertex_count": 1552,
+            "local_vertex": {
+                "x": 4.199999809265137,
+                "y": 0.0,
+                "z": 4.460000038146973
+            },
+            "second_local_vertex": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "actual_renderer_bounds": {
+                "m_Center": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "m_Extent": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            "world": {
+                "x": 4.199999809265137,
+                "y": 7.150000095367432,
+                "z": 12.460000038146973
+            },
+            "reference_uv_top": {
+                "x": 0.6563000082969666,
+                "y": 0.30730000138282778
+            },
+            "actual_uv_top": {
+                "x": 0.6742536425590515,
+                "y": 0.307661771774292
+            },
+            "error_fraction_of_width": 0.017955683171749116
+        }
+    ],
+    "images": [
+        {
+            "file": "hero.png",
+            "width": 1600,
+            "height": 1200,
+            "dark_pixels": 0,
+            "pink_pixels": 0,
+            "quantized_colors": 1455
+        },
+        {
+            "file": "close.png",
+            "width": 1600,
+            "height": 1200,
+            "dark_pixels": 0,
+            "pink_pixels": 0,
+            "quantized_colors": 2244
+        },
+        {
+            "file": "side.png",
+            "width": 1600,
+            "height": 1200,
+            "dark_pixels": 0,
+            "pink_pixels": 0,
+            "quantized_colors": 1180
+        },
+        {
+            "file": "return.png",
+            "width": 1600,
+            "height": 1200,
+            "dark_pixels": 0,
+            "pink_pixels": 0,
+            "quantized_colors": 682
+        },
+        {
+            "file": "return-reached.png",
+            "width": 1600,
+            "height": 1200,
+            "dark_pixels": 0,
+            "pink_pixels": 0,
+            "quantized_colors": 672
+        }
+    ],
+    "route": [
+        {
+            "target": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": -2.799999952316284
+            },
+            "actual": {
+                "x": 0.0,
+                "y": 0.024999894201755525,
+                "z": -2.88319993019104
+            },
+            "horizontal_error": 0.08319997787475586,
+            "vertical_error": 0.024999894201755525,
+            "passed": true
+        },
+        {
+            "target": {
+                "x": 0.0,
+                "y": 0.20000000298023225,
+                "z": -1.7000000476837159
+            },
+            "actual": {
+                "x": 0.0,
+                "y": 0.22499975562095643,
+                "z": -1.7852479219436646
+            },
+            "horizontal_error": 0.08524787425994873,
+            "vertical_error": 0.024999752640724183,
+            "passed": true
+        },
+        {
+            "target": {
+                "x": 0.0,
+                "y": 0.6000000238418579,
+                "z": -0.699999988079071
+            },
+            "actual": {
+                "x": 0.0,
+                "y": 0.6249998807907105,
+                "z": -0.7801586389541626
+            },
+            "horizontal_error": 0.08015865087509155,
+            "vertical_error": 0.02499985694885254,
+            "passed": true
+        },
+        {
+            "target": {
+                "x": 0.0,
+                "y": 0.800000011920929,
+                "z": 0.800000011920929
+            },
+            "actual": {
+                "x": 0.0,
+                "y": 0.8249998092651367,
+                "z": 0.710298478603363
+            },
+            "horizontal_error": 0.08970153331756592,
+            "vertical_error": 0.024999797344207765,
+            "passed": true
+        },
+        {
+            "target": {
+                "x": 1.7999999523162842,
+                "y": 0.800000011920929,
+                "z": 1.2000000476837159
+            },
+            "actual": {
+                "x": 1.722543716430664,
+                "y": 0.8249998092651367,
+                "z": 1.1789276599884034
+            },
+            "horizontal_error": 0.08027150481939316,
+            "vertical_error": 0.024999797344207765,
+            "passed": true
+        },
+        {
+            "target": {
+                "x": 1.7999999523162842,
+                "y": 0.800000011920929,
+                "z": 5.5
+            },
+            "actual": {
+                "x": 1.7986032962799073,
+                "y": 0.8249999284744263,
+                "z": 5.42208194732666
+            },
+            "horizontal_error": 0.07793056964874268,
+            "vertical_error": 0.024999916553497316,
+            "passed": true
+        },
+        {
+            "target": {
+                "x": 0.0,
+                "y": 0.800000011920929,
+                "z": 8.0
+            },
+            "actual": {
+                "x": 0.0070456890389323238,
+                "y": 0.8249999284744263,
+                "z": 7.989901542663574
+            },
+            "horizontal_error": 0.012313430197536946,
+            "vertical_error": 0.024999916553497316,
+            "passed": true
+        },
+        {
+            "target": {
+                "x": -2.4000000953674318,
+                "y": 0.800000011920929,
+                "z": 5.5
+            },
+            "actual": {
+                "x": -2.3407669067382814,
+                "y": 0.8249998092651367,
+                "z": 5.561272144317627
+            },
+            "horizontal_error": 0.08522233366966248,
+            "vertical_error": 0.024999797344207765,
+            "passed": true
+        },
+        {
+            "target": {
+                "x": -2.4000000953674318,
+                "y": 0.800000011920929,
+                "z": 1.0
+            },
+            "actual": {
+                "x": -2.398989200592041,
+                "y": 0.8249998092651367,
+                "z": 1.0778536796569825
+            },
+            "horizontal_error": 0.07786024361848831,
+            "vertical_error": 0.024999797344207765,
+            "passed": true
+        },
+        {
+            "target": {
+                "x": 0.0,
+                "y": 0.800000011920929,
+                "z": 0.6000000238418579
+            },
+            "actual": {
+                "x": -0.08543702960014343,
+                "y": 0.8249998092651367,
+                "z": 0.6170181632041931
+            },
+            "horizontal_error": 0.08711545914411545,
+            "vertical_error": 0.024999797344207765,
+            "passed": true
+        },
+        {
+            "target": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": -3.200000047683716
+            },
+            "actual": {
+                "x": -0.0018328012665733696,
+                "y": 0.02499985694885254,
+                "z": -3.118117094039917
+            },
+            "horizontal_error": 0.08190346509218216,
+            "vertical_error": 0.02499985694885254,
+            "passed": true
+        }
+    ],
+    "runtime_errors": [],
+    "route_max_ground_error": 0.22498881816864015,
+    "average_fps": 59.517757415771487,
+    "p95_frame_ms": 16.66809844970703,
+    "frame_count": 1057,
+    "return_reference_eye": {
+        "x": 0.0,
+        "y": 2.450000047683716,
+        "z": 8.0
+    },
+    "return_reached_eye": {
+        "x": 0.0070456890389323238,
+        "y": 2.4749999046325685,
+        "z": 7.989901542663574
+    },
+    "return_eye_error": 0.027867784723639489
+}

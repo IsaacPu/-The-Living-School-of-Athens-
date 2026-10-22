@@ -1,0 +1,191 @@
+{
+  "reference_crop_pixels": [
+    128,
+    128,
+    1024,
+    768
+  ],
+  "method": "Manual painting annotations versus projected world anchor coordinates; color overlay is visual QA only.",
+  "reference_annotation_uncertainty_px": 8,
+  "max_error_percent_width": 2.3818133398890495,
+  "mean_error_percent_width": 0.7544642174616456,
+  "anchors": [
+    {
+      "id": "middle_sky_apex",
+      "world": {
+        "x": 0.0,
+        "y": 7.599999904632568,
+        "z": 18.0
+      },
+      "reference_uv_top": {
+        "x": 0.5098000168800354,
+        "y": 0.3359000086784363
+      },
+      "actual_uv_top": {
+        "x": 0.5134031772613525,
+        "y": 0.33746325969696045
+      },
+      "error_fraction_of_width": 0.003789112903177738
+    },
+    {
+      "id": "far_arch_apex",
+      "world": {
+        "x": 0.0,
+        "y": 5.25,
+        "z": 26.0
+      },
+      "reference_uv_top": {
+        "x": 0.5116999745368958,
+        "y": 0.4569999873638153
+      },
+      "actual_uv_top": {
+        "x": 0.5103395581245422,
+        "y": 0.45575153827667236
+      },
+      "error_fraction_of_width": 0.001651502214372158
+    },
+    {
+      "id": "far_spring_left",
+      "world": {
+        "x": -2.4839999675750732,
+        "y": 2.950000047683716,
+        "z": 26.0
+      },
+      "reference_uv_top": {
+        "x": 0.45410001277923584,
+        "y": 0.5246999859809875
+      },
+      "actual_uv_top": {
+        "x": 0.45326507091522217,
+        "y": 0.5262138843536377
+      },
+      "error_fraction_of_width": 0.001409366843290627
+    },
+    {
+      "id": "far_spring_right",
+      "world": {
+        "x": 2.4839999675750732,
+        "y": 2.950000047683716,
+        "z": 26.0
+      },
+      "reference_uv_top": {
+        "x": 0.5684000253677368,
+        "y": 0.5246999859809875
+      },
+      "actual_uv_top": {
+        "x": 0.5674141049385071,
+        "y": 0.5262138843536377
+      },
+      "error_fraction_of_width": 0.001503737410530448
+    },
+    {
+      "id": "platform_front",
+      "world": {
+        "x": 0.0,
+        "y": 0.800000011920929,
+        "z": -0.4300000071525574
+      },
+      "reference_uv_top": {
+        "x": 0.5440000295639038,
+        "y": 0.7526000142097473
+      },
+      "actual_uv_top": {
+        "x": 0.542227029800415,
+        "y": 0.7526990175247192
+      },
+      "error_fraction_of_width": 0.0017745539080351591
+    },
+    {
+      "id": "plato_crown",
+      "world": {
+        "x": -0.699999988079071,
+        "y": 2.549999952316284,
+        "z": 0.0
+      },
+      "reference_uv_top": {
+        "x": 0.47749999165534973,
+        "y": 0.5273000001907349
+      },
+      "actual_uv_top": {
+        "x": 0.4776614010334015,
+        "y": 0.5340430736541748
+      },
+      "error_fraction_of_width": 0.005059880204498768
+    },
+    {
+      "id": "plato_support",
+      "world": {
+        "x": -0.699999988079071,
+        "y": 0.800000011920929,
+        "z": 0.0
+      },
+      "reference_uv_top": {
+        "x": 0.4794999957084656,
+        "y": 0.7422000169754028
+      },
+      "actual_uv_top": {
+        "x": 0.4776614010334015,
+        "y": 0.7425367832183838
+      },
+      "error_fraction_of_width": 0.0018558622105047107
+    },
+    {
+      "id": "front_vault_rear_crown",
+      "world": {
+        "x": 0.0,
+        "y": 11.350000381469727,
+        "z": 12.5
+      },
+      "reference_uv_top": {
+        "x": 0.5,
+        "y": 0.12110000103712082
+      },
+      "actual_uv_top": {
+        "x": 0.5168318748474121,
+        "y": 0.09863060712814331
+      },
+      "error_fraction_of_width": 0.023818133398890495
+    },
+    {
+      "id": "front_vault_rear_spring_left",
+      "world": {
+        "x": -4.199999809265137,
+        "y": 7.150000095367432,
+        "z": 12.5
+      },
+      "reference_uv_top": {
+        "x": 0.34279999136924744,
+        "y": 0.30730000138282776
+      },
+      "actual_uv_top": {
+        "x": 0.35973429679870605,
+        "y": 0.3080940246582031
+      },
+      "error_fraction_of_width": 0.016944773495197296
+    },
+    {
+      "id": "front_vault_rear_spring_right",
+      "world": {
+        "x": 4.199999809265137,
+        "y": 7.150000095367432,
+        "z": 12.5
+      },
+      "reference_uv_top": {
+        "x": 0.6563000082969666,
+        "y": 0.30730000138282776
+      },
+      "actual_uv_top": {
+        "x": 0.6739294528961182,
+        "y": 0.3080940246582031
+      },
+      "error_fraction_of_width": 0.01763949915766716
+    }
+  ],
+  "not_covered": [
+    "outer decorated fresco frame",
+    "full philosopher crowd",
+    "architectural statues and figurative reliefs",
+    "final surface texture detail",
+    "finished character face/hands/gesture"
+  ]
+}

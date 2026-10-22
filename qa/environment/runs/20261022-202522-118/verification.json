@@ -1,0 +1,544 @@
+{
+    "stage": "P0_structure_and_integration",
+    "started_utc": "2026-10-22T12:25:27.0023585Z",
+    "finished_utc": "2026-10-22T12:25:44.7675877Z",
+    "unity_version": "6000.0.85f1",
+    "graphics_device": "Direct3D11 / NVIDIA GeForce RTX 3050 Laptop GPU",
+    "character_sha256": "121d42a2df197fe860410dd7f99317318e368ebd1d5253fb58245d13c6cc33a4",
+    "character_art_status": "baseline_diagnostic",
+    "failure": "",
+    "scope": "Independent Windows Player. Actual saved meshes/materials, GPU camera renders, projected reference anchors and CharacterController collision route. No real mouse/keyboard simulation, no finished art/LLM/animation claim.",
+    "screenshot_source": "Same Player camera rendered through URP StandardRequest; GPU offscreen images do not prove physical window presentation.",
+    "reference_measurement": "Manual annotation of original reference, approximately +/-8 pixels; crop [128,128,1024,768] fixed before first build. Outer decorated frame is outside P0.",
+    "passed": true,
+    "checks": [
+        {
+            "name": "single_entry",
+            "detail": "Exactly one explicit production sample; no test Bootstrap.",
+            "passed": true
+        },
+        {
+            "name": "urp",
+            "detail": "Actual rendering pipeline.",
+            "passed": true
+        },
+        {
+            "name": "production_identity",
+            "detail": "Athens Studio / The Academy - Production Sample",
+            "passed": true
+        },
+        {
+            "name": "actual_character",
+            "detail": "baseline_diagnostic / 121d42a2df197fe860410dd7f99317318e368ebd1d5253fb58245d13c6cc33a4",
+            "passed": true
+        },
+        {
+            "name": "character_materials",
+            "detail": "Every actual character material has a supported shader.",
+            "passed": true
+        },
+        {
+            "name": "character_embedded_textures",
+            "detail": "Actual character texture count=2 sizes=2048x2048,2048x2048",
+            "passed": true
+        },
+        {
+            "name": "feet_on_platform",
+            "detail": "mesh_min_y=0.8 platform=0.8",
+            "passed": true
+        },
+        {
+            "name": "no_import_rescale",
+            "detail": "Actual renderer height=1.75 delivery=1.75; P0 source has no raised arm.",
+            "passed": true
+        },
+        {
+            "name": "imported_root_transform",
+            "detail": "Imported prefab root scale=(1.00, 1.00, 1.00) rotation=(0.00, 0.00, 0.00); visual front/side/back review also required.",
+            "passed": true
+        },
+        {
+            "name": "facing_viewer",
+            "detail": "One scene yaw maps canonical +Z to world -Z; importer applies none.",
+            "passed": true
+        },
+        {
+            "name": "longitudinal_geometry",
+            "detail": "Actual saved mesh objects exist in increasing Z order.",
+            "passed": true
+        },
+        {
+            "name": "anchor_projection_within_3pct_width",
+            "detail": "Projected world features vs manually annotated painting crop; geometric gate only, not an art verdict.",
+            "passed": true
+        },
+        {
+            "name": "image_hero.png",
+            "detail": "GPU pixels colors=1461 dark=0 pink=0; requires visual review.",
+            "passed": true
+        },
+        {
+            "name": "image_close.png",
+            "detail": "GPU pixels colors=2253 dark=0 pink=0; requires visual review.",
+            "passed": true
+        },
+        {
+            "name": "image_side.png",
+            "detail": "GPU pixels colors=1170 dark=0 pink=0; requires visual review.",
+            "passed": true
+        },
+        {
+            "name": "image_return.png",
+            "detail": "GPU pixels colors=682 dark=0 pink=0; requires visual review.",
+            "passed": true
+        },
+        {
+            "name": "near_character_first_hit",
+            "detail": "Plato placement - one scene yaw only",
+            "passed": true
+        },
+        {
+            "name": "range_limit",
+            "detail": "Target beyond four meters is not picked.",
+            "passed": true
+        },
+        {
+            "name": "route_1",
+            "detail": "target=(0.00, 0.00, -2.80) actual=(0.00, 0.02, -2.88) error=0.08319998",
+            "passed": true
+        },
+        {
+            "name": "route_2",
+            "detail": "target=(0.00, 0.20, -1.70) actual=(0.00, 0.22, -1.79) error=0.08524787",
+            "passed": true
+        },
+        {
+            "name": "route_3",
+            "detail": "target=(0.00, 0.60, -0.70) actual=(0.00, 0.62, -0.78) error=0.08015865",
+            "passed": true
+        },
+        {
+            "name": "route_4",
+            "detail": "target=(0.00, 0.80, 0.80) actual=(0.00, 0.82, 0.71) error=0.08970153",
+            "passed": true
+        },
+        {
+            "name": "route_5",
+            "detail": "target=(1.80, 0.80, 1.20) actual=(1.72, 0.82, 1.18) error=0.0802715",
+            "passed": true
+        },
+        {
+            "name": "route_6",
+            "detail": "target=(1.80, 0.80, 5.50) actual=(1.80, 0.82, 5.42) error=0.07793057",
+            "passed": true
+        },
+        {
+            "name": "route_7",
+            "detail": "target=(-2.40, 0.80, 5.50) actual=(-2.32, 0.82, 5.50) error=0.07645493",
+            "passed": true
+        },
+        {
+            "name": "route_8",
+            "detail": "target=(-2.40, 0.80, 1.00) actual=(-2.40, 0.82, 1.08) error=0.07640618",
+            "passed": true
+        },
+        {
+            "name": "route_9",
+            "detail": "target=(0.00, 0.80, 0.60) actual=(-0.09, 0.83, 0.62) error=0.08675312",
+            "passed": true
+        },
+        {
+            "name": "route_10",
+            "detail": "target=(0.00, 0.00, -3.20) actual=(0.00, 0.02, -3.12) error=0.08182269",
+            "passed": true
+        },
+        {
+            "name": "stairs_reached_upper_platform",
+            "detail": "CharacterController moved continuously from ground through actual stair colliders.",
+            "passed": true
+        },
+        {
+            "name": "continuous_ground_height",
+            "detail": "Maximum stair-transition support delta=0.2249877m; step rise is 0.20m and capsule skin is 0.025m.",
+            "passed": true
+        },
+        {
+            "name": "descending_returns_to_ground",
+            "detail": "Actual descent endpoint is near ground level.",
+            "passed": true
+        },
+        {
+            "name": "wall_blocks_motion",
+            "detail": "After continuous push x=11.025; teleport before this separate wall test is not part of route evidence.",
+            "passed": true
+        },
+        {
+            "name": "runtime_errors",
+            "detail": "Error/Exception/Assert count=0",
+            "passed": true
+        }
+    ],
+    "anchors": [
+        {
+            "id": "middle_sky_apex",
+            "world": {
+                "x": 0.0,
+                "y": 7.599999904632568,
+                "z": 18.0
+            },
+            "reference_uv_top": {
+                "x": 0.5098000168800354,
+                "y": 0.3359000086784363
+            },
+            "actual_uv_top": {
+                "x": 0.5134031772613525,
+                "y": 0.33746325969696047
+            },
+            "error_fraction_of_width": 0.003789112903177738
+        },
+        {
+            "id": "far_arch_apex",
+            "world": {
+                "x": 0.0,
+                "y": 5.25,
+                "z": 26.0
+            },
+            "reference_uv_top": {
+                "x": 0.5116999745368958,
+                "y": 0.4569999873638153
+            },
+            "actual_uv_top": {
+                "x": 0.5103395581245422,
+                "y": 0.45575153827667239
+            },
+            "error_fraction_of_width": 0.001651502214372158
+        },
+        {
+            "id": "far_spring_left",
+            "world": {
+                "x": -2.4839999675750734,
+                "y": 2.950000047683716,
+                "z": 26.0
+            },
+            "reference_uv_top": {
+                "x": 0.45410001277923586,
+                "y": 0.5246999859809876
+            },
+            "actual_uv_top": {
+                "x": 0.45326507091522219,
+                "y": 0.5262138843536377
+            },
+            "error_fraction_of_width": 0.001409366843290627
+        },
+        {
+            "id": "far_spring_right",
+            "world": {
+                "x": 2.4839999675750734,
+                "y": 2.950000047683716,
+                "z": 26.0
+            },
+            "reference_uv_top": {
+                "x": 0.5684000253677368,
+                "y": 0.5246999859809876
+            },
+            "actual_uv_top": {
+                "x": 0.5674141049385071,
+                "y": 0.5262138843536377
+            },
+            "error_fraction_of_width": 0.001503737410530448
+        },
+        {
+            "id": "platform_front",
+            "world": {
+                "x": 0.0,
+                "y": 0.800000011920929,
+                "z": -0.4300000071525574
+            },
+            "reference_uv_top": {
+                "x": 0.5440000295639038,
+                "y": 0.7526000142097473
+            },
+            "actual_uv_top": {
+                "x": 0.542227029800415,
+                "y": 0.7526990175247192
+            },
+            "error_fraction_of_width": 0.0017745539080351592
+        },
+        {
+            "id": "plato_crown",
+            "world": {
+                "x": -0.699999988079071,
+                "y": 2.549999952316284,
+                "z": 0.0
+            },
+            "reference_uv_top": {
+                "x": 0.47749999165534975,
+                "y": 0.5273000001907349
+            },
+            "actual_uv_top": {
+                "x": 0.4776614010334015,
+                "y": 0.5340430736541748
+            },
+            "error_fraction_of_width": 0.005059880204498768
+        },
+        {
+            "id": "plato_support",
+            "world": {
+                "x": -0.699999988079071,
+                "y": 0.800000011920929,
+                "z": 0.0
+            },
+            "reference_uv_top": {
+                "x": 0.4794999957084656,
+                "y": 0.7422000169754028
+            },
+            "actual_uv_top": {
+                "x": 0.4776614010334015,
+                "y": 0.7425367832183838
+            },
+            "error_fraction_of_width": 0.0018558622105047107
+        },
+        {
+            "id": "front_vault_rear_crown",
+            "world": {
+                "x": 0.0,
+                "y": 11.350000381469727,
+                "z": 12.5
+            },
+            "reference_uv_top": {
+                "x": 0.5,
+                "y": 0.12110000103712082
+            },
+            "actual_uv_top": {
+                "x": 0.5168318748474121,
+                "y": 0.09863060712814331
+            },
+            "error_fraction_of_width": 0.023818133398890497
+        },
+        {
+            "id": "front_vault_rear_spring_left",
+            "world": {
+                "x": -4.199999809265137,
+                "y": 7.150000095367432,
+                "z": 12.5
+            },
+            "reference_uv_top": {
+                "x": 0.34279999136924746,
+                "y": 0.30730000138282778
+            },
+            "actual_uv_top": {
+                "x": 0.35973429679870608,
+                "y": 0.3080940246582031
+            },
+            "error_fraction_of_width": 0.016944773495197297
+        },
+        {
+            "id": "front_vault_rear_spring_right",
+            "world": {
+                "x": 4.199999809265137,
+                "y": 7.150000095367432,
+                "z": 12.5
+            },
+            "reference_uv_top": {
+                "x": 0.6563000082969666,
+                "y": 0.30730000138282778
+            },
+            "actual_uv_top": {
+                "x": 0.6739294528961182,
+                "y": 0.3080940246582031
+            },
+            "error_fraction_of_width": 0.01763949915766716
+        }
+    ],
+    "images": [
+        {
+            "file": "hero.png",
+            "width": 1600,
+            "height": 1200,
+            "dark_pixels": 0,
+            "pink_pixels": 0,
+            "quantized_colors": 1461
+        },
+        {
+            "file": "close.png",
+            "width": 1600,
+            "height": 1200,
+            "dark_pixels": 0,
+            "pink_pixels": 0,
+            "quantized_colors": 2253
+        },
+        {
+            "file": "side.png",
+            "width": 1600,
+            "height": 1200,
+            "dark_pixels": 0,
+            "pink_pixels": 0,
+            "quantized_colors": 1170
+        },
+        {
+            "file": "return.png",
+            "width": 1600,
+            "height": 1200,
+            "dark_pixels": 0,
+            "pink_pixels": 0,
+            "quantized_colors": 682
+        }
+    ],
+    "route": [
+        {
+            "target": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": -2.799999952316284
+            },
+            "actual": {
+                "x": 0.0,
+                "y": 0.024999894201755525,
+                "z": -2.88319993019104
+            },
+            "horizontal_error": 0.08319997787475586,
+            "vertical_error": 0.024999894201755525,
+            "passed": true
+        },
+        {
+            "target": {
+                "x": 0.0,
+                "y": 0.20000000298023225,
+                "z": -1.7000000476837159
+            },
+            "actual": {
+                "x": 0.0,
+                "y": 0.22499975562095643,
+                "z": -1.7852479219436646
+            },
+            "horizontal_error": 0.08524787425994873,
+            "vertical_error": 0.024999752640724183,
+            "passed": true
+        },
+        {
+            "target": {
+                "x": 0.0,
+                "y": 0.6000000238418579,
+                "z": -0.699999988079071
+            },
+            "actual": {
+                "x": 0.0,
+                "y": 0.6249998807907105,
+                "z": -0.7801586389541626
+            },
+            "horizontal_error": 0.08015865087509155,
+            "vertical_error": 0.02499985694885254,
+            "passed": true
+        },
+        {
+            "target": {
+                "x": 0.0,
+                "y": 0.800000011920929,
+                "z": 0.800000011920929
+            },
+            "actual": {
+                "x": 0.0,
+                "y": 0.8249998092651367,
+                "z": 0.710298478603363
+            },
+            "horizontal_error": 0.08970153331756592,
+            "vertical_error": 0.024999797344207765,
+            "passed": true
+        },
+        {
+            "target": {
+                "x": 1.7999999523162842,
+                "y": 0.800000011920929,
+                "z": 1.2000000476837159
+            },
+            "actual": {
+                "x": 1.722543716430664,
+                "y": 0.8249998092651367,
+                "z": 1.1789276599884034
+            },
+            "horizontal_error": 0.08027150481939316,
+            "vertical_error": 0.024999797344207765,
+            "passed": true
+        },
+        {
+            "target": {
+                "x": 1.7999999523162842,
+                "y": 0.800000011920929,
+                "z": 5.5
+            },
+            "actual": {
+                "x": 1.7986032962799073,
+                "y": 0.8249999284744263,
+                "z": 5.42208194732666
+            },
+            "horizontal_error": 0.07793056964874268,
+            "vertical_error": 0.024999916553497316,
+            "passed": true
+        },
+        {
+            "target": {
+                "x": -2.4000000953674318,
+                "y": 0.800000011920929,
+                "z": 5.5
+            },
+            "actual": {
+                "x": -2.3235583305358888,
+                "y": 0.8249998092651367,
+                "z": 5.498581409454346
+            },
+            "horizontal_error": 0.07645493000745774,
+            "vertical_error": 0.024999797344207765,
+            "passed": true
+        },
+        {
+            "target": {
+                "x": -2.4000000953674318,
+                "y": 0.800000011920929,
+                "z": 1.0
+            },
+            "actual": {
+                "x": -2.3987019062042238,
+                "y": 0.8249998092651367,
+                "z": 1.0763951539993287
+            },
+            "horizontal_error": 0.07640618085861206,
+            "vertical_error": 0.024999797344207765,
+            "passed": true
+        },
+        {
+            "target": {
+                "x": 0.0,
+                "y": 0.800000011920929,
+                "z": 0.6000000238418579
+            },
+            "actual": {
+                "x": -0.08509117364883423,
+                "y": 0.8250000476837158,
+                "z": 0.6168996095657349
+            },
+            "horizontal_error": 0.08675312250852585,
+            "vertical_error": 0.025000035762786866,
+            "passed": true
+        },
+        {
+            "target": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": -3.200000047683716
+            },
+            "actual": {
+                "x": -0.0018236397299915553,
+                "y": 0.02499985694885254,
+                "z": -3.1181976795196535
+            },
+            "horizontal_error": 0.08182269334793091,
+            "vertical_error": 0.02499985694885254,
+            "passed": true
+        }
+    ],
+    "runtime_errors": [],
+    "route_max_ground_error": 0.22498774528503419,
+    "average_fps": 59.986328125,
+    "p95_frame_ms": 16.667999267578126,
+    "frame_count": 954
+}

@@ -1,0 +1,25 @@
+# Local tools and credentials
+/.tools/
+/.codex/
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+__pycache__/
+*.py[cod]
+*.log
+*.blend1
+*.blend2
+
+# Unity caches and builds are also excluded by unity/.gitignore.
+
+# Museum photographs are local research references, not shipping textures.
+/references/original/*.jpg
+/references/original/*.jpeg
+/references/original/*.png
+/references/entrance/*.png
+/references/entrance/*.jpg
+/references/entrance/*.jpeg
+/qa/**/reference-comparison.png
+/qa/**/reference-overlay.png

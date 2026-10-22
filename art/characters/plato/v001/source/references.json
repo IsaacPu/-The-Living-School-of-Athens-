@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "reference_policy": "Original painting governs recognition, color, gesture and book; sculpture and clothing references support structure. Occluded parts are design inferences.",
+  "sources": [
+    {
+      "title": "School of Athens, Vatican Museums",
+      "url": "https://www.museivaticani.va/content/museivaticani/en/collezioni/musei/stanze-di-raffaello/stanza-della-segnatura/scuola-di-atene.html",
+      "local_shared_reference": "../../../../../references/original/school-of-athens.jpg",
+      "reference_sha256": "10daca8a47e008e7a90b34b6c99ed425fa3c69c30bc80d5e0aab0c54b48f8daa",
+      "use": "Composition, purple/red garments, upward-pointing gesture and Timaeus book. The 1280x1000 image is insufficient for fine face anatomy.",
+      "used_as_game_texture": false,
+      "rights": "Museum photograph redistribution rights not independently cleared. Shared local reference only."
+    },
+    {
+      "title": "Portrait head of Plato, Acropolis Museum, M 163",
+      "url": "https://www.theacropolismuseum.gr/en/node/25537",
+      "use": "Previously opened same-sculpture multi-angle head reference; no local photo download and no sculptural likeness reconstruction performed in B-P0.",
+      "caveat": "Roman-period sculpture, first century AD; not evidence of Plato's exact lifetime appearance."
+    },
+    {
+      "title": "Ancient Greek Dress, Metropolitan Museum of Art",
+      "url": "https://www.metmuseum.org/essays/ancient-greek-dress",
+      "use": "Garment structure reference; no clothing rebuild performed in B-P0."
+    },
+    {
+      "title": "Create a Game-Ready 3D Character with AI: The Full Tutorial",
+      "url": "https://www.top3d.ai/learn/create-3d-character-with-ai-full-lesson",
+      "use": "Workflow reference only: separate parts, local repair, topology, UV, baking and weight review. No tutorial project downloaded.",
+      "caveat": "Time, cost and tool availability claims are not adopted as project guarantees."
+    }
+  ]
+}
