@@ -1,0 +1,14 @@
+{
+  "research_date": "2026-10-22",
+  "room": "Stanza della Segnatura / Room of the Segnatura",
+  "museum": "Vatican Museums, Raphael Rooms",
+  "source_page": "https://www.museivaticani.va/content/museivaticani/en/collezioni/musei/stanze-di-raffaello/stanza-della-segnatura.html",
+  "room_detail": "https://www.museivaticani.va/content/museivaticani/en/collezioni/musei/stanze-di-raffaello/stanza-della-segnatura/stanza-della-segnatura.html",
+  "image_url": "https://www.museivaticani.va/content/dam/museivaticani/immagini/collezioni/musei/stanze_raffaello/03_00_Stanza_Segnatura.png/_jcr_content/renditions/cq5dam.web.1280.1280.png",
+  "local_image": "segnatura-official-overview.png",
+  "sha256": "ca6733149c5fa536c9db0db4286ef7d79479904aa7815fa8f3b00041d492bc27",
+  "use": "Local visual research only",
+  "redistribution_rights": "Not independently cleared; not a shipping game texture",
+  "virtual_tour": "https://www.museivaticani.va/content/museivaticani/en/collezioni/musei/stanze-di-raffaello/tour-virtuale.html",
+  "implementation_status": "Research and proposal only; Unity not modified"
+}
