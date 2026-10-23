@@ -1,0 +1,311 @@
+{
+  "stage": "7_derived_package_texture_reference_repair",
+  "blend": "D:\\AI\\PROJECT\\hackathon_projects\\Aholo_3D_AI_Hackathon\\worktrees\\plato-refinement\\art\\characters\\plato\\v002\\einar-static-closeup-review\\einar-static-rest-skin-closeup.blend",
+  "blend_sha256_before": "d4d70541b832ad832dbd2b28d0c6e819c8eebb6cb0ecbaad5f91b3f8956d04b2",
+  "blend_sha256_after": "97b66338d2f35a6fb43fd0f0dcad8579242b037ada57811b71e36dd853560b48",
+  "blend_bytes_after": 1345426,
+  "textures": [
+    {
+      "image": "disp_default.exr",
+      "before_filepath": "//textures\\disp_default.exr",
+      "before_resolved_file_exists": true,
+      "expected_relative_path": "//textures/disp_default.exr",
+      "expected_sha256": "782488ea8f9107c41a93465a0dcdf31894ce18885cc65c0e2e88241a7d6fe116",
+      "after_filepath": "//textures\\disp_default.exr",
+      "actual_resolved_path": "D:\\AI\\PROJECT\\hackathon_projects\\Aholo_3D_AI_Hackathon\\worktrees\\plato-refinement\\art\\characters\\plato\\v002\\einar-static-closeup-review\\textures\\disp_default.exr",
+      "actual_image_path_reopened_and_sha256_verified": true
+    },
+    {
+      "image": "einar_skin.albedo.tif",
+      "before_filepath": "//textures\\einar_skin.albedo.tif",
+      "before_resolved_file_exists": true,
+      "expected_relative_path": "//textures/einar_skin.albedo.tif",
+      "expected_sha256": "c0ec5e11fae8e516f3a0dd18e612ab4b9a9ab810bf01f63d098a401fe05af7a4",
+      "after_filepath": "//textures\\einar_skin.albedo.tif",
+      "actual_resolved_path": "D:\\AI\\PROJECT\\hackathon_projects\\Aholo_3D_AI_Hackathon\\worktrees\\plato-refinement\\art\\characters\\plato\\v002\\einar-static-closeup-review\\textures\\einar_skin.albedo.tif",
+      "actual_image_path_reopened_and_sha256_verified": true
+    },
+    {
+      "image": "einar_skin.roughness.tif",
+      "before_filepath": "//textures\\einar_skin.roughness.tif",
+      "before_resolved_file_exists": true,
+      "expected_relative_path": "//textures/einar_skin.roughness.tif",
+      "expected_sha256": "e35cb48cd5b62918682b9f1d8064493b587304a0efc254520991e25efd0766b7",
+      "after_filepath": "//textures\\einar_skin.roughness.tif",
+      "actual_resolved_path": "D:\\AI\\PROJECT\\hackathon_projects\\Aholo_3D_AI_Hackathon\\worktrees\\plato-refinement\\art\\characters\\plato\\v002\\einar-static-closeup-review\\textures\\einar_skin.roughness.tif",
+      "actual_image_path_reopened_and_sha256_verified": true
+    }
+  ],
+  "geometry_and_object_transforms_unchanged": true,
+  "geometry_fingerprint": [
+    {
+      "name": "ABCamera",
+      "type": "CAMERA",
+      "matrix": [
+        [
+          0.8368317484855652,
+          -0.06378666311502457,
+          0.5437313914299011,
+          0.699999988079071
+        ],
+        [
+          0.54746013879776,
+          0.0975024476647377,
+          -0.831132173538208,
+          -1.100000023841858
+        ],
+        [
+          1.25107746384856e-09,
+          0.9931890964508057,
+          0.11651380360126495,
+          1.7699999809265137
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "EinarDefaultCleanHead",
+      "type": "MESH",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "mesh_sha256": "9ec4cbe14858bc7e1e666d5d8bb55eb0cd1e2f86a60a21b94d1c70ef3d6eeec5",
+      "vertices": 4596,
+      "polygons": 4522,
+      "material_names": [
+        "ReviewSimplifiedSourceBaseSkin"
+      ],
+      "modifiers": [
+        [
+          "SourceCatmullClark2",
+          "SUBSURF",
+          true,
+          true
+        ],
+        [
+          "SourceDefaultSculptOnly",
+          "NODES",
+          true,
+          true
+        ]
+      ]
+    },
+    {
+      "name": "Fill",
+      "type": "LIGHT",
+      "matrix": [
+        [
+          0.47058820724487305,
+          -0.31512120366096497,
+          0.8241634368896484,
+          0.6000000238418579
+        ],
+        [
+          0.8823529481887817,
+          0.16806460916996002,
+          -0.43955379724502563,
+          -0.3499999940395355
+        ],
+        [
+          1.7386252437745497e-08,
+          0.9340518712997437,
+          0.3571373224258423,
+          1.850000023841858
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "GEO-eye.L_SavedChannelRestCandidate",
+      "type": "MESH",
+      "matrix": [
+        [
+          0.9964928030967712,
+          -0.08367744088172913,
+          -4.702137346157542e-09,
+          0.02896723337471485
+        ],
+        [
+          0.08367744088172913,
+          0.9964928030967712,
+          -1.8386272060411102e-08,
+          -0.1100393682718277
+        ],
+        [
+          6.224162518719822e-09,
+          1.7928325490856878e-08,
+          1.0,
+          1.6220605373382568
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "mesh_sha256": "6aa5a4b6835372d072d6ae5f69a03bfd13a88b9c26636f4fec4a0d1c6dae9676",
+      "vertices": 802,
+      "polygons": 832,
+      "material_names": [
+        "ReviewPupilNearBlack",
+        "ReviewIrisMutedBrown",
+        "ReviewScleraWarmGray"
+      ],
+      "modifiers": [
+        [
+          "SourceEyeSubdivision2",
+          "SUBSURF",
+          true,
+          true
+        ]
+      ]
+    },
+    {
+      "name": "GEO-eye.R_SavedChannelRestCandidate",
+      "type": "MESH",
+      "matrix": [
+        [
+          0.9997208714485168,
+          0.023559292778372765,
+          -2.907912062255491e-07,
+          -0.02981507033109665
+        ],
+        [
+          -0.02355928160250187,
+          0.9997212886810303,
+          -1.9565206457627937e-05,
+          -0.11231587827205658
+        ],
+        [
+          -1.7023222653733683e-07,
+          1.956661435542628e-05,
+          0.9999995231628418,
+          1.6226556301116943
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "mesh_sha256": "0b1932cebc029a1958f238bb8434cede22d32d150e949f74f5502fd91a5d12bb",
+      "vertices": 802,
+      "polygons": 832,
+      "material_names": [
+        "ReviewPupilNearBlack",
+        "ReviewIrisMutedBrown",
+        "ReviewScleraWarmGray"
+      ],
+      "modifiers": [
+        [
+          "SourceEyeSubdivision2",
+          "SUBSURF",
+          true,
+          true
+        ]
+      ]
+    },
+    {
+      "name": "Key",
+      "type": "LIGHT",
+      "matrix": [
+        [
+          0.7848827838897705,
+          0.356112539768219,
+          -0.5070925951004028,
+          -0.44999998807907104
+        ],
+        [
+          -0.619644284248352,
+          0.45107582211494446,
+          -0.6423172950744629,
+          -0.6000000238418579
+        ],
+        [
+          -2.2815470401837956e-08,
+          0.8183608651161194,
+          0.5747047662734985,
+          2.0999999046325684
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "Rim",
+      "type": "LIGHT",
+      "matrix": [
+        [
+          -0.8354171514511108,
+          -0.3410904109477997,
+          0.4309704899787903,
+          0.25
+        ],
+        [
+          0.5496164560317993,
+          -0.5184576511383057,
+          0.6550751328468323,
+          0.3499999940395355
+        ],
+        [
+          6.794894602535351e-08,
+          0.7841294407844543,
+          0.6205973029136658,
+          1.9500000476837158
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    }
+  ],
+  "single_image_sha256_before_and_after": "484d01b2373b3804a6a00153afa3dbbb1b58dbd0a9648cee05dc70c41986b213",
+  "single_image_bytes_unchanged": true,
+  "render_performed": false,
+  "source_library_opened": false,
+  "depsgraph_evaluated": false,
+  "scope": "Only derived texture references repaired; original failed image preserved. No source rig or eye movement. Art remains not accepted.",
+  "historical_occlusion_path_check_limit": "The original occlusion run verified files using metadata paths, not actual bpy image filepaths. This separate reopen verifies actual saved image paths."
+}

@@ -1,0 +1,19 @@
+{
+  "owned_blender_pid": 5560,
+  "process_exit_code": 0,
+  "process_exit_confirmed": true,
+  "monitor_error": null,
+  "cleanup_error": null,
+  "process_wall_seconds": 2.881,
+  "maximum_seconds": 45,
+  "working_set_limit_bytes": 1288490189,
+  "peak_sampled_working_set_mib": 472.34,
+  "peak_OS_working_set_mib": 472.59,
+  "stopped_for_limit": null,
+  "source_sha256_before": "1c6663da0a2e9d6822978467c244e9186edc76083bae2414e02f9e695e711f7b",
+  "source_sha256_after": "1c6663da0a2e9d6822978467c244e9186edc76083bae2414e02f9e695e711f7b",
+  "source_unchanged": true,
+  "source_read_only": true,
+  "source_bytes": 91323760,
+  "other_processes_stopped": false
+}

@@ -1,0 +1,52 @@
+{
+  "name": "eyes.albedo",
+  "cache_path_provenance_only": "D:\\AI\\PROJECT\\hackathon_projects\\Aholo_3D_AI_Hackathon\\project-management\\source-cache\\einar-v1\\extracted\\textures\\face\\eyes.albedo.tif",
+  "file_bytes": 2723828,
+  "metadata_bytes_read": 188,
+  "metadata_read_calls": 7,
+  "maximum_metadata_read_end_offset": 2723828,
+  "metadata_read_limit_bytes": 1048576,
+  "source_size_mtime_unchanged": true,
+  "pixel_payload_decoded": false,
+  "channel_semantics_inferred": false,
+  "format": "TIFF",
+  "byte_order": "little",
+  "ifd_entry_count": 14,
+  "inspected_ifd_index": 0,
+  "next_ifd_offset": 0,
+  "additional_ifds_inspected": false,
+  "channel_count": 3,
+  "bits_per_sample": [
+    8,
+    8,
+    8
+  ],
+  "sample_format_codes": [
+    1,
+    1,
+    1
+  ],
+  "sample_formats": [
+    "unsigned_integer",
+    "unsigned_integer",
+    "unsigned_integer"
+  ],
+  "compression": {
+    "code": 32946,
+    "name": "DEFLATE"
+  },
+  "photometric_interpretation_code": 2,
+  "planar_configuration_code": 1,
+  "channel_names_available_in_selected_header_tags": false,
+  "memory_estimate_first_ifd": {
+    "width": 2048,
+    "height": 2048,
+    "pixel_count": 4194304,
+    "full_resolution_native_samples_bytes": 12582912,
+    "full_resolution_native_samples_mib": 12.0,
+    "full_resolution_float32_samples_bytes": 50331648,
+    "full_resolution_float32_samples_mib": 48.0,
+    "basis": "One full-resolution sample per channel per pixel; excludes mipmaps, copies, renderer buffers and decode overhead.",
+    "actual_decoded_or_blender_memory_measured": false
+  }
+}

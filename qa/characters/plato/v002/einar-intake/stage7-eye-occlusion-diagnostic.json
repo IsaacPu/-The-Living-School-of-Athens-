@@ -1,0 +1,3969 @@
+{
+  "stage": "7_post_closeup_read_only_eye_occlusion",
+  "input_clean_blend": "D:\\AI\\PROJECT\\hackathon_projects\\Aholo_3D_AI_Hackathon\\worktrees\\plato-refinement\\art\\characters\\plato\\v002\\einar-static-closeup-review\\einar-static-rest-skin-closeup.blend",
+  "all_three_new_relative_texture_paths_reopened_and_hash_verified": [
+    {
+      "relative_path": "//textures/disp_default.exr",
+      "resolved": "D:\\AI\\PROJECT\\hackathon_projects\\Aholo_3D_AI_Hackathon\\worktrees\\plato-refinement\\art\\characters\\plato\\v002\\einar-static-closeup-review\\textures\\disp_default.exr",
+      "hash_match": true
+    },
+    {
+      "relative_path": "//textures/einar_skin.albedo.tif",
+      "resolved": "D:\\AI\\PROJECT\\hackathon_projects\\Aholo_3D_AI_Hackathon\\worktrees\\plato-refinement\\art\\characters\\plato\\v002\\einar-static-closeup-review\\textures\\einar_skin.albedo.tif",
+      "hash_match": true
+    },
+    {
+      "relative_path": "//textures/einar_skin.roughness.tif",
+      "resolved": "D:\\AI\\PROJECT\\hackathon_projects\\Aholo_3D_AI_Hackathon\\worktrees\\plato-refinement\\art\\characters\\plato\\v002\\einar-static-closeup-review\\textures\\einar_skin.roughness.tif",
+      "hash_match": true
+    }
+  ],
+  "head_evaluated_counts": {
+    "vertices": 72666,
+    "polygons": 72352
+  },
+  "eyes": [
+    {
+      "eye": "GEO-eye.L_SavedChannelRestCandidate",
+      "evaluated_vertices": 13058,
+      "evaluated_polygons": 13056,
+      "partitions": [
+        {
+          "partition": "pupil",
+          "front_facing_polygon_count": 1726,
+          "sampled_in_frame_count": 64,
+          "head_occluded_samples": 46,
+          "head_occlusion_fraction": 0.71875,
+          "occluded_depth_min_max_source_units": [
+            0.008551836013793945,
+            0.011905074119567871
+          ],
+          "samples": [
+            {
+              "face": 3056,
+              "pixel": [
+                333.7366766239533,
+                406.1072804090468
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": false,
+              "head_depth_in_front_of_eye_sample_source_units": null
+            },
+            {
+              "face": 3082,
+              "pixel": [
+                328.1175840648975,
+                401.75403746946506
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.011546730995178223
+            },
+            {
+              "face": 3108,
+              "pixel": [
+                327.8992959698321,
+                401.946318072227
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.01138913631439209
+            },
+            {
+              "face": 3134,
+              "pixel": [
+                334.5564431128326,
+                405.11959373475736
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.01013636589050293
+            },
+            {
+              "face": 3176,
+              "pixel": [
+                328.17288127847985,
+                404.0811775493154
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.010219812393188477
+            },
+            {
+              "face": 3234,
+              "pixel": [
+                328.75686372292586,
+                405.1066635009979
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": false,
+              "head_depth_in_front_of_eye_sample_source_units": null
+            },
+            {
+              "face": 3276,
+              "pixel": [
+                329.29069482125067,
+                405.66953795474615
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": false,
+              "head_depth_in_front_of_eye_sample_source_units": null
+            },
+            {
+              "face": 3350,
+              "pixel": [
+                330.5410849833057,
+                406.6749013791521
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": false,
+              "head_depth_in_front_of_eye_sample_source_units": null
+            },
+            {
+              "face": 3383,
+              "pixel": [
+                333.5278815616019,
+                399.6911744399399
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.011185526847839355
+            },
+            {
+              "face": 3414,
+              "pixel": [
+                329.6671855581925,
+                399.23641883387495
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.011796712875366211
+            },
+            {
+              "face": 3440,
+              "pixel": [
+                331.80844260023264,
+                406.8323828048554
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": false,
+              "head_depth_in_front_of_eye_sample_source_units": null
+            },
+            {
+              "face": 3466,
+              "pixel": [
+                329.1193473689021,
+                399.8259196747971
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.011905074119567871
+            },
+            {
+              "face": 3492,
+              "pixel": [
+                332.29716490518393,
+                406.8199850392348
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": false,
+              "head_depth_in_front_of_eye_sample_source_units": null
+            },
+            {
+              "face": 3518,
+              "pixel": [
+                328.94873504047655,
+                399.94235038986403
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.011873006820678711
+            },
+            {
+              "face": 3544,
+              "pixel": [
+                333.4523863215293,
+                406.31643111243125
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": false,
+              "head_depth_in_front_of_eye_sample_source_units": null
+            },
+            {
+              "face": 3586,
+              "pixel": [
+                333.6820906924371,
+                404.11921723209946
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.010637879371643066
+            },
+            {
+              "face": 3612,
+              "pixel": [
+                330.0203192225965,
+                403.5228092065331
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.010680556297302246
+            },
+            {
+              "face": 3638,
+              "pixel": [
+                333.57121413663174,
+                405.014453132373
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.010224103927612305
+            },
+            {
+              "face": 3664,
+              "pixel": [
+                329.7441470724683,
+                404.1659810477105
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.010305643081665039
+            },
+            {
+              "face": 3690,
+              "pixel": [
+                333.802078811245,
+                402.5250215321771
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.011029720306396484
+            },
+            {
+              "face": 3732,
+              "pixel": [
+                331.3465741735071,
+                400.6031910338723
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.0114288330078125
+            },
+            {
+              "face": 3758,
+              "pixel": [
+                330.53603448327243,
+                405.08875429277606
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.009382128715515137
+            },
+            {
+              "face": 3784,
+              "pixel": [
+                332.9514530121703,
+                401.7700333686656
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.011106729507446289
+            },
+            {
+              "face": 3810,
+              "pixel": [
+                331.8604178484115,
+                401.727259090453
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.011192798614501953
+            },
+            {
+              "face": 3836,
+              "pixel": [
+                331.223784636506,
+                405.2767890581771
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.009308099746704102
+            },
+            {
+              "face": 3862,
+              "pixel": [
+                332.48924682580446,
+                400.5725035837291
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.011330485343933105
+            },
+            {
+              "face": 3888,
+              "pixel": [
+                332.82045392908833,
+                401.18554627158056
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.011198282241821289
+            },
+            {
+              "face": 3914,
+              "pixel": [
+                333.6172130259986,
+                401.65734284490975
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.011138677597045898
+            },
+            {
+              "face": 4452,
+              "pixel": [
+                331.8281836577978,
+                400.93907114112096
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.011336445808410645
+            },
+            {
+              "face": 5486,
+              "pixel": [
+                330.9253282974033,
+                399.8188912940466
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.011644244194030762
+            },
+            {
+              "face": 9512,
+              "pixel": [
+                333.9214986991287,
+                406.0542362509475
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.008551836013793945
+            },
+            {
+              "face": 9602,
+              "pixel": [
+                334.18930235746296,
+                405.71982639154487
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.009441614151000977
+            },
+            {
+              "face": 9660,
+              "pixel": [
+                327.791908272429,
+                402.1447796764064
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.011278986930847168
+            },
+            {
+              "face": 9750,
+              "pixel": [
+                327.4826952821932,
+                403.1975069364903
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.010556221008300781
+            },
+            {
+              "face": 9848,
+              "pixel": [
+                327.82837439265353,
+                404.1862764284501
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.0096513032913208
+            },
+            {
+              "face": 9951,
+              "pixel": [
+                327.90054766732266,
+                404.38020609298525
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": false,
+              "head_depth_in_front_of_eye_sample_source_units": null
+            },
+            {
+              "face": 10137,
+              "pixel": [
+                329.27248361617393,
+                406.11933048092004
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": false,
+              "head_depth_in_front_of_eye_sample_source_units": null
+            },
+            {
+              "face": 10279,
+              "pixel": [
+                333.9895433589004,
+                400.15515088418516
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.010904192924499512
+            },
+            {
+              "face": 10377,
+              "pixel": [
+                330.0004271666039,
+                398.95003740191305
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.01168525218963623
+            },
+            {
+              "face": 10472,
+              "pixel": [
+                331.262448181214,
+                407.05375643357604
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": false,
+              "head_depth_in_front_of_eye_sample_source_units": null
+            },
+            {
+              "face": 10562,
+              "pixel": [
+                333.1715252728651,
+                399.40922361973037
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.011157035827636719
+            },
+            {
+              "face": 10620,
+              "pixel": [
+                331.73038436053656,
+                406.9311357763952
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": false,
+              "head_depth_in_front_of_eye_sample_source_units": null
+            },
+            {
+              "face": 10710,
+              "pixel": [
+                332.4856665736172,
+                406.98931984149135
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": false,
+              "head_depth_in_front_of_eye_sample_source_units": null
+            },
+            {
+              "face": 10800,
+              "pixel": [
+                332.29290516007325,
+                398.93281066684676
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.01127004623413086
+            },
+            {
+              "face": 10858,
+              "pixel": [
+                333.4063357748057,
+                406.4051585831182
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": false,
+              "head_depth_in_front_of_eye_sample_source_units": null
+            },
+            {
+              "face": 10948,
+              "pixel": [
+                331.8851895377958,
+                398.7738073359408
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.011272072792053223
+            },
+            {
+              "face": 11006,
+              "pixel": [
+                328.2338727222334,
+                400.4794239807358
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.011678934097290039
+            },
+            {
+              "face": 12552,
+              "pixel": [
+                329.3447443109852,
+                405.33926267070524
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": false,
+              "head_depth_in_front_of_eye_sample_source_units": null
+            },
+            {
+              "face": 12578,
+              "pixel": [
+                329.88461534640726,
+                399.40574568884585
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.011867642402648926
+            },
+            {
+              "face": 12604,
+              "pixel": [
+                328.2792755651762,
+                403.8453895312392
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.010471105575561523
+            },
+            {
+              "face": 12630,
+              "pixel": [
+                329.1790394314512,
+                404.78610774731203
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": false,
+              "head_depth_in_front_of_eye_sample_source_units": null
+            },
+            {
+              "face": 12656,
+              "pixel": [
+                334.0573337055312,
+                400.5827009446342
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.011236190795898438
+            },
+            {
+              "face": 12682,
+              "pixel": [
+                329.74878431364755,
+                405.9972482523422
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": false,
+              "head_depth_in_front_of_eye_sample_source_units": null
+            },
+            {
+              "face": 12708,
+              "pixel": [
+                328.56861636763347,
+                403.22156337016565
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.010874629020690918
+            },
+            {
+              "face": 12734,
+              "pixel": [
+                328.7803916621052,
+                400.4581173078967
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.011835336685180664
+            },
+            {
+              "face": 12760,
+              "pixel": [
+                328.3433823449062,
+                401.99853769943957
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.011449694633483887
+            },
+            {
+              "face": 12786,
+              "pixel": [
+                334.87923404060865,
+                404.0244875739222
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.01058650016784668
+            },
+            {
+              "face": 12812,
+              "pixel": [
+                335.060126183028,
+                403.310110040104
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.010751605033874512
+            },
+            {
+              "face": 12838,
+              "pixel": [
+                331.8454372149532,
+                406.2437472246588
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": false,
+              "head_depth_in_front_of_eye_sample_source_units": null
+            },
+            {
+              "face": 12864,
+              "pixel": [
+                328.7381399179244,
+                404.45832989778796
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.00974583625793457
+            },
+            {
+              "face": 12890,
+              "pixel": [
+                328.6231864045784,
+                400.5596309677906
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.011835455894470215
+            },
+            {
+              "face": 12916,
+              "pixel": [
+                333.3309756385892,
+                400.1413345280753
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.011287450790405273
+            },
+            {
+              "face": 12942,
+              "pixel": [
+                332.8476455669544,
+                406.43403504554294
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": false,
+              "head_depth_in_front_of_eye_sample_source_units": null
+            },
+            {
+              "face": 12968,
+              "pixel": [
+                330.7949292343883,
+                399.2028773147711
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.011756300926208496
+            }
+          ]
+        },
+        {
+          "partition": "iris",
+          "front_facing_polygon_count": 3072,
+          "sampled_in_frame_count": 64,
+          "head_occluded_samples": 38,
+          "head_occlusion_fraction": 0.59375,
+          "occluded_depth_min_max_source_units": [
+            0.0077751874923706055,
+            0.011714458465576172
+          ],
+          "samples": [
+            {
+              "face": 3312,
+              "pixel": [
+                336.4946390591208,
+                401.2540260452419
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.00981605052947998
+            },
+            {
+              "face": 4988,
+              "pixel": [
+                326.28217036397575,
+                405.61154462450565
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": false,
+              "head_depth_in_front_of_eye_sample_source_units": null
+            },
+            {
+              "face": 5036,
+              "pixel": [
+                335.8249411652509,
+                404.8584836777654
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.00913691520690918
+            },
+            {
+              "face": 5084,
+              "pixel": [
+                325.59603350973,
+                402.2789755551428
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.010683655738830566
+            },
+            {
+              "face": 5132,
+              "pixel": [
+                334.2311448164326,
+                407.6055444238367
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": false,
+              "head_depth_in_front_of_eye_sample_source_units": null
+            },
+            {
+              "face": 5180,
+              "pixel": [
+                331.203419717017,
+                394.539505460282
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.011105060577392578
+            },
+            {
+              "face": 5228,
+              "pixel": [
+                332.1562197941057,
+                397.5088905291203
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.010850191116333008
+            },
+            {
+              "face": 5276,
+              "pixel": [
+                333.11033912061293,
+                397.97645715965996
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.010676145553588867
+            },
+            {
+              "face": 5324,
+              "pixel": [
+                333.97506340443834,
+                398.6377349043793
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.010502338409423828
+            },
+            {
+              "face": 5384,
+              "pixel": [
+                334.71761009225804,
+                399.4658748521059
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.010398507118225098
+            },
+            {
+              "face": 5432,
+              "pixel": [
+                335.3097424781425,
+                400.4299839166806
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.01028144359588623
+            },
+            {
+              "face": 9472,
+              "pixel": [
+                330.59072770314503,
+                398.5526343761828
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.011396050453186035
+            },
+            {
+              "face": 9536,
+              "pixel": [
+                329.5239158660604,
+                398.30453899286033
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.011377334594726562
+            },
+            {
+              "face": 9616,
+              "pixel": [
+                328.5527694800389,
+                399.4556824582544
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.011584639549255371
+            },
+            {
+              "face": 9680,
+              "pixel": [
+                327.4972308676548,
+                399.79651769810846
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.011458396911621094
+            },
+            {
+              "face": 9760,
+              "pixel": [
+                327.3384997312824,
+                401.53313869106216
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.011243462562561035
+            },
+            {
+              "face": 9824,
+              "pixel": [
+                326.6009479124964,
+                402.36529897191923
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.010733842849731445
+            },
+            {
+              "face": 9904,
+              "pixel": [
+                327.4119684135132,
+                404.08670289966653
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.009616374969482422
+            },
+            {
+              "face": 9968,
+              "pixel": [
+                327.1746743848056,
+                405.1447806698171
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": false,
+              "head_depth_in_front_of_eye_sample_source_units": null
+            },
+            {
+              "face": 10048,
+              "pixel": [
+                328.74871378148737,
+                406.24777451166415
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": false,
+              "head_depth_in_front_of_eye_sample_source_units": null
+            },
+            {
+              "face": 10112,
+              "pixel": [
+                329.02202490878005,
+                407.1883019928812
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": false,
+              "head_depth_in_front_of_eye_sample_source_units": null
+            },
+            {
+              "face": 10192,
+              "pixel": [
+                330.8913894140168,
+                407.2834210680556
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": false,
+              "head_depth_in_front_of_eye_sample_source_units": null
+            },
+            {
+              "face": 10256,
+              "pixel": [
+                331.51264462818125,
+                407.80797172355767
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": false,
+              "head_depth_in_front_of_eye_sample_source_units": null
+            },
+            {
+              "face": 10336,
+              "pixel": [
+                333.11236965209764,
+                406.85046287971886
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": false,
+              "head_depth_in_front_of_eye_sample_source_units": null
+            },
+            {
+              "face": 10400,
+              "pixel": [
+                333.80431199851387,
+                406.8010367234136
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": false,
+              "head_depth_in_front_of_eye_sample_source_units": null
+            },
+            {
+              "face": 10480,
+              "pixel": [
+                334.6659090254343,
+                405.1018573799985
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.00969851016998291
+            },
+            {
+              "face": 10544,
+              "pixel": [
+                335.1300305076428,
+                404.51290589519715
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.009665489196777344
+            },
+            {
+              "face": 10624,
+              "pixel": [
+                335.03560483314175,
+                402.627599134938
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.010405302047729492
+            },
+            {
+              "face": 10688,
+              "pixel": [
+                335.0490794559686,
+                401.71128305946655
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.01033484935760498
+            },
+            {
+              "face": 10768,
+              "pixel": [
+                334.0993430574996,
+                400.2545128164882
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.010765433311462402
+            },
+            {
+              "face": 10832,
+              "pixel": [
+                333.5885074302154,
+                399.3337790436038
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.010628700256347656
+            },
+            {
+              "face": 10912,
+              "pixel": [
+                332.1680135660166,
+                398.77724453698613
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.011111736297607422
+            },
+            {
+              "face": 10976,
+              "pixel": [
+                331.230774274239,
+                398.17946957828724
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.011112093925476074
+            },
+            {
+              "face": 11040,
+              "pixel": [
+                328.05979935090545,
+                408.912326538073
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": false,
+              "head_depth_in_front_of_eye_sample_source_units": null
+            },
+            {
+              "face": 11088,
+              "pixel": [
+                329.17329354392314,
+                409.45466917933345
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": false,
+              "head_depth_in_front_of_eye_sample_source_units": null
+            },
+            {
+              "face": 11136,
+              "pixel": [
+                330.34701226762877,
+                409.75029231110045
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": false,
+              "head_depth_in_front_of_eye_sample_source_units": null
+            },
+            {
+              "face": 11184,
+              "pixel": [
+                331.5357910976493,
+                409.7876087908901
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": false,
+              "head_depth_in_front_of_eye_sample_source_units": null
+            },
+            {
+              "face": 11232,
+              "pixel": [
+                332.6940086406863,
+                409.56540268399704
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": false,
+              "head_depth_in_front_of_eye_sample_source_units": null
+            },
+            {
+              "face": 11280,
+              "pixel": [
+                333.3211448462349,
+                408.00647703780817
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": false,
+              "head_depth_in_front_of_eye_sample_source_units": null
+            },
+            {
+              "face": 11328,
+              "pixel": [
+                324.88615811323496,
+                400.87728099515914
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.011340618133544922
+            },
+            {
+              "face": 11376,
+              "pixel": [
+                336.1857399866684,
+                406.39373435999016
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": false,
+              "head_depth_in_front_of_eye_sample_source_units": null
+            },
+            {
+              "face": 11424,
+              "pixel": [
+                324.99726911396704,
+                404.8113662079427
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": false,
+              "head_depth_in_front_of_eye_sample_source_units": null
+            },
+            {
+              "face": 11472,
+              "pixel": [
+                336.76315797316397,
+                402.5629479661406
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.00952160358428955
+            },
+            {
+              "face": 11520,
+              "pixel": [
+                338.54519372998897,
+                402.4423200908375
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.008924007415771484
+            },
+            {
+              "face": 11568,
+              "pixel": [
+                323.1993030230481,
+                405.36772587427595
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": false,
+              "head_depth_in_front_of_eye_sample_source_units": null
+            },
+            {
+              "face": 11616,
+              "pixel": [
+                337.7879048272806,
+                407.45029221175935
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": false,
+              "head_depth_in_front_of_eye_sample_source_units": null
+            },
+            {
+              "face": 11664,
+              "pixel": [
+                323.0563830114848,
+                400.23246903290476
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.011714458465576172
+            },
+            {
+              "face": 11712,
+              "pixel": [
+                333.22667943530564,
+                411.5899200602404
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": false,
+              "head_depth_in_front_of_eye_sample_source_units": null
+            },
+            {
+              "face": 11760,
+              "pixel": [
+                331.7155269100059,
+                411.8773753691763
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": false,
+              "head_depth_in_front_of_eye_sample_source_units": null
+            },
+            {
+              "face": 11808,
+              "pixel": [
+                330.1653134757156,
+                411.82604186431405
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": false,
+              "head_depth_in_front_of_eye_sample_source_units": null
+            },
+            {
+              "face": 11856,
+              "pixel": [
+                328.63552059191386,
+                411.43748913457046
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": false,
+              "head_depth_in_front_of_eye_sample_source_units": null
+            },
+            {
+              "face": 11904,
+              "pixel": [
+                327.1848786995856,
+                410.72669185293944
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": false,
+              "head_depth_in_front_of_eye_sample_source_units": null
+            },
+            {
+              "face": 11952,
+              "pixel": [
+                331.16152957433343,
+                395.56356686101094
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.011083602905273438
+            },
+            {
+              "face": 12000,
+              "pixel": [
+                338.1954257410596,
+                400.73117610886993
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.009341597557067871
+            },
+            {
+              "face": 12048,
+              "pixel": [
+                331.1486311297166,
+                396.55884418651084
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.011083722114562988
+            },
+            {
+              "face": 12096,
+              "pixel": [
+                324.65044956801535,
+                406.5224168093039
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": false,
+              "head_depth_in_front_of_eye_sample_source_units": null
+            },
+            {
+              "face": 12144,
+              "pixel": [
+                337.4488577266988,
+                405.52801666545804
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.0077751874923706055
+            },
+            {
+              "face": 12192,
+              "pixel": [
+                323.73425071500736,
+                402.05520581979727
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.010858535766601562
+            },
+            {
+              "face": 12240,
+              "pixel": [
+                335.30165611498927,
+                409.22073486563625
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": false,
+              "head_depth_in_front_of_eye_sample_source_units": null
+            },
+            {
+              "face": 12288,
+              "pixel": [
+                332.5195021422902,
+                395.64411061429536
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.010818004608154297
+            },
+            {
+              "face": 12336,
+              "pixel": [
+                333.80093042846795,
+                396.26926993253744
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.010575294494628906
+            },
+            {
+              "face": 12384,
+              "pixel": [
+                334.9632090344743,
+                397.1561333673742
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.010357022285461426
+            },
+            {
+              "face": 12432,
+              "pixel": [
+                335.9618013715028,
+                398.2695172918035
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.010185599327087402
+            },
+            {
+              "face": 12480,
+              "pixel": [
+                336.7583578126288,
+                399.56621827418735
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.009876847267150879
+            }
+          ]
+        },
+        {
+          "partition": "sclera",
+          "front_facing_polygon_count": 3331,
+          "sampled_in_frame_count": 64,
+          "head_occluded_samples": 57,
+          "head_occlusion_fraction": 0.890625,
+          "occluded_depth_min_max_source_units": [
+            0.0002726316452026367,
+            0.02811133861541748
+          ],
+          "samples": [
+            {
+              "face": 3,
+              "pixel": [
+                347.44108726815034,
+                373.901390079602
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.02811133861541748
+            },
+            {
+              "face": 62,
+              "pixel": [
+                343.1759181350105,
+                374.78709122391183
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.024373769760131836
+            },
+            {
+              "face": 117,
+              "pixel": [
+                338.7741272141883,
+                381.54137356911605
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.01789093017578125
+            },
+            {
+              "face": 169,
+              "pixel": [
+                342.2902289116292,
+                385.76833165612493
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.014810681343078613
+            },
+            {
+              "face": 221,
+              "pixel": [
+                355.8256305922814,
+                378.4524345019486
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.022690773010253906
+            },
+            {
+              "face": 273,
+              "pixel": [
+                349.2120643769874,
+                383.96958524109584
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.016121625900268555
+            },
+            {
+              "face": 325,
+              "pixel": [
+                348.3926396213913,
+                388.27928947292605
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.012740731239318848
+            },
+            {
+              "face": 377,
+              "pixel": [
+                359.62563317514923,
+                385.4893943472944
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.017246723175048828
+            },
+            {
+              "face": 429,
+              "pixel": [
+                353.1839448935213,
+                394.17557342149524
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.010485410690307617
+            },
+            {
+              "face": 481,
+              "pixel": [
+                356.239962329866,
+                395.6018529096503
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.010518789291381836
+            },
+            {
+              "face": 533,
+              "pixel": [
+                366.7367054328638,
+                391.6557290492166
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.017516732215881348
+            },
+            {
+              "face": 585,
+              "pixel": [
+                356.0550905841553,
+                401.4653821203954
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.009316563606262207
+            },
+            {
+              "face": 637,
+              "pixel": [
+                368.60068465865913,
+                400.23511845925975
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.01665210723876953
+            },
+            {
+              "face": 689,
+              "pixel": [
+                367.8184174371395,
+                403.1395076457855
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.015052437782287598
+            },
+            {
+              "face": 741,
+              "pixel": [
+                357.9763468910715,
+                408.1956144890939
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.008187174797058105
+            },
+            {
+              "face": 793,
+              "pixel": [
+                366.2170065952537,
+                409.5858053530929
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.013111591339111328
+            },
+            {
+              "face": 845,
+              "pixel": [
+                365.10926623704967,
+                414.21932720266466
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.012435078620910645
+            },
+            {
+              "face": 897,
+              "pixel": [
+                352.91009533762553,
+                417.2320676949792
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.005158543586730957
+            },
+            {
+              "face": 949,
+              "pixel": [
+                364.1087347623215,
+                415.61439571323416
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.012426614761352539
+            },
+            {
+              "face": 1011,
+              "pixel": [
+                349.297167885416,
+                421.0739564468878
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.006525158882141113
+            },
+            {
+              "face": 1063,
+              "pixel": [
+                346.69976843596424,
+                421.8354494637073
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.006560206413269043
+            },
+            {
+              "face": 1155,
+              "pixel": [
+                339.0950823189782,
+                422.3030876198177
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.006371974945068359
+            },
+            {
+              "face": 1207,
+              "pixel": [
+                336.7478872637794,
+                421.90702271830946
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.0061844587326049805
+            },
+            {
+              "face": 1305,
+              "pixel": [
+                331.5982647101774,
+                421.7229874244139
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.006661772727966309
+            },
+            {
+              "face": 1379,
+              "pixel": [
+                329.80085890289706,
+                423.6256073464709
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.009736895561218262
+            },
+            {
+              "face": 1528,
+              "pixel": [
+                323.2352923061334,
+                419.04529654799717
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.008448123931884766
+            },
+            {
+              "face": 1738,
+              "pixel": [
+                317.64778226026766,
+                409.2694934499465
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.002426743507385254
+            },
+            {
+              "face": 1922,
+              "pixel": [
+                315.7350017335017,
+                398.2413699928375
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.017726540565490723
+            },
+            {
+              "face": 2088,
+              "pixel": [
+                317.9712169181817,
+                392.45033592183046
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.017223477363586426
+            },
+            {
+              "face": 2223,
+              "pixel": [
+                320.14405249976903,
+                384.96552616494785
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.02382946014404297
+            },
+            {
+              "face": 2345,
+              "pixel": [
+                325.7459590535975,
+                384.2246787061422
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.018363237380981445
+            },
+            {
+              "face": 2413,
+              "pixel": [
+                332.7081826246507,
+                376.8905330939876
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.02381443977355957
+            },
+            {
+              "face": 2490,
+              "pixel": [
+                333.2063701468162,
+                382.6197742871533
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.017620086669921875
+            },
+            {
+              "face": 2560,
+              "pixel": [
+                327.9069651004885,
+                393.11051992136163
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.012012362480163574
+            },
+            {
+              "face": 2612,
+              "pixel": [
+                322.9628196174773,
+                396.2460002801418
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.012679815292358398
+            },
+            {
+              "face": 2664,
+              "pixel": [
+                322.31464297315904,
+                401.83761311222656
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.011170029640197754
+            },
+            {
+              "face": 2716,
+              "pixel": [
+                322.4720111500418,
+                406.65513846655136
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": false,
+              "head_depth_in_front_of_eye_sample_source_units": null
+            },
+            {
+              "face": 2768,
+              "pixel": [
+                328.43506223221374,
+                412.7466892104669
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": false,
+              "head_depth_in_front_of_eye_sample_source_units": null
+            },
+            {
+              "face": 2820,
+              "pixel": [
+                334.4804988511205,
+                413.35416979177114
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": false,
+              "head_depth_in_front_of_eye_sample_source_units": null
+            },
+            {
+              "face": 2872,
+              "pixel": [
+                337.41406053646165,
+                409.2469768028666
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": false,
+              "head_depth_in_front_of_eye_sample_source_units": null
+            },
+            {
+              "face": 2924,
+              "pixel": [
+                339.8836517380217,
+                405.33037561852234
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.00723576545715332
+            },
+            {
+              "face": 2976,
+              "pixel": [
+                337.74759222079945,
+                396.74936744573245
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.010007858276367188
+            },
+            {
+              "face": 3028,
+              "pixel": [
+                333.01666049096343,
+                392.52132008388355
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.011188745498657227
+            },
+            {
+              "face": 3944,
+              "pixel": [
+                329.7576773262947,
+                391.28855203435614
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.012112736701965332
+            },
+            {
+              "face": 3996,
+              "pixel": [
+                338.0666201088182,
+                391.6365095322724
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.011414766311645508
+            },
+            {
+              "face": 4048,
+              "pixel": [
+                343.18882055327015,
+                399.27045705833206
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.009103178977966309
+            },
+            {
+              "face": 4100,
+              "pixel": [
+                344.7940689407162,
+                406.86615678206454
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.006658792495727539
+            },
+            {
+              "face": 4152,
+              "pixel": [
+                337.94530479330604,
+                412.2314269450734
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": false,
+              "head_depth_in_front_of_eye_sample_source_units": null
+            },
+            {
+              "face": 4204,
+              "pixel": [
+                331.8886307124841,
+                416.6311277297684
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.003811478614807129
+            },
+            {
+              "face": 4256,
+              "pixel": [
+                324.0133832290418,
+                413.224913151069
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.0026826858520507812
+            },
+            {
+              "face": 4308,
+              "pixel": [
+                319.4342883652731,
+                407.35307902681507
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": false,
+              "head_depth_in_front_of_eye_sample_source_units": null
+            },
+            {
+              "face": 4360,
+              "pixel": [
+                321.0155836337573,
+                399.2165386988107
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.012698769569396973
+            },
+            {
+              "face": 4412,
+              "pixel": [
+                324.41532117464857,
+                391.1449207407268
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.013724327087402344
+            },
+            {
+              "face": 4476,
+              "pixel": [
+                324.92364943330887,
+                386.42322003153083
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.01657235622406006
+            },
+            {
+              "face": 4528,
+              "pixel": [
+                317.87784425902987,
+                393.80739554534773
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.01648426055908203
+            },
+            {
+              "face": 4580,
+              "pixel": [
+                317.98969435732783,
+                403.7557501095235
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": false,
+              "head_depth_in_front_of_eye_sample_source_units": null
+            },
+            {
+              "face": 4632,
+              "pixel": [
+                319.80590741610894,
+                412.0140547746796
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.003484010696411133
+            },
+            {
+              "face": 4684,
+              "pixel": [
+                331.7323314455218,
+                420.3258307645388
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.005603313446044922
+            },
+            {
+              "face": 4736,
+              "pixel": [
+                342.276853629873,
+                418.89531139948724
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.00434112548828125
+            },
+            {
+              "face": 4788,
+              "pixel": [
+                344.8818030006964,
+                410.693108610586
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.0002726316452026367
+            },
+            {
+              "face": 4840,
+              "pixel": [
+                348.81507361670043,
+                403.11491477032837
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.008060693740844727
+            },
+            {
+              "face": 4892,
+              "pixel": [
+                342.636539831299,
+                389.0428453070782
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.011945724487304688
+            },
+            {
+              "face": 4944,
+              "pixel": [
+                333.61344601259844,
+                383.64898453557555
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.016571760177612305
+            },
+            {
+              "face": 6129,
+              "pixel": [
+                365.80405967219434,
+                387.32169569247185
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.022039175033569336
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "eye": "GEO-eye.R_SavedChannelRestCandidate",
+      "evaluated_vertices": 13058,
+      "evaluated_polygons": 13056,
+      "partitions": [
+        {
+          "partition": "pupil",
+          "front_facing_polygon_count": 1638,
+          "sampled_in_frame_count": 64,
+          "head_occluded_samples": 13,
+          "head_occlusion_fraction": 0.203125,
+          "occluded_depth_min_max_source_units": [
+            0.005159258842468262,
+            0.01345360279083252
+          ],
+          "samples": [
+            {
+              "face": 3056,
+              "pixel": [
+                223.90177154931342,
+                397.2010871886775
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": false,
+              "head_depth_in_front_of_eye_sample_source_units": null
+            },
+            {
+              "face": 3081,
+              "pixel": [
+                218.5736410389884,
+                392.7784773596733
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": false,
+              "head_depth_in_front_of_eye_sample_source_units": null
+            },
+            {
+              "face": 3114,
+              "pixel": [
+                218.5592246628116,
+                393.5402654194727
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": false,
+              "head_depth_in_front_of_eye_sample_source_units": null
+            },
+            {
+              "face": 3171,
+              "pixel": [
+                218.67959425133094,
+                394.90196129075844
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": false,
+              "head_depth_in_front_of_eye_sample_source_units": null
+            },
+            {
+              "face": 3212,
+              "pixel": [
+                218.93072847800536,
+                395.4376073504445
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": false,
+              "head_depth_in_front_of_eye_sample_source_units": null
+            },
+            {
+              "face": 3269,
+              "pixel": [
+                219.56818026033318,
+                396.80117480750187
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": false,
+              "head_depth_in_front_of_eye_sample_source_units": null
+            },
+            {
+              "face": 3310,
+              "pixel": [
+                220.08949041010976,
+                397.11302530316414
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": false,
+              "head_depth_in_front_of_eye_sample_source_units": null
+            },
+            {
+              "face": 3367,
+              "pixel": [
+                220.48941371880315,
+                390.0617389853104
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.013352155685424805
+            },
+            {
+              "face": 3408,
+              "pixel": [
+                220.2610246236712,
+                390.2225299587834
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.013275504112243652
+            },
+            {
+              "face": 3445,
+              "pixel": [
+                222.0486870587394,
+                397.94737009416536
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": false,
+              "head_depth_in_front_of_eye_sample_source_units": null
+            },
+            {
+              "face": 3470,
+              "pixel": [
+                219.89610116099908,
+                390.5092263019392
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.013085722923278809
+            },
+            {
+              "face": 3495,
+              "pixel": [
+                223.01647571657196,
+                397.75804687507764
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": false,
+              "head_depth_in_front_of_eye_sample_source_units": null
+            },
+            {
+              "face": 3520,
+              "pixel": [
+                222.67237414231403,
+                390.1351604805326
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.013275146484375
+            },
+            {
+              "face": 3545,
+              "pixel": [
+                223.66088932113294,
+                397.37124652182075
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": false,
+              "head_depth_in_front_of_eye_sample_source_units": null
+            },
+            {
+              "face": 3586,
+              "pixel": [
+                223.87376531466782,
+                395.2125104183948
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": false,
+              "head_depth_in_front_of_eye_sample_source_units": null
+            },
+            {
+              "face": 3611,
+              "pixel": [
+                221.0426242731959,
+                394.35197038046635
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": false,
+              "head_depth_in_front_of_eye_sample_source_units": null
+            },
+            {
+              "face": 3636,
+              "pixel": [
+                223.09186366828823,
+                395.2599358455366
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": false,
+              "head_depth_in_front_of_eye_sample_source_units": null
+            },
+            {
+              "face": 3661,
+              "pixel": [
+                220.7210612010534,
+                395.0865071977573
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": false,
+              "head_depth_in_front_of_eye_sample_source_units": null
+            },
+            {
+              "face": 3686,
+              "pixel": [
+                224.4471301854797,
+                394.00040928521116
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": false,
+              "head_depth_in_front_of_eye_sample_source_units": null
+            },
+            {
+              "face": 3727,
+              "pixel": [
+                219.43546058990717,
+                392.73435303631015
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": false,
+              "head_depth_in_front_of_eye_sample_source_units": null
+            },
+            {
+              "face": 3752,
+              "pixel": [
+                222.78865882600707,
+                396.24317700691313
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": false,
+              "head_depth_in_front_of_eye_sample_source_units": null
+            },
+            {
+              "face": 3777,
+              "pixel": [
+                224.39264359503414,
+                394.7360189860654
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": false,
+              "head_depth_in_front_of_eye_sample_source_units": null
+            },
+            {
+              "face": 3802,
+              "pixel": [
+                220.15082756078928,
+                392.28462061148406
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": false,
+              "head_depth_in_front_of_eye_sample_source_units": null
+            },
+            {
+              "face": 3827,
+              "pixel": [
+                219.31828581022083,
+                393.45783021220245
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": false,
+              "head_depth_in_front_of_eye_sample_source_units": null
+            },
+            {
+              "face": 3852,
+              "pixel": [
+                222.75758493909893,
+                392.0042368966644
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": false,
+              "head_depth_in_front_of_eye_sample_source_units": null
+            },
+            {
+              "face": 3877,
+              "pixel": [
+                219.69411294881056,
+                393.915365381425
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": false,
+              "head_depth_in_front_of_eye_sample_source_units": null
+            },
+            {
+              "face": 3902,
+              "pixel": [
+                220.79929428103392,
+                391.5107591346598
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.005333542823791504
+            },
+            {
+              "face": 3927,
+              "pixel": [
+                220.96766547490495,
+                394.1376191720319
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": false,
+              "head_depth_in_front_of_eye_sample_source_units": null
+            },
+            {
+              "face": 5376,
+              "pixel": [
+                222.85938966832998,
+                395.49159524871527
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": false,
+              "head_depth_in_front_of_eye_sample_source_units": null
+            },
+            {
+              "face": 9465,
+              "pixel": [
+                221.53600766118336,
+                395.7087409214679
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": false,
+              "head_depth_in_front_of_eye_sample_source_units": null
+            },
+            {
+              "face": 9554,
+              "pixel": [
+                218.3310898808205,
+                392.3906935298167
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": false,
+              "head_depth_in_front_of_eye_sample_source_units": null
+            },
+            {
+              "face": 9614,
+              "pixel": [
+                224.17916360778952,
+                396.95978872141086
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": false,
+              "head_depth_in_front_of_eye_sample_source_units": null
+            },
+            {
+              "face": 9749,
+              "pixel": [
+                217.94008342663113,
+                394.0056505201002
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": false,
+              "head_depth_in_front_of_eye_sample_source_units": null
+            },
+            {
+              "face": 9854,
+              "pixel": [
+                218.2576410668039,
+                394.5843241777291
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": false,
+              "head_depth_in_front_of_eye_sample_source_units": null
+            },
+            {
+              "face": 10039,
+              "pixel": [
+                218.94284014134246,
+                396.69588618692217
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": false,
+              "head_depth_in_front_of_eye_sample_source_units": null
+            },
+            {
+              "face": 10224,
+              "pixel": [
+                219.87497727573006,
+                397.456473213177
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": false,
+              "head_depth_in_front_of_eye_sample_source_units": null
+            },
+            {
+              "face": 10329,
+              "pixel": [
+                220.92203216067824,
+                397.9001632173791
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": false,
+              "head_depth_in_front_of_eye_sample_source_units": null
+            },
+            {
+              "face": 10465,
+              "pixel": [
+                221.3580679353846,
+                398.09437203032286
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": false,
+              "head_depth_in_front_of_eye_sample_source_units": null
+            },
+            {
+              "face": 10522,
+              "pixel": [
+                219.843442446254,
+                390.3445376815582
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.013077139854431152
+            },
+            {
+              "face": 10617,
+              "pixel": [
+                222.27645626559035,
+                398.0366111581877
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": false,
+              "head_depth_in_front_of_eye_sample_source_units": null
+            },
+            {
+              "face": 10706,
+              "pixel": [
+                222.60742892394748,
+                397.9718576680876
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": false,
+              "head_depth_in_front_of_eye_sample_source_units": null
+            },
+            {
+              "face": 10763,
+              "pixel": [
+                218.9783327190744,
+                391.2105548894185
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.011277437210083008
+            },
+            {
+              "face": 10852,
+              "pixel": [
+                222.98918473763524,
+                397.9411463760874
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": false,
+              "head_depth_in_front_of_eye_sample_source_units": null
+            },
+            {
+              "face": 10909,
+              "pixel": [
+                222.41761595338122,
+                390.0657816701817
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.013411402702331543
+            },
+            {
+              "face": 10998,
+              "pixel": [
+                218.29640792622536,
+                391.81175661835044
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": false,
+              "head_depth_in_front_of_eye_sample_source_units": null
+            },
+            {
+              "face": 12543,
+              "pixel": [
+                221.93950724842125,
+                390.237114718075
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.013303875923156738
+            },
+            {
+              "face": 12568,
+              "pixel": [
+                224.8942444763881,
+                393.3159453345956
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": false,
+              "head_depth_in_front_of_eye_sample_source_units": null
+            },
+            {
+              "face": 12593,
+              "pixel": [
+                218.9273270397454,
+                394.63886441235286
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": false,
+              "head_depth_in_front_of_eye_sample_source_units": null
+            },
+            {
+              "face": 12618,
+              "pixel": [
+                218.8246004253785,
+                392.250824282534
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": false,
+              "head_depth_in_front_of_eye_sample_source_units": null
+            },
+            {
+              "face": 12643,
+              "pixel": [
+                225.08652110550716,
+                393.85106985366065
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": false,
+              "head_depth_in_front_of_eye_sample_source_units": null
+            },
+            {
+              "face": 12668,
+              "pixel": [
+                224.35352705504388,
+                391.5465835115678
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.005159258842468262
+            },
+            {
+              "face": 12693,
+              "pixel": [
+                224.19164084626672,
+                396.1581629054482
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": false,
+              "head_depth_in_front_of_eye_sample_source_units": null
+            },
+            {
+              "face": 12718,
+              "pixel": [
+                218.7403750920147,
+                394.29728014082593
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": false,
+              "head_depth_in_front_of_eye_sample_source_units": null
+            },
+            {
+              "face": 12743,
+              "pixel": [
+                224.51158267213575,
+                392.70648786598485
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": false,
+              "head_depth_in_front_of_eye_sample_source_units": null
+            },
+            {
+              "face": 12768,
+              "pixel": [
+                224.66752431124354,
+                395.7362176682068
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": false,
+              "head_depth_in_front_of_eye_sample_source_units": null
+            },
+            {
+              "face": 12793,
+              "pixel": [
+                224.89600877380337,
+                395.4769354869153
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": false,
+              "head_depth_in_front_of_eye_sample_source_units": null
+            },
+            {
+              "face": 12818,
+              "pixel": [
+                221.43510892251692,
+                390.07941027166805
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.01345360279083252
+            },
+            {
+              "face": 12843,
+              "pixel": [
+                222.17899075432652,
+                397.77927407506013
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": false,
+              "head_depth_in_front_of_eye_sample_source_units": null
+            },
+            {
+              "face": 12868,
+              "pixel": [
+                219.48279462326389,
+                395.52901305639693
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": false,
+              "head_depth_in_front_of_eye_sample_source_units": null
+            },
+            {
+              "face": 12893,
+              "pixel": [
+                218.88506337463605,
+                392.07855742857623
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": false,
+              "head_depth_in_front_of_eye_sample_source_units": null
+            },
+            {
+              "face": 12918,
+              "pixel": [
+                223.76143837923058,
+                391.44306812909963
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.005278348922729492
+            },
+            {
+              "face": 12943,
+              "pixel": [
+                223.04341701493988,
+                397.3781189370903
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": false,
+              "head_depth_in_front_of_eye_sample_source_units": null
+            },
+            {
+              "face": 12968,
+              "pixel": [
+                221.1485298018245,
+                390.26054232277306
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.013300895690917969
+            },
+            {
+              "face": 12993,
+              "pixel": [
+                220.96669590605512,
+                397.293492265801
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": false,
+              "head_depth_in_front_of_eye_sample_source_units": null
+            }
+          ]
+        },
+        {
+          "partition": "iris",
+          "front_facing_polygon_count": 3044,
+          "sampled_in_frame_count": 64,
+          "head_occluded_samples": 27,
+          "head_occlusion_fraction": 0.421875,
+          "occluded_depth_min_max_source_units": [
+            0.003636956214904785,
+            0.01444995403289795
+          ],
+          "samples": [
+            {
+              "face": 3312,
+              "pixel": [
+                226.28226970504645,
+                392.3795007713834
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.003636956214904785
+            },
+            {
+              "face": 4987,
+              "pixel": [
+                225.97455080451365,
+                393.7232933949116
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": false,
+              "head_depth_in_front_of_eye_sample_source_units": null
+            },
+            {
+              "face": 5034,
+              "pixel": [
+                216.040570893265,
+                395.31463204564125
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": false,
+              "head_depth_in_front_of_eye_sample_source_units": null
+            },
+            {
+              "face": 5081,
+              "pixel": [
+                225.25621154879684,
+                397.6275405237062
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": false,
+              "head_depth_in_front_of_eye_sample_source_units": null
+            },
+            {
+              "face": 5128,
+              "pixel": [
+                216.36930241706762,
+                391.6325483070791
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": false,
+              "head_depth_in_front_of_eye_sample_source_units": null
+            },
+            {
+              "face": 5175,
+              "pixel": [
+                224.335756924321,
+                402.51404434386717
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": false,
+              "head_depth_in_front_of_eye_sample_source_units": null
+            },
+            {
+              "face": 5222,
+              "pixel": [
+                222.04064440565725,
+                399.37464199961653
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": false,
+              "head_depth_in_front_of_eye_sample_source_units": null
+            },
+            {
+              "face": 5269,
+              "pixel": [
+                221.38287936119718,
+                399.4426121535853
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": false,
+              "head_depth_in_front_of_eye_sample_source_units": null
+            },
+            {
+              "face": 5316,
+              "pixel": [
+                220.71641998623136,
+                399.39391615414957
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": false,
+              "head_depth_in_front_of_eye_sample_source_units": null
+            },
+            {
+              "face": 5363,
+              "pixel": [
+                220.05571444607915,
+                399.2296566871938
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": false,
+              "head_depth_in_front_of_eye_sample_source_units": null
+            },
+            {
+              "face": 5422,
+              "pixel": [
+                219.11100470578654,
+                399.0292430309755
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": false,
+              "head_depth_in_front_of_eye_sample_source_units": null
+            },
+            {
+              "face": 5469,
+              "pixel": [
+                225.49806334582712,
+                392.33505955000476
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.003877878189086914
+            },
+            {
+              "face": 9524,
+              "pixel": [
+                220.0815749135981,
+                389.85974034230946
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.013163328170776367
+            },
+            {
+              "face": 9587,
+              "pixel": [
+                219.1492788334974,
+                389.43927727384266
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.013022422790527344
+            },
+            {
+              "face": 9666,
+              "pixel": [
+                218.30592877443917,
+                391.02281665711337
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.011446356773376465
+            },
+            {
+              "face": 9729,
+              "pixel": [
+                217.5543380755449,
+                391.3790497629226
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.010080337524414062
+            },
+            {
+              "face": 9808,
+              "pixel": [
+                217.67303873407684,
+                393.3874013667344
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": false,
+              "head_depth_in_front_of_eye_sample_source_units": null
+            },
+            {
+              "face": 9871,
+              "pixel": [
+                217.72626965338907,
+                394.4656493478755
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": false,
+              "head_depth_in_front_of_eye_sample_source_units": null
+            },
+            {
+              "face": 9934,
+              "pixel": [
+                217.15344519800163,
+                395.55066642957263
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": false,
+              "head_depth_in_front_of_eye_sample_source_units": null
+            },
+            {
+              "face": 10013,
+              "pixel": [
+                218.46961106977417,
+                396.96385872507653
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": false,
+              "head_depth_in_front_of_eye_sample_source_units": null
+            },
+            {
+              "face": 10076,
+              "pixel": [
+                218.3833194421403,
+                397.9379754091114
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": false,
+              "head_depth_in_front_of_eye_sample_source_units": null
+            },
+            {
+              "face": 10155,
+              "pixel": [
+                220.06904999140698,
+                398.27061898427735
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": false,
+              "head_depth_in_front_of_eye_sample_source_units": null
+            },
+            {
+              "face": 10218,
+              "pixel": [
+                220.3355383739655,
+                399.100022550423
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": false,
+              "head_depth_in_front_of_eye_sample_source_units": null
+            },
+            {
+              "face": 10297,
+              "pixel": [
+                222.16918380382918,
+                398.4248718251836
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": false,
+              "head_depth_in_front_of_eye_sample_source_units": null
+            },
+            {
+              "face": 10360,
+              "pixel": [
+                222.81908103549156,
+                398.578659749879
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": false,
+              "head_depth_in_front_of_eye_sample_source_units": null
+            },
+            {
+              "face": 10439,
+              "pixel": [
+                224.08794466305,
+                397.1384685381862
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": false,
+              "head_depth_in_front_of_eye_sample_source_units": null
+            },
+            {
+              "face": 10502,
+              "pixel": [
+                224.64142542515492,
+                396.59651432051203
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": false,
+              "head_depth_in_front_of_eye_sample_source_units": null
+            },
+            {
+              "face": 10588,
+              "pixel": [
+                225.0820865201121,
+                394.6436009946028
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": false,
+              "head_depth_in_front_of_eye_sample_source_units": null
+            },
+            {
+              "face": 10675,
+              "pixel": [
+                224.91865853791796,
+                393.09220142792856
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": false,
+              "head_depth_in_front_of_eye_sample_source_units": null
+            },
+            {
+              "face": 10747,
+              "pixel": [
+                224.91166492654227,
+                392.0315328426547
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.004138827323913574
+            },
+            {
+              "face": 10830,
+              "pixel": [
+                223.44340390191857,
+                390.52413839005874
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.012280106544494629
+            },
+            {
+              "face": 10893,
+              "pixel": [
+                222.77084101157027,
+                389.4654556327878
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.012914538383483887
+            },
+            {
+              "face": 10972,
+              "pixel": [
+                221.4875292186924,
+                389.48190850091345
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.013120174407958984
+            },
+            {
+              "face": 11035,
+              "pixel": [
+                225.90196029734767,
+                391.82788315105904
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.003808140754699707
+            },
+            {
+              "face": 11082,
+              "pixel": [
+                225.21313726055078,
+                390.80150958691
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.010747432708740234
+            },
+            {
+              "face": 11129,
+              "pixel": [
+                224.3369490171691,
+                389.5972742797027
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.012635350227355957
+            },
+            {
+              "face": 11176,
+              "pixel": [
+                223.25586385504945,
+                388.6606330211706
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.013217926025390625
+            },
+            {
+              "face": 11223,
+              "pixel": [
+                222.0340958422782,
+                388.04958237013886
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.013539671897888184
+            },
+            {
+              "face": 11270,
+              "pixel": [
+                221.5186666838858,
+                388.77768561134
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.01328420639038086
+            },
+            {
+              "face": 11317,
+              "pixel": [
+                224.85485772868566,
+                399.28394360208733
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": false,
+              "head_depth_in_front_of_eye_sample_source_units": null
+            },
+            {
+              "face": 11364,
+              "pixel": [
+                214.9633799011159,
+                393.4663119528169
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": false,
+              "head_depth_in_front_of_eye_sample_source_units": null
+            },
+            {
+              "face": 11411,
+              "pixel": [
+                226.13077854590503,
+                396.5235363831705
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": false,
+              "head_depth_in_front_of_eye_sample_source_units": null
+            },
+            {
+              "face": 11458,
+              "pixel": [
+                215.82030392407165,
+                396.7415214879703
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": false,
+              "head_depth_in_front_of_eye_sample_source_units": null
+            },
+            {
+              "face": 11505,
+              "pixel": [
+                215.4000355641033,
+                399.28264720111497
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": false,
+              "head_depth_in_front_of_eye_sample_source_units": null
+            },
+            {
+              "face": 11552,
+              "pixel": [
+                228.23491779029698,
+                395.3276844689177
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": false,
+              "head_depth_in_front_of_eye_sample_source_units": null
+            },
+            {
+              "face": 11599,
+              "pixel": [
+                228.23823975570045,
+                397.1077651934717
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": false,
+              "head_depth_in_front_of_eye_sample_source_units": null
+            },
+            {
+              "face": 11646,
+              "pixel": [
+                213.22414822482472,
+                392.3971795083213
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": false,
+              "head_depth_in_front_of_eye_sample_source_units": null
+            },
+            {
+              "face": 11693,
+              "pixel": [
+                225.29814142790866,
+                401.89973903100736
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": false,
+              "head_depth_in_front_of_eye_sample_source_units": null
+            },
+            {
+              "face": 11740,
+              "pixel": [
+                223.4374593322492,
+                386.06479148805977
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.01444995403289795
+            },
+            {
+              "face": 11787,
+              "pixel": [
+                224.61971344074752,
+                387.15905821684765
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.013903141021728516
+            },
+            {
+              "face": 11834,
+              "pixel": [
+                225.59385992710355,
+                388.4527523933748
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.013191580772399902
+            },
+            {
+              "face": 11881,
+              "pixel": [
+                226.29134550526356,
+                389.4122177596006
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.012472867965698242
+            },
+            {
+              "face": 11928,
+              "pixel": [
+                226.87033705431872,
+                390.4737252802163
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.01096189022064209
+            },
+            {
+              "face": 11975,
+              "pixel": [
+                223.39052266317518,
+                400.9326099978841
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": false,
+              "head_depth_in_front_of_eye_sample_source_units": null
+            },
+            {
+              "face": 12022,
+              "pixel": [
+                216.29469329934545,
+                390.6342837955839
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.011841773986816406
+            },
+            {
+              "face": 12069,
+              "pixel": [
+                216.12346108263887,
+                399.11006295243646
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": false,
+              "head_depth_in_front_of_eye_sample_source_units": null
+            },
+            {
+              "face": 12116,
+              "pixel": [
+                227.59822894739193,
+                394.8212774665643
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": false,
+              "head_depth_in_front_of_eye_sample_source_units": null
+            },
+            {
+              "face": 12163,
+              "pixel": [
+                214.52602487699093,
+                394.16737182270003
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": false,
+              "head_depth_in_front_of_eye_sample_source_units": null
+            },
+            {
+              "face": 12210,
+              "pixel": [
+                225.8350441521389,
+                399.57302214411806
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": false,
+              "head_depth_in_front_of_eye_sample_source_units": null
+            },
+            {
+              "face": 12257,
+              "pixel": [
+                215.8131990506967,
+                389.0797073014693
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.012763738632202148
+            },
+            {
+              "face": 12304,
+              "pixel": [
+                216.50672688060098,
+                387.87048407910333
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.013244390487670898
+            },
+            {
+              "face": 12351,
+              "pixel": [
+                223.8164812796719,
+                387.1395213051827
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.01391136646270752
+            },
+            {
+              "face": 12398,
+              "pixel": [
+                225.204029671191,
+                388.34135777388576
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.013263106346130371
+            },
+            {
+              "face": 12445,
+              "pixel": [
+                226.32903153383606,
+                389.8885035559136
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.01200413703918457
+            }
+          ]
+        },
+        {
+          "partition": "sclera",
+          "front_facing_polygon_count": 3332,
+          "sampled_in_frame_count": 64,
+          "head_occluded_samples": 55,
+          "head_occlusion_fraction": 0.859375,
+          "occluded_depth_min_max_source_units": [
+            0.00014472007751464844,
+            0.044623613357543945
+          ],
+          "samples": [
+            {
+              "face": 1,
+              "pixel": [
+                239.01604656314663,
+                364.9623825167663
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.041143059730529785
+            },
+            {
+              "face": 60,
+              "pixel": [
+                235.16191501768765,
+                366.71279205033017
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.03496551513671875
+            },
+            {
+              "face": 113,
+              "pixel": [
+                229.45873620276703,
+                373.9123066698588
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.026610493659973145
+            },
+            {
+              "face": 165,
+              "pixel": [
+                232.71175095590948,
+                374.29035209455685
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.02774345874786377
+            },
+            {
+              "face": 217,
+              "pixel": [
+                244.0514626482541,
+                369.6113777315069
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.03658032417297363
+            },
+            {
+              "face": 269,
+              "pixel": [
+                238.87882872904026,
+                378.1157864882236
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.02830326557159424
+            },
+            {
+              "face": 321,
+              "pixel": [
+                237.89322225677083,
+                380.9822787947544
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.025989770889282227
+            },
+            {
+              "face": 373,
+              "pixel": [
+                250.96828735000742,
+                374.42675731870503
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.03878593444824219
+            },
+            {
+              "face": 425,
+              "pixel": [
+                239.052953757725,
+                385.7808816619364
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.02213466167449951
+            },
+            {
+              "face": 477,
+              "pixel": [
+                256.00039736428266,
+                382.201487781545
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.0383448600769043
+            },
+            {
+              "face": 529,
+              "pixel": [
+                258.1625438466651,
+                384.4706926456812
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.03934955596923828
+            },
+            {
+              "face": 581,
+              "pixel": [
+                248.1854816998847,
+                390.18760362515434
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.029759526252746582
+            },
+            {
+              "face": 633,
+              "pixel": [
+                258.5817234284988,
+                390.9833330518669
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.03710353374481201
+            },
+            {
+              "face": 685,
+              "pixel": [
+                257.6132671986712,
+                397.5969395002945
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.036403536796569824
+            },
+            {
+              "face": 737,
+              "pixel": [
+                246.5474507591148,
+                400.65018830099945
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.028590798377990723
+            },
+            {
+              "face": 789,
+              "pixel": [
+                259.33080278512625,
+                398.18198787442896
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.03860127925872803
+            },
+            {
+              "face": 841,
+              "pixel": [
+                255.81906414750955,
+                405.6677816046166
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.04064822196960449
+            },
+            {
+              "face": 893,
+              "pixel": [
+                239.6372699881685,
+                409.41882692103275
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.006347537040710449
+            },
+            {
+              "face": 945,
+              "pixel": [
+                254.70839918818479,
+                408.4260480234604
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.042835116386413574
+            },
+            {
+              "face": 999,
+              "pixel": [
+                235.8005112091497,
+                408.5922694765619
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.0045768022537231445
+            },
+            {
+              "face": 1051,
+              "pixel": [
+                231.98799165137643,
+                412.6401975695213
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.005521535873413086
+            },
+            {
+              "face": 1103,
+              "pixel": [
+                246.76140758349862,
+                415.2195348255024
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.04439568519592285
+            },
+            {
+              "face": 1187,
+              "pixel": [
+                236.48359630570428,
+                417.4387964630605
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.011514067649841309
+            },
+            {
+              "face": 1239,
+              "pixel": [
+                233.55889981751048,
+                417.55454470497193
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.011023998260498047
+            },
+            {
+              "face": 1361,
+              "pixel": [
+                220.4571795281895,
+                412.7289131192798
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.0064198970794677734
+            },
+            {
+              "face": 1480,
+              "pixel": [
+                218.33550857164428,
+                412.67555106975436
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.008369684219360352
+            },
+            {
+              "face": 1761,
+              "pixel": [
+                208.66310562041974,
+                398.4196206561875
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": false,
+              "head_depth_in_front_of_eye_sample_source_units": null
+            },
+            {
+              "face": 2080,
+              "pixel": [
+                209.55812893080198,
+                382.276811409918
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.018601298332214355
+            },
+            {
+              "face": 2244,
+              "pixel": [
+                213.36293962149063,
+                375.9825581915157
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.02392446994781494
+            },
+            {
+              "face": 2358,
+              "pixel": [
+                216.95786249805042,
+                372.01803636479235
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.02735733985900879
+            },
+            {
+              "face": 2430,
+              "pixel": [
+                226.41684904031558,
+                366.03134608144177
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.03487825393676758
+            },
+            {
+              "face": 2510,
+              "pixel": [
+                227.47102469320996,
+                367.6996084968405
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.03159356117248535
+            },
+            {
+              "face": 2580,
+              "pixel": [
+                216.17257530798216,
+                384.4865184232983
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.01467883586883545
+            },
+            {
+              "face": 2632,
+              "pixel": [
+                213.76148010248025,
+                389.3112718339256
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.01244056224822998
+            },
+            {
+              "face": 2684,
+              "pixel": [
+                212.38283267089398,
+                393.6522794305373
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": false,
+              "head_depth_in_front_of_eye_sample_source_units": null
+            },
+            {
+              "face": 2736,
+              "pixel": [
+                215.7368892138446,
+                401.7392455840411
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": false,
+              "head_depth_in_front_of_eye_sample_source_units": null
+            },
+            {
+              "face": 2788,
+              "pixel": [
+                220.94245668480966,
+                404.901142720336
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": false,
+              "head_depth_in_front_of_eye_sample_source_units": null
+            },
+            {
+              "face": 2840,
+              "pixel": [
+                224.81818895267688,
+                402.60329236176443
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": false,
+              "head_depth_in_front_of_eye_sample_source_units": null
+            },
+            {
+              "face": 2892,
+              "pixel": [
+                228.29056468444804,
+                400.1357972567956
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": false,
+              "head_depth_in_front_of_eye_sample_source_units": null
+            },
+            {
+              "face": 2944,
+              "pixel": [
+                229.1402566774584,
+                391.5015283623724
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.003032207489013672
+            },
+            {
+              "face": 2996,
+              "pixel": [
+                226.30652482086325,
+                385.5795098610914
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.01523888111114502
+            },
+            {
+              "face": 3048,
+              "pixel": [
+                221.38175084663428,
+                384.7434323134647
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.015029311180114746
+            },
+            {
+              "face": 3964,
+              "pixel": [
+                223.7247219195079,
+                380.51086816148484
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.019353389739990234
+            },
+            {
+              "face": 4016,
+              "pixel": [
+                230.50512351572021,
+                385.6271826474991
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.016657114028930664
+            },
+            {
+              "face": 4068,
+              "pixel": [
+                234.42590099867581,
+                392.29693741413206
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.0029131174087524414
+            },
+            {
+              "face": 4120,
+              "pixel": [
+                230.06638566389142,
+                399.9691655250722
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": false,
+              "head_depth_in_front_of_eye_sample_source_units": null
+            },
+            {
+              "face": 4172,
+              "pixel": [
+                226.55465497356036,
+                406.8778551865476
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.0027190446853637695
+            },
+            {
+              "face": 4224,
+              "pixel": [
+                218.81099467233835,
+                406.9382009133418
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.0032978057861328125
+            },
+            {
+              "face": 4276,
+              "pixel": [
+                213.17870564545373,
+                403.39417245411187
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.00014472007751464844
+            },
+            {
+              "face": 4328,
+              "pixel": [
+                211.5746096144275,
+                394.6756007402897
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": false,
+              "head_depth_in_front_of_eye_sample_source_units": null
+            },
+            {
+              "face": 4380,
+              "pixel": [
+                212.04294315803278,
+                385.76645162636237
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.014249324798583984
+            },
+            {
+              "face": 4432,
+              "pixel": [
+                218.13898809198588,
+                380.5534599004801
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.017893314361572266
+            },
+            {
+              "face": 4496,
+              "pixel": [
+                212.96395409250442,
+                378.996144573047
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.019823551177978516
+            },
+            {
+              "face": 4548,
+              "pixel": [
+                209.63073533253925,
+                388.4704783173212
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.013832449913024902
+            },
+            {
+              "face": 4600,
+              "pixel": [
+                208.77443119786454,
+                396.34996567766007
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": false,
+              "head_depth_in_front_of_eye_sample_source_units": null
+            },
+            {
+              "face": 4652,
+              "pixel": [
+                216.72262284268444,
+                409.0784585842109
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.004958152770996094
+            },
+            {
+              "face": 4704,
+              "pixel": [
+                226.6469388545776,
+                412.2760370462721
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.004729509353637695
+            },
+            {
+              "face": 4756,
+              "pixel": [
+                231.3199269247084,
+                406.5755563348311
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.0027936697006225586
+            },
+            {
+              "face": 4808,
+              "pixel": [
+                237.3965010088086,
+                401.19498367329504
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.0003050565719604492
+            },
+            {
+              "face": 4860,
+              "pixel": [
+                236.3891507629891,
+                385.8492106855229
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.0197908878326416
+            },
+            {
+              "face": 4912,
+              "pixel": [
+                230.1820186701608,
+                376.84795004733604
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.024561285972595215
+            },
+            {
+              "face": 4964,
+              "pixel": [
+                220.83006617108717,
+                377.7917403860195
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.02095186710357666
+            },
+            {
+              "face": 6129,
+              "pixel": [
+                258.1526892124538,
+                378.8298441437942
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.044623613357543945
+            },
+            {
+              "face": 6396,
+              "pixel": [
+                261.37531354525436,
+                388.7457901737773
+              ],
+              "in_frame": true,
+              "head_hit_before_eye_surface": true,
+              "head_depth_in_front_of_eye_sample_source_units": 0.043271422386169434
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "method": "Uniformly subsample up to64 front-facing evaluated faces per material partition. Cast parallel orthographic camera rays from2 source units before each eye-face centroid against evaluated head-only BVH. Head hit before sample by>1e-5 indicates head occlusion in this saved view.",
+  "limits": [
+    "This identifies current-view head occlusion, not the original rig neutral pose or a justified corrective eye offset.",
+    "Head-only occlusion test does not count eye self-occlusion, cornea or optical transparency.",
+    "Uniform face samples are not a pixel-area-weighted visibility percentage."
+  ],
+  "new_render_or_saved_blend": false,
+  "source_native_library_opened": false,
+  "only_existing_clean_scene_evaluated": true,
+  "elapsed_seconds": 2.0926
+}

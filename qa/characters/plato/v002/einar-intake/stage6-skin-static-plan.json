@@ -1,0 +1,559 @@
+{
+  "schema_version": 1,
+  "stage": "6_static_skin_plan_no_candidate",
+  "created_utc": "2026-10-23T13:41:55.698062+00:00",
+  "input_reports": [
+    "stage3-displacement-static.json",
+    "stage3-chain-summary.json",
+    "stage1-raw-meshes.json",
+    "stage3-image-headers.json"
+  ],
+  "blender_library_loaded": false,
+  "pixels_decoded": false,
+  "material_or_candidate_created": false,
+  "render_started": false,
+  "new_header_images_only": [
+    "einar_skin.albedo",
+    "einar_skin.roughness"
+  ],
+  "new_header_records": [
+    {
+      "name": "einar_skin.albedo",
+      "cache_path_provenance_only": "D:\\AI\\PROJECT\\hackathon_projects\\Aholo_3D_AI_Hackathon\\project-management\\source-cache\\einar-v1\\extracted\\textures\\face\\einar_skin.albedo.tif",
+      "file_bytes": 10533376,
+      "metadata_bytes_read": 188,
+      "metadata_read_calls": 7,
+      "maximum_metadata_read_end_offset": 10533376,
+      "metadata_read_limit_bytes": 1048576,
+      "source_size_mtime_unchanged": true,
+      "pixel_payload_decoded": false,
+      "channel_semantics_inferred": false,
+      "format": "TIFF",
+      "byte_order": "little",
+      "ifd_entry_count": 14,
+      "inspected_ifd_index": 0,
+      "next_ifd_offset": 0,
+      "additional_ifds_inspected": false,
+      "channel_count": 3,
+      "bits_per_sample": [
+        8,
+        8,
+        8
+      ],
+      "sample_format_codes": [
+        1,
+        1,
+        1
+      ],
+      "sample_formats": [
+        "unsigned_integer",
+        "unsigned_integer",
+        "unsigned_integer"
+      ],
+      "compression": {
+        "code": 32946,
+        "name": "DEFLATE"
+      },
+      "photometric_interpretation_code": 2,
+      "planar_configuration_code": 1,
+      "channel_names_available_in_selected_header_tags": false,
+      "memory_estimate_first_ifd": {
+        "width": 4096,
+        "height": 4096,
+        "pixel_count": 16777216,
+        "full_resolution_native_samples_bytes": 50331648,
+        "full_resolution_native_samples_mib": 48.0,
+        "full_resolution_float32_samples_bytes": 201326592,
+        "full_resolution_float32_samples_mib": 192.0,
+        "basis": "One full-resolution sample per channel per pixel; excludes mipmaps, copies, renderer buffers and decode overhead.",
+        "actual_decoded_or_blender_memory_measured": false
+      }
+    },
+    {
+      "name": "einar_skin.roughness",
+      "cache_path_provenance_only": "D:\\AI\\PROJECT\\hackathon_projects\\Aholo_3D_AI_Hackathon\\project-management\\source-cache\\einar-v1\\extracted\\textures\\face\\einar_skin.roughness.tif",
+      "file_bytes": 66630,
+      "metadata_bytes_read": 182,
+      "metadata_read_calls": 6,
+      "maximum_metadata_read_end_offset": 66614,
+      "metadata_read_limit_bytes": 1048576,
+      "source_size_mtime_unchanged": true,
+      "pixel_payload_decoded": false,
+      "channel_semantics_inferred": false,
+      "format": "TIFF",
+      "byte_order": "little",
+      "ifd_entry_count": 14,
+      "inspected_ifd_index": 0,
+      "next_ifd_offset": 0,
+      "additional_ifds_inspected": false,
+      "channel_count": 1,
+      "bits_per_sample": [
+        8
+      ],
+      "sample_format_codes": [
+        1
+      ],
+      "sample_formats": [
+        "unsigned_integer"
+      ],
+      "compression": {
+        "code": 32946,
+        "name": "DEFLATE"
+      },
+      "photometric_interpretation_code": 1,
+      "planar_configuration_code": 1,
+      "channel_names_available_in_selected_header_tags": false,
+      "memory_estimate_first_ifd": {
+        "width": 1024,
+        "height": 1024,
+        "pixel_count": 1048576,
+        "full_resolution_native_samples_bytes": 1048576,
+        "full_resolution_native_samples_mib": 1.0,
+        "full_resolution_float32_samples_bytes": 4194304,
+        "full_resolution_float32_samples_mib": 4.0,
+        "basis": "One full-resolution sample per channel per pixel; excludes mipmaps, copies, renderer buffers and decode overhead.",
+        "actual_decoded_or_blender_memory_measured": false
+      }
+    }
+  ],
+  "source_texture_records": [
+    {
+      "image": {
+        "name": "einar_skin.albedo",
+        "filepath": "D:\\AI\\PROJECT\\hackathon_projects\\Aholo_3D_AI_Hackathon\\project-management\\source-cache\\einar-v1\\extracted\\textures\\face\\einar_skin.albedo.tif",
+        "colorspace": "sRGB",
+        "source": "FILE",
+        "alpha_mode": "STRAIGHT"
+      },
+      "node": "Image Texture.005",
+      "uv_source": "UV Map.005",
+      "uv_map": "UVMap",
+      "interpolation": "Linear",
+      "projection": "FLAT",
+      "extension": "REPEAT",
+      "outgoing_links": [
+        {
+          "from_node": "Image Texture.005",
+          "from_socket": "Color",
+          "from_identifier": "Color",
+          "to_node": "Mix.017",
+          "to_socket": "A",
+          "to_identifier": "A_Color",
+          "is_valid": true,
+          "is_muted": false
+        }
+      ]
+    },
+    {
+      "image": {
+        "name": "einar_skin.roughness",
+        "filepath": "D:\\AI\\PROJECT\\hackathon_projects\\Aholo_3D_AI_Hackathon\\project-management\\source-cache\\einar-v1\\extracted\\textures\\face\\einar_skin.roughness.tif",
+        "colorspace": "Non-Color",
+        "source": "FILE",
+        "alpha_mode": "STRAIGHT"
+      },
+      "node": "Image Texture.007",
+      "uv_source": "UV Map.001",
+      "uv_map": "UVMap",
+      "interpolation": "Linear",
+      "projection": "FLAT",
+      "extension": "REPEAT",
+      "outgoing_links": [
+        {
+          "from_node": "Image Texture.007",
+          "from_socket": "Color",
+          "from_identifier": "Color",
+          "to_node": "Reroute.016",
+          "to_socket": "Input",
+          "to_identifier": "Input",
+          "is_valid": true,
+          "is_muted": false
+        }
+      ]
+    },
+    {
+      "image": {
+        "name": "shapes-E-F-DEFAULT-DETAIL",
+        "filepath": "D:\\AI\\PROJECT\\hackathon_projects\\Aholo_3D_AI_Hackathon\\project-management\\source-cache\\einar-v1\\extracted\\textures\\displacement\\face\\shapes-E-F-DEFAULT-DETAIL.tif",
+        "colorspace": "Non-Color",
+        "source": "FILE",
+        "alpha_mode": "STRAIGHT"
+      },
+      "node": "Image Texture.016",
+      "uv_source": "UV Map.020",
+      "uv_map": "UVMap",
+      "interpolation": "Linear",
+      "projection": "FLAT",
+      "extension": "REPEAT",
+      "outgoing_links": [
+        {
+          "from_node": "Image Texture.016",
+          "from_socket": "Color",
+          "from_identifier": "Color",
+          "to_node": "Separate Color.001",
+          "to_socket": "Color",
+          "to_identifier": "Color",
+          "is_valid": true,
+          "is_muted": false
+        },
+        {
+          "from_node": "Image Texture.016",
+          "from_socket": "Alpha",
+          "from_identifier": "Alpha",
+          "to_node": "Reroute.003",
+          "to_socket": "Input",
+          "to_identifier": "Input",
+          "is_valid": true,
+          "is_muted": false
+        }
+      ]
+    }
+  ],
+  "independently_recoverable_layers": [
+    {
+      "image": "einar_skin.albedo",
+      "colorspace": "sRGB",
+      "uv_map": "UVMap",
+      "proposed_use": "Image Color to a new simple Principled Base Color, bypassing source overlays.",
+      "limits": "This is the standalone source color layer; actual pixel appearance and full source skin reproduction are unverified."
+    },
+    {
+      "image": "einar_skin.roughness",
+      "colorspace": "Non-Color",
+      "uv_map": "UVMap",
+      "proposed_use": "Image Color into a scalar roughness input in a new simple material, retaining color-to-value conversion.",
+      "limits": "Direct use is a simplified base-layer diagnostic, not the complete source roughness Map Range/mixing result; do not invent an R-only selection."
+    }
+  ],
+  "packed_default_detail": {
+    "image": "shapes-E-F-DEFAULT-DETAIL",
+    "colorspace": "Non-Color",
+    "uv_map": "UVMap",
+    "channels_supported_by_existing_header": 4,
+    "blue_route_evidence": "Image Texture.016 Color -> Separate Color.001 Blue -> Reroute.024; the default branch includes Math.037 weighted by Math.109 = 1 - Math.114.",
+    "blue_weight_neutral_verified": false,
+    "alpha_route_evidence": "Image Texture.016 Alpha -> Reroute.003 -> Math.070 SUBTRACT 0.5 -> Math.050 MULTIPLY 2 -> Math.043 -> Math.105 -> Math.123 -> Bump.001 Height.",
+    "alpha_total_composition_or_expression_neutral_verified": false,
+    "red_green_routes": "Separate Color.001 Red -> Math.039; Green -> Math.046. Expression/control contributions must not be inferred as zero from cached linked socket values.",
+    "source_bump_distance": 0.00800000037997961,
+    "source_bump_strength": 1.0,
+    "reconstruction_status": "Defer in the minimum closeup. Do not enable whole packed Color as a normal/vector or assume Alpha alone reproduces the source combined normal.",
+    "double_counting_risk": "The default Blue-derived form may already exist in the approved sculpted geometry. Adding that same default Bump at full strength can duplicate it.",
+    "existing_route_summary": {
+      "image": {
+        "name": "shapes-E-F-DEFAULT-DETAIL",
+        "filepath": "D:\\AI\\PROJECT\\hackathon_projects\\Aholo_3D_AI_Hackathon\\project-management\\source-cache\\einar-v1\\extracted\\textures\\displacement\\face\\shapes-E-F-DEFAULT-DETAIL.tif",
+        "colorspace": "Non-Color",
+        "source": "FILE",
+        "alpha_mode": "STRAIGHT"
+      },
+      "node": "Image Texture.016",
+      "vector_input_links": [
+        {
+          "from_node": "UV Map.020",
+          "from_socket": "UV",
+          "from_identifier": "UV",
+          "to_node": "Image Texture.016",
+          "to_socket": "Vector",
+          "to_identifier": "Vector",
+          "is_valid": true,
+          "is_muted": false
+        }
+      ],
+      "outgoing": [
+        {
+          "from_node": "Image Texture.016",
+          "from_socket": "Color",
+          "from_identifier": "Color",
+          "to_node": "Separate Color.001",
+          "to_socket": "Color",
+          "to_identifier": "Color",
+          "is_valid": true,
+          "is_muted": false
+        },
+        {
+          "from_node": "Image Texture.016",
+          "from_socket": "Alpha",
+          "from_identifier": "Alpha",
+          "to_node": "Reroute.003",
+          "to_socket": "Input",
+          "to_identifier": "Input",
+          "is_valid": true,
+          "is_muted": false
+        }
+      ],
+      "to_bump": [
+        {
+          "from_node": "Image Texture.016",
+          "from_socket": "Alpha",
+          "from_identifier": "Alpha",
+          "to_node": "Reroute.003",
+          "to_socket": "Input",
+          "to_identifier": "Input",
+          "is_valid": true,
+          "is_muted": false
+        },
+        {
+          "from_node": "Reroute.003",
+          "from_socket": "Output",
+          "from_identifier": "Output",
+          "to_node": "Math.070",
+          "to_socket": "Value",
+          "to_identifier": "Value",
+          "is_valid": true,
+          "is_muted": false
+        },
+        {
+          "from_node": "Math.070",
+          "from_socket": "Value",
+          "from_identifier": "Value",
+          "to_node": "Math.050",
+          "to_socket": "Value",
+          "to_identifier": "Value",
+          "is_valid": true,
+          "is_muted": false
+        },
+        {
+          "from_node": "Math.050",
+          "from_socket": "Value",
+          "from_identifier": "Value",
+          "to_node": "Math.043",
+          "to_socket": "Value",
+          "to_identifier": "Value_001",
+          "is_valid": true,
+          "is_muted": false
+        },
+        {
+          "from_node": "Math.043",
+          "from_socket": "Value",
+          "from_identifier": "Value",
+          "to_node": "Math.105",
+          "to_socket": "Value",
+          "to_identifier": "Value",
+          "is_valid": true,
+          "is_muted": false
+        },
+        {
+          "from_node": "Math.105",
+          "from_socket": "Value",
+          "from_identifier": "Value",
+          "to_node": "Math.123",
+          "to_socket": "Value",
+          "to_identifier": "Value",
+          "is_valid": true,
+          "is_muted": false
+        },
+        {
+          "from_node": "Math.123",
+          "from_socket": "Value",
+          "from_identifier": "Value",
+          "to_node": "Bump.001",
+          "to_socket": "Height",
+          "to_identifier": "Height",
+          "is_valid": true,
+          "is_muted": false
+        }
+      ],
+      "to_surface": [
+        {
+          "from_node": "Image Texture.016",
+          "from_socket": "Alpha",
+          "from_identifier": "Alpha",
+          "to_node": "Reroute.003",
+          "to_socket": "Input",
+          "to_identifier": "Input",
+          "is_valid": true,
+          "is_muted": false
+        },
+        {
+          "from_node": "Reroute.003",
+          "from_socket": "Output",
+          "from_identifier": "Output",
+          "to_node": "Map Range",
+          "to_socket": "Value",
+          "to_identifier": "Value",
+          "is_valid": true,
+          "is_muted": false
+        },
+        {
+          "from_node": "Map Range",
+          "from_socket": "Result",
+          "from_identifier": "Result",
+          "to_node": "Math.064",
+          "to_socket": "Value",
+          "to_identifier": "Value",
+          "is_valid": true,
+          "is_muted": false
+        },
+        {
+          "from_node": "Math.064",
+          "from_socket": "Value",
+          "from_identifier": "Value",
+          "to_node": "Group.009",
+          "to_socket": "Specularity",
+          "to_identifier": "Input_3",
+          "is_valid": true,
+          "is_muted": false
+        },
+        {
+          "from_node": "Group.009",
+          "from_socket": "Specularity",
+          "from_identifier": "Output_4",
+          "to_node": "Math.142",
+          "to_socket": "Value",
+          "to_identifier": "Value",
+          "is_valid": true,
+          "is_muted": false
+        },
+        {
+          "from_node": "Math.142",
+          "from_socket": "Value",
+          "from_identifier": "Value",
+          "to_node": "Principled BSDF.001",
+          "to_socket": "Specular IOR Level",
+          "to_identifier": "Specular IOR Level",
+          "is_valid": true,
+          "is_muted": false
+        },
+        {
+          "from_node": "Principled BSDF.001",
+          "from_socket": "BSDF",
+          "from_identifier": "BSDF",
+          "to_node": "Mix Shader",
+          "to_socket": "Shader",
+          "to_identifier": "Shader",
+          "is_valid": true,
+          "is_muted": false
+        },
+        {
+          "from_node": "Mix Shader",
+          "from_socket": "Shader",
+          "from_identifier": "Shader",
+          "to_node": "Group.004",
+          "to_socket": "Shader",
+          "to_identifier": "Input_1",
+          "is_valid": true,
+          "is_muted": false
+        },
+        {
+          "from_node": "Group.004",
+          "from_socket": "Shader",
+          "from_identifier": "Output_2",
+          "to_node": "Mix Shader.001",
+          "to_socket": "Shader",
+          "to_identifier": "Shader",
+          "is_valid": true,
+          "is_muted": false
+        },
+        {
+          "from_node": "Mix Shader.001",
+          "from_socket": "Shader",
+          "from_identifier": "Shader",
+          "to_node": "Material Output",
+          "to_socket": "Surface",
+          "to_identifier": "Surface",
+          "is_valid": true,
+          "is_muted": false
+        }
+      ]
+    }
+  },
+  "neutrality_boundary": {
+    "attribute_nodes_without_recorded_attribute_name": [
+      "Attribute.008",
+      "Attribute.007",
+      "Attribute.022",
+      "Attribute.016",
+      "Attribute.017",
+      "Attribute.015",
+      "Attribute.019",
+      "Attribute.012",
+      "Attribute.021",
+      "Attribute.013",
+      "Attribute.020"
+    ],
+    "recorded_driver_counts_by_tree": {
+      "Shader Nodetree": 0,
+      "SH-mouth_fade": 0,
+      "einar.distress_stages.002": 0,
+      "UT-Normal.Combine": 0,
+      "UT-Normal.Mix": 0,
+      "UT-Vector.FillZNormal": 0,
+      "wrinkle_map_step": 0,
+      "UT-vector_scale_angle.002": 0,
+      "UT-NormalMap.Combine": 0
+    },
+    "linked_serialized_socket_values_are_not_rig_neutral": true,
+    "full_source_material_neutral_reconstruction_verified": false,
+    "reason": "Missing Attribute identifiers/provenance and unevaluated linked branches prevent a neutral claim even when recorded node-tree driver lists are empty."
+  },
+  "minimum_single_closeup_proposal": {
+    "required_images": [
+      "einar_skin.albedo",
+      "einar_skin.roughness"
+    ],
+    "material": "New simplified base albedo/roughness only; no source node group import.",
+    "geometry": "Retain the separately approved default sculpt geometry; this plan does not create or modify it.",
+    "exclude_initially": [
+      "shapes-A-B-C-D",
+      "packed default/detail Bump",
+      "noise_04",
+      "disp_default",
+      "dirt",
+      "bruises",
+      "distress",
+      "wet/coat overlays",
+      "expression-driven layers"
+    ],
+    "eyes": "Not included in this skin-only budget. Source head/eye saved channels may define a constraint-free candidate placement, but matching, Armature effects and resize keys remain unverified.",
+    "new_render_authorized_by_this_report": false
+  },
+  "texture_budgets": {
+    "minimum_base_albedo_roughness": {
+      "image_names": [
+        "einar_skin.albedo",
+        "einar_skin.roughness"
+      ],
+      "native_sample_mib": 49.0,
+      "source_channel_float32_mib": 196.0,
+      "hypothetical_all_images_expanded_to_rgba_float32_mib": 272.0,
+      "actual_decoder_blender_or_render_memory_measured": false,
+      "excludes": [
+        "mipmaps",
+        "copies",
+        "decoding overhead",
+        "geometry",
+        "BVH",
+        "render buffers"
+      ]
+    },
+    "conditional_plus_packed_default_detail_not_enabled": {
+      "image_names": [
+        "einar_skin.albedo",
+        "einar_skin.roughness",
+        "shapes-E-F-DEFAULT-DETAIL"
+      ],
+      "native_sample_mib": 177.0,
+      "source_channel_float32_mib": 452.0,
+      "hypothetical_all_images_expanded_to_rgba_float32_mib": 528.0,
+      "actual_decoder_blender_or_render_memory_measured": false,
+      "excludes": [
+        "mipmaps",
+        "copies",
+        "decoding overhead",
+        "geometry",
+        "BVH",
+        "render buffers"
+      ]
+    },
+    "conditional_budget_is_not_permission_or_neutrality_proof": true
+  },
+  "uncertainties": [
+    "UVMap names and ordered face-index compatibility do not by themselves establish identical per-loop UV values for a reconstructed mesh.",
+    "No image pixel content, values, colors, lesions, roughness distribution or actual appearance was inspected.",
+    "Base Color and Roughness in the source material include remaps/overlays. The proposed two-image version deliberately does not claim complete source-material fidelity.",
+    "Default sculpt and packed Bump contributions must be separated before any optional detail layer is enabled.",
+    "Eye placement is a separate gate; raw near-origin meshes or unevaluated identity world matrices cannot establish alignment."
+  ],
+  "elapsed_seconds": 0.0297
+}

@@ -1,0 +1,2929 @@
+{
+  "schema_version": 1,
+  "stage": "6_two_eye_Objects_saved_metadata_only",
+  "created_utc": "2026-10-23T13:28:33.125902+00:00",
+  "source": "D:\\AI\\PROJECT\\hackathon_projects\\Aholo_3D_AI_Hackathon\\project-management\\source-cache\\einar-v1\\extracted\\einar_release_v1.blend",
+  "explicit_data_to_assigned_members": [
+    "objects"
+  ],
+  "requested_Objects": [
+    "GEO-eye.L",
+    "GEO-eye.R"
+  ],
+  "eye_Objects": [
+    {
+      "name": "GEO-eye.L",
+      "mesh": "DATA_GEO-eye.L",
+      "vertices": 802,
+      "polygons": 832,
+      "polygon_arities": {
+        "4": 768,
+        "3": 64
+      },
+      "raw_mesh_local_bounds": {
+        "min": [
+          -0.01271868497133255,
+          -0.011713942512869835,
+          -0.012699679471552372
+        ],
+        "max": [
+          0.012696292251348495,
+          0.012743541970849037,
+          0.012722449377179146
+        ]
+      },
+      "bounds_using_saved_world_matrix_no_rig_evaluation": {
+        "min": [
+          -0.01271868497133255,
+          -0.011713942512869835,
+          -0.012699679471552372
+        ],
+        "max": [
+          0.012696292251348495,
+          0.012743541970849037,
+          0.012722449377179146
+        ]
+      },
+      "saved_matrices_not_evaluated": {
+        "world": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "local": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "basis": [
+          [
+            0.996492862701416,
+            -0.08367744833230972,
+            -4.702137790246752e-09,
+            0.02896723337471485
+          ],
+          [
+            0.08367744833230972,
+            0.996492862701416,
+            -1.8386272060411102e-08,
+            -0.11020693928003311
+          ],
+          [
+            6.224163406898242e-09,
+            1.7928327267213717e-08,
+            1.0,
+            1.67646062374115
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "parent_inverse": [
+          [
+            1.0,
+            -0.0,
+            0.0,
+            -0.0
+          ],
+          [
+            -0.0,
+            1.0,
+            -0.0,
+            0.0
+          ],
+          [
+            0.0,
+            -0.0,
+            1.0,
+            -0.0
+          ],
+          [
+            -0.0,
+            0.0,
+            -0.0,
+            1.0
+          ]
+        ]
+      },
+      "serialized_transform": {
+        "location": [
+          0.02896723337471485,
+          -0.11020693928003311,
+          1.67646062374115
+        ],
+        "rotation_mode": "XYZ",
+        "rotation_euler": [
+          1.7928327267213717e-08,
+          -6.224163406898242e-09,
+          0.08377540856599808
+        ],
+        "rotation_quaternion": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation_axis_angle": [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "delta_location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "delta_rotation_euler": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "delta_scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": {
+        "name": "RIG-einar",
+        "type": "OBJECT",
+        "bone": "",
+        "saved_world_matrix_not_evaluated": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "constraints": [
+        {
+          "name": "Armature",
+          "type": "ARMATURE",
+          "mute": false,
+          "influence": 1.0,
+          "owner_space": "WORLD",
+          "target_space": "WORLD"
+        }
+      ],
+      "object_driver_paths": [
+        {
+          "data_path": "modifiers[\"RIG-Subdivision\"].levels",
+          "array_index": 0,
+          "mute": false
+        },
+        {
+          "data_path": "[\"Distress Stage\"]",
+          "array_index": 0,
+          "mute": false
+        }
+      ],
+      "mesh_driver_paths": [],
+      "key_driver_paths": [
+        {
+          "data_path": "key_blocks[\"Shrink\"].value",
+          "array_index": 0,
+          "mute": false
+        },
+        {
+          "data_path": "key_blocks[\"Grow\"].value",
+          "array_index": 0,
+          "mute": false
+        }
+      ],
+      "shape_keys": [
+        {
+          "name": "Basis",
+          "serialized_value_not_evaluated": 0.0,
+          "relative_key_name": "Basis"
+        },
+        {
+          "name": "Shrink",
+          "serialized_value_not_evaluated": 0.0,
+          "relative_key_name": "Basis"
+        },
+        {
+          "name": "Grow",
+          "serialized_value_not_evaluated": 0.0,
+          "relative_key_name": "Basis"
+        },
+        {
+          "name": "resize",
+          "serialized_value_not_evaluated": 1.0,
+          "relative_key_name": "Basis"
+        },
+        {
+          "name": "GEO-resize2_pupil",
+          "serialized_value_not_evaluated": 1.0,
+          "relative_key_name": "Basis"
+        },
+        {
+          "name": "GEO-resize2_iris",
+          "serialized_value_not_evaluated": 1.0,
+          "relative_key_name": "Basis"
+        }
+      ],
+      "UV_layers": [
+        "Eyes",
+        "Iris",
+        "UVMap"
+      ],
+      "modifiers": [
+        {
+          "name": "RIG-Armature",
+          "type": "ARMATURE",
+          "show_viewport": true,
+          "show_render": true,
+          "object": {
+            "ID_name": "RIG-einar",
+            "ID_type": "OBJECT"
+          },
+          "vertex_group": ""
+        },
+        {
+          "name": "RIG-Subdivision",
+          "type": "SUBSURF",
+          "show_viewport": true,
+          "show_render": true,
+          "levels": 0,
+          "render_levels": 2,
+          "subdivision_type": "CATMULL_CLARK",
+          "uv_smooth": "PRESERVE_BOUNDARIES",
+          "boundary_smooth": "ALL",
+          "use_creases": true,
+          "use_limit_surface": true
+        },
+        {
+          "name": "RIG-Cast",
+          "type": "CAST",
+          "show_viewport": false,
+          "show_render": false,
+          "object": null,
+          "vertex_group": "sphere"
+        }
+      ],
+      "material_slots": [
+        {
+          "index": 0,
+          "slot_link": "DATA",
+          "material": "eyes.pupil",
+          "polygon_count": 128,
+          "unique_vertices": 129,
+          "raw_local_partition_bounds": {
+            "min": [
+              -0.002493221778422594,
+              -0.0110316826030612,
+              -0.0027059060521423817
+            ],
+            "max": [
+              0.002660644706338644,
+              -0.01050895918160677,
+              0.0024515993427485228
+            ]
+          }
+        },
+        {
+          "index": 1,
+          "slot_link": "DATA",
+          "material": "eyes.iris",
+          "polygon_count": 192,
+          "unique_vertices": 224,
+          "raw_local_partition_bounds": {
+            "min": [
+              -0.005063002463430166,
+              -0.011713942512869835,
+              -0.005311059765517712
+            ],
+            "max": [
+              0.005297424271702766,
+              -0.010957969352602959,
+              0.005048664752393961
+            ]
+          }
+        },
+        {
+          "index": 2,
+          "slot_link": "DATA",
+          "material": "eyes.white",
+          "polygon_count": 512,
+          "unique_vertices": 513,
+          "raw_local_partition_bounds": {
+            "min": [
+              -0.01271868497133255,
+              -0.011713942512869835,
+              -0.012699679471552372
+            ],
+            "max": [
+              0.012696292251348495,
+              0.012743541970849037,
+              0.012722449377179146
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "GEO-eye.R",
+      "mesh": "DATA_GEO-eye.R",
+      "vertices": 802,
+      "polygons": 832,
+      "polygon_arities": {
+        "4": 768,
+        "3": 64
+      },
+      "raw_mesh_local_bounds": {
+        "min": [
+          -0.01271863654255867,
+          -0.011713884770870209,
+          -0.01269964873790741
+        ],
+        "max": [
+          0.012696243822574615,
+          0.012743478640913963,
+          0.012722418643534184
+        ]
+      },
+      "bounds_using_saved_world_matrix_no_rig_evaluation": {
+        "min": [
+          -0.01271863654255867,
+          -0.011713884770870209,
+          -0.01269964873790741
+        ],
+        "max": [
+          0.012696243822574615,
+          0.012743478640913963,
+          0.012722418643534184
+        ]
+      },
+      "saved_matrices_not_evaluated": {
+        "world": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "local": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "basis": [
+          [
+            0.9997209310531616,
+            0.023559289053082466,
+            -2.9079117780383967e-07,
+            -0.02981507033109665
+          ],
+          [
+            -0.02355927973985672,
+            0.999721348285675,
+            -1.9565206457627937e-05,
+            -0.112483449280262
+          ],
+          [
+            -1.702322123264821e-07,
+            1.956661435542628e-05,
+            0.9999995231628418,
+            1.6770557165145874
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "parent_inverse": [
+          [
+            1.0,
+            -0.0,
+            0.0,
+            -0.0
+          ],
+          [
+            -0.0,
+            1.0,
+            -0.0,
+            0.0
+          ],
+          [
+            0.0,
+            -0.0,
+            1.0,
+            -0.0
+          ],
+          [
+            -0.0,
+            0.0,
+            -0.0,
+            1.0
+          ]
+        ]
+      },
+      "serialized_transform": {
+        "location": [
+          -0.02981507033109665,
+          -0.112483449280262,
+          1.6770557165145874
+        ],
+        "rotation_mode": "XYZ",
+        "rotation_euler": [
+          1.9566636183299124e-05,
+          1.7023246812186699e-07,
+          -0.023561494424939156
+        ],
+        "rotation_quaternion": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation_axis_angle": [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        "scale": [
+          0.9999985098838806,
+          0.999998927116394,
+          0.9999995231628418
+        ],
+        "delta_location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "delta_rotation_euler": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "delta_scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "parent": {
+        "name": "RIG-einar",
+        "type": "OBJECT",
+        "bone": "",
+        "saved_world_matrix_not_evaluated": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "constraints": [
+        {
+          "name": "Armature",
+          "type": "ARMATURE",
+          "mute": false,
+          "influence": 1.0,
+          "owner_space": "WORLD",
+          "target_space": "WORLD"
+        }
+      ],
+      "object_driver_paths": [
+        {
+          "data_path": "modifiers[\"RIG-Subdivision\"].levels",
+          "array_index": 0,
+          "mute": false
+        },
+        {
+          "data_path": "[\"Distress Stage\"]",
+          "array_index": 0,
+          "mute": false
+        }
+      ],
+      "mesh_driver_paths": [],
+      "key_driver_paths": [
+        {
+          "data_path": "key_blocks[\"Shrink\"].value",
+          "array_index": 0,
+          "mute": false
+        },
+        {
+          "data_path": "key_blocks[\"Grow\"].value",
+          "array_index": 0,
+          "mute": false
+        }
+      ],
+      "shape_keys": [
+        {
+          "name": "Basis",
+          "serialized_value_not_evaluated": 0.0,
+          "relative_key_name": "Basis"
+        },
+        {
+          "name": "Shrink",
+          "serialized_value_not_evaluated": 0.0,
+          "relative_key_name": "Basis"
+        },
+        {
+          "name": "Grow",
+          "serialized_value_not_evaluated": 0.0,
+          "relative_key_name": "Basis"
+        },
+        {
+          "name": "resize",
+          "serialized_value_not_evaluated": 1.0,
+          "relative_key_name": "Basis"
+        },
+        {
+          "name": "GEO-resize2_pupil",
+          "serialized_value_not_evaluated": 1.0,
+          "relative_key_name": "Basis"
+        },
+        {
+          "name": "GEO-resize2_iris",
+          "serialized_value_not_evaluated": 1.0,
+          "relative_key_name": "Basis"
+        }
+      ],
+      "UV_layers": [
+        "Eyes",
+        "Iris",
+        "UVMap"
+      ],
+      "modifiers": [
+        {
+          "name": "RIG-Armature",
+          "type": "ARMATURE",
+          "show_viewport": true,
+          "show_render": true,
+          "object": {
+            "ID_name": "RIG-einar",
+            "ID_type": "OBJECT"
+          },
+          "vertex_group": ""
+        },
+        {
+          "name": "RIG-Subdivision",
+          "type": "SUBSURF",
+          "show_viewport": true,
+          "show_render": true,
+          "levels": 0,
+          "render_levels": 2,
+          "subdivision_type": "CATMULL_CLARK",
+          "uv_smooth": "PRESERVE_BOUNDARIES",
+          "boundary_smooth": "ALL",
+          "use_creases": true,
+          "use_limit_surface": true
+        },
+        {
+          "name": "RIG-Cast",
+          "type": "CAST",
+          "show_viewport": false,
+          "show_render": false,
+          "object": null,
+          "vertex_group": "sphere"
+        }
+      ],
+      "material_slots": [
+        {
+          "index": 0,
+          "slot_link": "DATA",
+          "material": "eyes.pupil",
+          "polygon_count": 128,
+          "unique_vertices": 129,
+          "raw_local_partition_bounds": {
+            "min": [
+              -0.002493212465196848,
+              -0.011031627655029297,
+              -0.0027058995328843594
+            ],
+            "max": [
+              0.002660634694620967,
+              -0.010508907027542591,
+              0.0024515932891517878
+            ]
+          }
+        },
+        {
+          "index": 1,
+          "slot_link": "DATA",
+          "material": "eyes.iris",
+          "polygon_count": 192,
+          "unique_vertices": 224,
+          "raw_local_partition_bounds": {
+            "min": [
+              -0.005062983371317387,
+              -0.011713884770870209,
+              -0.005311046727001667
+            ],
+            "max": [
+              0.005297404248267412,
+              -0.010957915335893631,
+              0.005048652645200491
+            ]
+          }
+        },
+        {
+          "index": 2,
+          "slot_link": "DATA",
+          "material": "eyes.white",
+          "polygon_count": 512,
+          "unique_vertices": 513,
+          "raw_local_partition_bounds": {
+            "min": [
+              -0.01271863654255867,
+              -0.011713884770870209,
+              -0.01269964873790741
+            ],
+            "max": [
+              0.012696243822574615,
+              0.012743478640913963,
+              0.012722418643534184
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "materials": {
+    "eyes.pupil": {
+      "name": "eyes.pupil",
+      "uses_nodes": true,
+      "drivers": [],
+      "images_in_static_graph": {
+        "eyes.albedo": {
+          "name": "eyes.albedo",
+          "filepath": "D:\\AI\\PROJECT\\hackathon_projects\\Aholo_3D_AI_Hackathon\\project-management\\source-cache\\einar-v1\\extracted\\textures\\face\\eyes.albedo.tif",
+          "colorspace": "sRGB",
+          "source": "FILE",
+          "alpha_mode": "STRAIGHT"
+        },
+        "einar.bruises.albedo": {
+          "name": "einar.bruises.albedo",
+          "filepath": "D:\\AI\\PROJECT\\hackathon_projects\\Aholo_3D_AI_Hackathon\\project-management\\source-cache\\einar-v1\\extracted\\textures\\face\\einar.bruises.albedo.tif",
+          "colorspace": "sRGB",
+          "source": "FILE",
+          "alpha_mode": "STRAIGHT"
+        },
+        "distress_stages": {
+          "name": "distress_stages",
+          "filepath": "D:\\AI\\PROJECT\\hackathon_projects\\Aholo_3D_AI_Hackathon\\project-management\\source-cache\\einar-v1\\extracted\\textures\\face\\distress_stages.tif",
+          "colorspace": "Non-Color",
+          "source": "FILE",
+          "alpha_mode": "STRAIGHT"
+        },
+        "iris_depth": {
+          "name": "iris_depth",
+          "filepath": "D:\\AI\\PROJECT\\hackathon_projects\\Aholo_3D_AI_Hackathon\\project-management\\source-cache\\einar-v1\\extracted\\textures\\face\\iris_depth.tif",
+          "colorspace": "Non-Color",
+          "source": "FILE",
+          "alpha_mode": "STRAIGHT"
+        }
+      },
+      "root_nodes": [
+        {
+          "name": "Material Output",
+          "type": "ShaderNodeOutputMaterial",
+          "label": "",
+          "inputs": [
+            {
+              "name": "Surface",
+              "identifier": "Surface",
+              "linked": true,
+              "serialized_value_not_evaluated": null
+            },
+            {
+              "name": "Volume",
+              "identifier": "Volume",
+              "linked": false,
+              "serialized_value_not_evaluated": null
+            },
+            {
+              "name": "Displacement",
+              "identifier": "Displacement",
+              "linked": false,
+              "serialized_value_not_evaluated": [
+                0.0,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "name": "Thickness",
+              "identifier": "Thickness",
+              "linked": false,
+              "serialized_value_not_evaluated": 0.0
+            }
+          ]
+        },
+        {
+          "name": "Map Range",
+          "type": "ShaderNodeMapRange",
+          "label": "",
+          "inputs": [
+            {
+              "name": "Value",
+              "identifier": "Value",
+              "linked": true,
+              "serialized_value_not_evaluated": 0.5
+            },
+            {
+              "name": "From Min",
+              "identifier": "From Min",
+              "linked": false,
+              "serialized_value_not_evaluated": 0.0
+            },
+            {
+              "name": "From Max",
+              "identifier": "From Max",
+              "linked": false,
+              "serialized_value_not_evaluated": 0.20000000298023224
+            },
+            {
+              "name": "To Min",
+              "identifier": "To Min",
+              "linked": false,
+              "serialized_value_not_evaluated": 1.0
+            },
+            {
+              "name": "To Max",
+              "identifier": "To Max",
+              "linked": false,
+              "serialized_value_not_evaluated": 0.0
+            },
+            {
+              "name": "Steps",
+              "identifier": "Steps",
+              "linked": false,
+              "serialized_value_not_evaluated": 4.0
+            },
+            {
+              "name": "Vector",
+              "identifier": "Vector",
+              "linked": true,
+              "serialized_value_not_evaluated": [
+                0.0,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "name": "From Min",
+              "identifier": "From_Min_FLOAT3",
+              "linked": false,
+              "serialized_value_not_evaluated": [
+                0.0,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "name": "From Max",
+              "identifier": "From_Max_FLOAT3",
+              "linked": false,
+              "serialized_value_not_evaluated": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            {
+              "name": "To Min",
+              "identifier": "To_Min_FLOAT3",
+              "linked": false,
+              "serialized_value_not_evaluated": [
+                0.0,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "name": "To Max",
+              "identifier": "To_Max_FLOAT3",
+              "linked": false,
+              "serialized_value_not_evaluated": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            {
+              "name": "Steps",
+              "identifier": "Steps_FLOAT3",
+              "linked": false,
+              "serialized_value_not_evaluated": [
+                4.0,
+                4.0,
+                4.0
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Mix Shader",
+          "type": "ShaderNodeMixShader",
+          "label": "",
+          "inputs": [
+            {
+              "name": "Fac",
+              "identifier": "Fac",
+              "linked": true,
+              "serialized_value_not_evaluated": 0.5
+            },
+            {
+              "name": "Shader",
+              "identifier": "Shader",
+              "linked": true,
+              "serialized_value_not_evaluated": null
+            },
+            {
+              "name": "Shader",
+              "identifier": "Shader_001",
+              "linked": false,
+              "serialized_value_not_evaluated": null
+            }
+          ]
+        },
+        {
+          "name": "Attribute",
+          "type": "ShaderNodeAttribute",
+          "label": "",
+          "inputs": []
+        },
+        {
+          "name": "Principled BSDF",
+          "type": "ShaderNodeBsdfPrincipled",
+          "label": "",
+          "inputs": [
+            {
+              "name": "Base Color",
+              "identifier": "Base Color",
+              "linked": true,
+              "serialized_value_not_evaluated": [
+                0.25,
+                0.25,
+                0.25,
+                1.0
+              ]
+            },
+            {
+              "name": "Metallic",
+              "identifier": "Metallic",
+              "linked": false,
+              "serialized_value_not_evaluated": 0.0
+            },
+            {
+              "name": "Roughness",
+              "identifier": "Roughness",
+              "linked": false,
+              "serialized_value_not_evaluated": 0.40327873826026917
+            },
+            {
+              "name": "IOR",
+              "identifier": "IOR",
+              "linked": false,
+              "serialized_value_not_evaluated": 1.4500000476837158
+            },
+            {
+              "name": "Alpha",
+              "identifier": "Alpha",
+              "linked": false,
+              "serialized_value_not_evaluated": 1.0
+            },
+            {
+              "name": "Normal",
+              "identifier": "Normal",
+              "linked": true,
+              "serialized_value_not_evaluated": [
+                0.0,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "name": "Weight",
+              "identifier": "Weight",
+              "linked": false,
+              "serialized_value_not_evaluated": 0.0
+            },
+            {
+              "name": "Diffuse Roughness",
+              "identifier": "Diffuse Roughness",
+              "linked": false,
+              "serialized_value_not_evaluated": 0.0
+            },
+            {
+              "name": "Subsurface Weight",
+              "identifier": "Subsurface Weight",
+              "linked": false,
+              "serialized_value_not_evaluated": 1.0
+            },
+            {
+              "name": "Subsurface Radius",
+              "identifier": "Subsurface Radius",
+              "linked": false,
+              "serialized_value_not_evaluated": [
+                0.07999999821186066,
+                0.11999999731779099,
+                0.1899999976158142
+              ]
+            },
+            {
+              "name": "Subsurface Scale",
+              "identifier": "Subsurface Scale",
+              "linked": false,
+              "serialized_value_not_evaluated": 0.009999999776482582
+            },
+            {
+              "name": "Subsurface IOR",
+              "identifier": "Subsurface IOR",
+              "linked": false,
+              "serialized_value_not_evaluated": 1.399999976158142
+            },
+            {
+              "name": "Subsurface Anisotropy",
+              "identifier": "Subsurface Anisotropy",
+              "linked": false,
+              "serialized_value_not_evaluated": 0.0
+            },
+            {
+              "name": "Specular IOR Level",
+              "identifier": "Specular IOR Level",
+              "linked": false,
+              "serialized_value_not_evaluated": 0.0
+            },
+            {
+              "name": "Specular Tint",
+              "identifier": "Specular Tint",
+              "linked": false,
+              "serialized_value_not_evaluated": [
+                0.25,
+                0.25,
+                0.25,
+                1.0
+              ]
+            },
+            {
+              "name": "Anisotropic",
+              "identifier": "Anisotropic",
+              "linked": false,
+              "serialized_value_not_evaluated": 0.0
+            },
+            {
+              "name": "Anisotropic Rotation",
+              "identifier": "Anisotropic Rotation",
+              "linked": false,
+              "serialized_value_not_evaluated": 0.0
+            },
+            {
+              "name": "Tangent",
+              "identifier": "Tangent",
+              "linked": false,
+              "serialized_value_not_evaluated": [
+                0.0,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "name": "Transmission Weight",
+              "identifier": "Transmission Weight",
+              "linked": false,
+              "serialized_value_not_evaluated": 0.0
+            },
+            {
+              "name": "Coat Weight",
+              "identifier": "Coat Weight",
+              "linked": false,
+              "serialized_value_not_evaluated": 0.0
+            },
+            {
+              "name": "Coat Roughness",
+              "identifier": "Coat Roughness",
+              "linked": false,
+              "serialized_value_not_evaluated": 0.029999999329447746
+            },
+            {
+              "name": "Coat IOR",
+              "identifier": "Coat IOR",
+              "linked": false,
+              "serialized_value_not_evaluated": 1.5
+            },
+            {
+              "name": "Coat Tint",
+              "identifier": "Coat Tint",
+              "linked": false,
+              "serialized_value_not_evaluated": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            {
+              "name": "Coat Normal",
+              "identifier": "Coat Normal",
+              "linked": false,
+              "serialized_value_not_evaluated": [
+                0.0,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "name": "Sheen Weight",
+              "identifier": "Sheen Weight",
+              "linked": false,
+              "serialized_value_not_evaluated": 0.0
+            },
+            {
+              "name": "Sheen Roughness",
+              "identifier": "Sheen Roughness",
+              "linked": false,
+              "serialized_value_not_evaluated": 0.5
+            },
+            {
+              "name": "Sheen Tint",
+              "identifier": "Sheen Tint",
+              "linked": false,
+              "serialized_value_not_evaluated": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            {
+              "name": "Emission Color",
+              "identifier": "Emission Color",
+              "linked": false,
+              "serialized_value_not_evaluated": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            },
+            {
+              "name": "Emission Strength",
+              "identifier": "Emission Strength",
+              "linked": false,
+              "serialized_value_not_evaluated": 1.0
+            },
+            {
+              "name": "Thin Film Thickness",
+              "identifier": "Thin Film Thickness",
+              "linked": false,
+              "serialized_value_not_evaluated": 0.0
+            },
+            {
+              "name": "Thin Film IOR",
+              "identifier": "Thin Film IOR",
+              "linked": false,
+              "serialized_value_not_evaluated": 1.3300000429153442
+            }
+          ]
+        },
+        {
+          "name": "Reroute.001",
+          "type": "NodeReroute",
+          "label": "",
+          "inputs": [
+            {
+              "name": "Input",
+              "identifier": "Input",
+              "linked": true,
+              "serialized_value_not_evaluated": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Image Texture",
+          "type": "ShaderNodeTexImage",
+          "label": "",
+          "inputs": [
+            {
+              "name": "Vector",
+              "identifier": "Vector",
+              "linked": false,
+              "serialized_value_not_evaluated": [
+                0.0,
+                0.0,
+                0.0
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Group",
+          "type": "ShaderNodeGroup",
+          "label": "",
+          "inputs": [],
+          "group": "SH-eye_ball"
+        },
+        {
+          "name": "Mix",
+          "type": "ShaderNodeMix",
+          "label": "",
+          "inputs": [
+            {
+              "name": "Factor",
+              "identifier": "Factor_Float",
+              "linked": false,
+              "serialized_value_not_evaluated": 0.009999999776482582
+            },
+            {
+              "name": "Factor",
+              "identifier": "Factor_Vector",
+              "linked": false,
+              "serialized_value_not_evaluated": [
+                0.5,
+                0.5,
+                0.5
+              ]
+            },
+            {
+              "name": "A",
+              "identifier": "A_Float",
+              "linked": false,
+              "serialized_value_not_evaluated": 0.0
+            },
+            {
+              "name": "B",
+              "identifier": "B_Float",
+              "linked": false,
+              "serialized_value_not_evaluated": 0.0
+            },
+            {
+              "name": "A",
+              "identifier": "A_Vector",
+              "linked": false,
+              "serialized_value_not_evaluated": [
+                0.0,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "name": "B",
+              "identifier": "B_Vector",
+              "linked": false,
+              "serialized_value_not_evaluated": [
+                0.0,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "name": "A",
+              "identifier": "A_Color",
+              "linked": true,
+              "serialized_value_not_evaluated": [
+                0.25,
+                0.25,
+                0.25,
+                1.0
+              ]
+            },
+            {
+              "name": "B",
+              "identifier": "B_Color",
+              "linked": true,
+              "serialized_value_not_evaluated": [
+                0.25,
+                0.25,
+                0.25,
+                1.0
+              ]
+            },
+            {
+              "name": "A",
+              "identifier": "A_Rotation",
+              "linked": false,
+              "serialized_value_not_evaluated": [
+                0.0,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "name": "B",
+              "identifier": "B_Rotation",
+              "linked": false,
+              "serialized_value_not_evaluated": [
+                0.0,
+                0.0,
+                0.0
+              ]
+            }
+          ]
+        }
+      ],
+      "root_links": [
+        {
+          "from_node": "Principled BSDF",
+          "from_socket": "BSDF",
+          "to_node": "Mix Shader",
+          "to_socket": "Shader"
+        },
+        {
+          "from_node": "Attribute",
+          "from_socket": "Fac",
+          "to_node": "Map Range",
+          "to_socket": "Vector"
+        },
+        {
+          "from_node": "Attribute",
+          "from_socket": "Fac",
+          "to_node": "Map Range",
+          "to_socket": "Value"
+        },
+        {
+          "from_node": "Map Range",
+          "from_socket": "Result",
+          "to_node": "Mix Shader",
+          "to_socket": "Fac"
+        },
+        {
+          "from_node": "Group",
+          "from_socket": "Normal",
+          "to_node": "Principled BSDF",
+          "to_socket": "Normal"
+        },
+        {
+          "from_node": "Group",
+          "from_socket": "Color",
+          "to_node": "Reroute.001",
+          "to_socket": "Input"
+        },
+        {
+          "from_node": "Mix Shader",
+          "from_socket": "Shader",
+          "to_node": "Material Output",
+          "to_socket": "Surface"
+        },
+        {
+          "from_node": "Reroute.001",
+          "from_socket": "Output",
+          "to_node": "Mix",
+          "to_socket": "A"
+        },
+        {
+          "from_node": "Reroute.001",
+          "from_socket": "Output",
+          "to_node": "Mix",
+          "to_socket": "B"
+        },
+        {
+          "from_node": "Mix",
+          "from_socket": "Result",
+          "to_node": "Principled BSDF",
+          "to_socket": "Base Color"
+        }
+      ],
+      "node_tree_drivers": []
+    },
+    "eyes.iris": {
+      "name": "eyes.iris",
+      "uses_nodes": true,
+      "drivers": [],
+      "images_in_static_graph": {
+        "eyes.albedo": {
+          "name": "eyes.albedo",
+          "filepath": "D:\\AI\\PROJECT\\hackathon_projects\\Aholo_3D_AI_Hackathon\\project-management\\source-cache\\einar-v1\\extracted\\textures\\face\\eyes.albedo.tif",
+          "colorspace": "sRGB",
+          "source": "FILE",
+          "alpha_mode": "STRAIGHT"
+        },
+        "einar.bruises.albedo": {
+          "name": "einar.bruises.albedo",
+          "filepath": "D:\\AI\\PROJECT\\hackathon_projects\\Aholo_3D_AI_Hackathon\\project-management\\source-cache\\einar-v1\\extracted\\textures\\face\\einar.bruises.albedo.tif",
+          "colorspace": "sRGB",
+          "source": "FILE",
+          "alpha_mode": "STRAIGHT"
+        },
+        "distress_stages": {
+          "name": "distress_stages",
+          "filepath": "D:\\AI\\PROJECT\\hackathon_projects\\Aholo_3D_AI_Hackathon\\project-management\\source-cache\\einar-v1\\extracted\\textures\\face\\distress_stages.tif",
+          "colorspace": "Non-Color",
+          "source": "FILE",
+          "alpha_mode": "STRAIGHT"
+        },
+        "iris_depth": {
+          "name": "iris_depth",
+          "filepath": "D:\\AI\\PROJECT\\hackathon_projects\\Aholo_3D_AI_Hackathon\\project-management\\source-cache\\einar-v1\\extracted\\textures\\face\\iris_depth.tif",
+          "colorspace": "Non-Color",
+          "source": "FILE",
+          "alpha_mode": "STRAIGHT"
+        }
+      },
+      "root_nodes": [
+        {
+          "name": "Material Output",
+          "type": "ShaderNodeOutputMaterial",
+          "label": "",
+          "inputs": [
+            {
+              "name": "Surface",
+              "identifier": "Surface",
+              "linked": true,
+              "serialized_value_not_evaluated": null
+            },
+            {
+              "name": "Volume",
+              "identifier": "Volume",
+              "linked": false,
+              "serialized_value_not_evaluated": null
+            },
+            {
+              "name": "Displacement",
+              "identifier": "Displacement",
+              "linked": false,
+              "serialized_value_not_evaluated": [
+                0.0,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "name": "Thickness",
+              "identifier": "Thickness",
+              "linked": false,
+              "serialized_value_not_evaluated": 0.0
+            }
+          ]
+        },
+        {
+          "name": "Reroute.001",
+          "type": "NodeReroute",
+          "label": "",
+          "inputs": [
+            {
+              "name": "Input",
+              "identifier": "Input",
+              "linked": true,
+              "serialized_value_not_evaluated": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Principled BSDF",
+          "type": "ShaderNodeBsdfPrincipled",
+          "label": "",
+          "inputs": [
+            {
+              "name": "Base Color",
+              "identifier": "Base Color",
+              "linked": true,
+              "serialized_value_not_evaluated": [
+                0.25,
+                0.25,
+                0.25,
+                1.0
+              ]
+            },
+            {
+              "name": "Metallic",
+              "identifier": "Metallic",
+              "linked": false,
+              "serialized_value_not_evaluated": 0.0
+            },
+            {
+              "name": "Roughness",
+              "identifier": "Roughness",
+              "linked": false,
+              "serialized_value_not_evaluated": 0.40327873826026917
+            },
+            {
+              "name": "IOR",
+              "identifier": "IOR",
+              "linked": false,
+              "serialized_value_not_evaluated": 1.4500000476837158
+            },
+            {
+              "name": "Alpha",
+              "identifier": "Alpha",
+              "linked": false,
+              "serialized_value_not_evaluated": 1.0
+            },
+            {
+              "name": "Normal",
+              "identifier": "Normal",
+              "linked": true,
+              "serialized_value_not_evaluated": [
+                0.0,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "name": "Weight",
+              "identifier": "Weight",
+              "linked": false,
+              "serialized_value_not_evaluated": 0.0
+            },
+            {
+              "name": "Diffuse Roughness",
+              "identifier": "Diffuse Roughness",
+              "linked": false,
+              "serialized_value_not_evaluated": 0.0
+            },
+            {
+              "name": "Subsurface Weight",
+              "identifier": "Subsurface Weight",
+              "linked": false,
+              "serialized_value_not_evaluated": 1.0
+            },
+            {
+              "name": "Subsurface Radius",
+              "identifier": "Subsurface Radius",
+              "linked": false,
+              "serialized_value_not_evaluated": [
+                0.07999999821186066,
+                0.11999999731779099,
+                0.1899999976158142
+              ]
+            },
+            {
+              "name": "Subsurface Scale",
+              "identifier": "Subsurface Scale",
+              "linked": false,
+              "serialized_value_not_evaluated": 0.009999999776482582
+            },
+            {
+              "name": "Subsurface IOR",
+              "identifier": "Subsurface IOR",
+              "linked": false,
+              "serialized_value_not_evaluated": 1.399999976158142
+            },
+            {
+              "name": "Subsurface Anisotropy",
+              "identifier": "Subsurface Anisotropy",
+              "linked": false,
+              "serialized_value_not_evaluated": 0.0
+            },
+            {
+              "name": "Specular IOR Level",
+              "identifier": "Specular IOR Level",
+              "linked": false,
+              "serialized_value_not_evaluated": 0.0
+            },
+            {
+              "name": "Specular Tint",
+              "identifier": "Specular Tint",
+              "linked": false,
+              "serialized_value_not_evaluated": [
+                0.25,
+                0.25,
+                0.25,
+                1.0
+              ]
+            },
+            {
+              "name": "Anisotropic",
+              "identifier": "Anisotropic",
+              "linked": false,
+              "serialized_value_not_evaluated": 0.0
+            },
+            {
+              "name": "Anisotropic Rotation",
+              "identifier": "Anisotropic Rotation",
+              "linked": false,
+              "serialized_value_not_evaluated": 0.0
+            },
+            {
+              "name": "Tangent",
+              "identifier": "Tangent",
+              "linked": false,
+              "serialized_value_not_evaluated": [
+                0.0,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "name": "Transmission Weight",
+              "identifier": "Transmission Weight",
+              "linked": false,
+              "serialized_value_not_evaluated": 0.0
+            },
+            {
+              "name": "Coat Weight",
+              "identifier": "Coat Weight",
+              "linked": false,
+              "serialized_value_not_evaluated": 0.0
+            },
+            {
+              "name": "Coat Roughness",
+              "identifier": "Coat Roughness",
+              "linked": false,
+              "serialized_value_not_evaluated": 0.029999999329447746
+            },
+            {
+              "name": "Coat IOR",
+              "identifier": "Coat IOR",
+              "linked": false,
+              "serialized_value_not_evaluated": 1.5
+            },
+            {
+              "name": "Coat Tint",
+              "identifier": "Coat Tint",
+              "linked": false,
+              "serialized_value_not_evaluated": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            {
+              "name": "Coat Normal",
+              "identifier": "Coat Normal",
+              "linked": false,
+              "serialized_value_not_evaluated": [
+                0.0,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "name": "Sheen Weight",
+              "identifier": "Sheen Weight",
+              "linked": false,
+              "serialized_value_not_evaluated": 0.0
+            },
+            {
+              "name": "Sheen Roughness",
+              "identifier": "Sheen Roughness",
+              "linked": false,
+              "serialized_value_not_evaluated": 0.5
+            },
+            {
+              "name": "Sheen Tint",
+              "identifier": "Sheen Tint",
+              "linked": false,
+              "serialized_value_not_evaluated": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            {
+              "name": "Emission Color",
+              "identifier": "Emission Color",
+              "linked": false,
+              "serialized_value_not_evaluated": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            },
+            {
+              "name": "Emission Strength",
+              "identifier": "Emission Strength",
+              "linked": false,
+              "serialized_value_not_evaluated": 1.0
+            },
+            {
+              "name": "Thin Film Thickness",
+              "identifier": "Thin Film Thickness",
+              "linked": false,
+              "serialized_value_not_evaluated": 0.0
+            },
+            {
+              "name": "Thin Film IOR",
+              "identifier": "Thin Film IOR",
+              "linked": false,
+              "serialized_value_not_evaluated": 1.3300000429153442
+            }
+          ]
+        },
+        {
+          "name": "Attribute",
+          "type": "ShaderNodeAttribute",
+          "label": "",
+          "inputs": []
+        },
+        {
+          "name": "Map Range",
+          "type": "ShaderNodeMapRange",
+          "label": "",
+          "inputs": [
+            {
+              "name": "Value",
+              "identifier": "Value",
+              "linked": true,
+              "serialized_value_not_evaluated": 0.5
+            },
+            {
+              "name": "From Min",
+              "identifier": "From Min",
+              "linked": false,
+              "serialized_value_not_evaluated": 0.0
+            },
+            {
+              "name": "From Max",
+              "identifier": "From Max",
+              "linked": false,
+              "serialized_value_not_evaluated": 0.20000000298023224
+            },
+            {
+              "name": "To Min",
+              "identifier": "To Min",
+              "linked": false,
+              "serialized_value_not_evaluated": 1.0
+            },
+            {
+              "name": "To Max",
+              "identifier": "To Max",
+              "linked": false,
+              "serialized_value_not_evaluated": 0.0
+            },
+            {
+              "name": "Steps",
+              "identifier": "Steps",
+              "linked": false,
+              "serialized_value_not_evaluated": 4.0
+            },
+            {
+              "name": "Vector",
+              "identifier": "Vector",
+              "linked": true,
+              "serialized_value_not_evaluated": [
+                0.0,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "name": "From Min",
+              "identifier": "From_Min_FLOAT3",
+              "linked": false,
+              "serialized_value_not_evaluated": [
+                0.0,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "name": "From Max",
+              "identifier": "From_Max_FLOAT3",
+              "linked": false,
+              "serialized_value_not_evaluated": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            {
+              "name": "To Min",
+              "identifier": "To_Min_FLOAT3",
+              "linked": false,
+              "serialized_value_not_evaluated": [
+                0.0,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "name": "To Max",
+              "identifier": "To_Max_FLOAT3",
+              "linked": false,
+              "serialized_value_not_evaluated": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            {
+              "name": "Steps",
+              "identifier": "Steps_FLOAT3",
+              "linked": false,
+              "serialized_value_not_evaluated": [
+                4.0,
+                4.0,
+                4.0
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Mix Shader",
+          "type": "ShaderNodeMixShader",
+          "label": "",
+          "inputs": [
+            {
+              "name": "Fac",
+              "identifier": "Fac",
+              "linked": true,
+              "serialized_value_not_evaluated": 0.5
+            },
+            {
+              "name": "Shader",
+              "identifier": "Shader",
+              "linked": true,
+              "serialized_value_not_evaluated": null
+            },
+            {
+              "name": "Shader",
+              "identifier": "Shader_001",
+              "linked": false,
+              "serialized_value_not_evaluated": null
+            }
+          ]
+        },
+        {
+          "name": "Image Texture",
+          "type": "ShaderNodeTexImage",
+          "label": "",
+          "inputs": [
+            {
+              "name": "Vector",
+              "identifier": "Vector",
+              "linked": false,
+              "serialized_value_not_evaluated": [
+                0.0,
+                0.0,
+                0.0
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Group",
+          "type": "ShaderNodeGroup",
+          "label": "",
+          "inputs": [],
+          "group": "SH-eye_ball"
+        },
+        {
+          "name": "Mix",
+          "type": "ShaderNodeMix",
+          "label": "",
+          "inputs": [
+            {
+              "name": "Factor",
+              "identifier": "Factor_Float",
+              "linked": false,
+              "serialized_value_not_evaluated": 0.009999999776482582
+            },
+            {
+              "name": "Factor",
+              "identifier": "Factor_Vector",
+              "linked": false,
+              "serialized_value_not_evaluated": [
+                0.5,
+                0.5,
+                0.5
+              ]
+            },
+            {
+              "name": "A",
+              "identifier": "A_Float",
+              "linked": false,
+              "serialized_value_not_evaluated": 0.0
+            },
+            {
+              "name": "B",
+              "identifier": "B_Float",
+              "linked": false,
+              "serialized_value_not_evaluated": 0.0
+            },
+            {
+              "name": "A",
+              "identifier": "A_Vector",
+              "linked": false,
+              "serialized_value_not_evaluated": [
+                0.0,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "name": "B",
+              "identifier": "B_Vector",
+              "linked": false,
+              "serialized_value_not_evaluated": [
+                0.0,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "name": "A",
+              "identifier": "A_Color",
+              "linked": true,
+              "serialized_value_not_evaluated": [
+                0.25,
+                0.25,
+                0.25,
+                1.0
+              ]
+            },
+            {
+              "name": "B",
+              "identifier": "B_Color",
+              "linked": true,
+              "serialized_value_not_evaluated": [
+                0.25,
+                0.25,
+                0.25,
+                1.0
+              ]
+            },
+            {
+              "name": "A",
+              "identifier": "A_Rotation",
+              "linked": false,
+              "serialized_value_not_evaluated": [
+                0.0,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "name": "B",
+              "identifier": "B_Rotation",
+              "linked": false,
+              "serialized_value_not_evaluated": [
+                0.0,
+                0.0,
+                0.0
+              ]
+            }
+          ]
+        }
+      ],
+      "root_links": [
+        {
+          "from_node": "Principled BSDF",
+          "from_socket": "BSDF",
+          "to_node": "Mix Shader",
+          "to_socket": "Shader"
+        },
+        {
+          "from_node": "Attribute",
+          "from_socket": "Fac",
+          "to_node": "Map Range",
+          "to_socket": "Vector"
+        },
+        {
+          "from_node": "Attribute",
+          "from_socket": "Fac",
+          "to_node": "Map Range",
+          "to_socket": "Value"
+        },
+        {
+          "from_node": "Map Range",
+          "from_socket": "Result",
+          "to_node": "Mix Shader",
+          "to_socket": "Fac"
+        },
+        {
+          "from_node": "Group",
+          "from_socket": "Normal",
+          "to_node": "Principled BSDF",
+          "to_socket": "Normal"
+        },
+        {
+          "from_node": "Group",
+          "from_socket": "Color",
+          "to_node": "Reroute.001",
+          "to_socket": "Input"
+        },
+        {
+          "from_node": "Mix Shader",
+          "from_socket": "Shader",
+          "to_node": "Material Output",
+          "to_socket": "Surface"
+        },
+        {
+          "from_node": "Reroute.001",
+          "from_socket": "Output",
+          "to_node": "Mix",
+          "to_socket": "A"
+        },
+        {
+          "from_node": "Reroute.001",
+          "from_socket": "Output",
+          "to_node": "Mix",
+          "to_socket": "B"
+        },
+        {
+          "from_node": "Mix",
+          "from_socket": "Result",
+          "to_node": "Principled BSDF",
+          "to_socket": "Base Color"
+        }
+      ],
+      "node_tree_drivers": []
+    },
+    "eyes.white": {
+      "name": "eyes.white",
+      "uses_nodes": true,
+      "drivers": [],
+      "images_in_static_graph": {
+        "eyes.albedo": {
+          "name": "eyes.albedo",
+          "filepath": "D:\\AI\\PROJECT\\hackathon_projects\\Aholo_3D_AI_Hackathon\\project-management\\source-cache\\einar-v1\\extracted\\textures\\face\\eyes.albedo.tif",
+          "colorspace": "sRGB",
+          "source": "FILE",
+          "alpha_mode": "STRAIGHT"
+        },
+        "einar.bruises.albedo": {
+          "name": "einar.bruises.albedo",
+          "filepath": "D:\\AI\\PROJECT\\hackathon_projects\\Aholo_3D_AI_Hackathon\\project-management\\source-cache\\einar-v1\\extracted\\textures\\face\\einar.bruises.albedo.tif",
+          "colorspace": "sRGB",
+          "source": "FILE",
+          "alpha_mode": "STRAIGHT"
+        },
+        "distress_stages": {
+          "name": "distress_stages",
+          "filepath": "D:\\AI\\PROJECT\\hackathon_projects\\Aholo_3D_AI_Hackathon\\project-management\\source-cache\\einar-v1\\extracted\\textures\\face\\distress_stages.tif",
+          "colorspace": "Non-Color",
+          "source": "FILE",
+          "alpha_mode": "STRAIGHT"
+        },
+        "iris_depth": {
+          "name": "iris_depth",
+          "filepath": "D:\\AI\\PROJECT\\hackathon_projects\\Aholo_3D_AI_Hackathon\\project-management\\source-cache\\einar-v1\\extracted\\textures\\face\\iris_depth.tif",
+          "colorspace": "Non-Color",
+          "source": "FILE",
+          "alpha_mode": "STRAIGHT"
+        }
+      },
+      "root_nodes": [
+        {
+          "name": "Material Output",
+          "type": "ShaderNodeOutputMaterial",
+          "label": "",
+          "inputs": [
+            {
+              "name": "Surface",
+              "identifier": "Surface",
+              "linked": true,
+              "serialized_value_not_evaluated": null
+            },
+            {
+              "name": "Volume",
+              "identifier": "Volume",
+              "linked": false,
+              "serialized_value_not_evaluated": null
+            },
+            {
+              "name": "Displacement",
+              "identifier": "Displacement",
+              "linked": false,
+              "serialized_value_not_evaluated": [
+                0.0,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "name": "Thickness",
+              "identifier": "Thickness",
+              "linked": false,
+              "serialized_value_not_evaluated": 0.0
+            }
+          ]
+        },
+        {
+          "name": "Map Range",
+          "type": "ShaderNodeMapRange",
+          "label": "",
+          "inputs": [
+            {
+              "name": "Value",
+              "identifier": "Value",
+              "linked": true,
+              "serialized_value_not_evaluated": 0.5
+            },
+            {
+              "name": "From Min",
+              "identifier": "From Min",
+              "linked": false,
+              "serialized_value_not_evaluated": 0.0
+            },
+            {
+              "name": "From Max",
+              "identifier": "From Max",
+              "linked": false,
+              "serialized_value_not_evaluated": 0.20000000298023224
+            },
+            {
+              "name": "To Min",
+              "identifier": "To Min",
+              "linked": false,
+              "serialized_value_not_evaluated": 1.0
+            },
+            {
+              "name": "To Max",
+              "identifier": "To Max",
+              "linked": false,
+              "serialized_value_not_evaluated": 0.0
+            },
+            {
+              "name": "Steps",
+              "identifier": "Steps",
+              "linked": false,
+              "serialized_value_not_evaluated": 4.0
+            },
+            {
+              "name": "Vector",
+              "identifier": "Vector",
+              "linked": true,
+              "serialized_value_not_evaluated": [
+                0.0,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "name": "From Min",
+              "identifier": "From_Min_FLOAT3",
+              "linked": false,
+              "serialized_value_not_evaluated": [
+                0.0,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "name": "From Max",
+              "identifier": "From_Max_FLOAT3",
+              "linked": false,
+              "serialized_value_not_evaluated": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            {
+              "name": "To Min",
+              "identifier": "To_Min_FLOAT3",
+              "linked": false,
+              "serialized_value_not_evaluated": [
+                0.0,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "name": "To Max",
+              "identifier": "To_Max_FLOAT3",
+              "linked": false,
+              "serialized_value_not_evaluated": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            {
+              "name": "Steps",
+              "identifier": "Steps_FLOAT3",
+              "linked": false,
+              "serialized_value_not_evaluated": [
+                4.0,
+                4.0,
+                4.0
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Reroute.001",
+          "type": "NodeReroute",
+          "label": "",
+          "inputs": [
+            {
+              "name": "Input",
+              "identifier": "Input",
+              "linked": true,
+              "serialized_value_not_evaluated": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Attribute",
+          "type": "ShaderNodeAttribute",
+          "label": "",
+          "inputs": []
+        },
+        {
+          "name": "Principled BSDF",
+          "type": "ShaderNodeBsdfPrincipled",
+          "label": "",
+          "inputs": [
+            {
+              "name": "Base Color",
+              "identifier": "Base Color",
+              "linked": true,
+              "serialized_value_not_evaluated": [
+                0.25,
+                0.25,
+                0.25,
+                1.0
+              ]
+            },
+            {
+              "name": "Metallic",
+              "identifier": "Metallic",
+              "linked": false,
+              "serialized_value_not_evaluated": 0.0
+            },
+            {
+              "name": "Roughness",
+              "identifier": "Roughness",
+              "linked": false,
+              "serialized_value_not_evaluated": 0.40327873826026917
+            },
+            {
+              "name": "IOR",
+              "identifier": "IOR",
+              "linked": false,
+              "serialized_value_not_evaluated": 1.4500000476837158
+            },
+            {
+              "name": "Alpha",
+              "identifier": "Alpha",
+              "linked": false,
+              "serialized_value_not_evaluated": 1.0
+            },
+            {
+              "name": "Normal",
+              "identifier": "Normal",
+              "linked": true,
+              "serialized_value_not_evaluated": [
+                0.0,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "name": "Weight",
+              "identifier": "Weight",
+              "linked": false,
+              "serialized_value_not_evaluated": 0.0
+            },
+            {
+              "name": "Diffuse Roughness",
+              "identifier": "Diffuse Roughness",
+              "linked": false,
+              "serialized_value_not_evaluated": 0.0
+            },
+            {
+              "name": "Subsurface Weight",
+              "identifier": "Subsurface Weight",
+              "linked": false,
+              "serialized_value_not_evaluated": 1.0
+            },
+            {
+              "name": "Subsurface Radius",
+              "identifier": "Subsurface Radius",
+              "linked": false,
+              "serialized_value_not_evaluated": [
+                0.23999999463558197,
+                0.16999998688697815,
+                0.10000000149011612
+              ]
+            },
+            {
+              "name": "Subsurface Scale",
+              "identifier": "Subsurface Scale",
+              "linked": false,
+              "serialized_value_not_evaluated": 0.009999999776482582
+            },
+            {
+              "name": "Subsurface IOR",
+              "identifier": "Subsurface IOR",
+              "linked": false,
+              "serialized_value_not_evaluated": 1.399999976158142
+            },
+            {
+              "name": "Subsurface Anisotropy",
+              "identifier": "Subsurface Anisotropy",
+              "linked": false,
+              "serialized_value_not_evaluated": 0.0
+            },
+            {
+              "name": "Specular IOR Level",
+              "identifier": "Specular IOR Level",
+              "linked": false,
+              "serialized_value_not_evaluated": 0.0
+            },
+            {
+              "name": "Specular Tint",
+              "identifier": "Specular Tint",
+              "linked": false,
+              "serialized_value_not_evaluated": [
+                0.25,
+                0.25,
+                0.25,
+                1.0
+              ]
+            },
+            {
+              "name": "Anisotropic",
+              "identifier": "Anisotropic",
+              "linked": false,
+              "serialized_value_not_evaluated": 0.0
+            },
+            {
+              "name": "Anisotropic Rotation",
+              "identifier": "Anisotropic Rotation",
+              "linked": false,
+              "serialized_value_not_evaluated": 0.0
+            },
+            {
+              "name": "Tangent",
+              "identifier": "Tangent",
+              "linked": false,
+              "serialized_value_not_evaluated": [
+                0.0,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "name": "Transmission Weight",
+              "identifier": "Transmission Weight",
+              "linked": false,
+              "serialized_value_not_evaluated": 0.0
+            },
+            {
+              "name": "Coat Weight",
+              "identifier": "Coat Weight",
+              "linked": false,
+              "serialized_value_not_evaluated": 0.0
+            },
+            {
+              "name": "Coat Roughness",
+              "identifier": "Coat Roughness",
+              "linked": false,
+              "serialized_value_not_evaluated": 0.029999999329447746
+            },
+            {
+              "name": "Coat IOR",
+              "identifier": "Coat IOR",
+              "linked": false,
+              "serialized_value_not_evaluated": 1.5
+            },
+            {
+              "name": "Coat Tint",
+              "identifier": "Coat Tint",
+              "linked": false,
+              "serialized_value_not_evaluated": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            {
+              "name": "Coat Normal",
+              "identifier": "Coat Normal",
+              "linked": false,
+              "serialized_value_not_evaluated": [
+                0.0,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "name": "Sheen Weight",
+              "identifier": "Sheen Weight",
+              "linked": false,
+              "serialized_value_not_evaluated": 0.0
+            },
+            {
+              "name": "Sheen Roughness",
+              "identifier": "Sheen Roughness",
+              "linked": false,
+              "serialized_value_not_evaluated": 0.5
+            },
+            {
+              "name": "Sheen Tint",
+              "identifier": "Sheen Tint",
+              "linked": false,
+              "serialized_value_not_evaluated": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            {
+              "name": "Emission Color",
+              "identifier": "Emission Color",
+              "linked": false,
+              "serialized_value_not_evaluated": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            },
+            {
+              "name": "Emission Strength",
+              "identifier": "Emission Strength",
+              "linked": false,
+              "serialized_value_not_evaluated": 1.0
+            },
+            {
+              "name": "Thin Film Thickness",
+              "identifier": "Thin Film Thickness",
+              "linked": false,
+              "serialized_value_not_evaluated": 0.0
+            },
+            {
+              "name": "Thin Film IOR",
+              "identifier": "Thin Film IOR",
+              "linked": false,
+              "serialized_value_not_evaluated": 1.3300000429153442
+            }
+          ]
+        },
+        {
+          "name": "Mix Shader",
+          "type": "ShaderNodeMixShader",
+          "label": "",
+          "inputs": [
+            {
+              "name": "Fac",
+              "identifier": "Fac",
+              "linked": true,
+              "serialized_value_not_evaluated": 0.5
+            },
+            {
+              "name": "Shader",
+              "identifier": "Shader",
+              "linked": true,
+              "serialized_value_not_evaluated": null
+            },
+            {
+              "name": "Shader",
+              "identifier": "Shader_001",
+              "linked": false,
+              "serialized_value_not_evaluated": null
+            }
+          ]
+        },
+        {
+          "name": "Image Texture",
+          "type": "ShaderNodeTexImage",
+          "label": "",
+          "inputs": [
+            {
+              "name": "Vector",
+              "identifier": "Vector",
+              "linked": false,
+              "serialized_value_not_evaluated": [
+                0.0,
+                0.0,
+                0.0
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Group",
+          "type": "ShaderNodeGroup",
+          "label": "",
+          "inputs": [],
+          "group": "SH-eye_ball"
+        },
+        {
+          "name": "Mix",
+          "type": "ShaderNodeMix",
+          "label": "",
+          "inputs": [
+            {
+              "name": "Factor",
+              "identifier": "Factor_Float",
+              "linked": false,
+              "serialized_value_not_evaluated": 0.009999999776482582
+            },
+            {
+              "name": "Factor",
+              "identifier": "Factor_Vector",
+              "linked": false,
+              "serialized_value_not_evaluated": [
+                0.5,
+                0.5,
+                0.5
+              ]
+            },
+            {
+              "name": "A",
+              "identifier": "A_Float",
+              "linked": false,
+              "serialized_value_not_evaluated": 0.0
+            },
+            {
+              "name": "B",
+              "identifier": "B_Float",
+              "linked": false,
+              "serialized_value_not_evaluated": 0.0
+            },
+            {
+              "name": "A",
+              "identifier": "A_Vector",
+              "linked": false,
+              "serialized_value_not_evaluated": [
+                0.0,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "name": "B",
+              "identifier": "B_Vector",
+              "linked": false,
+              "serialized_value_not_evaluated": [
+                0.0,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "name": "A",
+              "identifier": "A_Color",
+              "linked": true,
+              "serialized_value_not_evaluated": [
+                0.25,
+                0.25,
+                0.25,
+                1.0
+              ]
+            },
+            {
+              "name": "B",
+              "identifier": "B_Color",
+              "linked": true,
+              "serialized_value_not_evaluated": [
+                0.25,
+                0.25,
+                0.25,
+                1.0
+              ]
+            },
+            {
+              "name": "A",
+              "identifier": "A_Rotation",
+              "linked": false,
+              "serialized_value_not_evaluated": [
+                0.0,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "name": "B",
+              "identifier": "B_Rotation",
+              "linked": false,
+              "serialized_value_not_evaluated": [
+                0.0,
+                0.0,
+                0.0
+              ]
+            }
+          ]
+        }
+      ],
+      "root_links": [
+        {
+          "from_node": "Principled BSDF",
+          "from_socket": "BSDF",
+          "to_node": "Mix Shader",
+          "to_socket": "Shader"
+        },
+        {
+          "from_node": "Attribute",
+          "from_socket": "Fac",
+          "to_node": "Map Range",
+          "to_socket": "Vector"
+        },
+        {
+          "from_node": "Attribute",
+          "from_socket": "Fac",
+          "to_node": "Map Range",
+          "to_socket": "Value"
+        },
+        {
+          "from_node": "Map Range",
+          "from_socket": "Result",
+          "to_node": "Mix Shader",
+          "to_socket": "Fac"
+        },
+        {
+          "from_node": "Group",
+          "from_socket": "Color",
+          "to_node": "Reroute.001",
+          "to_socket": "Input"
+        },
+        {
+          "from_node": "Group",
+          "from_socket": "Normal",
+          "to_node": "Principled BSDF",
+          "to_socket": "Normal"
+        },
+        {
+          "from_node": "Mix Shader",
+          "from_socket": "Shader",
+          "to_node": "Material Output",
+          "to_socket": "Surface"
+        },
+        {
+          "from_node": "Reroute.001",
+          "from_socket": "Output",
+          "to_node": "Mix",
+          "to_socket": "A"
+        },
+        {
+          "from_node": "Reroute.001",
+          "from_socket": "Output",
+          "to_node": "Mix",
+          "to_socket": "B"
+        },
+        {
+          "from_node": "Mix",
+          "from_socket": "Result",
+          "to_node": "Principled BSDF",
+          "to_socket": "Base Color"
+        }
+      ],
+      "node_tree_drivers": []
+    }
+  },
+  "head_reference_if_implicit": null,
+  "new_ID_names": {
+    "objects": [
+      "GEO-einar_jacket_main",
+      "GEO-einar_pants_main",
+      "GEO-einar_tire_shoulder_surfacedeform",
+      "GEO-elbow_joint",
+      "GEO-eye.L",
+      "GEO-eye.R",
+      "GEO-hyd_rod_upper_arm",
+      "GEO-lower_arm_frame",
+      "GEO-shoulder_bicep_joint",
+      "GEO-upper_arm_frame",
+      "HLP-piston_biceps",
+      "HLP-piston_biceps2",
+      "LTC-Jacket_Back.L",
+      "LTC-Jacket_Back.R",
+      "LTC-Jacket_Front.L",
+      "LTC-Jacket_Front.R",
+      "LTC-Jacket_Side.L",
+      "LTC-Jacket_Side.R",
+      "LTC-Pants_Back.L",
+      "LTC-Pants_Back.R",
+      "LTC-Pants_Front.L",
+      "LTC-Pants_Front.R",
+      "RIG-einar",
+      "WGT-Arrow_Head",
+      "WGT-Circle",
+      "WGT-Circle_Spiked_2",
+      "WGT-Clavicle",
+      "WGT-Cogwheel_Y",
+      "WGT-Cube",
+      "WGT-Foot",
+      "WGT-Hyperbola",
+      "WGT-Jaw",
+      "WGT-Line",
+      "WGT-Roll_Flat",
+      "WGT-Root",
+      "WGT-Semicircle",
+      "WGT-Sphere",
+      "WGT-Sphere_Half",
+      "WGT-Square",
+      "WGT-Squares_2",
+      "WGT-Thumb_Parent",
+      "WGT-Torso_Master"
+    ],
+    "meshes": [
+      "DATA_GEO-einar_jacket_main",
+      "DATA_GEO-einar_pants_main",
+      "DATA_GEO-einar_tire_shoulder_surfacedeform",
+      "DATA_GEO-elbow_joint",
+      "DATA_GEO-eye.L",
+      "DATA_GEO-eye.R",
+      "DATA_GEO-hyd_rod_upper_arm",
+      "DATA_GEO-lower_arm_frame",
+      "DATA_GEO-shoulder_bicep_joint",
+      "DATA_GEO-upper_arm_frame",
+      "DATA_WGT-Arrow_Head",
+      "DATA_WGT-Circle",
+      "DATA_WGT-Circle_Spiked_2",
+      "DATA_WGT-Clavicle",
+      "DATA_WGT-Cogwheel_Y",
+      "DATA_WGT-Cube",
+      "DATA_WGT-Foot",
+      "DATA_WGT-Hyperbola",
+      "DATA_WGT-Jaw",
+      "DATA_WGT-Line",
+      "DATA_WGT-Roll_Flat",
+      "DATA_WGT-Root",
+      "DATA_WGT-Semicircle",
+      "DATA_WGT-Sphere",
+      "DATA_WGT-Sphere_Half",
+      "DATA_WGT-Square",
+      "DATA_WGT-Squares_2",
+      "DATA_WGT-Thumb_Parent",
+      "DATA_WGT-Torso_Master"
+    ],
+    "materials": [
+      "einar.jacket.canvas",
+      "einar.jacket.rim",
+      "einar.pants_fabric",
+      "einar.pants_leather",
+      "einar.pants_tarp",
+      "eyes.iris",
+      "eyes.pupil",
+      "eyes.white",
+      "metal_rust",
+      "metal_rust2.002",
+      "metal_rust3",
+      "metal_rust4",
+      "piston"
+    ],
+    "images": [
+      "canvas_01.disp",
+      "canvas_01.normal",
+      "dents_01.normal",
+      "disp_clothing_default",
+      "disp_clothing_shapes_A",
+      "disp_clothing_shapes_B",
+      "disp_clothing_shapes_C",
+      "disp_clothing_shapes_D",
+      "disp_clothing_shapes_E",
+      "distress_stages",
+      "einar.bruises.albedo",
+      "einar.clothing.color_base",
+      "einar.clothing.normal_base",
+      "einar.clothing.pointiness",
+      "einar.robot_arm.normal_base.",
+      "einar.robot_arm.pointiness.",
+      "eyes.albedo",
+      "grime_01",
+      "iris_depth",
+      "knit_01.disp",
+      "knit_01.normal",
+      "knit_01.tile_uv",
+      "noise_01",
+      "noise_03",
+      "noise_04",
+      "noise_06",
+      "scratches_01.disp",
+      "scratches_01.normal",
+      "seams.disp",
+      "seams.normal",
+      "textile_02.disp",
+      "textile_02.normal",
+      "textile_02.tile_uv"
+    ],
+    "collections": [],
+    "armatures": [
+      "DATA_RIG-einar"
+    ],
+    "actions": [
+      "RIG-Einar_Blink_EyeOpen",
+      "RIG-Einar_Cheek_Lower",
+      "RIG-Einar_Cheek_Raise",
+      "RIG-Einar_EyesMove_Horizontal",
+      "RIG-Einar_EyesMove_Vertical",
+      "RIG-Einar_JawOpen",
+      "RIG-Einar_LipSquash",
+      "RIG-Einar_LipsPucker",
+      "RIG-Einar_Lips_Down",
+      "RIG-Einar_Lips_Lower_Sneer",
+      "RIG-Einar_Lips_Smile",
+      "RIG-Einar_Lips_Upper_Sneer",
+      "RIG-Einar_Lips_Wide",
+      "RIG-Einar_LowerEyelids",
+      "RIG-Einar_Nose_Sneer",
+      "RIG-Einar_ShoulderTire_FowardBack",
+      "RIG-Einar_Squint",
+      "RIG-Einar_UpperEyelids"
+    ],
+    "node_groups": [
+      "Displacement_Jacket",
+      "Displacement_Pants",
+      "NormalBake.002",
+      "SH-canvas_clothing.002",
+      "SH-einar.worn_surface.clothing",
+      "SH-eye_ball",
+      "SH-metal_base.002",
+      "SH-seams",
+      "SH-seams_2",
+      "SH-wrinkles.002",
+      "TEX-noise_distorted",
+      "TEX-noise_distorted.alternative",
+      "UT-Normal.Combine",
+      "UT-Normal.Flatten",
+      "UT-NormalMap.Combine",
+      "UT-NormalMap.CustomTangent",
+      "UT-NormalMap.CustomTangent.TASK.OLD.001",
+      "UT-TriplanarMapping.002",
+      "UT-Value.Mix.002",
+      "UT-Vector.FillZNormal",
+      "UT-Vector.Mix",
+      "UT-detiling.hex.002",
+      "UT-hex_grid.002",
+      "UT-map_fallback.002",
+      "UT-mixVector",
+      "UT-noise_distortion",
+      "UT-uv_tile.increment.003",
+      "UT-uv_tile.increment.004",
+      "einar.distress_stages.002"
+    ],
+    "texts": [
+      "cloudrig.py"
+    ],
+    "lattices": [
+      "DATA_LTC-Jacket_Back.L",
+      "DATA_LTC-Jacket_Back.R",
+      "DATA_LTC-Jacket_Front.L",
+      "DATA_LTC-Jacket_Front.R",
+      "DATA_LTC-Jacket_Side.L",
+      "DATA_LTC-Jacket_Side.R",
+      "DATA_LTC-Pants_Back.L",
+      "DATA_LTC-Pants_Back.R",
+      "DATA_LTC-Pants_Front.L",
+      "DATA_LTC-Pants_Front.R"
+    ],
+    "scenes": [],
+    "shape_keys": [
+      "SK_GEO-einar_jacket_main",
+      "SK_GEO-einar_pants_main",
+      "SK_GEO-einar_tire_shoulder_surfacedeform",
+      "SK_GEO-eye.L",
+      "SK_GEO-eye.R"
+    ],
+    "libraries": [
+      "einar_release_v1.blend"
+    ]
+  },
+  "scene_objects_before": [
+    "Camera",
+    "Cube",
+    "Light"
+  ],
+  "scene_objects_after": [
+    "Camera",
+    "Cube",
+    "Light"
+  ],
+  "source_Objects_linked_or_depsgraph_evaluated": false,
+  "drivers_Text_or_rig_executed": false,
+  "image_pixels_decoded_blend_saved_or_rendered": false,
+  "saved_matrices_do_not_establish_evaluated_neutral_pose": true,
+  "elapsed_seconds": 3.5227
+}

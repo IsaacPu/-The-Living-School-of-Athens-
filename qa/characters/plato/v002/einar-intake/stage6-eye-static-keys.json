@@ -1,0 +1,140 @@
+{
+  "stage": "6_static_eye_key_proof_and_plain_arrays",
+  "source": "D:\\AI\\PROJECT\\hackathon_projects\\Aholo_3D_AI_Hackathon\\project-management\\source-cache\\einar-v1\\extracted\\einar_release_v1.blend",
+  "explicit_data_to_assigned_members": [
+    "meshes"
+  ],
+  "requested_meshes": [
+    "DATA_GEO-eye.L",
+    "DATA_GEO-eye.R"
+  ],
+  "eyes": [
+    {
+      "mesh": "DATA_GEO-eye.L",
+      "shape_key_ID": "SK_GEO-eye.L",
+      "use_relative": true,
+      "active_action": null,
+      "NLA_tracks": [],
+      "all_key_driver_paths": [
+        "key_blocks[\"Shrink\"].value",
+        "key_blocks[\"Grow\"].value"
+      ],
+      "static_layers": [
+        {
+          "name": "resize",
+          "stored_value": 1.0,
+          "has_value_driver": false,
+          "mute": false,
+          "relative_key": "Basis",
+          "value_RNA_path": "key_blocks[\"resize\"].value",
+          "max_delta_from_relative_key": 0.000508675504754166,
+          "rms_delta_from_relative_key": 0.00022927132809282008
+        },
+        {
+          "name": "GEO-resize2_pupil",
+          "stored_value": 1.0,
+          "has_value_driver": false,
+          "mute": false,
+          "relative_key": "Basis",
+          "value_RNA_path": "key_blocks[\"GEO-resize2_pupil\"].value",
+          "max_delta_from_relative_key": 0.00033354447479685777,
+          "rms_delta_from_relative_key": 0.00016081210285525454
+        },
+        {
+          "name": "GEO-resize2_iris",
+          "stored_value": 1.0,
+          "has_value_driver": false,
+          "mute": false,
+          "relative_key": "Basis",
+          "value_RNA_path": "key_blocks[\"GEO-resize2_iris\"].value",
+          "max_delta_from_relative_key": 0.00030120717174855316,
+          "rms_delta_from_relative_key": 9.805194164752536e-05
+        }
+      ],
+      "eligible_for_static_relative_key_reconstruction": true,
+      "basis_sha256": "d90da46ea2c1c517afd22b23b746493e8c7de54ea633ca65b3ae08f8e73adf01",
+      "raw_mesh_sha256": "d90da46ea2c1c517afd22b23b746493e8c7de54ea633ca65b3ae08f8e73adf01",
+      "raw_mesh_vertices_equal_Basis": true,
+      "excluded_driven_keys": [
+        "Shrink",
+        "Grow"
+      ],
+      "formula": "Basis + sum((key_i - relative_key_i) * authored stored value_i) for the three undriven static keys only. Driven Shrink/Grow excluded; no claim of evaluated rig neutral.",
+      "vertices": 802,
+      "polygons": 832,
+      "plain_position_arrays_not_serialized_this_pass": true,
+      "eligibility_interpretation_correction": "Initial Python `is` comparison of Blender RNA wrappers incorrectly returned false. Eligibility recomputed from the recorded unique Basis name, driver paths, Action/NLA and mute metadata without another source load; source script fixed to use pointer equality. Geometry arrays will be extracted at the next authorized prototype stage."
+    },
+    {
+      "mesh": "DATA_GEO-eye.R",
+      "shape_key_ID": "SK_GEO-eye.R",
+      "use_relative": true,
+      "active_action": null,
+      "NLA_tracks": [],
+      "all_key_driver_paths": [
+        "key_blocks[\"Shrink\"].value",
+        "key_blocks[\"Grow\"].value"
+      ],
+      "static_layers": [
+        {
+          "name": "resize",
+          "stored_value": 1.0,
+          "has_value_driver": false,
+          "mute": false,
+          "relative_key": "Basis",
+          "value_RNA_path": "key_blocks[\"resize\"].value",
+          "max_delta_from_relative_key": 0.0005086512767205776,
+          "rms_delta_from_relative_key": 0.00022926344907793687
+        },
+        {
+          "name": "GEO-resize2_pupil",
+          "stored_value": 1.0,
+          "has_value_driver": false,
+          "mute": false,
+          "relative_key": "Basis",
+          "value_RNA_path": "key_blocks[\"GEO-resize2_pupil\"].value",
+          "max_delta_from_relative_key": 0.0003335829776814591,
+          "rms_delta_from_relative_key": 0.0001608083473268005
+        },
+        {
+          "name": "GEO-resize2_iris",
+          "stored_value": 1.0,
+          "has_value_driver": false,
+          "mute": false,
+          "relative_key": "Basis",
+          "value_RNA_path": "key_blocks[\"GEO-resize2_iris\"].value",
+          "max_delta_from_relative_key": 0.00030130629986054703,
+          "rms_delta_from_relative_key": 9.804463063095724e-05
+        }
+      ],
+      "eligible_for_static_relative_key_reconstruction": true,
+      "basis_sha256": "1657065e98ff8cffca0720a0245feb88233ef46c6b2db28e60caa8b1a84e7900",
+      "raw_mesh_sha256": "1657065e98ff8cffca0720a0245feb88233ef46c6b2db28e60caa8b1a84e7900",
+      "raw_mesh_vertices_equal_Basis": true,
+      "excluded_driven_keys": [
+        "Shrink",
+        "Grow"
+      ],
+      "formula": "Basis + sum((key_i - relative_key_i) * authored stored value_i) for the three undriven static keys only. Driven Shrink/Grow excluded; no claim of evaluated rig neutral.",
+      "vertices": 802,
+      "polygons": 832,
+      "plain_position_arrays_not_serialized_this_pass": true,
+      "eligibility_interpretation_correction": "Initial Python `is` comparison of Blender RNA wrappers incorrectly returned false. Eligibility recomputed from the recorded unique Basis name, driver paths, Action/NLA and mute metadata without another source load; source script fixed to use pointer equality. Geometry arrays will be extracted at the next authorized prototype stage."
+    }
+  ],
+  "source_geometry_or_keys_modified": false,
+  "source_Objects_linked_or_evaluated": false,
+  "drivers_Text_or_rig_executed": false,
+  "pixels_decoded_blend_saved_or_rendered": false,
+  "scene_objects_before": [
+    "Camera",
+    "Cube",
+    "Light"
+  ],
+  "scene_objects_after": [
+    "Camera",
+    "Cube",
+    "Light"
+  ],
+  "elapsed_seconds": 3.6624
+}

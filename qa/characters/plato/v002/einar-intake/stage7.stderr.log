@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+  File "D:\AI\PROJECT\hackathon_projects\Aholo_3D_AI_Hackathon\worktrees\plato-refinement\scripts\characters\render-einar-static-closeup.py", line 70, in <module>
+    assert len(bpy.data.meshes) == 1 and len(bpy.data.images) == 1 and len(bpy.data.node_groups) == 1
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError
+
+Error: script failed, file: 'D:\AI\PROJECT\hackathon_projects\Aholo_3D_AI_Hackathon\worktrees\plato-refinement\scripts\characters\render-einar-static-closeup.py', exiting.

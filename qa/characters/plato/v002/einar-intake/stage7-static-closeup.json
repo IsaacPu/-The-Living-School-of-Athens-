@@ -1,0 +1,232 @@
+{
+  "stage": "7_one_static_rest_eye_basic_skin_closeup",
+  "opened_clean_stage5_source": "D:\\AI\\PROJECT\\hackathon_projects\\Aholo_3D_AI_Hackathon\\worktrees\\plato-refinement\\art\\characters\\plato\\v002\\einar-default-sculpt-review\\einar-default-sculpt-AB.blend",
+  "relative_default_EXR_reopen_hash_verified": true,
+  "source_default_midlevel_scale_preserved": [
+    0.5,
+    0.00800000037997961
+  ],
+  "textures": [
+    {
+      "role": "default_scalar_sculpt",
+      "source": "D:\\AI\\PROJECT\\hackathon_projects\\Aholo_3D_AI_Hackathon\\worktrees\\plato-refinement\\art\\characters\\plato\\v002\\einar-default-sculpt-review\\textures\\disp_default.exr",
+      "local_copy": "D:\\AI\\PROJECT\\hackathon_projects\\Aholo_3D_AI_Hackathon\\worktrees\\plato-refinement\\art\\characters\\plato\\v002\\einar-static-closeup-review\\textures\\disp_default.exr",
+      "sha256": "782488ea8f9107c41a93465a0dcdf31894ce18885cc65c0e2e88241a7d6fe116",
+      "bytes": 3351552,
+      "final_relative_path": "//textures/disp_default.exr"
+    },
+    {
+      "role": "skin_base_albedo_sRGB",
+      "source": "D:\\AI\\PROJECT\\hackathon_projects\\Aholo_3D_AI_Hackathon\\project-management\\source-cache\\einar-v1\\extracted\\textures\\face\\einar_skin.albedo.tif",
+      "local_copy": "D:\\AI\\PROJECT\\hackathon_projects\\Aholo_3D_AI_Hackathon\\worktrees\\plato-refinement\\art\\characters\\plato\\v002\\einar-static-closeup-review\\textures\\einar_skin.albedo.tif",
+      "sha256": "c0ec5e11fae8e516f3a0dd18e612ab4b9a9ab810bf01f63d098a401fe05af7a4",
+      "bytes": 10533376,
+      "final_relative_path": "//textures/einar_skin.albedo.tif"
+    },
+    {
+      "role": "skin_base_roughness_NonColor",
+      "source": "D:\\AI\\PROJECT\\hackathon_projects\\Aholo_3D_AI_Hackathon\\project-management\\source-cache\\einar-v1\\extracted\\textures\\face\\einar_skin.roughness.tif",
+      "local_copy": "D:\\AI\\PROJECT\\hackathon_projects\\Aholo_3D_AI_Hackathon\\worktrees\\plato-refinement\\art\\characters\\plato\\v002\\einar-static-closeup-review\\textures\\einar_skin.roughness.tif",
+      "sha256": "e35cb48cd5b62918682b9f1d8064493b587304a0efc254520991e25efd0766b7",
+      "bytes": 66630,
+      "final_relative_path": "//textures/einar_skin.roughness.tif"
+    }
+  ],
+  "skin_material": "Simplified source albedo/Roughness via UVMap, IOR1.45, Subsurface0; not full source neutral shader.",
+  "eye_materials_are_simplified_not_source_atlas_or_cornea": true,
+  "eye_material_settings": [
+    {
+      "name": "ReviewPupilNearBlack",
+      "linear_base_color": [
+        0.006,
+        0.004,
+        0.003,
+        1
+      ],
+      "roughness": 0.25
+    },
+    {
+      "name": "ReviewIrisMutedBrown",
+      "linear_base_color": [
+        0.12,
+        0.085,
+        0.055,
+        1
+      ],
+      "roughness": 0.32
+    },
+    {
+      "name": "ReviewScleraWarmGray",
+      "linear_base_color": [
+        0.48,
+        0.43,
+        0.37,
+        1
+      ],
+      "roughness": 0.32
+    }
+  ],
+  "eyes": [
+    {
+      "source_name": "GEO-eye.L",
+      "new_object": "GEO-eye.L_SavedChannelRestCandidate",
+      "static_key_evidence": [
+        {
+          "name": "resize",
+          "value": 1.0,
+          "driver": false,
+          "relative_key": "Basis"
+        },
+        {
+          "name": "GEO-resize2_pupil",
+          "value": 1.0,
+          "driver": false,
+          "relative_key": "Basis"
+        },
+        {
+          "name": "GEO-resize2_iris",
+          "value": 1.0,
+          "driver": false,
+          "relative_key": "Basis"
+        }
+      ],
+      "source_raw_vertices": 802,
+      "source_raw_polygons": 832,
+      "polygon_material_counts": {
+        "2": 512,
+        "0": 128,
+        "1": 192
+      },
+      "rest_relative_matrix": [
+        [
+          0.996492862701416,
+          -0.08367744833230972,
+          -4.702137790246752e-09,
+          0.02896723337471485
+        ],
+        [
+          0.08367744833230972,
+          0.996492862701416,
+          -1.8386272060411102e-08,
+          -0.1100393682718277
+        ],
+        [
+          6.224163406898242e-09,
+          1.7928327267213717e-08,
+          1.0,
+          1.6220605373382568
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "static_geometry_sha256": "78e3692b52fa3bc11aeff5fbe383ed1481dee0802bdcb90e99d483485209cead",
+      "source_Armature_constraint_and_deformation_ignored": true
+    },
+    {
+      "source_name": "GEO-eye.R",
+      "new_object": "GEO-eye.R_SavedChannelRestCandidate",
+      "static_key_evidence": [
+        {
+          "name": "resize",
+          "value": 1.0,
+          "driver": false,
+          "relative_key": "Basis"
+        },
+        {
+          "name": "GEO-resize2_pupil",
+          "value": 1.0,
+          "driver": false,
+          "relative_key": "Basis"
+        },
+        {
+          "name": "GEO-resize2_iris",
+          "value": 1.0,
+          "driver": false,
+          "relative_key": "Basis"
+        }
+      ],
+      "source_raw_vertices": 802,
+      "source_raw_polygons": 832,
+      "polygon_material_counts": {
+        "2": 512,
+        "0": 128,
+        "1": 192
+      },
+      "rest_relative_matrix": [
+        [
+          0.9997209310531616,
+          0.023559289053082466,
+          -2.9079117780383967e-07,
+          -0.02981507033109665
+        ],
+        [
+          -0.02355927973985672,
+          0.999721348285675,
+          -1.9565206457627937e-05,
+          -0.11231587827205658
+        ],
+        [
+          -1.702322123264821e-07,
+          1.956661435542628e-05,
+          0.9999995231628418,
+          1.6226556301116943
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "static_geometry_sha256": "89b29f1362aa7e9730c59807d00e3227d2181a45996f09963479090266b2f35d",
+      "source_Armature_constraint_and_deformation_ignored": true
+    }
+  ],
+  "placement_assumption": "Main-head basis inverse times eye basis in common RIG parent with identity parent inverses. Only three proven undriven static resize keys included. Armature constraints/deformation and driven Shrink/Grow ignored; not an evaluated source rig neutral restoration.",
+  "source_Objects_drivers_Text_or_rig_evaluated": false,
+  "only_new_clean_scene_evaluated": true,
+  "loaded_image_count": 3,
+  "packed_detail_expression_bruises_atlas_hair_body_or_Unity_included": false,
+  "render_settings": {
+    "resolution": [
+      768,
+      768
+    ],
+    "samples": 16,
+    "CPU_threads": 4,
+    "depth_of_field": false,
+    "denoising": false,
+    "compositor": false,
+    "exposure": 0
+  },
+  "image": "D:\\AI\\PROJECT\\hackathon_projects\\Aholo_3D_AI_Hackathon\\worktrees\\plato-refinement\\qa\\characters\\plato\\v002\\einar-intake\\einar-static-rest-skin-closeup.png",
+  "requested_render_count": 1,
+  "completed_render_count": 1,
+  "eye_alignment_visual_review": "Actual image viewed after exit: iris/pupil/sclera boundaries are not clearly visible in the narrow dark eye slits. Eye/eyelid matching is not passed; cause is not established from this one view. No eye offsets adjusted or extra image rendered.",
+  "post_run_visual_review_added": true,
+  "independent_visual_review": "Actual image viewed: cannot reliably inspect eye/eyelid contact, gaps or intersection; material adds color/spot/scar information, bright neck highlights and some waxiness. Elderly Plato target not passed. Scope is this static candidate and simplified shader, not the complete Einar asset.",
+  "art_accepted": false,
+  "owner_visual_review_pending": false,
+  "owner_visual_review": "Round7 character visual acceptance failed: skin/form restoration improved, but eyes remain unreadable and scars/red patches do not fit Plato. Partial head occlusion is not a complete cause or corrective offset.",
+  "license": "CC BY 4.0",
+  "source_page": "https://studio.blender.org/characters/einar/v1/",
+  "required_credit": "Einar Rig (CC-BY) Blender Foundation | studio.blender.org",
+  "editable_blend": "D:\\AI\\PROJECT\\hackathon_projects\\Aholo_3D_AI_Hackathon\\worktrees\\plato-refinement\\art\\characters\\plato\\v002\\einar-static-closeup-review\\einar-static-rest-skin-closeup.blend",
+  "all_texture_paths_relative_to_new_blend": [
+    "//textures\\disp_default.exr",
+    "//textures\\einar_skin.albedo.tif",
+    "//textures\\einar_skin.roughness.tif"
+  ],
+  "elapsed_seconds": 11.538,
+  "original_saved_texture_paths_before_package_repair": [
+    "//..\\einar-default-sculpt-review\\textures\\disp_default.exr",
+    "//..\\einar-default-sculpt-review\\textures\\einar_skin.albedo.tif",
+    "//..\\einar-default-sculpt-review\\textures\\einar_skin.roughness.tif"
+  ],
+  "package_verification": "qa/characters/plato/v002/einar-intake/stage7-package-verification.json",
+  "package_repair_no_new_render_image_unchanged": true
+}

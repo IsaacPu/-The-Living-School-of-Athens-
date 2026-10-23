@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+  File "D:\AI\PROJECT\hackathon_projects\Aholo_3D_AI_Hackathon\worktrees\plato-refinement\scripts\characters\verify-einar-closeup-package.py", line 80, in <module>
+    assert item.filepath == record['expected_relative_path']
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError
+
+Error: script failed, file: 'D:\AI\PROJECT\hackathon_projects\Aholo_3D_AI_Hackathon\worktrees\plato-refinement\scripts\characters\verify-einar-closeup-package.py', exiting.
