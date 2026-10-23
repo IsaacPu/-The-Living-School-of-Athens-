@@ -1,0 +1,92 @@
+{
+  "schema_version": 1,
+  "created_utc": "2026-10-23T08:54:22.265858+00:00",
+  "candidate_name": "plato-portrait-p1b",
+  "art_status": "art_not_accepted",
+  "rendered": true,
+  "image": "qa/characters/plato/v002/portrait-p1b/plato-head-shoulders-quarter.png",
+  "blend": "art/characters/plato/v002/portrait-p1b/plato-portrait-p1b.blend",
+  "blend_sha256": "c26cc592456cb6c8f54c7fd6391580e0cc40f9999d72518d3f9f1602236041bb",
+  "baseline_sha256": "121d42a2df197fe860410dd7f99317318e368ebd1d5253fb58245d13c6cc33a4",
+  "cpu_threads": 4,
+  "gpu_used": false,
+  "samples": 32,
+  "denoising": false,
+  "resolution": [
+    768,
+    768
+  ],
+  "head_vertices": 18255,
+  "head_displaced_vertices": 16587,
+  "head_max_donor_displacement_m": 0.01181585498038173,
+  "head_form_changes": [
+    "lower face elongation",
+    "jaw narrowing",
+    "cheek hollowing",
+    "less regular infraorbital rolls",
+    "brow form",
+    "nasolabial folds",
+    "nasal tip",
+    "mouth corner descent",
+    "ear lobe"
+  ],
+  "surface_evaluation": "One local subdivision on the licensed quad head, supporting form editing; not claimed as refinement by itself.",
+  "hair_primary_locks": 108,
+  "beard_primary_locks": 39,
+  "hair_beard_representation": "Connected scalp/beard masses plus limited surface-following editable curves; no face overlays.",
+  "visibility_preflight": {
+    "head_hide_render": false,
+    "eyes_hide_render": false,
+    "head_visible": true
+  },
+  "old_clothing_max_z_m": 1.4299999475479126,
+  "clothing_boundary_repair": {
+    "boundary_edges_before": 1230,
+    "cap_faces_created": 44,
+    "boundary_edges_after": 93,
+    "edges_with_more_than_two_faces": 134,
+    "status": "incomplete_nonmanifold_crop",
+    "scope": "Independent cropped clothing only; remaining boundaries/nonmanifold edges are unresolved. No watertight or welded integration claim."
+  },
+  "collar_attachment": "Inner ring anchored to head/neck surface with 1.5mm thickness allowance; outer ring anchored to retained clothing surface before new cap faces were created. Separate meshes, full multi-view integration pending.",
+  "skin_material": "New procedural skin/lip material; no old face diffuse projection.",
+  "eyes": "Retained anatomical eyeballs with procedural polygon iris/sclera/pupil materials.",
+  "collar": "P0 clothing cropped to shoulders and provisional new collar; full neck/body connection not accepted.",
+  "source_license": "CC BY 4.0 for derived head/eyes; see ../ATTRIBUTION.md. Existing clothing retains P0 source provenance.",
+  "limits": [
+    "Only one three-quarter shaded preview; front/back and seam checks pending.",
+    "Clothing crop still has open boundaries and edges with more than two faces; collar/head/body integration is not accepted.",
+    "Hair/skin materials are procedural and not baked for runtime export.",
+    "No finished Plato likeness, full-body refinement, hand changes or animation claim."
+  ],
+  "image_sha256": "3db3ee8bf3c1047b081ddbf56a3229ba0b979b9ad8d04157ecac00eeb579db5c",
+  "visual_self_review": {
+    "reviewer": "B",
+    "actual_image_viewed": true,
+    "verdict": "rejected",
+    "improvements": [
+      "Head/eyes now visible",
+      "Readable eyelid, nose and lip geometry"
+    ],
+    "failures": [
+      "Age/likeness still reads as a generic young adult",
+      "Scalp shell has hard stepped margins and sparse regular white strands",
+      "Beard is a flat tapering curtain with hard roots; moustache is mechanical",
+      "Visible shoulder tears, skin-colored cut caps, and hard purple collar transition"
+    ],
+    "boundary_policy": "Natural garment openings may remain. Counts alone are not a visual acceptance gate.",
+    "source_capture_status": "Blend metadata was captured before visual review; this report is the later review verdict."
+  },
+  "owner_review": "pending",
+  "independent_visual_review": {
+    "reviewer": "character_reference_check",
+    "actual_image_viewed": true,
+    "verdict": "rejected",
+    "findings": [
+      "Readable face but young appearance",
+      "Hard stepped scalp shell and parallel curtain-like beard",
+      "Visible shoulder plates and black collar/shoulder tears"
+    ],
+    "basis": "Specific visible defects, not boundary-edge counts"
+  }
+}

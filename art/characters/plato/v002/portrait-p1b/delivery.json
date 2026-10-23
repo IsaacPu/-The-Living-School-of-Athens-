@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "asset_id": "plato-v002-portrait-p1b",
+  "asset_role": "rejected_shaded_head_shoulders_experiment",
+  "art_status": "art_not_accepted",
+  "runtime_replacement_approved": false,
+  "runtime_glb": null,
+  "blend": {
+    "path": "plato-portrait-p1b.blend",
+    "sha256": "c26cc592456cb6c8f54c7fd6391580e0cc40f9999d72518d3f9f1602236041bb"
+  },
+  "preview": {
+    "path_from_worktree": "qa/characters/plato/v002/portrait-p1b/plato-head-shoulders-quarter.png",
+    "sha256": "3db3ee8bf3c1047b081ddbf56a3229ba0b979b9ad8d04157ecac00eeb579db5c"
+  },
+  "report_from_worktree": "qa/characters/plato/v002/portrait-p1b/REPORT.md",
+  "source_attribution": "../ATTRIBUTION.md",
+  "license_record": "../source/base-mesh-license.json",
+  "clothing_provenance": "../../v001/source/provenance.json",
+  "limits": [
+    "Only one three-quarter shaded preview; front/back and seam checks pending.",
+    "Clothing crop still has open boundaries and edges with more than two faces; collar/head/body integration is not accepted.",
+    "Hair/skin materials are procedural and not baked for runtime export.",
+    "No finished Plato likeness, full-body refinement, hand changes or animation claim."
+  ]
+}

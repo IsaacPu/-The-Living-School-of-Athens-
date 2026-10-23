@@ -1,0 +1,262 @@
+{
+  "schema_version": 1,
+  "verified_utc": "2026-10-23T09:05:09.932414+00:00",
+  "scope": "File integrity, reopened source state and preservation only; not character-art acceptance",
+  "technical_checks_passed": true,
+  "art_status": "art_not_accepted",
+  "checks": [
+    {
+      "name": "source_and_image_exist",
+      "passed": true,
+      "detail": "Independent p1b paths"
+    },
+    {
+      "name": "png_resolution",
+      "passed": true,
+      "detail": [
+        768,
+        768
+      ]
+    },
+    {
+      "name": "saved_source_hash",
+      "passed": true,
+      "detail": "c26cc592456cb6c8f54c7fd6391580e0cc40f9999d72518d3f9f1602236041bb"
+    },
+    {
+      "name": "saved_output_path",
+      "passed": true,
+      "detail": "D:\\AI\\PROJECT\\hackathon_projects\\Aholo_3D_AI_Hackathon\\worktrees\\plato-refinement\\qa\\characters\\plato\\v002\\portrait-p1b\\plato-head-shoulders-quarter.png"
+    },
+    {
+      "name": "head_eyes_visible_in_reopened_source",
+      "passed": true,
+      "detail": {
+        "head": true,
+        "eyes": true
+      }
+    },
+    {
+      "name": "new_head_no_image_texture_nodes",
+      "passed": true,
+      "detail": 0
+    },
+    {
+      "name": "old_head_excluded_from_crop",
+      "passed": true,
+      "detail": 1.4299999475479126
+    },
+    {
+      "name": "cpu_resource_limit",
+      "passed": true,
+      "detail": "4 CPU threads; no GPU render"
+    },
+    {
+      "name": "one_completed_render_logged",
+      "passed": true,
+      "detail": "One saved PNG, completion marker, Blender exit"
+    },
+    {
+      "name": "v001_27_hashes_preserved",
+      "passed": true,
+      "detail": {
+        "files": 27,
+        "modified": []
+      }
+    },
+    {
+      "name": "study_and_donor_preserved",
+      "passed": true,
+      "detail": {
+        "files": 13,
+        "base_commit": "cb8d3ee"
+      }
+    },
+    {
+      "name": "p1_failed_source_preserved",
+      "passed": true,
+      "detail": {
+        "blend_sha256": "73da19db15ae6b8de49c0f03e68d0d8e3e9eaae454c3f597fbdf74f06e489076",
+        "image_sha256": "17ef26a2915f99d4d17163afb1cf79e858ae4fd06938475fabe2a8618020c213"
+      }
+    },
+    {
+      "name": "source_attribution_recorded",
+      "passed": true,
+      "detail": "Blender Studio / Project Heist; lesson author Julien Kaspar; CC BY 4.0"
+    },
+    {
+      "name": "remaining_clothing_limits_disclosed",
+      "passed": true,
+      "detail": {
+        "boundary_edges": 93,
+        "edges_with_more_than_two_faces": 134,
+        "acceptance_basis": "Visible collar/shoulder tears, not a zero-boundary criterion"
+      }
+    }
+  ],
+  "v001_files": {
+    "art/characters/plato/v001/delivery.json": {
+      "before": "1270d28f470496660c7545f5ab20ed9487ef437c907ba9078fd142960d243629",
+      "after": "1270d28f470496660c7545f5ab20ed9487ef437c907ba9078fd142960d243629"
+    },
+    "art/characters/plato/v001/export/plato-baseline-diagnostic.glb": {
+      "before": "121d42a2df197fe860410dd7f99317318e368ebd1d5253fb58245d13c6cc33a4",
+      "after": "121d42a2df197fe860410dd7f99317318e368ebd1d5253fb58245d13c6cc33a4"
+    },
+    "art/characters/plato/v001/source/plato-lux3d-task-4277623.glb": {
+      "before": "904ab6adec70c941a877918435b3c655a89a6d67be5c52610d4d210689afd8ce",
+      "after": "904ab6adec70c941a877918435b3c655a89a6d67be5c52610d4d210689afd8ce"
+    },
+    "art/characters/plato/v001/source/provenance.json": {
+      "before": "e0df4e96659367e60468af9155e3bdbd8a5d36516fcf907a10d8792dd66f969e",
+      "after": "e0df4e96659367e60468af9155e3bdbd8a5d36516fcf907a10d8792dd66f969e"
+    },
+    "art/characters/plato/v001/source/references.json": {
+      "before": "78b63cf697f25dc74166aa66348a43d83e644c9fc1edc3b5c7ee9fc5bf072b87",
+      "after": "78b63cf697f25dc74166aa66348a43d83e644c9fc1edc3b5c7ee9fc5bf072b87"
+    },
+    "art/characters/plato/v001/work/plato-baseline-diagnostic.blend": {
+      "before": "6f31bf0b375a97818202808ca74e553e02320f2cbd5313e0cc4098b4c6263503",
+      "after": "6f31bf0b375a97818202808ca74e553e02320f2cbd5313e0cc4098b4c6263503"
+    },
+    "qa/characters/plato/v001/axis_minus_x_subject_right.png": {
+      "before": "e6b14550cd44d6ccfc5326b2f5b9ea2c1cb98dad875f6240b6ec4266f504ed6c",
+      "after": "e6b14550cd44d6ccfc5326b2f5b9ea2c1cb98dad875f6240b6ec4266f504ed6c"
+    },
+    "qa/characters/plato/v001/axis_minus_z_candidate_back.png": {
+      "before": "6bf87285facea661955525b55e8dd96592435b156cea8b450e5aa8e4bf562471",
+      "after": "6bf87285facea661955525b55e8dd96592435b156cea8b450e5aa8e4bf562471"
+    },
+    "qa/characters/plato/v001/axis_plus_x_subject_left.png": {
+      "before": "a45646561425fbdfece665071bab8a92f93b0040f3c30de108d1028b7d7eb7d1",
+      "after": "a45646561425fbdfece665071bab8a92f93b0040f3c30de108d1028b7d7eb7d1"
+    },
+    "qa/characters/plato/v001/axis_plus_z_candidate_front.png": {
+      "before": "343e80cb81a9bc756b7106ff8dba724f21ce50a259daf51442aa90650a2d0a9e",
+      "after": "343e80cb81a9bc756b7106ff8dba724f21ce50a259daf51442aa90650a2d0a9e"
+    },
+    "qa/characters/plato/v001/blender-inspection.json": {
+      "before": "dd566b7952ad4a2201fcb29e986538571b496435d77cd4960de29338520de15a",
+      "after": "dd566b7952ad4a2201fcb29e986538571b496435d77cd4960de29338520de15a"
+    },
+    "qa/characters/plato/v001/delivery_after_same_conditions.png": {
+      "before": "207955ad514e1995bd5899b4c91f3a8cfc4099bfdf400ef9f2fefd209c3ac166",
+      "after": "207955ad514e1995bd5899b4c91f3a8cfc4099bfdf400ef9f2fefd209c3ac166"
+    },
+    "qa/characters/plato/v001/execution.json": {
+      "before": "eee5dcffb3b0c08ce3f00ac4cdbf7b07d36169a61803747f98af3a8589f879a5",
+      "after": "eee5dcffb3b0c08ce3f00ac4cdbf7b07d36169a61803747f98af3a8589f879a5"
+    },
+    "qa/characters/plato/v001/face_front.png": {
+      "before": "9ba52fdc7380f4d91fd0d65e8b370338f9e636631fd65ff7125b52d1e25d944d",
+      "after": "9ba52fdc7380f4d91fd0d65e8b370338f9e636631fd65ff7125b52d1e25d944d"
+    },
+    "qa/characters/plato/v001/face_three_quarter.png": {
+      "before": "94226a21394b80ed0ed55aea663fd62b4ae6bed75252e65c177e48e462b0676a",
+      "after": "94226a21394b80ed0ed55aea663fd62b4ae6bed75252e65c177e48e462b0676a"
+    },
+    "qa/characters/plato/v001/feet_front.png": {
+      "before": "51cbcbd427f54643afb3fce4d6562efbddf503b4a72a21a450f1bc6f96ef4e39",
+      "after": "51cbcbd427f54643afb3fce4d6562efbddf503b4a72a21a450f1bc6f96ef4e39"
+    },
+    "qa/characters/plato/v001/front_metric_ruler.png": {
+      "before": "73ba3b3154db56737889070d0a25c6feef605b4db6f8ca66f61aabad72c15714",
+      "after": "73ba3b3154db56737889070d0a25c6feef605b4db6f8ca66f61aabad72c15714"
+    },
+    "qa/characters/plato/v001/front_three_quarter.png": {
+      "before": "69019c7d901c5a636dc82290f7fdc41e0cd5026b67ba36dae7bf3b61a879fae6",
+      "after": "69019c7d901c5a636dc82290f7fdc41e0cd5026b67ba36dae7bf3b61a879fae6"
+    },
+    "qa/characters/plato/v001/hands_book_front.png": {
+      "before": "84d2583e850cf29bdddc6486f63637557ced72ff90b61844ace02f96cbc2a10a",
+      "after": "84d2583e850cf29bdddc6486f63637557ced72ff90b61844ace02f96cbc2a10a"
+    },
+    "qa/characters/plato/v001/hands_book_side.png": {
+      "before": "2ef8ae2b12043a5f105d17dea4f706158ba8b5330f725914ea68134e97e905ba",
+      "after": "2ef8ae2b12043a5f105d17dea4f706158ba8b5330f725914ea68134e97e905ba"
+    },
+    "qa/characters/plato/v001/material_before.png": {
+      "before": "e36f47a0b3aa97301aed5226f4f5294d2b0239fafeb00050443f60ff332a2ffd",
+      "after": "e36f47a0b3aa97301aed5226f4f5294d2b0239fafeb00050443f60ff332a2ffd"
+    },
+    "qa/characters/plato/v001/material_nonmetal_candidate.png": {
+      "before": "7730676f6df33fcbe54327c8942fa759943d339a93e33126e12dd771c59b2a44",
+      "after": "7730676f6df33fcbe54327c8942fa759943d339a93e33126e12dd771c59b2a44"
+    },
+    "qa/characters/plato/v001/REPORT.md": {
+      "before": "a741fb4105f627fd5528307ed19e064c295b83eca7223e62128226e12be1c8ce",
+      "after": "a741fb4105f627fd5528307ed19e064c295b83eca7223e62128226e12be1c8ce"
+    },
+    "qa/characters/plato/v001/roundtrip.json": {
+      "before": "1491be5d0b267e7887408d4b1df6385d87e257962d3da273252ac010ed6c8cf9",
+      "after": "1491be5d0b267e7887408d4b1df6385d87e257962d3da273252ac010ed6c8cf9"
+    },
+    "qa/characters/plato/v001/source_before_same_conditions.png": {
+      "before": "1584ff5a32c8092e298e51f96de669b34c19de6dfe409cd0dc0872923ff8b2bd",
+      "after": "1584ff5a32c8092e298e51f96de669b34c19de6dfe409cd0dc0872923ff8b2bd"
+    },
+    "qa/characters/plato/v001/verification.json": {
+      "before": "74472ea3a3239d1f89e8d1239be4db7efd5224b879e7cf4e19c6e171a3346384",
+      "after": "74472ea3a3239d1f89e8d1239be4db7efd5224b879e7cf4e19c6e171a3346384"
+    },
+    "qa/characters/plato/v001/visual-review.json": {
+      "before": "161c39fad1eb4d93eb7715113ae3eeb5de44b1bb35a201da1df11ae4f1e714a8",
+      "after": "161c39fad1eb4d93eb7715113ae3eeb5de44b1bb35a201da1df11ae4f1e714a8"
+    }
+  },
+  "study_files": {
+    "qa/characters/plato/v002/A_front_gray.png": {
+      "committed": "d9d808e6073802c74885439f6521ea2facf40c052ca42109730fb0d521dc7cc4",
+      "current": "d9d808e6073802c74885439f6521ea2facf40c052ca42109730fb0d521dc7cc4"
+    },
+    "qa/characters/plato/v002/A_front_original_albedo_only.png": {
+      "committed": "94eebac9ea752d7ade1f735e0178910f6ca2fb5ca290c3018b72b9a925ae9dc8",
+      "current": "94eebac9ea752d7ade1f735e0178910f6ca2fb5ca290c3018b72b9a925ae9dc8"
+    },
+    "qa/characters/plato/v002/A_front_original_full_material.png": {
+      "committed": "3d8f310c6b881ccf2a977e9a89d80869788496c61da64b1dbacf6f03eb460994",
+      "current": "3d8f310c6b881ccf2a977e9a89d80869788496c61da64b1dbacf6f03eb460994"
+    },
+    "qa/characters/plato/v002/A_quarter_gray.png": {
+      "committed": "d7969a8afd2c06297d23f9721de3d231698df82ce7fc57c0e3ba3af04c2c6477",
+      "current": "d7969a8afd2c06297d23f9721de3d231698df82ce7fc57c0e3ba3af04c2c6477"
+    },
+    "qa/characters/plato/v002/A_side_gray.png": {
+      "committed": "1cb4777b7e8992bf046856364cf54caaff285146dd016b73398f3d2202a2a340",
+      "current": "1cb4777b7e8992bf046856364cf54caaff285146dd016b73398f3d2202a2a340"
+    },
+    "qa/characters/plato/v002/B_front_normals_only_gray.png": {
+      "committed": "15d82032e358f1da14ba88e5c9df580a8d822d3dd74fd05ef6a497562b5e9c61",
+      "current": "15d82032e358f1da14ba88e5c9df580a8d822d3dd74fd05ef6a497562b5e9c61"
+    },
+    "qa/characters/plato/v002/C0_front_licensed_base_control_gray.png": {
+      "committed": "9d7fdc99d9ba63e7919d094abe499e9526248d11bc4d89074d0ca77114defb47",
+      "current": "9d7fdc99d9ba63e7919d094abe499e9526248d11bc4d89074d0ca77114defb47"
+    },
+    "qa/characters/plato/v002/C1_front_reshaped_head_gray.png": {
+      "committed": "aa124f9d37611a6371a5007d64bd54d8ebfa31e1db6d779648703e308df03307",
+      "current": "aa124f9d37611a6371a5007d64bd54d8ebfa31e1db6d779648703e308df03307"
+    },
+    "qa/characters/plato/v002/C1_quarter_reshaped_head_gray.png": {
+      "committed": "5463a39c1513d7dc92d5fd6ca95a68fd8a50239bd36a26cb9953a4a2cd2101e8",
+      "current": "5463a39c1513d7dc92d5fd6ca95a68fd8a50239bd36a26cb9953a4a2cd2101e8"
+    },
+    "qa/characters/plato/v002/C1_side_reshaped_head_gray.png": {
+      "committed": "0d7b992ef805a0add994cce92e3bef331a6709d958a1ede67337d04bfaf9251b",
+      "current": "0d7b992ef805a0add994cce92e3bef331a6709d958a1ede67337d04bfaf9251b"
+    },
+    "art/characters/plato/v002/work/plato-head-study.blend": {
+      "committed": "035923bb72bde7f254f35713f5ff4b21265155e407c2e393e109c16f258c8391",
+      "current": "035923bb72bde7f254f35713f5ff4b21265155e407c2e393e109c16f258c8391"
+    },
+    "art/characters/plato/v002/export/plato-head-geometry-study.glb": {
+      "committed": "243b8174565f6084f101012bf1e3204a95585a1af254b76b60dd80bb6c71810d",
+      "current": "243b8174565f6084f101012bf1e3204a95585a1af254b76b60dd80bb6c71810d"
+    },
+    "art/characters/plato/v002/source/realistic_human_base.blend": {
+      "committed": "1d9d2a6070acd6a3d0d9b676af816001310fb0f6128d07a3ab3e0318c7fdd981",
+      "current": "1d9d2a6070acd6a3d0d9b676af816001310fb0f6128d07a3ab3e0318c7fdd981"
+    }
+  }
+}

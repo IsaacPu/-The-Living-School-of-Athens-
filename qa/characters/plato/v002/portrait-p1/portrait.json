@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "created_utc": "2026-10-23T07:40:33.577296+00:00",
+  "candidate_name": "plato-portrait-p1",
+  "art_status": "rejected_render_visibility_failure",
+  "image": "qa/characters/plato/v002/portrait-p1/plato-head-shoulders-quarter.png",
+  "blend": "art/characters/plato/v002/portrait-p1/plato-portrait-p1.blend",
+  "blend_sha256": "73da19db15ae6b8de49c0f03e68d0d8e3e9eaae454c3f597fbdf74f06e489076",
+  "baseline_sha256": "121d42a2df197fe860410dd7f99317318e368ebd1d5253fb58245d13c6cc33a4",
+  "cpu_threads": 4,
+  "gpu_used": false,
+  "samples": 32,
+  "denoising": false,
+  "resolution": [
+    768,
+    768
+  ],
+  "head_vertices": 18255,
+  "head_displaced_vertices": 16587,
+  "head_max_donor_displacement_m": 0.01181585498038173,
+  "head_form_changes": [
+    "lower face elongation",
+    "jaw narrowing",
+    "cheek hollowing",
+    "less regular infraorbital rolls",
+    "brow form",
+    "nasolabial folds",
+    "nasal tip",
+    "mouth corner descent",
+    "ear lobe"
+  ],
+  "surface_evaluation": "One local subdivision on the licensed quad head, supporting form editing; not claimed as refinement by itself.",
+  "hair_primary_locks": 109,
+  "beard_primary_locks": 42,
+  "hair_beard_representation": "Editable actual 3D curves plus scalp mass, not image overlays.",
+  "skin_material": "New procedural skin/lip material; no old face diffuse projection.",
+  "eyes": "Retained anatomical eyeballs with procedural polygon iris/sclera/pupil materials.",
+  "collar": "P0 clothing cropped to shoulders and provisional new collar; full neck/body connection not accepted.",
+  "source_license": "CC BY 4.0 for derived head/eyes; see ../ATTRIBUTION.md. Existing clothing retains P0 source provenance.",
+  "limits": [
+    "Only one three-quarter shaded preview; front/back and seam checks pending.",
+    "Hair/skin materials are procedural and not baked for runtime export.",
+    "No finished Plato likeness, full-body refinement, hand changes or animation claim."
+  ],
+  "review_findings": [
+    "Head inherited hide_render=True from hidden C0 control; source skin absent in actual image. This image is not an acceptable portrait.",
+    "Sparse straight beard curves and regular hair-wave arrangement fail natural mass/direction.",
+    "Provisional collar is oversized and plate-like."
+  ],
+  "next_candidate": "portrait-p1r1"
+}
