@@ -1,0 +1,1358 @@
+{
+  "schema_version": 1,
+  "stage": "1_five_raw_mesh_ids_only",
+  "created_utc": "2026-10-23T12:05:18.741241+00:00",
+  "blender_version": "4.5.15 LTS",
+  "pid": 6620,
+  "source_cache_read_only": "D:\\AI\\PROJECT\\hackathon_projects\\Aholo_3D_AI_Hackathon\\project-management\\source-cache\\einar-v1\\extracted\\einar_release_v1.blend",
+  "requested_meshes": [
+    "DATA_GEO-einar_head",
+    "DATA_GEO-einar_head.base",
+    "DATA_GEO-einar_head.base.001",
+    "DATA_GEO-eye.L",
+    "DATA_GEO-eye.R"
+  ],
+  "data_to_assigned_members": [
+    "meshes"
+  ],
+  "full_scene_opened": false,
+  "source_objects_linked_into_scene": false,
+  "depsgraph_modifier_rig_or_displacement_evaluation": false,
+  "geometry_edited": false,
+  "raw_mesh_tessellation_cache_computed": true,
+  "text_or_driver_code_executed": false,
+  "image_pixels_accessed": false,
+  "render_started": false,
+  "blend_saved": false,
+  "inspection_elapsed_seconds": 3.4963,
+  "process_memory_before": {
+    "working_set_mib": 132.83,
+    "peak_working_set_mib": 132.83
+  },
+  "process_memory_after": {
+    "working_set_mib": 225.11,
+    "peak_working_set_mib": 551.9
+  },
+  "resident_names_before": {
+    "objects": [
+      "Camera",
+      "Cube",
+      "Light"
+    ],
+    "meshes": [
+      "Cube"
+    ],
+    "materials": [
+      "Dots Stroke",
+      "Material"
+    ],
+    "images": [
+      "Render Result",
+      "Viewer Node"
+    ],
+    "collections": [
+      "Collection"
+    ],
+    "armatures": [],
+    "actions": [],
+    "node_groups": [],
+    "texts": [],
+    "curves": [],
+    "lattices": [],
+    "cameras": [
+      "Camera"
+    ],
+    "lights": [
+      "Light"
+    ],
+    "scenes": [
+      "Scene"
+    ],
+    "shape_keys": [],
+    "libraries": []
+  },
+  "resident_names_after": {
+    "objects": [
+      "Camera",
+      "Cube",
+      "GEO-einar_jacket_main",
+      "GEO-einar_pants_main",
+      "GEO-einar_tire_shoulder_surfacedeform",
+      "GEO-elbow_joint",
+      "GEO-hyd_rod_upper_arm",
+      "GEO-lower_arm_frame",
+      "GEO-shoulder_bicep_joint",
+      "GEO-upper_arm_frame",
+      "HLP-piston_biceps",
+      "HLP-piston_biceps2",
+      "LTC-Jacket_Back.L",
+      "LTC-Jacket_Back.R",
+      "LTC-Jacket_Front.L",
+      "LTC-Jacket_Front.R",
+      "LTC-Jacket_Side.L",
+      "LTC-Jacket_Side.R",
+      "LTC-Pants_Back.L",
+      "LTC-Pants_Back.R",
+      "LTC-Pants_Front.L",
+      "LTC-Pants_Front.R",
+      "Light",
+      "RIG-einar",
+      "WGT-Arrow_Head",
+      "WGT-Circle",
+      "WGT-Circle_Spiked_2",
+      "WGT-Clavicle",
+      "WGT-Cogwheel_Y",
+      "WGT-Cube",
+      "WGT-Foot",
+      "WGT-Hyperbola",
+      "WGT-Jaw",
+      "WGT-Line",
+      "WGT-Roll_Flat",
+      "WGT-Root",
+      "WGT-Semicircle",
+      "WGT-Sphere",
+      "WGT-Sphere_Half",
+      "WGT-Square",
+      "WGT-Squares_2",
+      "WGT-Thumb_Parent",
+      "WGT-Torso_Master"
+    ],
+    "meshes": [
+      "Cube",
+      "DATA_GEO-einar_head",
+      "DATA_GEO-einar_head.base",
+      "DATA_GEO-einar_head.base.001",
+      "DATA_GEO-einar_jacket_main",
+      "DATA_GEO-einar_pants_main",
+      "DATA_GEO-einar_tire_shoulder_surfacedeform",
+      "DATA_GEO-elbow_joint",
+      "DATA_GEO-eye.L",
+      "DATA_GEO-eye.R",
+      "DATA_GEO-hyd_rod_upper_arm",
+      "DATA_GEO-lower_arm_frame",
+      "DATA_GEO-shoulder_bicep_joint",
+      "DATA_GEO-upper_arm_frame",
+      "DATA_WGT-Arrow_Head",
+      "DATA_WGT-Circle",
+      "DATA_WGT-Circle_Spiked_2",
+      "DATA_WGT-Clavicle",
+      "DATA_WGT-Cogwheel_Y",
+      "DATA_WGT-Cube",
+      "DATA_WGT-Foot",
+      "DATA_WGT-Hyperbola",
+      "DATA_WGT-Jaw",
+      "DATA_WGT-Line",
+      "DATA_WGT-Roll_Flat",
+      "DATA_WGT-Root",
+      "DATA_WGT-Semicircle",
+      "DATA_WGT-Sphere",
+      "DATA_WGT-Sphere_Half",
+      "DATA_WGT-Square",
+      "DATA_WGT-Squares_2",
+      "DATA_WGT-Thumb_Parent",
+      "DATA_WGT-Torso_Master"
+    ],
+    "materials": [
+      "Dots Stroke",
+      "Material",
+      "einar.jacket.canvas",
+      "einar.jacket.rim",
+      "einar.pants_fabric",
+      "einar.pants_leather",
+      "einar.pants_tarp",
+      "einar.skin",
+      "eyes.iris",
+      "eyes.pupil",
+      "eyes.white",
+      "metal_rust",
+      "metal_rust2.002",
+      "metal_rust3",
+      "metal_rust4",
+      "piston"
+    ],
+    "images": [
+      "Render Result",
+      "Viewer Node",
+      "canvas_01.disp",
+      "canvas_01.normal",
+      "dents_01.normal",
+      "disp_clothing_default",
+      "disp_clothing_shapes_A",
+      "disp_clothing_shapes_B",
+      "disp_clothing_shapes_C",
+      "disp_clothing_shapes_D",
+      "disp_clothing_shapes_E",
+      "disp_default",
+      "distress_stages",
+      "einar.bruises.albedo",
+      "einar.clothing.color_base",
+      "einar.clothing.normal_base",
+      "einar.clothing.pointiness",
+      "einar.robot_arm.normal_base.",
+      "einar.robot_arm.pointiness.",
+      "einar_skin.albedo",
+      "einar_skin.dirt",
+      "einar_skin.roughness",
+      "eyes.albedo",
+      "grime_01",
+      "iris_depth",
+      "knit_01.disp",
+      "knit_01.normal",
+      "knit_01.tile_uv",
+      "noise_01",
+      "noise_03",
+      "noise_04",
+      "noise_06",
+      "scratches_01.disp",
+      "scratches_01.normal",
+      "seams.disp",
+      "seams.normal",
+      "shapes-A-B-C-D",
+      "shapes-E-F-DEFAULT-DETAIL",
+      "textile_02.disp",
+      "textile_02.normal",
+      "textile_02.tile_uv"
+    ],
+    "collections": [
+      "Collection"
+    ],
+    "armatures": [
+      "DATA_RIG-einar"
+    ],
+    "actions": [
+      "RIG-Einar_Blink_EyeOpen",
+      "RIG-Einar_Cheek_Lower",
+      "RIG-Einar_Cheek_Raise",
+      "RIG-Einar_EyesMove_Horizontal",
+      "RIG-Einar_EyesMove_Vertical",
+      "RIG-Einar_JawOpen",
+      "RIG-Einar_LipSquash",
+      "RIG-Einar_LipsPucker",
+      "RIG-Einar_Lips_Down",
+      "RIG-Einar_Lips_Lower_Sneer",
+      "RIG-Einar_Lips_Smile",
+      "RIG-Einar_Lips_Upper_Sneer",
+      "RIG-Einar_Lips_Wide",
+      "RIG-Einar_LowerEyelids",
+      "RIG-Einar_Nose_Sneer",
+      "RIG-Einar_ShoulderTire_FowardBack",
+      "RIG-Einar_Squint",
+      "RIG-Einar_UpperEyelids"
+    ],
+    "node_groups": [
+      "Displacement_Jacket",
+      "Displacement_Pants",
+      "NormalBake.002",
+      "SH-canvas_clothing.002",
+      "SH-einar.worn_surface.clothing",
+      "SH-eye_ball",
+      "SH-metal_base.002",
+      "SH-mouth_fade",
+      "SH-seams",
+      "SH-seams_2",
+      "SH-wrinkles.002",
+      "TEX-noise_distorted",
+      "TEX-noise_distorted.alternative",
+      "UT-Normal.Combine",
+      "UT-Normal.Flatten",
+      "UT-Normal.Mix",
+      "UT-NormalMap.Combine",
+      "UT-NormalMap.CustomTangent",
+      "UT-NormalMap.CustomTangent.TASK.OLD.001",
+      "UT-TriplanarMapping.002",
+      "UT-Value.Mix.002",
+      "UT-Vector.FillZNormal",
+      "UT-Vector.Mix",
+      "UT-detiling.hex.002",
+      "UT-hex_grid.002",
+      "UT-map_fallback.002",
+      "UT-mixVector",
+      "UT-noise_distortion",
+      "UT-uv_tile.increment.003",
+      "UT-uv_tile.increment.004",
+      "UT-vector_scale_angle.002",
+      "einar.distress_stages.002",
+      "wrinkle_map_step"
+    ],
+    "texts": [
+      "cloudrig.py"
+    ],
+    "curves": [],
+    "lattices": [
+      "DATA_LTC-Jacket_Back.L",
+      "DATA_LTC-Jacket_Back.R",
+      "DATA_LTC-Jacket_Front.L",
+      "DATA_LTC-Jacket_Front.R",
+      "DATA_LTC-Jacket_Side.L",
+      "DATA_LTC-Jacket_Side.R",
+      "DATA_LTC-Pants_Back.L",
+      "DATA_LTC-Pants_Back.R",
+      "DATA_LTC-Pants_Front.L",
+      "DATA_LTC-Pants_Front.R"
+    ],
+    "cameras": [
+      "Camera"
+    ],
+    "lights": [
+      "Light"
+    ],
+    "scenes": [
+      "Scene"
+    ],
+    "shape_keys": [
+      "SK_GEO-einar_head",
+      "SK_GEO-einar_jacket_main",
+      "SK_GEO-einar_pants_main",
+      "SK_GEO-einar_tire_shoulder_surfacedeform",
+      "SK_GEO-eye.L",
+      "SK_GEO-eye.R"
+    ],
+    "libraries": [
+      "einar_release_v1.blend"
+    ]
+  },
+  "new_data_blocks": {
+    "objects": [
+      "GEO-einar_jacket_main",
+      "GEO-einar_pants_main",
+      "GEO-einar_tire_shoulder_surfacedeform",
+      "GEO-elbow_joint",
+      "GEO-hyd_rod_upper_arm",
+      "GEO-lower_arm_frame",
+      "GEO-shoulder_bicep_joint",
+      "GEO-upper_arm_frame",
+      "HLP-piston_biceps",
+      "HLP-piston_biceps2",
+      "LTC-Jacket_Back.L",
+      "LTC-Jacket_Back.R",
+      "LTC-Jacket_Front.L",
+      "LTC-Jacket_Front.R",
+      "LTC-Jacket_Side.L",
+      "LTC-Jacket_Side.R",
+      "LTC-Pants_Back.L",
+      "LTC-Pants_Back.R",
+      "LTC-Pants_Front.L",
+      "LTC-Pants_Front.R",
+      "RIG-einar",
+      "WGT-Arrow_Head",
+      "WGT-Circle",
+      "WGT-Circle_Spiked_2",
+      "WGT-Clavicle",
+      "WGT-Cogwheel_Y",
+      "WGT-Cube",
+      "WGT-Foot",
+      "WGT-Hyperbola",
+      "WGT-Jaw",
+      "WGT-Line",
+      "WGT-Roll_Flat",
+      "WGT-Root",
+      "WGT-Semicircle",
+      "WGT-Sphere",
+      "WGT-Sphere_Half",
+      "WGT-Square",
+      "WGT-Squares_2",
+      "WGT-Thumb_Parent",
+      "WGT-Torso_Master"
+    ],
+    "meshes": [
+      "DATA_GEO-einar_head",
+      "DATA_GEO-einar_head.base",
+      "DATA_GEO-einar_head.base.001",
+      "DATA_GEO-einar_jacket_main",
+      "DATA_GEO-einar_pants_main",
+      "DATA_GEO-einar_tire_shoulder_surfacedeform",
+      "DATA_GEO-elbow_joint",
+      "DATA_GEO-eye.L",
+      "DATA_GEO-eye.R",
+      "DATA_GEO-hyd_rod_upper_arm",
+      "DATA_GEO-lower_arm_frame",
+      "DATA_GEO-shoulder_bicep_joint",
+      "DATA_GEO-upper_arm_frame",
+      "DATA_WGT-Arrow_Head",
+      "DATA_WGT-Circle",
+      "DATA_WGT-Circle_Spiked_2",
+      "DATA_WGT-Clavicle",
+      "DATA_WGT-Cogwheel_Y",
+      "DATA_WGT-Cube",
+      "DATA_WGT-Foot",
+      "DATA_WGT-Hyperbola",
+      "DATA_WGT-Jaw",
+      "DATA_WGT-Line",
+      "DATA_WGT-Roll_Flat",
+      "DATA_WGT-Root",
+      "DATA_WGT-Semicircle",
+      "DATA_WGT-Sphere",
+      "DATA_WGT-Sphere_Half",
+      "DATA_WGT-Square",
+      "DATA_WGT-Squares_2",
+      "DATA_WGT-Thumb_Parent",
+      "DATA_WGT-Torso_Master"
+    ],
+    "materials": [
+      "einar.jacket.canvas",
+      "einar.jacket.rim",
+      "einar.pants_fabric",
+      "einar.pants_leather",
+      "einar.pants_tarp",
+      "einar.skin",
+      "eyes.iris",
+      "eyes.pupil",
+      "eyes.white",
+      "metal_rust",
+      "metal_rust2.002",
+      "metal_rust3",
+      "metal_rust4",
+      "piston"
+    ],
+    "images": [
+      "canvas_01.disp",
+      "canvas_01.normal",
+      "dents_01.normal",
+      "disp_clothing_default",
+      "disp_clothing_shapes_A",
+      "disp_clothing_shapes_B",
+      "disp_clothing_shapes_C",
+      "disp_clothing_shapes_D",
+      "disp_clothing_shapes_E",
+      "disp_default",
+      "distress_stages",
+      "einar.bruises.albedo",
+      "einar.clothing.color_base",
+      "einar.clothing.normal_base",
+      "einar.clothing.pointiness",
+      "einar.robot_arm.normal_base.",
+      "einar.robot_arm.pointiness.",
+      "einar_skin.albedo",
+      "einar_skin.dirt",
+      "einar_skin.roughness",
+      "eyes.albedo",
+      "grime_01",
+      "iris_depth",
+      "knit_01.disp",
+      "knit_01.normal",
+      "knit_01.tile_uv",
+      "noise_01",
+      "noise_03",
+      "noise_04",
+      "noise_06",
+      "scratches_01.disp",
+      "scratches_01.normal",
+      "seams.disp",
+      "seams.normal",
+      "shapes-A-B-C-D",
+      "shapes-E-F-DEFAULT-DETAIL",
+      "textile_02.disp",
+      "textile_02.normal",
+      "textile_02.tile_uv"
+    ],
+    "collections": [],
+    "armatures": [
+      "DATA_RIG-einar"
+    ],
+    "actions": [
+      "RIG-Einar_Blink_EyeOpen",
+      "RIG-Einar_Cheek_Lower",
+      "RIG-Einar_Cheek_Raise",
+      "RIG-Einar_EyesMove_Horizontal",
+      "RIG-Einar_EyesMove_Vertical",
+      "RIG-Einar_JawOpen",
+      "RIG-Einar_LipSquash",
+      "RIG-Einar_LipsPucker",
+      "RIG-Einar_Lips_Down",
+      "RIG-Einar_Lips_Lower_Sneer",
+      "RIG-Einar_Lips_Smile",
+      "RIG-Einar_Lips_Upper_Sneer",
+      "RIG-Einar_Lips_Wide",
+      "RIG-Einar_LowerEyelids",
+      "RIG-Einar_Nose_Sneer",
+      "RIG-Einar_ShoulderTire_FowardBack",
+      "RIG-Einar_Squint",
+      "RIG-Einar_UpperEyelids"
+    ],
+    "node_groups": [
+      "Displacement_Jacket",
+      "Displacement_Pants",
+      "NormalBake.002",
+      "SH-canvas_clothing.002",
+      "SH-einar.worn_surface.clothing",
+      "SH-eye_ball",
+      "SH-metal_base.002",
+      "SH-mouth_fade",
+      "SH-seams",
+      "SH-seams_2",
+      "SH-wrinkles.002",
+      "TEX-noise_distorted",
+      "TEX-noise_distorted.alternative",
+      "UT-Normal.Combine",
+      "UT-Normal.Flatten",
+      "UT-Normal.Mix",
+      "UT-NormalMap.Combine",
+      "UT-NormalMap.CustomTangent",
+      "UT-NormalMap.CustomTangent.TASK.OLD.001",
+      "UT-TriplanarMapping.002",
+      "UT-Value.Mix.002",
+      "UT-Vector.FillZNormal",
+      "UT-Vector.Mix",
+      "UT-detiling.hex.002",
+      "UT-hex_grid.002",
+      "UT-map_fallback.002",
+      "UT-mixVector",
+      "UT-noise_distortion",
+      "UT-uv_tile.increment.003",
+      "UT-uv_tile.increment.004",
+      "UT-vector_scale_angle.002",
+      "einar.distress_stages.002",
+      "wrinkle_map_step"
+    ],
+    "texts": [
+      "cloudrig.py"
+    ],
+    "curves": [],
+    "lattices": [
+      "DATA_LTC-Jacket_Back.L",
+      "DATA_LTC-Jacket_Back.R",
+      "DATA_LTC-Jacket_Front.L",
+      "DATA_LTC-Jacket_Front.R",
+      "DATA_LTC-Jacket_Side.L",
+      "DATA_LTC-Jacket_Side.R",
+      "DATA_LTC-Pants_Back.L",
+      "DATA_LTC-Pants_Back.R",
+      "DATA_LTC-Pants_Front.L",
+      "DATA_LTC-Pants_Front.R"
+    ],
+    "cameras": [],
+    "lights": [],
+    "scenes": [],
+    "shape_keys": [
+      "SK_GEO-einar_head",
+      "SK_GEO-einar_jacket_main",
+      "SK_GEO-einar_pants_main",
+      "SK_GEO-einar_tire_shoulder_surfacedeform",
+      "SK_GEO-eye.L",
+      "SK_GEO-eye.R"
+    ],
+    "libraries": [
+      "einar_release_v1.blend"
+    ]
+  },
+  "new_data_block_counts": {
+    "objects": 40,
+    "meshes": 32,
+    "materials": 14,
+    "images": 39,
+    "collections": 0,
+    "armatures": 1,
+    "actions": 18,
+    "node_groups": 33,
+    "texts": 1,
+    "curves": 0,
+    "lattices": 10,
+    "cameras": 0,
+    "lights": 0,
+    "scenes": 0,
+    "shape_keys": 6,
+    "libraries": 1
+  },
+  "scene_object_names_before": [
+    "Camera",
+    "Cube",
+    "Light"
+  ],
+  "scene_object_names_after": [
+    "Camera",
+    "Cube",
+    "Light"
+  ],
+  "raw_meshes": [
+    {
+      "requested_name": "DATA_GEO-einar_head",
+      "loaded_name": "DATA_GEO-einar_head",
+      "vertices": 4596,
+      "edges": 9124,
+      "polygons": 4522,
+      "loop_triangles": 9044,
+      "bounds": {
+        "min": [
+          -0.14027585089206696,
+          -0.1608419418334961,
+          1.404267430305481
+        ],
+        "max": [
+          0.14027716219425201,
+          0.0849943459033966,
+          1.7459455728530884
+        ]
+      },
+      "bounds_space": "raw mesh local; object transforms and world placement not inspected",
+      "uv_layer_names": [
+        "UVMap",
+        "Alignment"
+      ],
+      "shape_key_id_name": "SK_GEO-einar_head",
+      "shape_key_names": [
+        "Basis",
+        "A_JawOpen",
+        "A_JawOpenWide",
+        "A_UpperEyelid_Up.L",
+        "A_UpperEyelid_Up.R",
+        "A_EyebrowRaise_Inner.L",
+        "A_EyebrowRaise_Inner.R",
+        "B_Nose_Sneer.L",
+        "B_Nose_Sneer.R",
+        "B_Lips_Upper_Sneer.L",
+        "B_Lips_Upper_Sneer.R",
+        "B_Lips_Lower_Sneer.L",
+        "B_Lips_Lower_Sneer.R",
+        "C_LipsSmile.L",
+        "C_LipsSmile.R",
+        "C_CheekRaise.L",
+        "C_CheekRaise.R",
+        "D_Blink_Lower.L",
+        "D_Blink_Lower.R",
+        "D_LipsWide.L",
+        "D_LipsWide.R",
+        "E_LipsDown.L",
+        "E_LipsDown.R",
+        "F_EyebrowsDown_Inner.L",
+        "F_EyebrowsDown_Inner.R",
+        "F_LipsSquash_Lower",
+        "F_LipsSquash_Upper",
+        "F_EyebrowsDown_Outer.L",
+        "F_EyebrowsDown_Outer.R",
+        "E_Eyebrows_Frown_Middle",
+        "A_EyebrowRaise_Outer.L",
+        "A_EyebrowRaise_Outer.R",
+        "F_Squint.L",
+        "F_Squint.R",
+        "LipsPucker.L",
+        "LipsPucker.R",
+        "JawOpen+LipsWide.L",
+        "JawOpen+LipsWide.R",
+        "B_Eyebrow_Sneer",
+        "F_Sneer+EyebrowsDown.L",
+        "F_Sneer+EyebrowsDown.R",
+        "D_Blink_Upper.L",
+        "D_Blink_Upper.R",
+        "Squint+EyesClosed.L",
+        "Squint+EyesClosed.R",
+        "EyebrowTweakInner.L",
+        "EyebrowTweakInner.R",
+        "EyebrowTweakOuter.L",
+        "EyebrowTweakOuter.R",
+        "HeadLookDown",
+        "HeadLookUp",
+        "HeadLookLeft",
+        "HeadLookRight",
+        "HeadTiltRight",
+        "HeadTiltLeft",
+        "NeckForward",
+        "NeckBackward",
+        "NeckTiltLeft",
+        "NeckTiltRight",
+        "JawOpen+LipsWide.L.001",
+        "JawOpen+LipsWide.R.001",
+        "JawOpen+LipsDown.L",
+        "JawOpen+LipsDown.R",
+        "JawOpen+LipsUp.L",
+        "JawOpen+LipsUp.R",
+        "E_EyebrowFurrowOnly"
+      ],
+      "mesh_static_driver_count": 0,
+      "shape_key_static_driver_count": 63,
+      "materials": [
+        {
+          "name": "einar.skin",
+          "uses_nodes": true,
+          "image_ids_in_static_node_graph": [
+            "disp_default",
+            "distress_stages",
+            "einar.bruises.albedo",
+            "einar_skin.albedo",
+            "einar_skin.dirt",
+            "einar_skin.roughness",
+            "noise_04",
+            "shapes-A-B-C-D",
+            "shapes-E-F-DEFAULT-DETAIL"
+          ]
+        }
+      ]
+    },
+    {
+      "requested_name": "DATA_GEO-einar_head.base",
+      "loaded_name": "DATA_GEO-einar_head.base",
+      "vertices": 4596,
+      "edges": 9124,
+      "polygons": 4522,
+      "loop_triangles": 9044,
+      "bounds": {
+        "min": [
+          -0.14027585089206696,
+          -0.16085317730903625,
+          1.404267430305481
+        ],
+        "max": [
+          0.14027716219425201,
+          0.0849943459033966,
+          1.7460936307907104
+        ]
+      },
+      "bounds_space": "raw mesh local; object transforms and world placement not inspected",
+      "uv_layer_names": [
+        "UVMap",
+        "Alignment"
+      ],
+      "shape_key_id_name": null,
+      "shape_key_names": [],
+      "mesh_static_driver_count": 0,
+      "shape_key_static_driver_count": 0,
+      "materials": [
+        {
+          "name": "einar.skin",
+          "uses_nodes": true,
+          "image_ids_in_static_node_graph": [
+            "disp_default",
+            "distress_stages",
+            "einar.bruises.albedo",
+            "einar_skin.albedo",
+            "einar_skin.dirt",
+            "einar_skin.roughness",
+            "noise_04",
+            "shapes-A-B-C-D",
+            "shapes-E-F-DEFAULT-DETAIL"
+          ]
+        }
+      ]
+    },
+    {
+      "requested_name": "DATA_GEO-einar_head.base.001",
+      "loaded_name": "DATA_GEO-einar_head.base.001",
+      "vertices": 4596,
+      "edges": 9124,
+      "polygons": 4522,
+      "loop_triangles": 9044,
+      "bounds": {
+        "min": [
+          -0.14027585089206696,
+          -0.16085317730903625,
+          1.404267430305481
+        ],
+        "max": [
+          0.14027716219425201,
+          0.0849943459033966,
+          1.7460936307907104
+        ]
+      },
+      "bounds_space": "raw mesh local; object transforms and world placement not inspected",
+      "uv_layer_names": [
+        "UVMap",
+        "Alignment"
+      ],
+      "shape_key_id_name": null,
+      "shape_key_names": [],
+      "mesh_static_driver_count": 0,
+      "shape_key_static_driver_count": 0,
+      "materials": [
+        {
+          "name": "einar.skin",
+          "uses_nodes": true,
+          "image_ids_in_static_node_graph": [
+            "disp_default",
+            "distress_stages",
+            "einar.bruises.albedo",
+            "einar_skin.albedo",
+            "einar_skin.dirt",
+            "einar_skin.roughness",
+            "noise_04",
+            "shapes-A-B-C-D",
+            "shapes-E-F-DEFAULT-DETAIL"
+          ]
+        }
+      ]
+    },
+    {
+      "requested_name": "DATA_GEO-eye.L",
+      "loaded_name": "DATA_GEO-eye.L",
+      "vertices": 802,
+      "edges": 1632,
+      "polygons": 832,
+      "loop_triangles": 1600,
+      "bounds": {
+        "min": [
+          -0.01271868497133255,
+          -0.011713942512869835,
+          -0.012699679471552372
+        ],
+        "max": [
+          0.012696292251348495,
+          0.012743541970849037,
+          0.012722449377179146
+        ]
+      },
+      "bounds_space": "raw mesh local; object transforms and world placement not inspected",
+      "uv_layer_names": [
+        "Eyes",
+        "Iris",
+        "UVMap"
+      ],
+      "shape_key_id_name": "SK_GEO-eye.L",
+      "shape_key_names": [
+        "Basis",
+        "Shrink",
+        "Grow",
+        "resize",
+        "GEO-resize2_pupil",
+        "GEO-resize2_iris"
+      ],
+      "mesh_static_driver_count": 0,
+      "shape_key_static_driver_count": 2,
+      "materials": [
+        {
+          "name": "eyes.pupil",
+          "uses_nodes": true,
+          "image_ids_in_static_node_graph": [
+            "distress_stages",
+            "einar.bruises.albedo",
+            "eyes.albedo",
+            "iris_depth"
+          ]
+        },
+        {
+          "name": "eyes.iris",
+          "uses_nodes": true,
+          "image_ids_in_static_node_graph": [
+            "distress_stages",
+            "einar.bruises.albedo",
+            "eyes.albedo",
+            "iris_depth"
+          ]
+        },
+        {
+          "name": "eyes.white",
+          "uses_nodes": true,
+          "image_ids_in_static_node_graph": [
+            "distress_stages",
+            "einar.bruises.albedo",
+            "eyes.albedo",
+            "iris_depth"
+          ]
+        }
+      ]
+    },
+    {
+      "requested_name": "DATA_GEO-eye.R",
+      "loaded_name": "DATA_GEO-eye.R",
+      "vertices": 802,
+      "edges": 1632,
+      "polygons": 832,
+      "loop_triangles": 1600,
+      "bounds": {
+        "min": [
+          -0.01271863654255867,
+          -0.011713884770870209,
+          -0.01269964873790741
+        ],
+        "max": [
+          0.012696243822574615,
+          0.012743478640913963,
+          0.012722418643534184
+        ]
+      },
+      "bounds_space": "raw mesh local; object transforms and world placement not inspected",
+      "uv_layer_names": [
+        "Eyes",
+        "Iris",
+        "UVMap"
+      ],
+      "shape_key_id_name": "SK_GEO-eye.R",
+      "shape_key_names": [
+        "Basis",
+        "Shrink",
+        "Grow",
+        "resize",
+        "GEO-resize2_pupil",
+        "GEO-resize2_iris"
+      ],
+      "mesh_static_driver_count": 0,
+      "shape_key_static_driver_count": 2,
+      "materials": [
+        {
+          "name": "eyes.pupil",
+          "uses_nodes": true,
+          "image_ids_in_static_node_graph": [
+            "distress_stages",
+            "einar.bruises.albedo",
+            "eyes.albedo",
+            "iris_depth"
+          ]
+        },
+        {
+          "name": "eyes.iris",
+          "uses_nodes": true,
+          "image_ids_in_static_node_graph": [
+            "distress_stages",
+            "einar.bruises.albedo",
+            "eyes.albedo",
+            "iris_depth"
+          ]
+        },
+        {
+          "name": "eyes.white",
+          "uses_nodes": true,
+          "image_ids_in_static_node_graph": [
+            "distress_stages",
+            "einar.bruises.albedo",
+            "eyes.albedo",
+            "iris_depth"
+          ]
+        }
+      ]
+    }
+  ],
+  "image_dependencies": [
+    {
+      "name": "canvas_01.disp",
+      "source": "FILE",
+      "filepath": "D:\\AI\\PROJECT\\hackathon_projects\\Aholo_3D_AI_Hackathon\\project-management\\source-cache\\einar-v1\\extracted\\textures\\tileable\\canvas_01.disp.tif",
+      "packed_file_count": 0,
+      "resolved_path": "D:\\AI\\PROJECT\\hackathon_projects\\Aholo_3D_AI_Hackathon\\project-management\\source-cache\\einar-v1\\extracted\\textures\\tileable\\canvas_01.disp.tif",
+      "path_exists": true,
+      "udim_matches": [],
+      "pixels_accessed": false,
+      "path_status": "file_found"
+    },
+    {
+      "name": "canvas_01.normal",
+      "source": "FILE",
+      "filepath": "D:\\AI\\PROJECT\\hackathon_projects\\Aholo_3D_AI_Hackathon\\project-management\\source-cache\\einar-v1\\extracted\\textures\\tileable\\canvas_01.normal.tif",
+      "packed_file_count": 0,
+      "resolved_path": "D:\\AI\\PROJECT\\hackathon_projects\\Aholo_3D_AI_Hackathon\\project-management\\source-cache\\einar-v1\\extracted\\textures\\tileable\\canvas_01.normal.tif",
+      "path_exists": true,
+      "udim_matches": [],
+      "pixels_accessed": false,
+      "path_status": "file_found"
+    },
+    {
+      "name": "dents_01.normal",
+      "source": "FILE",
+      "filepath": "D:\\AI\\PROJECT\\hackathon_projects\\Aholo_3D_AI_Hackathon\\project-management\\source-cache\\einar-v1\\extracted\\textures\\tileable\\dents_01.normal.tif",
+      "packed_file_count": 0,
+      "resolved_path": "D:\\AI\\PROJECT\\hackathon_projects\\Aholo_3D_AI_Hackathon\\project-management\\source-cache\\einar-v1\\extracted\\textures\\tileable\\dents_01.normal.tif",
+      "path_exists": true,
+      "udim_matches": [],
+      "pixels_accessed": false,
+      "path_status": "file_found"
+    },
+    {
+      "name": "disp_clothing_default",
+      "source": "FILE",
+      "filepath": "D:\\AI\\PROJECT\\hackathon_projects\\Aholo_3D_AI_Hackathon\\project-management\\source-cache\\einar-v1\\extracted\\textures\\displacement\\clothing\\disp_clothing_default.exr",
+      "packed_file_count": 0,
+      "resolved_path": "D:\\AI\\PROJECT\\hackathon_projects\\Aholo_3D_AI_Hackathon\\project-management\\source-cache\\einar-v1\\extracted\\textures\\displacement\\clothing\\disp_clothing_default.exr",
+      "path_exists": true,
+      "udim_matches": [],
+      "pixels_accessed": false,
+      "path_status": "file_found"
+    },
+    {
+      "name": "disp_clothing_shapes_A",
+      "source": "FILE",
+      "filepath": "D:\\AI\\PROJECT\\hackathon_projects\\Aholo_3D_AI_Hackathon\\project-management\\source-cache\\einar-v1\\extracted\\textures\\displacement\\clothing\\disp_clothing_shapes_A.exr",
+      "packed_file_count": 0,
+      "resolved_path": "D:\\AI\\PROJECT\\hackathon_projects\\Aholo_3D_AI_Hackathon\\project-management\\source-cache\\einar-v1\\extracted\\textures\\displacement\\clothing\\disp_clothing_shapes_A.exr",
+      "path_exists": true,
+      "udim_matches": [],
+      "pixels_accessed": false,
+      "path_status": "file_found"
+    },
+    {
+      "name": "disp_clothing_shapes_B",
+      "source": "FILE",
+      "filepath": "D:\\AI\\PROJECT\\hackathon_projects\\Aholo_3D_AI_Hackathon\\project-management\\source-cache\\einar-v1\\extracted\\textures\\displacement\\clothing\\disp_clothing_shapes_B.exr",
+      "packed_file_count": 0,
+      "resolved_path": "D:\\AI\\PROJECT\\hackathon_projects\\Aholo_3D_AI_Hackathon\\project-management\\source-cache\\einar-v1\\extracted\\textures\\displacement\\clothing\\disp_clothing_shapes_B.exr",
+      "path_exists": true,
+      "udim_matches": [],
+      "pixels_accessed": false,
+      "path_status": "file_found"
+    },
+    {
+      "name": "disp_clothing_shapes_C",
+      "source": "FILE",
+      "filepath": "D:\\AI\\PROJECT\\hackathon_projects\\Aholo_3D_AI_Hackathon\\project-management\\source-cache\\einar-v1\\extracted\\textures\\displacement\\clothing\\disp_clothing_shapes_C.exr",
+      "packed_file_count": 0,
+      "resolved_path": "D:\\AI\\PROJECT\\hackathon_projects\\Aholo_3D_AI_Hackathon\\project-management\\source-cache\\einar-v1\\extracted\\textures\\displacement\\clothing\\disp_clothing_shapes_C.exr",
+      "path_exists": true,
+      "udim_matches": [],
+      "pixels_accessed": false,
+      "path_status": "file_found"
+    },
+    {
+      "name": "disp_clothing_shapes_D",
+      "source": "FILE",
+      "filepath": "D:\\AI\\PROJECT\\hackathon_projects\\Aholo_3D_AI_Hackathon\\project-management\\source-cache\\einar-v1\\extracted\\textures\\displacement\\clothing\\disp_clothing_shapes_D.exr",
+      "packed_file_count": 0,
+      "resolved_path": "D:\\AI\\PROJECT\\hackathon_projects\\Aholo_3D_AI_Hackathon\\project-management\\source-cache\\einar-v1\\extracted\\textures\\displacement\\clothing\\disp_clothing_shapes_D.exr",
+      "path_exists": true,
+      "udim_matches": [],
+      "pixels_accessed": false,
+      "path_status": "file_found"
+    },
+    {
+      "name": "disp_clothing_shapes_E",
+      "source": "FILE",
+      "filepath": "D:\\AI\\PROJECT\\hackathon_projects\\Aholo_3D_AI_Hackathon\\project-management\\source-cache\\einar-v1\\extracted\\textures\\displacement\\clothing\\disp_clothing_shapes_E.exr",
+      "packed_file_count": 0,
+      "resolved_path": "D:\\AI\\PROJECT\\hackathon_projects\\Aholo_3D_AI_Hackathon\\project-management\\source-cache\\einar-v1\\extracted\\textures\\displacement\\clothing\\disp_clothing_shapes_E.exr",
+      "path_exists": true,
+      "udim_matches": [],
+      "pixels_accessed": false,
+      "path_status": "file_found"
+    },
+    {
+      "name": "disp_default",
+      "source": "FILE",
+      "filepath": "D:\\AI\\PROJECT\\hackathon_projects\\Aholo_3D_AI_Hackathon\\project-management\\source-cache\\einar-v1\\extracted\\textures\\displacement\\face\\disp_default.exr",
+      "packed_file_count": 0,
+      "resolved_path": "D:\\AI\\PROJECT\\hackathon_projects\\Aholo_3D_AI_Hackathon\\project-management\\source-cache\\einar-v1\\extracted\\textures\\displacement\\face\\disp_default.exr",
+      "path_exists": true,
+      "udim_matches": [],
+      "pixels_accessed": false,
+      "path_status": "file_found"
+    },
+    {
+      "name": "distress_stages",
+      "source": "FILE",
+      "filepath": "D:\\AI\\PROJECT\\hackathon_projects\\Aholo_3D_AI_Hackathon\\project-management\\source-cache\\einar-v1\\extracted\\textures\\face\\distress_stages.tif",
+      "packed_file_count": 0,
+      "resolved_path": "D:\\AI\\PROJECT\\hackathon_projects\\Aholo_3D_AI_Hackathon\\project-management\\source-cache\\einar-v1\\extracted\\textures\\face\\distress_stages.tif",
+      "path_exists": true,
+      "udim_matches": [],
+      "pixels_accessed": false,
+      "path_status": "file_found"
+    },
+    {
+      "name": "einar.bruises.albedo",
+      "source": "FILE",
+      "filepath": "D:\\AI\\PROJECT\\hackathon_projects\\Aholo_3D_AI_Hackathon\\project-management\\source-cache\\einar-v1\\extracted\\textures\\face\\einar.bruises.albedo.tif",
+      "packed_file_count": 0,
+      "resolved_path": "D:\\AI\\PROJECT\\hackathon_projects\\Aholo_3D_AI_Hackathon\\project-management\\source-cache\\einar-v1\\extracted\\textures\\face\\einar.bruises.albedo.tif",
+      "path_exists": true,
+      "udim_matches": [],
+      "pixels_accessed": false,
+      "path_status": "file_found"
+    },
+    {
+      "name": "einar.clothing.color_base",
+      "source": "FILE",
+      "filepath": "D:\\AI\\PROJECT\\hackathon_projects\\Aholo_3D_AI_Hackathon\\project-management\\source-cache\\einar-v1\\extracted\\textures\\einar.clothing.color_base.tif",
+      "packed_file_count": 0,
+      "resolved_path": "D:\\AI\\PROJECT\\hackathon_projects\\Aholo_3D_AI_Hackathon\\project-management\\source-cache\\einar-v1\\extracted\\textures\\einar.clothing.color_base.tif",
+      "path_exists": true,
+      "udim_matches": [],
+      "pixels_accessed": false,
+      "path_status": "file_found"
+    },
+    {
+      "name": "einar.clothing.normal_base",
+      "source": "FILE",
+      "filepath": "D:\\AI\\PROJECT\\hackathon_projects\\Aholo_3D_AI_Hackathon\\project-management\\source-cache\\einar-v1\\extracted\\textures\\einar.clothing.normal_base.tif",
+      "packed_file_count": 0,
+      "resolved_path": "D:\\AI\\PROJECT\\hackathon_projects\\Aholo_3D_AI_Hackathon\\project-management\\source-cache\\einar-v1\\extracted\\textures\\einar.clothing.normal_base.tif",
+      "path_exists": true,
+      "udim_matches": [],
+      "pixels_accessed": false,
+      "path_status": "file_found"
+    },
+    {
+      "name": "einar.clothing.pointiness",
+      "source": "FILE",
+      "filepath": "D:\\AI\\PROJECT\\hackathon_projects\\Aholo_3D_AI_Hackathon\\project-management\\source-cache\\einar-v1\\extracted\\textures\\einar.clothing.pointiness.tif",
+      "packed_file_count": 0,
+      "resolved_path": "D:\\AI\\PROJECT\\hackathon_projects\\Aholo_3D_AI_Hackathon\\project-management\\source-cache\\einar-v1\\extracted\\textures\\einar.clothing.pointiness.tif",
+      "path_exists": true,
+      "udim_matches": [],
+      "pixels_accessed": false,
+      "path_status": "file_found"
+    },
+    {
+      "name": "einar.robot_arm.normal_base.",
+      "source": "TILED",
+      "filepath": "D:\\AI\\PROJECT\\hackathon_projects\\Aholo_3D_AI_Hackathon\\project-management\\source-cache\\einar-v1\\extracted\\textures\\einar.robot_arm.normal_base.<UDIM>.tif",
+      "packed_file_count": 0,
+      "resolved_path": "D:\\AI\\PROJECT\\hackathon_projects\\Aholo_3D_AI_Hackathon\\project-management\\source-cache\\einar-v1\\extracted\\textures\\einar.robot_arm.normal_base.<UDIM>.tif",
+      "path_exists": true,
+      "udim_matches": [
+        "D:\\AI\\PROJECT\\hackathon_projects\\Aholo_3D_AI_Hackathon\\project-management\\source-cache\\einar-v1\\extracted\\textures\\einar.robot_arm.normal_base.1001.tif",
+        "D:\\AI\\PROJECT\\hackathon_projects\\Aholo_3D_AI_Hackathon\\project-management\\source-cache\\einar-v1\\extracted\\textures\\einar.robot_arm.normal_base.1002.tif",
+        "D:\\AI\\PROJECT\\hackathon_projects\\Aholo_3D_AI_Hackathon\\project-management\\source-cache\\einar-v1\\extracted\\textures\\einar.robot_arm.normal_base.1003.tif"
+      ],
+      "pixels_accessed": false,
+      "path_status": "tile_files_found"
+    },
+    {
+      "name": "einar.robot_arm.pointiness.",
+      "source": "TILED",
+      "filepath": "D:\\AI\\PROJECT\\hackathon_projects\\Aholo_3D_AI_Hackathon\\project-management\\source-cache\\einar-v1\\extracted\\textures\\einar.robot_arm.pointiness.<UDIM>.tif",
+      "packed_file_count": 0,
+      "resolved_path": "D:\\AI\\PROJECT\\hackathon_projects\\Aholo_3D_AI_Hackathon\\project-management\\source-cache\\einar-v1\\extracted\\textures\\einar.robot_arm.pointiness.<UDIM>.tif",
+      "path_exists": true,
+      "udim_matches": [
+        "D:\\AI\\PROJECT\\hackathon_projects\\Aholo_3D_AI_Hackathon\\project-management\\source-cache\\einar-v1\\extracted\\textures\\einar.robot_arm.pointiness.1001.tif",
+        "D:\\AI\\PROJECT\\hackathon_projects\\Aholo_3D_AI_Hackathon\\project-management\\source-cache\\einar-v1\\extracted\\textures\\einar.robot_arm.pointiness.1002.tif",
+        "D:\\AI\\PROJECT\\hackathon_projects\\Aholo_3D_AI_Hackathon\\project-management\\source-cache\\einar-v1\\extracted\\textures\\einar.robot_arm.pointiness.1003.tif",
+        "D:\\AI\\PROJECT\\hackathon_projects\\Aholo_3D_AI_Hackathon\\project-management\\source-cache\\einar-v1\\extracted\\textures\\einar.robot_arm.pointiness.1004.tif"
+      ],
+      "pixels_accessed": false,
+      "path_status": "tile_files_found"
+    },
+    {
+      "name": "einar_skin.albedo",
+      "source": "FILE",
+      "filepath": "D:\\AI\\PROJECT\\hackathon_projects\\Aholo_3D_AI_Hackathon\\project-management\\source-cache\\einar-v1\\extracted\\textures\\face\\einar_skin.albedo.tif",
+      "packed_file_count": 0,
+      "resolved_path": "D:\\AI\\PROJECT\\hackathon_projects\\Aholo_3D_AI_Hackathon\\project-management\\source-cache\\einar-v1\\extracted\\textures\\face\\einar_skin.albedo.tif",
+      "path_exists": true,
+      "udim_matches": [],
+      "pixels_accessed": false,
+      "path_status": "file_found"
+    },
+    {
+      "name": "einar_skin.dirt",
+      "source": "FILE",
+      "filepath": "D:\\AI\\PROJECT\\hackathon_projects\\Aholo_3D_AI_Hackathon\\project-management\\source-cache\\einar-v1\\extracted\\textures\\face\\einar_skin.dirt.tif",
+      "packed_file_count": 0,
+      "resolved_path": "D:\\AI\\PROJECT\\hackathon_projects\\Aholo_3D_AI_Hackathon\\project-management\\source-cache\\einar-v1\\extracted\\textures\\face\\einar_skin.dirt.tif",
+      "path_exists": true,
+      "udim_matches": [],
+      "pixels_accessed": false,
+      "path_status": "file_found"
+    },
+    {
+      "name": "einar_skin.roughness",
+      "source": "FILE",
+      "filepath": "D:\\AI\\PROJECT\\hackathon_projects\\Aholo_3D_AI_Hackathon\\project-management\\source-cache\\einar-v1\\extracted\\textures\\face\\einar_skin.roughness.tif",
+      "packed_file_count": 0,
+      "resolved_path": "D:\\AI\\PROJECT\\hackathon_projects\\Aholo_3D_AI_Hackathon\\project-management\\source-cache\\einar-v1\\extracted\\textures\\face\\einar_skin.roughness.tif",
+      "path_exists": true,
+      "udim_matches": [],
+      "pixels_accessed": false,
+      "path_status": "file_found"
+    },
+    {
+      "name": "eyes.albedo",
+      "source": "FILE",
+      "filepath": "D:\\AI\\PROJECT\\hackathon_projects\\Aholo_3D_AI_Hackathon\\project-management\\source-cache\\einar-v1\\extracted\\textures\\face\\eyes.albedo.tif",
+      "packed_file_count": 0,
+      "resolved_path": "D:\\AI\\PROJECT\\hackathon_projects\\Aholo_3D_AI_Hackathon\\project-management\\source-cache\\einar-v1\\extracted\\textures\\face\\eyes.albedo.tif",
+      "path_exists": true,
+      "udim_matches": [],
+      "pixels_accessed": false,
+      "path_status": "file_found"
+    },
+    {
+      "name": "grime_01",
+      "source": "FILE",
+      "filepath": "D:\\AI\\PROJECT\\hackathon_projects\\Aholo_3D_AI_Hackathon\\project-management\\source-cache\\einar-v1\\extracted\\textures\\tileable\\grime_01.tif",
+      "packed_file_count": 0,
+      "resolved_path": "D:\\AI\\PROJECT\\hackathon_projects\\Aholo_3D_AI_Hackathon\\project-management\\source-cache\\einar-v1\\extracted\\textures\\tileable\\grime_01.tif",
+      "path_exists": true,
+      "udim_matches": [],
+      "pixels_accessed": false,
+      "path_status": "file_found"
+    },
+    {
+      "name": "iris_depth",
+      "source": "FILE",
+      "filepath": "D:\\AI\\PROJECT\\hackathon_projects\\Aholo_3D_AI_Hackathon\\project-management\\source-cache\\einar-v1\\extracted\\textures\\face\\iris_depth.tif",
+      "packed_file_count": 0,
+      "resolved_path": "D:\\AI\\PROJECT\\hackathon_projects\\Aholo_3D_AI_Hackathon\\project-management\\source-cache\\einar-v1\\extracted\\textures\\face\\iris_depth.tif",
+      "path_exists": true,
+      "udim_matches": [],
+      "pixels_accessed": false,
+      "path_status": "file_found"
+    },
+    {
+      "name": "knit_01.disp",
+      "source": "FILE",
+      "filepath": "D:\\AI\\PROJECT\\hackathon_projects\\Aholo_3D_AI_Hackathon\\project-management\\source-cache\\einar-v1\\extracted\\textures\\tileable\\knit_01.disp.tif",
+      "packed_file_count": 0,
+      "resolved_path": "D:\\AI\\PROJECT\\hackathon_projects\\Aholo_3D_AI_Hackathon\\project-management\\source-cache\\einar-v1\\extracted\\textures\\tileable\\knit_01.disp.tif",
+      "path_exists": true,
+      "udim_matches": [],
+      "pixels_accessed": false,
+      "path_status": "file_found"
+    },
+    {
+      "name": "knit_01.normal",
+      "source": "FILE",
+      "filepath": "D:\\AI\\PROJECT\\hackathon_projects\\Aholo_3D_AI_Hackathon\\project-management\\source-cache\\einar-v1\\extracted\\textures\\tileable\\knit_01.normal.tif",
+      "packed_file_count": 0,
+      "resolved_path": "D:\\AI\\PROJECT\\hackathon_projects\\Aholo_3D_AI_Hackathon\\project-management\\source-cache\\einar-v1\\extracted\\textures\\tileable\\knit_01.normal.tif",
+      "path_exists": true,
+      "udim_matches": [],
+      "pixels_accessed": false,
+      "path_status": "file_found"
+    },
+    {
+      "name": "knit_01.tile_uv",
+      "source": "FILE",
+      "filepath": "D:\\AI\\PROJECT\\hackathon_projects\\Aholo_3D_AI_Hackathon\\project-management\\source-cache\\einar-v1\\extracted\\textures\\tileable\\knit_01.tile_uv.tif",
+      "packed_file_count": 0,
+      "resolved_path": "D:\\AI\\PROJECT\\hackathon_projects\\Aholo_3D_AI_Hackathon\\project-management\\source-cache\\einar-v1\\extracted\\textures\\tileable\\knit_01.tile_uv.tif",
+      "path_exists": true,
+      "udim_matches": [],
+      "pixels_accessed": false,
+      "path_status": "file_found"
+    },
+    {
+      "name": "noise_01",
+      "source": "FILE",
+      "filepath": "D:\\AI\\PROJECT\\hackathon_projects\\Aholo_3D_AI_Hackathon\\project-management\\source-cache\\einar-v1\\extracted\\textures\\tileable\\noise_01.tif",
+      "packed_file_count": 0,
+      "resolved_path": "D:\\AI\\PROJECT\\hackathon_projects\\Aholo_3D_AI_Hackathon\\project-management\\source-cache\\einar-v1\\extracted\\textures\\tileable\\noise_01.tif",
+      "path_exists": true,
+      "udim_matches": [],
+      "pixels_accessed": false,
+      "path_status": "file_found"
+    },
+    {
+      "name": "noise_03",
+      "source": "FILE",
+      "filepath": "D:\\AI\\PROJECT\\hackathon_projects\\Aholo_3D_AI_Hackathon\\project-management\\source-cache\\einar-v1\\extracted\\textures\\tileable\\noise_03.tif",
+      "packed_file_count": 0,
+      "resolved_path": "D:\\AI\\PROJECT\\hackathon_projects\\Aholo_3D_AI_Hackathon\\project-management\\source-cache\\einar-v1\\extracted\\textures\\tileable\\noise_03.tif",
+      "path_exists": true,
+      "udim_matches": [],
+      "pixels_accessed": false,
+      "path_status": "file_found"
+    },
+    {
+      "name": "noise_04",
+      "source": "FILE",
+      "filepath": "D:\\AI\\PROJECT\\hackathon_projects\\Aholo_3D_AI_Hackathon\\project-management\\source-cache\\einar-v1\\extracted\\textures\\tileable\\noise_04.tif",
+      "packed_file_count": 0,
+      "resolved_path": "D:\\AI\\PROJECT\\hackathon_projects\\Aholo_3D_AI_Hackathon\\project-management\\source-cache\\einar-v1\\extracted\\textures\\tileable\\noise_04.tif",
+      "path_exists": true,
+      "udim_matches": [],
+      "pixels_accessed": false,
+      "path_status": "file_found"
+    },
+    {
+      "name": "noise_06",
+      "source": "FILE",
+      "filepath": "D:\\AI\\PROJECT\\hackathon_projects\\Aholo_3D_AI_Hackathon\\project-management\\source-cache\\einar-v1\\extracted\\textures\\tileable\\noise_06.tif",
+      "packed_file_count": 0,
+      "resolved_path": "D:\\AI\\PROJECT\\hackathon_projects\\Aholo_3D_AI_Hackathon\\project-management\\source-cache\\einar-v1\\extracted\\textures\\tileable\\noise_06.tif",
+      "path_exists": true,
+      "udim_matches": [],
+      "pixels_accessed": false,
+      "path_status": "file_found"
+    },
+    {
+      "name": "scratches_01.disp",
+      "source": "FILE",
+      "filepath": "D:\\AI\\PROJECT\\hackathon_projects\\Aholo_3D_AI_Hackathon\\project-management\\source-cache\\einar-v1\\extracted\\textures\\tileable\\scratches_01.disp.tif",
+      "packed_file_count": 0,
+      "resolved_path": "D:\\AI\\PROJECT\\hackathon_projects\\Aholo_3D_AI_Hackathon\\project-management\\source-cache\\einar-v1\\extracted\\textures\\tileable\\scratches_01.disp.tif",
+      "path_exists": true,
+      "udim_matches": [],
+      "pixels_accessed": false,
+      "path_status": "file_found"
+    },
+    {
+      "name": "scratches_01.normal",
+      "source": "FILE",
+      "filepath": "D:\\AI\\PROJECT\\hackathon_projects\\Aholo_3D_AI_Hackathon\\project-management\\source-cache\\einar-v1\\extracted\\textures\\tileable\\scratches_01.normal.tif",
+      "packed_file_count": 0,
+      "resolved_path": "D:\\AI\\PROJECT\\hackathon_projects\\Aholo_3D_AI_Hackathon\\project-management\\source-cache\\einar-v1\\extracted\\textures\\tileable\\scratches_01.normal.tif",
+      "path_exists": true,
+      "udim_matches": [],
+      "pixels_accessed": false,
+      "path_status": "file_found"
+    },
+    {
+      "name": "seams.disp",
+      "source": "FILE",
+      "filepath": "D:\\AI\\PROJECT\\hackathon_projects\\Aholo_3D_AI_Hackathon\\project-management\\source-cache\\einar-v1\\extracted\\textures\\tileable\\seams.disp.tif",
+      "packed_file_count": 0,
+      "resolved_path": "D:\\AI\\PROJECT\\hackathon_projects\\Aholo_3D_AI_Hackathon\\project-management\\source-cache\\einar-v1\\extracted\\textures\\tileable\\seams.disp.tif",
+      "path_exists": true,
+      "udim_matches": [],
+      "pixels_accessed": false,
+      "path_status": "file_found"
+    },
+    {
+      "name": "seams.normal",
+      "source": "FILE",
+      "filepath": "D:\\AI\\PROJECT\\hackathon_projects\\Aholo_3D_AI_Hackathon\\project-management\\source-cache\\einar-v1\\extracted\\textures\\tileable\\seams.normal.tif",
+      "packed_file_count": 0,
+      "resolved_path": "D:\\AI\\PROJECT\\hackathon_projects\\Aholo_3D_AI_Hackathon\\project-management\\source-cache\\einar-v1\\extracted\\textures\\tileable\\seams.normal.tif",
+      "path_exists": true,
+      "udim_matches": [],
+      "pixels_accessed": false,
+      "path_status": "file_found"
+    },
+    {
+      "name": "shapes-A-B-C-D",
+      "source": "FILE",
+      "filepath": "D:\\AI\\PROJECT\\hackathon_projects\\Aholo_3D_AI_Hackathon\\project-management\\source-cache\\einar-v1\\extracted\\textures\\displacement\\face\\shapes-A-B-C-D.tif",
+      "packed_file_count": 0,
+      "resolved_path": "D:\\AI\\PROJECT\\hackathon_projects\\Aholo_3D_AI_Hackathon\\project-management\\source-cache\\einar-v1\\extracted\\textures\\displacement\\face\\shapes-A-B-C-D.tif",
+      "path_exists": true,
+      "udim_matches": [],
+      "pixels_accessed": false,
+      "path_status": "file_found"
+    },
+    {
+      "name": "shapes-E-F-DEFAULT-DETAIL",
+      "source": "FILE",
+      "filepath": "D:\\AI\\PROJECT\\hackathon_projects\\Aholo_3D_AI_Hackathon\\project-management\\source-cache\\einar-v1\\extracted\\textures\\displacement\\face\\shapes-E-F-DEFAULT-DETAIL.tif",
+      "packed_file_count": 0,
+      "resolved_path": "D:\\AI\\PROJECT\\hackathon_projects\\Aholo_3D_AI_Hackathon\\project-management\\source-cache\\einar-v1\\extracted\\textures\\displacement\\face\\shapes-E-F-DEFAULT-DETAIL.tif",
+      "path_exists": true,
+      "udim_matches": [],
+      "pixels_accessed": false,
+      "path_status": "file_found"
+    },
+    {
+      "name": "textile_02.disp",
+      "source": "FILE",
+      "filepath": "D:\\AI\\PROJECT\\hackathon_projects\\Aholo_3D_AI_Hackathon\\project-management\\source-cache\\einar-v1\\extracted\\textures\\tileable\\textile_02.disp.tif",
+      "packed_file_count": 0,
+      "resolved_path": "D:\\AI\\PROJECT\\hackathon_projects\\Aholo_3D_AI_Hackathon\\project-management\\source-cache\\einar-v1\\extracted\\textures\\tileable\\textile_02.disp.tif",
+      "path_exists": true,
+      "udim_matches": [],
+      "pixels_accessed": false,
+      "path_status": "file_found"
+    },
+    {
+      "name": "textile_02.normal",
+      "source": "FILE",
+      "filepath": "D:\\AI\\PROJECT\\hackathon_projects\\Aholo_3D_AI_Hackathon\\project-management\\source-cache\\einar-v1\\extracted\\textures\\tileable\\textile_02.normal.tif",
+      "packed_file_count": 0,
+      "resolved_path": "D:\\AI\\PROJECT\\hackathon_projects\\Aholo_3D_AI_Hackathon\\project-management\\source-cache\\einar-v1\\extracted\\textures\\tileable\\textile_02.normal.tif",
+      "path_exists": true,
+      "udim_matches": [],
+      "pixels_accessed": false,
+      "path_status": "file_found"
+    },
+    {
+      "name": "textile_02.tile_uv",
+      "source": "FILE",
+      "filepath": "D:\\AI\\PROJECT\\hackathon_projects\\Aholo_3D_AI_Hackathon\\project-management\\source-cache\\einar-v1\\extracted\\textures\\tileable\\textile_02.tile_uv.tif",
+      "packed_file_count": 0,
+      "resolved_path": "D:\\AI\\PROJECT\\hackathon_projects\\Aholo_3D_AI_Hackathon\\project-management\\source-cache\\einar-v1\\extracted\\textures\\tileable\\textile_02.tile_uv.tif",
+      "path_exists": true,
+      "udim_matches": [],
+      "pixels_accessed": false,
+      "path_status": "file_found"
+    }
+  ],
+  "limits": [
+    "Raw local-space data only; no object transforms, hierarchy, active shape key values, expressions or rig behavior evaluated.",
+    "Dependency IDs may be loaded implicitly; their presence is reported, never evaluated or linked to the scene.",
+    "Image metadata and cache-local file existence only; no pixel/size queries or reads outside approved cache.",
+    "Geometry availability and material paths do not establish elderly form or production/runtime compatibility.",
+    "No new candidate or blend source saved; next step requires project owner decision."
+  ]
+}

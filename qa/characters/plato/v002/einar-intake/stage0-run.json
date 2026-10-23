@@ -1,0 +1,9 @@
+{
+  "blender_exit_code": 0,
+  "process_wall_seconds": 3.749,
+  "source_bytes": 91323760,
+  "source_read_only": true,
+  "source_sha256_after": "1c6663da0a2e9d6822978467c244e9186edc76083bae2414e02f9e695e711f7b",
+  "source_expected_sha256": "1c6663da0a2e9d6822978467c244e9186edc76083bae2414e02f9e695e711f7b",
+  "source_unchanged": true
+}

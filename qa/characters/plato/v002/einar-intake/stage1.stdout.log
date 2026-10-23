@@ -1,0 +1,6 @@
+EINAR_STAGE1_START_RAW_MESHES_ONLY {"requested_meshes": ["DATA_GEO-einar_head", "DATA_GEO-einar_head.base", "DATA_GEO-einar_head.base.001", "DATA_GEO-eye.L", "DATA_GEO-eye.R"], "pid": 6620}
+EINAR_STAGE1_RAW_IDS_READ {"memory": {"working_set_mib": 224.8, "peak_working_set_mib": 551.9}, "mesh_names": ["DATA_GEO-einar_head", "DATA_GEO-einar_head.base", "DATA_GEO-einar_head.base.001", "DATA_GEO-eye.L", "DATA_GEO-eye.R"]}
+EINAR_STAGE1_COMPLETE {"inspection_elapsed_seconds": 3.4963, "process_memory_after": {"working_set_mib": 225.11, "peak_working_set_mib": 551.9}, "new_data_block_counts": {"objects": 40, "meshes": 32, "materials": 14, "images": 39, "collections": 0, "armatures": 1, "actions": 18, "node_groups": 33, "texts": 1, "curves": 0, "lattices": 10, "cameras": 0, "lights": 0, "scenes": 0, "shape_keys": 6, "libraries": 1}}
+Blender 4.5.15 LTS (hash 5afeabba6097 built 2026-10-22 01:35:27)
+
+Blender quit
