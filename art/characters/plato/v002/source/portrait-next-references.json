@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "reviewed_date": "2026-10-23",
+  "scope": "Reference and method research only; no new portrait, render or asset-file download",
+  "asset_files_saved_locally": false,
+  "selected_structural_reference": {
+    "title": "Plato",
+    "publisher": "Fitzwilliam Museum",
+    "model_url": "https://sketchfab.com/3d-models/plato-1df8376b55e347fb9bb4cf49375d6e5a",
+    "catalogue_url": "https://data.fitzmuseum.cam.ac.uk/id/object/65492",
+    "object_number": "GR.23.1850",
+    "model_license": "CC BY 4.0",
+    "model_license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "catalogue_photo_license": "CC BY-NC-ND, distinct from the 3D model license",
+    "publisher_reported_triangles": "380.6k",
+    "publisher_reported_vertices": "190.1k",
+    "catalogue_height_m": 0.355,
+    "verification": "Live browser model page and preview viewed; official catalogue names this exact model ID",
+    "use": "Head planes, eye/nose/mouth placement and volumetric curl groups; original painting still controls character direction",
+    "limits": "Roman marble representation, not verified lifetime likeness or a photoreal elderly skin base. Native mesh, texture, scale, holes and topology have not been inspected locally. No import or derivative has been made."
+  },
+  "other_scan_screened": {
+    "title": "Louvre Pseudo-Seneca (PhotoScan)",
+    "creator": "ryanfb",
+    "url": "https://sketchfab.com/3d-models/louvre-pseudo-seneca-photoscan-18ad84ffac884f81bed2aca290b650e2",
+    "model_license": "CC BY 4.0",
+    "model_license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "publisher_reported_triangles": "100.3k",
+    "source_object": "Louvre Ma 921",
+    "decision": "Facial aging reference only; rejected as a ready production base",
+    "observed_limits": "Online preview has peripheral fragments/missing coverage. Readable aged facial planes do not establish complete clean topology. Stone skin and sculpted hair are not living-human skin/groom."
+  },
+  "method_cases": [
+    {
+      "title": "Old Man",
+      "author": "Carlos Soares",
+      "url": "https://gamesartist.co.uk/old-man/",
+      "verified": "Full public first-person breakdown read",
+      "use": "Coherent front/side/three-quarter references; primary and secondary shape comparison before tertiary detail; separated groom descriptions",
+      "rights": "Method reference only. No model, reference photographs or textures licensed for reuse here; paid XYZ and commercial software in the original are not adopted."
+    },
+    {
+      "title": "Breakdown: Creating a Man with Amazing Grooming",
+      "author": "Artem Erikenov",
+      "url": "https://80.lv/articles/breakdown-creating-a-man-with-amazing-grooming",
+      "verified": "Full public first-person interview read",
+      "use": "Separate growth-direction guide regions; fine hairline transition; separate main/gray hair controls",
+      "rights": "Method reference only. Original uses Houdini, Maya and purchased textures; no project or texture reuse permission established and no two-day schedule promise adopted."
+    },
+    {
+      "title": "Blender 4.5 Hair Nodes and Curves Sculpt",
+      "url": "https://docs.blender.org/manual/en/4.5/modeling/geometry_nodes/hair/index.html",
+      "specific_pages": [
+        "https://docs.blender.org/manual/en/4.5/modeling/geometry_nodes/hair/generation/interpolate_hair_curves.html",
+        "https://docs.blender.org/manual/en/4.5/modeling/geometry_nodes/hair/guides/clump_hair_curves.html",
+        "https://docs.blender.org/manual/en/4.5/modeling/geometry_nodes/hair/guides/curl_hair_curves.html",
+        "https://docs.blender.org/manual/en/4.5/sculpt_paint/curves_sculpting/introduction.html"
+      ],
+      "verified": "Read-only helper inspected the official Interpolate, Clump, Curl and Curves Sculpt documentation",
+      "use": "Existing Blender tools for attached guide curves, interpolation, clumping and curl variation",
+      "implementation_status": "Documentation and bundled-asset presence only; no node graph has been built or run for this project in this research round",
+      "local_node_library_read_only": "D:/AI/PROJECT/hackathon_projects/Aholo_3D_AI_Hackathon/production/.tools/blender/blender-4.5.15-windows-x64/4.5/datafiles/assets/geometry_nodes/procedural_hair_node_assets.blend",
+      "local_node_library_bytes": 2465506
+    }
+  ]
+}

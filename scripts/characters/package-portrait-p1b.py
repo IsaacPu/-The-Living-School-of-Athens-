@@ -90,7 +90,12 @@ portrait['visual_self_review'] = {
                  'Visible shoulder tears, skin-colored cut caps, and hard purple collar transition'],
     'boundary_policy': 'Natural garment openings may remain. Counts alone are not a visual acceptance gate.',
     'source_capture_status': 'Blend metadata was captured before visual review; this report is the later review verdict.'}
-portrait.setdefault('owner_review', 'pending')
+portrait['owner_review'] = {
+    'reviewer': 'project_owner', 'actual_image_viewed': True, 'verdict': 'rejected',
+    'recorded_date': '2026-10-23',
+    'findings': ['Visible face and clear facial volume are retained as technical results',
+                 'Young appearance, curtain-like beard, hard scalp boundary, shoulder tears and exposed skin-colored caps'],
+    'constraints': ['No Unity integration', 'No batch character production', 'No new render in this round']}
 portrait['independent_visual_review'] = {
     'reviewer': 'character_reference_check', 'actual_image_viewed': True, 'verdict': 'rejected',
     'findings': ['Readable face but young appearance', 'Hard stepped scalp shell and parallel curtain-like beard',
