@@ -1,7 +1,7 @@
 {
-  "schema_version": 2,
+  "schema_version": 3,
   "reviewed_date": "2026-10-23",
-  "status": "single_candidate_page_and_license_verified_native_file_unverified",
+  "status": "archive_completion_verified_by_owner_safe_cache_and_native_geometry_pending",
   "title": "Einar - Character Rig",
   "publisher": "Blender Studio / Blender Foundation",
   "publisher_on_page": "Demeter Dzadik",
@@ -24,17 +24,28 @@
       "timeout_seconds": 45,
       "result": "Timed out without a completed local path",
       "download_success_verified": false,
+      "historical_result_superseded_by_owner_file_check": true,
       "evidence": "Project owner coordination message on 2026-10-23; B did not repeat this operation"
     }
   ],
-  "native_model_downloaded": false,
+  "native_model_downloaded": true,
   "native_file_available_to_B": false,
-  "owner_completed_download_path": null,
-  "owner_partial_download_state": "Unknown; absence of a completed path does not establish whether temporary bytes exist",
+  "owner_completed_download_path": "C:/Users/86133/Downloads/einar_v1.zip",
+  "owner_partial_download_state_at_timeout": "Was unknown; subsequent owner filesystem inspection confirmed completion",
+  "owner_archive_verification": {
+    "reported_date": "2026-10-23",
+    "bytes": 579834421,
+    "sha256": "3cbb5a1dd9ffd3ca39edab420a83ea7f7db337b435a78ef27a0c87ff3e6977f7",
+    "dotnet_ZipFile_OpenRead_succeeded": true,
+    "publisher_expected_checksum": null,
+    "B_independently_read_archive": false,
+    "scope": "Owner verified completed file size, computed hash and readable ZIP directory. Independent archive safety and member checks are still pending."
+  },
   "credentials_headers_or_proxy_workaround_used": false,
   "installed": false,
   "registered_or_paid": false,
-  "native_file_sha256": null,
+  "native_file_sha256": "3cbb5a1dd9ffd3ca39edab420a83ea7f7db337b435a78ef27a0c87ff3e6977f7",
+  "native_file_sha256_verifier": "project_owner",
   "native_mesh_topology_or_materials_checked": false,
   "local_blender_4_5_15_compatibility_verified": false,
   "head_only_extraction_verified": false,
@@ -52,11 +63,11 @@
     "interpretation": "Transient resource measurement, not a capacity pass. The 553 MB compressed label does not establish RAM requirements; no scene load or benchmark performed."
   },
   "static_assessment_from_worktree": "qa/characters/plato/v002/EINAR_STATIC_ASSESSMENT.md",
-  "decision": "Send this concrete official source, license and preview to project owner. Do not label as a fully downloadable usable elderly base. No model download before source review, and no more renders in this round.",
+  "decision": "Archive completion is confirmed by project owner; tool timeout was not download failure. B waits for the exact approved cache path and independent safety results. Then metadata/dependencies only; no complete-scene load, head deformation or new render. Original ZIP stays unchanged and outside ordinary Git blobs.",
   "limits": [
     "Whole character source, not a ready Plato head. Body, clothes and grooming are outside the current gate.",
-    "Public preview and license do not prove native file access, clean head extraction or compatibility.",
-    "No archive member inventory, embedded attribution, dependencies or native head geometry has been inspected because a completed file is unavailable to B.",
+    "Completed archive access does not prove clean head extraction, safe scene loading or compatibility.",
+    "B has not inspected archive members, embedded attribution, dependencies or native head geometry; exact approved cache path and safety review are pending.",
     "Official site comments about rig problems are not local verification and are not adopted as facts."
   ]
 }
