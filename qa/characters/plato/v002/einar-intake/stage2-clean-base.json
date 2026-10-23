@@ -1,0 +1,55 @@
+{
+  "stage": "2_clean_raw_base_single_gray_review",
+  "provenance": {
+    "source_page": "https://studio.blender.org/characters/einar/v1/",
+    "source_mesh": "DATA_GEO-einar_head.base",
+    "source_blend_sha256": "1c6663da0a2e9d6822978467c244e9186edc76083bae2414e02f9e695e711f7b",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "required_credit": "Einar Rig (CC-BY) Blender Foundation | studio.blender.org",
+    "changes": "Copied raw vertex/face arrays and polygon smooth flags only into a clean scene; gray material, new camera/lights. No geometric deformation, UV, original material, shape keys, rig, eyes, hair or displacement.",
+    "status": "base_age_review_only_art_not_accepted",
+    "raw_geometry_sha256": "24551fbdb188f994fcd6181b1959a310181ddf296356498cfb502892626e3fc9"
+  },
+  "implicit_ID_counts_before_factory_reset": {
+    "objects": 3,
+    "meshes": 2,
+    "armatures": 0,
+    "actions": 0,
+    "lattices": 0,
+    "texts": 0,
+    "images": 11,
+    "node_groups": 8,
+    "libraries": 1
+  },
+  "source_IDs_cleared_before_scene_evaluation": true,
+  "geometry_sha256_before": "24551fbdb188f994fcd6181b1959a310181ddf296356498cfb502892626e3fc9",
+  "geometry_sha256_after": "24551fbdb188f994fcd6181b1959a310181ddf296356498cfb502892626e3fc9",
+  "geometry_coordinates_face_order_and_smooth_flags_identical": true,
+  "vertices": 4596,
+  "polygons": 4522,
+  "new_scene_object_names": [
+    "EinarRawBaseCleanHead",
+    "Fill",
+    "Key",
+    "ReviewCamera",
+    "Rim"
+  ],
+  "raw_geometry_saved_as_json": "D:\\AI\\PROJECT\\hackathon_projects\\Aholo_3D_AI_Hackathon\\worktrees\\plato-refinement\\art\\characters\\plato\\v002\\einar-base-review\\raw-head-geometry.json",
+  "independent_blend": "D:\\AI\\PROJECT\\hackathon_projects\\Aholo_3D_AI_Hackathon\\worktrees\\plato-refinement\\art\\characters\\plato\\v002\\einar-base-review\\einar-raw-base-gray.blend",
+  "image": "D:\\AI\\PROJECT\\hackathon_projects\\Aholo_3D_AI_Hackathon\\worktrees\\plato-refinement\\qa\\characters\\plato\\v002\\einar-intake\\einar-raw-base-quarter.png",
+  "render_count": 1,
+  "samples": 16,
+  "cpu_threads": 4,
+  "resolution": [
+    768,
+    768
+  ],
+  "eyes_included": false,
+  "source_rig_or_modifiers_evaluated": false,
+  "source_image_pixels_accessed": false,
+  "art_accepted": false,
+  "pre_render_seconds": 3.9031,
+  "render_completed": true,
+  "total_script_seconds": 8.2091
+}

@@ -1,7 +1,7 @@
 {
-  "schema_version": 5,
+  "schema_version": 6,
   "reviewed_date": "2026-10-23",
-  "status": "stage1_raw_mesh_read_succeeded_paused_for_implicit_dependencies_no_visual",
+  "status": "clean_raw_base_isolated_single_gray_rendered_B_age_not_accepted",
   "title": "Einar - Character Rig",
   "publisher": "Blender Studio / Blender Foundation",
   "publisher_on_page": "Demeter Dzadik",
@@ -101,11 +101,39 @@
     "geometry_edited_blend_saved_or_rendered": false,
     "decision": "Data reported to project owner first. Paused at stage1 because dependency chain includes implicit Objects/Armature/Text; no full scene load. A base-only clean geometry copy may be considered within the owner's existing conditional one-image authorization, but extraction has not been verified."
   },
+  "stage2": {
+    "summary_from_worktree": "qa/characters/plato/v002/einar-intake/STAGE2.md",
+    "metadata_from_worktree": "qa/characters/plato/v002/einar-intake/stage2-clean-base.json",
+    "successful_run_from_worktree": "qa/characters/plato/v002/einar-intake/stage2r1-run.json",
+    "source_mesh": "DATA_GEO-einar_head.base",
+    "source_IDs_cleared_before_any_scene_evaluation": true,
+    "raw_geometry_sha256": "24551fbdb188f994fcd6181b1959a310181ddf296356498cfb502892626e3fc9",
+    "geometry_copy_hash_identical": true,
+    "coordinates_face_order_and_smooth_flags_preserved": true,
+    "source_UV_materials_shape_keys_Objects_or_animation_copied": false,
+    "eyes_hair_rig_or_displacement_included": false,
+    "independent_blend_from_worktree": "art/characters/plato/v002/einar-base-review/einar-raw-base-gray.blend",
+    "raw_geometry_json_from_worktree": "art/characters/plato/v002/einar-base-review/raw-head-geometry.json",
+    "image_from_worktree": "qa/characters/plato/v002/einar-intake/einar-raw-base-quarter.png",
+    "actual_render_count": 1,
+    "process_attempts": 2,
+    "first_attempt": "Stopped before extraction/save/render because animation_data container was incorrectly required to be absent. Preserved stage2 failure logs; source has zero drivers despite having an animation_data container.",
+    "successful_process_wall_seconds": 9.704,
+    "successful_process_peak_working_set_mib": 504.7,
+    "render_settings": {"resolution": [768, 768], "samples": 16, "threads": 4, "device": "CPU"},
+    "source_unchanged_read_only": true,
+    "independent_blend_roundtrip_checked": false,
+    "B_visual_assessment": "Raw base remains a tight adult form, with insufficient perioral, cheek/jowl and chin-neck aging for the target. Highlight is bright and eyes absent; cannot judge subtle surface details. Does not reject the finished Einar asset or establish its aging contributors.",
+    "art_accepted": false,
+    "independent_visual_review": "Actual image viewed; agrees the raw base remains tight adult morphology and does not support an elderly-base pass. Scope is this raw base only, not the complete Einar character.",
+    "owner_visual_review_pending": true
+  },
   "native_mesh_topology_or_materials_checked": true,
   "native_check_scope": "Raw counts, local bounds, UV/key names, driver counts and static material/image paths only; not manifoldness, visual form, object transforms or evaluated results.",
   "local_blender_4_5_15_raw_mesh_read_verified": true,
   "local_blender_4_5_15_compatibility_verified": false,
-  "head_only_extraction_verified": false,
+  "head_only_extraction_verified": true,
+  "head_only_extraction_scope": "Raw .base vertices/faces/smooth flags copied into new Mesh after factory reset; original/new hash match. Source rig, final appearance, eye placement, exported runtime asset and saved-blend roundtrip remain unverified.",
   "runtime_or_rig_claim": false,
   "resource_snapshot": {
     "measured_utc": "2026-10-23T11:00:10Z",
@@ -120,11 +148,11 @@
     "interpretation": "Transient resource measurement, not a capacity pass. The 553 MB compressed label does not establish RAM requirements; no scene load or benchmark performed."
   },
   "static_assessment_from_worktree": "qa/characters/plato/v002/EINAR_STATIC_ASSESSMENT.md",
-  "decision": "Stage1 single raw-mesh inspection completed within limits. Stop at stage1 and report implicit dependencies first; do not open complete scene or guess eye placement. Independent static head extraction and base-age visual review remain unverified. Original ZIP and cache unchanged; large source stays outside ordinary Git blobs.",
+  "decision": "Owner explicitly authorized clean raw-base extraction after stage1 report. Independent source and one gray image delivered within limits; B age-form review not accepted, awaiting owner visual judgment. No further render, age deformation, hair camouflage or backup route started. Original ZIP and cache unchanged; large source stays outside ordinary Git blobs.",
   "limits": [
     "Whole character source, not a ready Plato head. Body, clothes and grooming are outside the current gate.",
     "Completed archive access does not prove clean head extraction, safe scene loading or compatibility.",
-    "Stage1 checked raw Mesh data and static dependencies only. Embedded attribution text, independent extraction, evaluated aging contributions and head/eye placement remain unverified.",
+    "Raw-base clean extraction and one rendered view are verified. Embedded attribution text, evaluated aging contributions, full rig/material compatibility and head/eye placement remain unverified.",
     "Official site comments about rig problems are not local verification and are not adopted as facts."
   ]
 }

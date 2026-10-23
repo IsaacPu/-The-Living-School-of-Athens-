@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+  File "D:\AI\PROJECT\hackathon_projects\Aholo_3D_AI_Hackathon\worktrees\plato-refinement\scripts\characters\preview-einar-clean-base.py", line 37, in <module>
+    assert raw and raw.shape_keys is None and raw.animation_data is None
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError
+
+Error: script failed, file: 'D:\AI\PROJECT\hackathon_projects\Aholo_3D_AI_Hackathon\worktrees\plato-refinement\scripts\characters\preview-einar-clean-base.py', exiting.
