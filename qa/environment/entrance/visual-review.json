@@ -35,5 +35,6 @@
   "final_runtime_errors": 0,
   "independent_code_review": "No mandatory crash or state-corruption issue found; segmented joins, cancel and skip bridge cleanup reviewed.",
   "bridge_limitation": "Painting image itself holds still during opaque bridge while the underlying camera moves. Not a true portal or seamless reconstruction.",
+  "photo_door_registration_limitation": "The public-domain reproduction still contains a lower-left black door opening inside the mural image, while the graybox separately models a physical left door. These are not precisely registered and may double-count the opening. Do not claim an exact Segnatura reconstruction; correct image content vs physical opening in a future art phase.",
   "physical_keyboard_mouse_and_window_presentation": "not_verified_by_API_probe; verifying skips ProductionSample.Update, requests and Drive are direct calls; gravity-first-frame check is not real WASD input"
 }
