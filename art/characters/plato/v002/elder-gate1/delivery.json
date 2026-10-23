@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "asset_id": "plato-elder-gate1",
+  "asset_role": "rejected_bald_aging_form_experiment",
+  "art_status": "art_not_accepted",
+  "age_gate_passed": false,
+  "source_blend": "plato-elder-gate1.blend",
+  "source_sha256": "954e98b93f9df672af4c5f15b967dee5fb3e662bdc0b42a6a26af50b070b882a",
+  "preview_paths_from_worktree": [
+    "qa/characters/plato/v002/elder-gate1/front.png",
+    "qa/characters/plato/v002/elder-gate1/side.png",
+    "qa/characters/plato/v002/elder-gate1/quarter.png"
+  ],
+  "report_from_worktree": "qa/characters/plato/v002/elder-gate1/REPORT.md",
+  "license": "CC BY 4.0",
+  "attribution": "../ATTRIBUTION.md",
+  "native_scan_geometry_used": false,
+  "runtime_glb": null,
+  "runtime_replacement_approved": false,
+  "limits": [
+    "Bald head and existing eyeballs only; no hair, beard, body, collar, texture or runtime export.",
+    "This is a landmark-based form hypothesis, not a professional hand-sculpted or scan-fitted elderly portrait.",
+    "Single extra surface evaluation supports the cage; subdivision/displacement counts are not acceptance criteria.",
+    "Age and identity require actual three-view review; no art acceptance from technical checks."
+  ]
+}

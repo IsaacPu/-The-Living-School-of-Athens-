@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "reviewed_date": "2026-10-23",
+  "status": "single_candidate_page_and_license_verified_native_file_unverified",
+  "title": "Einar - Character Rig",
+  "publisher": "Blender Studio / Blender Foundation",
+  "publisher_on_page": "Demeter Dzadik",
+  "source_page": "https://studio.blender.org/characters/einar/v1/",
+  "license": "CC BY 4.0",
+  "license_url": "https://creativecommons.org/licenses/by/4.0/",
+  "required_credit": "Einar Rig (CC-BY) Blender Foundation | studio.blender.org",
+  "page_free_label": true,
+  "minimum_blender_version_on_page": "3.5",
+  "archive_size_label": "553.0 MB",
+  "official_download_link": "https://studio.blender.org/download-source/files/41/419e83fb75f30b989adf7920dec7a21c/419e83fb75f30b989adf7920dec7a21c.zip",
+  "actual_preview_viewed": true,
+  "preview_observation": "Official preview shows a finished older bearded male with fuller brow/orbital and perioral aging structure than C0. Hat/beard/materials still hide parts of the bald form, so that form is not yet accepted.",
+  "access_checks": [
+    {"method": "ordinary HEAD", "http_status": 403},
+    {"method": "one ordinary Range GET to inspect archive tail only", "http_status": 403}
+  ],
+  "native_model_downloaded": false,
+  "credentials_headers_or_proxy_workaround_used": false,
+  "installed": false,
+  "registered_or_paid": false,
+  "native_file_sha256": null,
+  "native_mesh_topology_or_materials_checked": false,
+  "local_blender_4_5_15_compatibility_verified": false,
+  "head_only_extraction_verified": false,
+  "runtime_or_rig_claim": false,
+  "decision": "Send this concrete official source, license and preview to project owner. Do not label as a fully downloadable usable elderly base. No model download before source review, and no more renders in this round.",
+  "limits": [
+    "Whole character source, not a ready Plato head. Body, clothes and grooming are outside the current gate.",
+    "Public preview and license do not prove native file access, clean head extraction or compatibility.",
+    "Official site comments about rig problems are not local verification and are not adopted as facts."
+  ]
+}

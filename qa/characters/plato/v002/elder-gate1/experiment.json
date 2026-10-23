@@ -1,0 +1,1468 @@
+{
+  "schema_version": 1,
+  "created_utc": "2026-10-23T09:55:03.793483+00:00",
+  "candidate": "plato-elder-gate1",
+  "art_status": "art_not_accepted",
+  "source": "art/characters/plato/v002/elder-gate1/plato-elder-gate1.blend",
+  "source_sha256": "954e98b93f9df672af4c5f15b967dee5fb3e662bdc0b42a6a26af50b070b882a",
+  "images": [
+    {
+      "view": "front",
+      "path": "qa/characters/plato/v002/elder-gate1/front.png",
+      "sha256": "4d70b3f5e1dd32d8a6b0df0a34e7966aac024b15c4e10e0d4f1c41fb8ef95e44",
+      "camera_m": [
+        0,
+        -2,
+        1.595
+      ],
+      "target_m": [
+        0,
+        0,
+        1.595
+      ],
+      "orthographic_span_m": 0.37
+    },
+    {
+      "view": "side",
+      "path": "qa/characters/plato/v002/elder-gate1/side.png",
+      "sha256": "0ce36d14a0259060e8132c97b13ed2b48c7ae37d5fc6656c38ac640ef67ec09a",
+      "camera_m": [
+        2,
+        0,
+        1.595
+      ],
+      "target_m": [
+        0,
+        0,
+        1.595
+      ],
+      "orthographic_span_m": 0.37
+    },
+    {
+      "view": "quarter",
+      "path": "qa/characters/plato/v002/elder-gate1/quarter.png",
+      "sha256": "28448b4464881339e56df96f5347a106d806302b16760768793cefcdb205b3c5",
+      "camera_m": [
+        0.95,
+        -2,
+        1.595
+      ],
+      "target_m": [
+        0,
+        0,
+        1.595
+      ],
+      "orthographic_span_m": 0.37
+    }
+  ],
+  "render_count": 3,
+  "cpu_threads": 4,
+  "gpu_used": false,
+  "samples": 32,
+  "denoising": false,
+  "resolution": [
+    768,
+    768
+  ],
+  "head_vertices": 18255,
+  "landmarks": [
+    {
+      "name": "stationary_back",
+      "source_m": [
+        -0.05626676231622696,
+        0.15489807724952698,
+        1.4492074251174927
+      ],
+      "delta_m": [
+        0,
+        0,
+        0
+      ],
+      "target_m": [
+        -0.05626676231622696,
+        0.15489807724952698,
+        1.4492074251174927
+      ],
+      "surface_selection": "nearest_surface"
+    },
+    {
+      "name": "stationary_back",
+      "source_m": [
+        -7.858034535568326e-12,
+        0.15392827987670898,
+        1.4523825645446777
+      ],
+      "delta_m": [
+        0,
+        0,
+        0
+      ],
+      "target_m": [
+        -7.858034535568326e-12,
+        0.15392827987670898,
+        1.4523825645446777
+      ],
+      "surface_selection": "nearest_surface"
+    },
+    {
+      "name": "stationary_back",
+      "source_m": [
+        0.05626676231622696,
+        0.15489807724952698,
+        1.4492075443267822
+      ],
+      "delta_m": [
+        0,
+        0,
+        0
+      ],
+      "target_m": [
+        0.05626676231622696,
+        0.15489807724952698,
+        1.4492075443267822
+      ],
+      "surface_selection": "nearest_surface"
+    },
+    {
+      "name": "stationary_back",
+      "source_m": [
+        -0.04576074331998825,
+        0.14049819111824036,
+        1.476203203201294
+      ],
+      "delta_m": [
+        0,
+        0,
+        0
+      ],
+      "target_m": [
+        -0.04576074331998825,
+        0.14049819111824036,
+        1.476203203201294
+      ],
+      "surface_selection": "nearest_surface"
+    },
+    {
+      "name": "stationary_back",
+      "source_m": [
+        -4.05967056846257e-12,
+        0.13999582827091217,
+        1.4830211400985718
+      ],
+      "delta_m": [
+        0,
+        0,
+        0
+      ],
+      "target_m": [
+        -4.05967056846257e-12,
+        0.13999582827091217,
+        1.4830211400985718
+      ],
+      "surface_selection": "nearest_surface"
+    },
+    {
+      "name": "stationary_back",
+      "source_m": [
+        0.04505724087357521,
+        0.14020155370235443,
+        1.47681725025177
+      ],
+      "delta_m": [
+        0,
+        0,
+        0
+      ],
+      "target_m": [
+        0.04505724087357521,
+        0.14020155370235443,
+        1.47681725025177
+      ],
+      "surface_selection": "nearest_surface"
+    },
+    {
+      "name": "stationary_back",
+      "source_m": [
+        -0.0353655070066452,
+        0.13335788249969482,
+        1.6157221794128418
+      ],
+      "delta_m": [
+        0,
+        0,
+        0
+      ],
+      "target_m": [
+        -0.0353655070066452,
+        0.13335788249969482,
+        1.6157221794128418
+      ],
+      "surface_selection": "nearest_surface"
+    },
+    {
+      "name": "stationary_back",
+      "source_m": [
+        4.991012811372819e-11,
+        0.13778267800807953,
+        1.6138502359390259
+      ],
+      "delta_m": [
+        0,
+        0,
+        0
+      ],
+      "target_m": [
+        4.991012811372819e-11,
+        0.13778267800807953,
+        1.6138502359390259
+      ],
+      "surface_selection": "nearest_surface"
+    },
+    {
+      "name": "stationary_back",
+      "source_m": [
+        0.035364337265491486,
+        0.13335824012756348,
+        1.615722417831421
+      ],
+      "delta_m": [
+        0,
+        0,
+        0
+      ],
+      "target_m": [
+        0.035364337265491486,
+        0.13335824012756348,
+        1.615722417831421
+      ],
+      "surface_selection": "nearest_surface"
+    },
+    {
+      "name": "stationary_back",
+      "source_m": [
+        -0.03323739767074585,
+        0.14084331691265106,
+        1.662822961807251
+      ],
+      "delta_m": [
+        0,
+        0,
+        0
+      ],
+      "target_m": [
+        -0.03323739767074585,
+        0.14084331691265106,
+        1.662822961807251
+      ],
+      "surface_selection": "nearest_surface"
+    },
+    {
+      "name": "stationary_back",
+      "source_m": [
+        7.858034535568326e-12,
+        0.1462470144033432,
+        1.664128065109253
+      ],
+      "delta_m": [
+        0,
+        0,
+        0
+      ],
+      "target_m": [
+        7.858034535568326e-12,
+        0.1462470144033432,
+        1.664128065109253
+      ],
+      "surface_selection": "nearest_surface"
+    },
+    {
+      "name": "stationary_back",
+      "source_m": [
+        0.03323739767074585,
+        0.14084331691265106,
+        1.6628230810165405
+      ],
+      "delta_m": [
+        0,
+        0,
+        0
+      ],
+      "target_m": [
+        0.03323739767074585,
+        0.14084331691265106,
+        1.6628230810165405
+      ],
+      "surface_selection": "nearest_surface"
+    },
+    {
+      "name": "stationary_back",
+      "source_m": [
+        -0.029629215598106384,
+        0.13296619057655334,
+        1.692051887512207
+      ],
+      "delta_m": [
+        0,
+        0,
+        0
+      ],
+      "target_m": [
+        -0.029629215598106384,
+        0.13296619057655334,
+        1.692051887512207
+      ],
+      "surface_selection": "nearest_surface"
+    },
+    {
+      "name": "stationary_back",
+      "source_m": [
+        2.8406929586388685e-12,
+        0.13750486075878143,
+        1.6940587759017944
+      ],
+      "delta_m": [
+        0,
+        0,
+        0
+      ],
+      "target_m": [
+        2.8406929586388685e-12,
+        0.13750486075878143,
+        1.6940587759017944
+      ],
+      "surface_selection": "nearest_surface"
+    },
+    {
+      "name": "stationary_back",
+      "source_m": [
+        0.02954111620783806,
+        0.13300901651382446,
+        1.6920188665390015
+      ],
+      "delta_m": [
+        0,
+        0,
+        0
+      ],
+      "target_m": [
+        0.02954111620783806,
+        0.13300901651382446,
+        1.6920188665390015
+      ],
+      "surface_selection": "nearest_surface"
+    },
+    {
+      "name": "stationary_neck",
+      "source_m": [
+        -0.08500000089406967,
+        0.05477815866470337,
+        1.465000033378601
+      ],
+      "delta_m": [
+        0,
+        0,
+        0
+      ],
+      "target_m": [
+        -0.08500000089406967,
+        0.05477815866470337,
+        1.465000033378601
+      ],
+      "surface_selection": "front_surface"
+    },
+    {
+      "name": "stationary_neck",
+      "source_m": [
+        -0.04500000178813934,
+        0.02868509292602539,
+        1.465000033378601
+      ],
+      "delta_m": [
+        0,
+        0,
+        0
+      ],
+      "target_m": [
+        -0.04500000178813934,
+        0.02868509292602539,
+        1.465000033378601
+      ],
+      "surface_selection": "front_surface"
+    },
+    {
+      "name": "stationary_neck",
+      "source_m": [
+        0.0,
+        0.011591613292694092,
+        1.465000033378601
+      ],
+      "delta_m": [
+        0,
+        0,
+        0
+      ],
+      "target_m": [
+        0.0,
+        0.011591613292694092,
+        1.465000033378601
+      ],
+      "surface_selection": "front_surface"
+    },
+    {
+      "name": "stationary_neck",
+      "source_m": [
+        0.04500000178813934,
+        0.028712928295135498,
+        1.465000033378601
+      ],
+      "delta_m": [
+        0,
+        0,
+        0
+      ],
+      "target_m": [
+        0.04500000178813934,
+        0.028712928295135498,
+        1.465000033378601
+      ],
+      "surface_selection": "front_surface"
+    },
+    {
+      "name": "stationary_neck",
+      "source_m": [
+        0.08500000089406967,
+        0.05476272106170654,
+        1.465000033378601
+      ],
+      "delta_m": [
+        0,
+        0,
+        0
+      ],
+      "target_m": [
+        0.08500000089406967,
+        0.05476272106170654,
+        1.465000033378601
+      ],
+      "surface_selection": "front_surface"
+    },
+    {
+      "name": "stationary_crown",
+      "source_m": [
+        -0.03561468422412872,
+        0.005866619758307934,
+        1.7239965200424194
+      ],
+      "delta_m": [
+        0,
+        0,
+        0
+      ],
+      "target_m": [
+        -0.03561468422412872,
+        0.005866619758307934,
+        1.7239965200424194
+      ],
+      "surface_selection": "nearest_surface"
+    },
+    {
+      "name": "stationary_crown",
+      "source_m": [
+        -1.571606907113665e-11,
+        0.0033101513981819153,
+        1.731223702430725
+      ],
+      "delta_m": [
+        0,
+        0,
+        0
+      ],
+      "target_m": [
+        -1.571606907113665e-11,
+        0.0033101513981819153,
+        1.731223702430725
+      ],
+      "surface_selection": "nearest_surface"
+    },
+    {
+      "name": "stationary_crown",
+      "source_m": [
+        0.035614803433418274,
+        0.005867402069270611,
+        1.723996877670288
+      ],
+      "delta_m": [
+        0,
+        0,
+        0
+      ],
+      "target_m": [
+        0.035614803433418274,
+        0.005867402069270611,
+        1.723996877670288
+      ],
+      "surface_selection": "nearest_surface"
+    },
+    {
+      "name": "stationary_eye_rim",
+      "source_m": [
+        -0.0421999990940094,
+        -0.03808140754699707,
+        1.621999979019165
+      ],
+      "delta_m": [
+        0,
+        0,
+        0
+      ],
+      "target_m": [
+        -0.0421999990940094,
+        -0.03808140754699707,
+        1.621999979019165
+      ],
+      "surface_selection": "front_surface"
+    },
+    {
+      "name": "stationary_eye_rim",
+      "source_m": [
+        -0.022199999541044235,
+        -0.039403676986694336,
+        1.621999979019165
+      ],
+      "delta_m": [
+        0,
+        0,
+        0
+      ],
+      "target_m": [
+        -0.022199999541044235,
+        -0.039403676986694336,
+        1.621999979019165
+      ],
+      "surface_selection": "front_surface"
+    },
+    {
+      "name": "stationary_eye_rim",
+      "source_m": [
+        -0.03220000118017197,
+        -0.04900777339935303,
+        1.63100004196167
+      ],
+      "delta_m": [
+        0,
+        0,
+        0
+      ],
+      "target_m": [
+        -0.03220000118017197,
+        -0.04900777339935303,
+        1.63100004196167
+      ],
+      "surface_selection": "front_surface"
+    },
+    {
+      "name": "stationary_eye_rim",
+      "source_m": [
+        -0.03220000118017197,
+        -0.040920257568359375,
+        1.6130000352859497
+      ],
+      "delta_m": [
+        0,
+        0,
+        0
+      ],
+      "target_m": [
+        -0.03220000118017197,
+        -0.040920257568359375,
+        1.6130000352859497
+      ],
+      "surface_selection": "front_surface"
+    },
+    {
+      "name": "brow_overhang",
+      "source_m": [
+        -0.03099999949336052,
+        -0.05063581466674805,
+        1.6449999809265137
+      ],
+      "delta_m": [
+        0,
+        -0.0055,
+        -0.002
+      ],
+      "target_m": [
+        -0.03099999949336052,
+        -0.056135814636945724,
+        1.6430000066757202
+      ],
+      "surface_selection": "front_surface"
+    },
+    {
+      "name": "outer_brow_descent",
+      "source_m": [
+        -0.054999999701976776,
+        -0.03606528043746948,
+        1.6410000324249268
+      ],
+      "delta_m": [
+        0,
+        -0.003,
+        -0.0025
+      ],
+      "target_m": [
+        -0.054999999701976776,
+        -0.03906527906656265,
+        1.6384999752044678
+      ],
+      "surface_selection": "front_surface"
+    },
+    {
+      "name": "temporal_hollow",
+      "source_m": [
+        -0.0729999989271164,
+        0.009362280368804932,
+        1.6610000133514404
+      ],
+      "delta_m": [
+        0.0025,
+        0.0045,
+        0
+      ],
+      "target_m": [
+        -0.07050000131130219,
+        0.013862280175089836,
+        1.6610000133514404
+      ],
+      "surface_selection": "front_surface"
+    },
+    {
+      "name": "malar_support",
+      "source_m": [
+        -0.054999999701976776,
+        -0.03268522024154663,
+        1.6019999980926514
+      ],
+      "delta_m": [
+        -0.0035,
+        -0.0035,
+        0.001
+      ],
+      "target_m": [
+        -0.05849999934434891,
+        -0.03618521988391876,
+        1.6030000448226929
+      ],
+      "surface_selection": "front_surface"
+    },
+    {
+      "name": "submalar_volume_loss",
+      "source_m": [
+        -0.05000000074505806,
+        -0.029911458492279053,
+        1.5720000267028809
+      ],
+      "delta_m": [
+        0.002,
+        0.009,
+        -0.001
+      ],
+      "target_m": [
+        -0.04800000041723251,
+        -0.020911458879709244,
+        1.5709999799728394
+      ],
+      "surface_selection": "front_surface"
+    },
+    {
+      "name": "lower_cheek_tissue_descent",
+      "source_m": [
+        -0.061000000685453415,
+        -0.0046433210372924805,
+        1.5479999780654907
+      ],
+      "delta_m": [
+        -0.001,
+        0.0035,
+        -0.005
+      ],
+      "target_m": [
+        -0.06199999898672104,
+        -0.0011433209292590618,
+        1.5429999828338623
+      ],
+      "surface_selection": "front_surface"
+    },
+    {
+      "name": "nasolabial_inner_plane",
+      "source_m": [
+        -0.017999999225139618,
+        -0.04959297180175781,
+        1.5800000429153442
+      ],
+      "delta_m": [
+        0.0005,
+        0.0025,
+        -0.001
+      ],
+      "target_m": [
+        -0.017500000074505806,
+        -0.047092970460653305,
+        1.5789999961853027
+      ],
+      "surface_selection": "front_surface"
+    },
+    {
+      "name": "nasolabial_descending_mass",
+      "source_m": [
+        -0.02500000037252903,
+        -0.04737895727157593,
+        1.5729999542236328
+      ],
+      "delta_m": [
+        -0.001,
+        -0.0045,
+        -0.003
+      ],
+      "target_m": [
+        -0.026000000536441803,
+        -0.05187895894050598,
+        1.5699999332427979
+      ],
+      "surface_selection": "front_surface"
+    },
+    {
+      "name": "mouth_corner_descent",
+      "source_m": [
+        -0.026000000536441803,
+        -0.046760380268096924,
+        1.5460000038146973
+      ],
+      "delta_m": [
+        -0.0005,
+        0.001,
+        -0.004
+      ],
+      "target_m": [
+        -0.026499999687075615,
+        -0.0457603819668293,
+        1.5420000553131104
+      ],
+      "surface_selection": "front_surface"
+    },
+    {
+      "name": "perioral_tissue_descent",
+      "source_m": [
+        -0.03400000184774399,
+        -0.03528648614883423,
+        1.5290000438690186
+      ],
+      "delta_m": [
+        -0.001,
+        -0.003,
+        -0.0045
+      ],
+      "target_m": [
+        -0.03500000014901161,
+        -0.0382864847779274,
+        1.5245000123977661
+      ],
+      "surface_selection": "front_surface"
+    },
+    {
+      "name": "prejowl_recession",
+      "source_m": [
+        -0.04100000113248825,
+        0.0018676519393920898,
+        1.5160000324249268
+      ],
+      "delta_m": [
+        0.001,
+        0.003,
+        0
+      ],
+      "target_m": [
+        -0.04000000283122063,
+        0.004867651965469122,
+        1.5160000324249268
+      ],
+      "surface_selection": "front_surface"
+    },
+    {
+      "name": "jowl_mass",
+      "source_m": [
+        -0.061000000685453415,
+        0.04146772623062134,
+        1.5190000534057617
+      ],
+      "delta_m": [
+        -0.003,
+        -0.0035,
+        -0.0045
+      ],
+      "target_m": [
+        -0.06400000303983688,
+        0.03796772658824921,
+        1.5145000219345093
+      ],
+      "surface_selection": "front_surface"
+    },
+    {
+      "name": "nostril_wing",
+      "source_m": [
+        -0.014000000432133675,
+        -0.05848616361618042,
+        1.5820000171661377
+      ],
+      "delta_m": [
+        -0.0015,
+        -0.0015,
+        -0.001
+      ],
+      "target_m": [
+        -0.015500000678002834,
+        -0.059986162930727005,
+        1.5809999704360962
+      ],
+      "surface_selection": "front_surface"
+    },
+    {
+      "name": "upper_lip_reduced_projection",
+      "source_m": [
+        -0.012000000104308128,
+        -0.056548476219177246,
+        1.5509999990463257
+      ],
+      "delta_m": [
+        0,
+        0.0015,
+        -0.001
+      ],
+      "target_m": [
+        -0.012000000104308128,
+        -0.05504847690463066,
+        1.5499999523162842
+      ],
+      "surface_selection": "front_surface"
+    },
+    {
+      "name": "lower_lip_weight",
+      "source_m": [
+        -0.012000000104308128,
+        -0.05415081977844238,
+        1.5410000085830688
+      ],
+      "delta_m": [
+        0,
+        -0.0015,
+        -0.002
+      ],
+      "target_m": [
+        -0.012000000104308128,
+        -0.05565081909298897,
+        1.5390000343322754
+      ],
+      "surface_selection": "front_surface"
+    },
+    {
+      "name": "ear_lobe_descent",
+      "source_m": [
+        -0.07641518115997314,
+        0.06379852443933487,
+        1.5912891626358032
+      ],
+      "delta_m": [
+        -0.001,
+        0,
+        -0.004
+      ],
+      "target_m": [
+        -0.07741518318653107,
+        0.06379852443933487,
+        1.5872892141342163
+      ],
+      "surface_selection": "nearest_surface"
+    },
+    {
+      "name": "stationary_eye_rim",
+      "source_m": [
+        0.022199999541044235,
+        -0.039403676986694336,
+        1.621999979019165
+      ],
+      "delta_m": [
+        0,
+        0,
+        0
+      ],
+      "target_m": [
+        0.022199999541044235,
+        -0.039403676986694336,
+        1.621999979019165
+      ],
+      "surface_selection": "front_surface"
+    },
+    {
+      "name": "stationary_eye_rim",
+      "source_m": [
+        0.0421999990940094,
+        -0.038081347942352295,
+        1.621999979019165
+      ],
+      "delta_m": [
+        0,
+        0,
+        0
+      ],
+      "target_m": [
+        0.0421999990940094,
+        -0.038081347942352295,
+        1.621999979019165
+      ],
+      "surface_selection": "front_surface"
+    },
+    {
+      "name": "stationary_eye_rim",
+      "source_m": [
+        0.03220000118017197,
+        -0.0490078330039978,
+        1.63100004196167
+      ],
+      "delta_m": [
+        0,
+        0,
+        0
+      ],
+      "target_m": [
+        0.03220000118017197,
+        -0.0490078330039978,
+        1.63100004196167
+      ],
+      "surface_selection": "front_surface"
+    },
+    {
+      "name": "stationary_eye_rim",
+      "source_m": [
+        0.03220000118017197,
+        -0.040920257568359375,
+        1.6130000352859497
+      ],
+      "delta_m": [
+        0,
+        0,
+        0
+      ],
+      "target_m": [
+        0.03220000118017197,
+        -0.040920257568359375,
+        1.6130000352859497
+      ],
+      "surface_selection": "front_surface"
+    },
+    {
+      "name": "brow_overhang",
+      "source_m": [
+        0.03099999949336052,
+        -0.050619423389434814,
+        1.6449999809265137
+      ],
+      "delta_m": [
+        0,
+        -0.0055,
+        -0.002
+      ],
+      "target_m": [
+        0.03099999949336052,
+        -0.05611942335963249,
+        1.6430000066757202
+      ],
+      "surface_selection": "front_surface"
+    },
+    {
+      "name": "outer_brow_descent",
+      "source_m": [
+        0.054999999701976776,
+        -0.036071717739105225,
+        1.6410000324249268
+      ],
+      "delta_m": [
+        0,
+        -0.003,
+        -0.0025
+      ],
+      "target_m": [
+        0.054999999701976776,
+        -0.039071716368198395,
+        1.6384999752044678
+      ],
+      "surface_selection": "front_surface"
+    },
+    {
+      "name": "temporal_hollow",
+      "source_m": [
+        0.0729999989271164,
+        0.009362399578094482,
+        1.6610000133514404
+      ],
+      "delta_m": [
+        -0.0025,
+        0.0045,
+        0
+      ],
+      "target_m": [
+        0.07050000131130219,
+        0.013862399384379387,
+        1.6610000133514404
+      ],
+      "surface_selection": "front_surface"
+    },
+    {
+      "name": "malar_support",
+      "source_m": [
+        0.054999999701976776,
+        -0.03268522024154663,
+        1.6019999980926514
+      ],
+      "delta_m": [
+        0.0035,
+        -0.0035,
+        0.001
+      ],
+      "target_m": [
+        0.05849999934434891,
+        -0.03618521988391876,
+        1.6030000448226929
+      ],
+      "surface_selection": "front_surface"
+    },
+    {
+      "name": "submalar_volume_loss",
+      "source_m": [
+        0.05000000074505806,
+        -0.02984166145324707,
+        1.5720000267028809
+      ],
+      "delta_m": [
+        -0.002,
+        0.009,
+        -0.001
+      ],
+      "target_m": [
+        0.04800000041723251,
+        -0.02084166184067726,
+        1.5709999799728394
+      ],
+      "surface_selection": "front_surface"
+    },
+    {
+      "name": "lower_cheek_tissue_descent",
+      "source_m": [
+        0.061000000685453415,
+        -0.004649639129638672,
+        1.5479999780654907
+      ],
+      "delta_m": [
+        0.001,
+        0.0035,
+        -0.005
+      ],
+      "target_m": [
+        0.06199999898672104,
+        -0.0011496390216052532,
+        1.5429999828338623
+      ],
+      "surface_selection": "front_surface"
+    },
+    {
+      "name": "nasolabial_inner_plane",
+      "source_m": [
+        0.017999999225139618,
+        -0.04959297180175781,
+        1.5800000429153442
+      ],
+      "delta_m": [
+        -0.0005,
+        0.0025,
+        -0.001
+      ],
+      "target_m": [
+        0.017500000074505806,
+        -0.047092970460653305,
+        1.5789999961853027
+      ],
+      "surface_selection": "front_surface"
+    },
+    {
+      "name": "nasolabial_descending_mass",
+      "source_m": [
+        0.02500000037252903,
+        -0.04737895727157593,
+        1.5729999542236328
+      ],
+      "delta_m": [
+        0.001,
+        -0.0045,
+        -0.003
+      ],
+      "target_m": [
+        0.026000000536441803,
+        -0.05187895894050598,
+        1.5699999332427979
+      ],
+      "surface_selection": "front_surface"
+    },
+    {
+      "name": "mouth_corner_descent",
+      "source_m": [
+        0.026000000536441803,
+        -0.04674983024597168,
+        1.5460000038146973
+      ],
+      "delta_m": [
+        0.0005,
+        0.001,
+        -0.004
+      ],
+      "target_m": [
+        0.026499999687075615,
+        -0.045749831944704056,
+        1.5420000553131104
+      ],
+      "surface_selection": "front_surface"
+    },
+    {
+      "name": "perioral_tissue_descent",
+      "source_m": [
+        0.03400000184774399,
+        -0.035280823707580566,
+        1.5290000438690186
+      ],
+      "delta_m": [
+        0.001,
+        -0.003,
+        -0.0045
+      ],
+      "target_m": [
+        0.03500000014901161,
+        -0.03828082233667374,
+        1.5245000123977661
+      ],
+      "surface_selection": "front_surface"
+    },
+    {
+      "name": "prejowl_recession",
+      "source_m": [
+        0.04100000113248825,
+        0.0018929243087768555,
+        1.5160000324249268
+      ],
+      "delta_m": [
+        -0.001,
+        0.003,
+        0
+      ],
+      "target_m": [
+        0.04000000283122063,
+        0.0048929243348538876,
+        1.5160000324249268
+      ],
+      "surface_selection": "front_surface"
+    },
+    {
+      "name": "jowl_mass",
+      "source_m": [
+        0.061000000685453415,
+        0.04146778583526611,
+        1.5190000534057617
+      ],
+      "delta_m": [
+        0.003,
+        -0.0035,
+        -0.0045
+      ],
+      "target_m": [
+        0.06400000303983688,
+        0.03796778619289398,
+        1.5145000219345093
+      ],
+      "surface_selection": "front_surface"
+    },
+    {
+      "name": "nostril_wing",
+      "source_m": [
+        0.014000000432133675,
+        -0.058486342430114746,
+        1.5820000171661377
+      ],
+      "delta_m": [
+        0.0015,
+        -0.0015,
+        -0.001
+      ],
+      "target_m": [
+        0.015500000678002834,
+        -0.05998634174466133,
+        1.5809999704360962
+      ],
+      "surface_selection": "front_surface"
+    },
+    {
+      "name": "upper_lip_reduced_projection",
+      "source_m": [
+        0.012000000104308128,
+        -0.05654764175415039,
+        1.5509999990463257
+      ],
+      "delta_m": [
+        0,
+        0.0015,
+        -0.001
+      ],
+      "target_m": [
+        0.012000000104308128,
+        -0.055047642439603806,
+        1.5499999523162842
+      ],
+      "surface_selection": "front_surface"
+    },
+    {
+      "name": "lower_lip_weight",
+      "source_m": [
+        0.012000000104308128,
+        -0.054152607917785645,
+        1.5410000085830688
+      ],
+      "delta_m": [
+        0,
+        -0.0015,
+        -0.002
+      ],
+      "target_m": [
+        0.012000000104308128,
+        -0.05565260723233223,
+        1.5390000343322754
+      ],
+      "surface_selection": "front_surface"
+    },
+    {
+      "name": "ear_lobe_descent",
+      "source_m": [
+        0.07641518861055374,
+        0.06379858404397964,
+        1.5912890434265137
+      ],
+      "delta_m": [
+        0.001,
+        0,
+        -0.004
+      ],
+      "target_m": [
+        0.07741519063711166,
+        0.06379858404397964,
+        1.5872890949249268
+      ],
+      "surface_selection": "nearest_surface"
+    },
+    {
+      "name": "glabella_bony_support",
+      "source_m": [
+        0.0,
+        -0.05489462614059448,
+        1.6510000228881836
+      ],
+      "delta_m": [
+        0,
+        -0.003,
+        -0.0005
+      ],
+      "target_m": [
+        0.0,
+        -0.05789462476968765,
+        1.6505000591278076
+      ],
+      "surface_selection": "front_surface"
+    },
+    {
+      "name": "nose_bridge_projection",
+      "source_m": [
+        0.0,
+        -0.0592188835144043,
+        1.6160000562667847
+      ],
+      "delta_m": [
+        0,
+        -0.002,
+        0
+      ],
+      "target_m": [
+        0.0,
+        -0.06121888384222984,
+        1.6160000562667847
+      ],
+      "surface_selection": "front_surface"
+    },
+    {
+      "name": "nasal_tip_descent",
+      "source_m": [
+        0.0,
+        -0.07536494731903076,
+        1.590000033378601
+      ],
+      "delta_m": [
+        0,
+        -0.004,
+        -0.003
+      ],
+      "target_m": [
+        0.0,
+        -0.07936494797468185,
+        1.5870000123977661
+      ],
+      "surface_selection": "front_surface"
+    },
+    {
+      "name": "philtrum_length",
+      "source_m": [
+        0.0,
+        -0.059860944747924805,
+        1.562999963760376
+      ],
+      "delta_m": [
+        0,
+        0.001,
+        -0.002
+      ],
+      "target_m": [
+        0.0,
+        -0.05886094644665718,
+        1.5609999895095825
+      ],
+      "surface_selection": "front_surface"
+    },
+    {
+      "name": "upper_lip_midline",
+      "source_m": [
+        0.0,
+        -0.05871140956878662,
+        1.5520000457763672
+      ],
+      "delta_m": [
+        0,
+        0.001,
+        -0.001
+      ],
+      "target_m": [
+        0.0,
+        -0.057711411267519,
+        1.5509999990463257
+      ],
+      "surface_selection": "front_surface"
+    },
+    {
+      "name": "mouth_line_anchor",
+      "source_m": [
+        0.0,
+        -0.05775415897369385,
+        1.5460000038146973
+      ],
+      "delta_m": [
+        0,
+        0,
+        0
+      ],
+      "target_m": [
+        0.0,
+        -0.05775415897369385,
+        1.5460000038146973
+      ],
+      "surface_selection": "front_surface"
+    },
+    {
+      "name": "lower_lip_midline",
+      "source_m": [
+        0.0,
+        -0.056123435497283936,
+        1.5390000343322754
+      ],
+      "delta_m": [
+        0,
+        -0.001,
+        -0.002
+      ],
+      "target_m": [
+        0.0,
+        -0.05712343379855156,
+        1.537000060081482
+      ],
+      "surface_selection": "front_surface"
+    },
+    {
+      "name": "chin_lower_face",
+      "source_m": [
+        0.0,
+        -0.04943525791168213,
+        1.5110000371932983
+      ],
+      "delta_m": [
+        0,
+        -0.002,
+        -0.003
+      ],
+      "target_m": [
+        0.0,
+        -0.051435258239507675,
+        1.5080000162124634
+      ],
+      "surface_selection": "front_surface"
+    }
+  ],
+  "method": "Single-reference anatomical target cage with polyharmonic interpolation, editable shape key; no Gaussian/noise wrinkles",
+  "max_displacement_m": 0.008571368738605764,
+  "inverted_face_normals": 0,
+  "reference": {
+    "object": "Louvre Ma 921",
+    "catalogue": "https://collections.louvre.fr/ark:/53355/cl010279217",
+    "views_reviewed_online": [
+      "front",
+      "profile",
+      "three-quarter"
+    ],
+    "photo_use": "Viewed only; copyrighted official photos not downloaded or copied into candidate",
+    "role": "Old facial mass reference only, not Plato identity or exact scanned fitting",
+    "catalogue_observation": "Official Louvre record identifies Ma 921 as an old man, with identity uncertainty and a right-temple crack. These are limits, not features to reproduce.",
+    "native_scan_downloaded": false,
+    "original_painting_viewed": true,
+    "original_painting_role": "Plato identity direction only; no painted face projected onto mesh"
+  },
+  "protected_hashes": {
+    "art/characters/plato/v002/work/plato-head-study.blend": "035923bb72bde7f254f35713f5ff4b21265155e407c2e393e109c16f258c8391",
+    "art/characters/plato/v002/portrait-p1/plato-portrait-p1.blend": "73da19db15ae6b8de49c0f03e68d0d8e3e9eaae454c3f597fbdf74f06e489076",
+    "qa/characters/plato/v002/portrait-p1/plato-head-shoulders-quarter.png": "17ef26a2915f99d4d17163afb1cf79e858ae4fd06938475fabe2a8618020c213",
+    "art/characters/plato/v002/portrait-p1b/plato-portrait-p1b.blend": "c26cc592456cb6c8f54c7fd6391580e0cc40f9999d72518d3f9f1602236041bb",
+    "qa/characters/plato/v002/portrait-p1b/plato-head-shoulders-quarter.png": "3db3ee8bf3c1047b081ddbf56a3229ba0b979b9ad8d04157ecac00eeb579db5c"
+  },
+  "runtime_replacement_approved": false,
+  "limits": [
+    "Bald head and existing eyeballs only; no hair, beard, body, collar, texture or runtime export.",
+    "This is a landmark-based form hypothesis, not a professional hand-sculpted or scan-fitted elderly portrait.",
+    "Single extra surface evaluation supports the cage; subdivision/displacement counts are not acceptance criteria.",
+    "Age and identity require actual three-view review; no art acceptance from technical checks."
+  ],
+  "age_gate_passed": false,
+  "visual_review": {
+    "B": "rejected after viewing all three images",
+    "independent_character_reference_check": "rejected after viewing all three images",
+    "project_owner": "rejected after viewing all three images",
+    "visible_changes": [
+      "More submalar concavity",
+      "Depressed mouth corners"
+    ],
+    "failures": [
+      "Still reads as a gaunt adult, not a convincing elderly man",
+      "Insufficient upper-lid/brow, perioral and cheek/jowl aging tissue",
+      "Jaw/neck transition remains firm",
+      "New jagged cut boundary at the neck base"
+    ],
+    "decision": "Stop deforming this young base. No more control points, parameters or renders. Screen a genuinely aged base."
+  }
+}
