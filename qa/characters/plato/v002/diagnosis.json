@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "source": "v001 original Lux3D GLB",
+  "units": "meters",
+  "regions": {
+    "all": {
+      "triangles": 28314,
+      "flat_three_normals": 1435,
+      "uv_area_texels": 2245783.8459950536,
+      "flat_three_normals_pct": 5.06816415907325,
+      "uv_area_equivalent_square_px": 1498.5939563454317
+    },
+    "head": {
+      "triangles": 1874,
+      "flat_three_normals": 36,
+      "uv_area_texels": 127984.65022923188,
+      "flat_three_normals_pct": 1.92102454642476,
+      "uv_area_equivalent_square_px": 357.7494237999998
+    }
+  },
+  "head_roi": "Every triangle vertex above canonical height 1.42m; source Y + 0.875m.",
+  "suspicious_head_edges": {
+    "count": 12,
+    "gentle_edges_examined": 1338,
+    "criterion": "2-triangle positional-welded edge, geometric dihedral <15deg, stored endpoint normal jump >30deg"
+  },
+  "source_normal_map": false,
+  "source_color_texture_size": [
+    2048,
+    2048
+  ],
+  "limits": [
+    "UV area is summed triangle area, not a unique pixel-coverage raster or actual image width. UV overlap can affect this estimate.",
+    "A suspicious normal discontinuity is a candidate for inspection, not proof of wrong anatomy.",
+    "No stored image can restore geometry or historical facial features absent from the source."
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "A_P0_unchanged": {
+    "vertices": 29166,
+    "polygons": 28314,
+    "custom_normals": true,
+    "smooth_polygons": 26961,
+    "corner_normals_aligned_to_face_pct": 12.760471851380942,
+    "modifiers": []
+  },
+  "B_Targeted_normal_diagnostic": {
+    "vertices": 29166,
+    "polygons": 28314,
+    "custom_normals": true,
+    "smooth_polygons": 26961,
+    "corner_normals_aligned_to_face_pct": 12.743990016717289,
+    "modifiers": []
+  },
+  "C0_Licensed_head_proportion_control": {
+    "vertices": 4604,
+    "polygons": 4521,
+    "custom_normals": false,
+    "smooth_polygons": 4521,
+    "corner_normals_aligned_to_face_pct": 1.6872518747243053,
+    "modifiers": []
+  },
+  "C1_Local_head_form_candidate": {
+    "vertices": 4604,
+    "polygons": 4521,
+    "custom_normals": false,
+    "smooth_polygons": 4521,
+    "corner_normals_aligned_to_face_pct": 1.6872518747243053,
+    "modifiers": []
+  },
+  "C_Eyeballs_anatomy_check": {
+    "vertices": 6532,
+    "polygons": 6528,
+    "custom_normals": false,
+    "smooth_polygons": 6528,
+    "corner_normals_aligned_to_face_pct": 11.630667892156863,
+    "modifiers": []
+  }
+}

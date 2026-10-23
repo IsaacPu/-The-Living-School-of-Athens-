@@ -1,0 +1,46 @@
+{
+  "passed": true,
+  "blend_reopened": true,
+  "glb_reimported_in_empty_scene": true,
+  "head_position_set_preserved_at_0_01mm": true,
+  "mesh_objects": 2,
+  "source_head_blender_bounds_m": {
+    "vertices": 4604,
+    "min": [
+      -0.18915918469429016,
+      -0.07785389572381973,
+      1.4450000524520874
+    ],
+    "max": [
+      0.18915918469429016,
+      0.15796324610710144,
+      1.74334716796875
+    ]
+  },
+  "reimport_bounds_blender_m": {
+    "min": [
+      -0.18915918469429016,
+      -0.07785389572381973,
+      1.4450000524520874
+    ],
+    "max": [
+      0.18915918469429016,
+      0.15796324610710144,
+      1.74334716796875
+    ]
+  },
+  "embedded_attribution": [
+    {
+      "object": "C1_Local_head_form_candidate",
+      "license": "CC BY 4.0",
+      "attribution": "Blender Studio / Project Heist; lesson author Julien Kaspar"
+    },
+    {
+      "object": "C_Eyeballs_anatomy_check",
+      "license": "CC BY 4.0",
+      "attribution": "Blender Studio / Project Heist; lesson author Julien Kaspar"
+    }
+  ],
+  "art_status": "art_not_accepted",
+  "asset_role": "standalone_head_geometry_study"
+}

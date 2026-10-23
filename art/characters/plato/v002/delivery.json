@@ -1,0 +1,123 @@
+{
+  "schema_version": 1,
+  "asset_id": "plato-v002-head-geometry-study",
+  "asset_role": "standalone_head_geometry_study",
+  "technical_status": "local_export_and_reimport_verified",
+  "art_status": "art_not_accepted",
+  "geometry_study_status": "visible_structure_improvement",
+  "relative_glb_path": "export/plato-head-geometry-study.glb",
+  "sha256": "243b8174565f6084f101012bf1e3204a95585a1af254b76b60dd80bb6c71810d",
+  "bytes": 992100,
+  "relative_blend_path": "work/plato-head-study.blend",
+  "blend_sha256": "035923bb72bde7f254f35713f5ff4b21265155e407c2e393e109c16f258c8391",
+  "units": "meters",
+  "up_axis": "+Y",
+  "forward_axis": "+Z",
+  "orientation_verified": true,
+  "bounds_m": {
+    "min": [
+      -0.18915918469429016,
+      1.4450000524520874,
+      -0.15796324610710144
+    ],
+    "max": [
+      0.18915918469429016,
+      1.74334716796875,
+      0.07785389572381973
+    ]
+  },
+  "body_height_m": null,
+  "runtime_replacement_approved": false,
+  "source": {
+    "attribution": "Blender Studio / Project Heist; source lesson author Julien Kaspar. File-internal attribution pending inspection.",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "record": "source/base-mesh-license.json",
+    "sha256": "1d9d2a6070acd6a3d0d9b676af816001310fb0f6128d07a3ab3e0318c7fdd981",
+    "attribution_file": "ATTRIBUTION.md"
+  },
+  "triangles": 22150,
+  "materials": {
+    "count": 2,
+    "policy": "controlled_untextured_gray",
+    "source_diffuse_reprojected": false
+  },
+  "skins": 0,
+  "animations": 0,
+  "geometry_changed": true,
+  "changes": {
+    "derived_from": "Blender Studio / Project Heist realistic_human_base.blend, CC BY 4.0",
+    "authored_multires_levels_evaluated": 2,
+    "head_cut_plane_donor_z_m": 1.5,
+    "neck_cut_capped": true,
+    "placement_blender_translation_m": [
+      0,
+      0.085,
+      -0.055
+    ],
+    "placement_scale": [
+      1.08,
+      1,
+      1
+    ],
+    "sculpt_form_changes": [
+      "brow projection",
+      "infraorbital roll and groove",
+      "cheek hollow",
+      "nasolabial crease and roll",
+      "glabella crease",
+      "nasal tip projection",
+      "cheek width form",
+      "mouth corner descent"
+    ],
+    "vertices_actually_displaced": 3332,
+    "max_displacement_donor_m": 0.0038646794708204974,
+    "mean_displacement_donor_m": 0.0004644111496400335,
+    "texture_changes": "No old diffuse projection, no invented skin texture; neutral gray shape study.",
+    "identity_status": "Generic licensed head locally reshaped; aged Plato likeness NOT accepted.",
+    "topology_status": "Derived authored subdivision surface, not a new production retopology.",
+    "high_to_low_bake_performed": false
+  },
+  "normals_diagnostic": {
+    "file": "export/plato-normal-diagnostic.glb",
+    "sha256": "697b5b5e2b4408176e89b9842c2ca949728310ea953e0bc5505f6d6666d06d0a",
+    "bytes": 7722888,
+    "status": "rejected_as_sufficient_refinement"
+  },
+  "qa_images": [
+    "../../../../qa/characters/plato/v002/A_front_gray.png",
+    "../../../../qa/characters/plato/v002/B_front_normals_only_gray.png",
+    "../../../../qa/characters/plato/v002/A_front_original_albedo_only.png",
+    "../../../../qa/characters/plato/v002/A_front_original_full_material.png",
+    "../../../../qa/characters/plato/v002/A_side_gray.png",
+    "../../../../qa/characters/plato/v002/A_quarter_gray.png",
+    "../../../../qa/characters/plato/v002/C0_front_licensed_base_control_gray.png",
+    "../../../../qa/characters/plato/v002/C1_front_reshaped_head_gray.png",
+    "../../../../qa/characters/plato/v002/C1_side_reshaped_head_gray.png",
+    "../../../../qa/characters/plato/v002/C1_quarter_reshaped_head_gray.png"
+  ],
+  "reports": {
+    "research": "../../../../qa/characters/plato/v002/RESEARCH.md",
+    "diagnosis": "../../../../qa/characters/plato/v002/diagnosis.json",
+    "experiment": "../../../../qa/characters/plato/v002/experiment.json",
+    "review": "../../../../qa/characters/plato/v002/REPORT.md",
+    "verification": "../../../../qa/characters/plato/v002/verification.json",
+    "roundtrip": "../../../../qa/characters/plato/v002/roundtrip.json"
+  },
+  "known_limits": [
+    "Generic bald head study: not accepted as Plato or an elderly final character.",
+    "A to C improvement primarily comes from retained anatomy authored in the licensed base. C0 to C1 is small procedural form editing, not newly hand-sculpted anatomy.",
+    "Under-eye rolls are overly regular; cheek/jaw and cranium still read young. Further reference-led form work is required.",
+    "Head/neck cut is capped, but no connection to the existing torso/collar has been made.",
+    "No hair/beard, skin color/normal textures, new UV layout, production retopology, baking, rigging or animation is claimed.",
+    "B is rejected as a sufficient visual refinement. No source smoothing, upscaling or sharpening is accepted as refinement.",
+    "Head coordinate top remains about Y=1.743m in the character frame; this isolated asset is not a complete 1.75m body."
+  ],
+  "rollback": "Use frozen v001 for the body/baseline. C0 retains the licensed pre-form-edit control inside the editable blend. v002 does not replace A runtime model.",
+  "reproduce": [
+    "node scripts/characters/diagnose-plato-v002.mjs",
+    "<verified-blender> --background --factory-startup --disable-autoexec --python-exit-code 1 --python scripts/characters/plato-head-study.py -- --samples 32",
+    "<verified-blender> --background --factory-startup --disable-autoexec --python-exit-code 1 --python scripts/characters/finalize-head-study.py",
+    "python scripts/characters/package-head-study.py"
+  ]
+}

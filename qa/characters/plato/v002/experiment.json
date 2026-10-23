@@ -1,0 +1,1090 @@
+{
+  "schema_version": 1,
+  "executed_utc": "2026-10-22T19:19:52.291925+00:00",
+  "blender_version": "4.5.15 LTS",
+  "baseline_sha256": "121d42a2df197fe860410dd7f99317318e368ebd1d5253fb58245d13c6cc33a4",
+  "baseline_hash_after": "121d42a2df197fe860410dd7f99317318e368ebd1d5253fb58245d13c6cc33a4",
+  "donor_sha256": "1d9d2a6070acd6a3d0d9b676af816001310fb0f6128d07a3ab3e0318c7fdd981",
+  "normals_experiment": {
+    "flagged_edges": [
+      {
+        "vertex_position_keys": [
+          [
+            -137115,
+            229209,
+            558239
+          ],
+          [
+            -127300,
+            211312,
+            582317
+          ]
+        ],
+        "geometric_dihedral_degrees": 13.24630495178265,
+        "stored_normal_jump_degrees": 31.774822075559285
+      },
+      {
+        "vertex_position_keys": [
+          [
+            -127300,
+            211312,
+            582317
+          ],
+          [
+            -108990,
+            189386,
+            598431
+          ]
+        ],
+        "geometric_dihedral_degrees": 12.17830327598725,
+        "stored_normal_jump_degrees": 38.10990107792156
+      },
+      {
+        "vertex_position_keys": [
+          [
+            -69116,
+            69891,
+            566348
+          ],
+          [
+            -51975,
+            56713,
+            568915
+          ]
+        ],
+        "geometric_dihedral_degrees": 13.917845735883718,
+        "stored_normal_jump_degrees": 42.316556531124476
+      },
+      {
+        "vertex_position_keys": [
+          [
+            -62993,
+            138210,
+            659871
+          ],
+          [
+            -53753,
+            146118,
+            650414
+          ]
+        ],
+        "geometric_dihedral_degrees": 10.974220326263104,
+        "stored_normal_jump_degrees": 31.152383521401436
+      },
+      {
+        "vertex_position_keys": [
+          [
+            -34264,
+            45669,
+            568514
+          ],
+          [
+            -26559,
+            26591,
+            545789
+          ]
+        ],
+        "geometric_dihedral_degrees": 12.874308090148013,
+        "stored_normal_jump_degrees": 55.48811872281967
+      },
+      {
+        "vertex_position_keys": [
+          [
+            -12610,
+            -45889,
+            749570
+          ],
+          [
+            -10752,
+            -58281,
+            725496
+          ]
+        ],
+        "geometric_dihedral_degrees": 1.8856442616678586,
+        "stored_normal_jump_degrees": 47.83111124811478
+      },
+      {
+        "vertex_position_keys": [
+          [
+            5351,
+            22704,
+            594327
+          ],
+          [
+            19674,
+            26893,
+            608675
+          ]
+        ],
+        "geometric_dihedral_degrees": 10.976157538666449,
+        "stored_normal_jump_degrees": 31.39928461461364
+      },
+      {
+        "vertex_position_keys": [
+          [
+            -37686,
+            -1230,
+            686305
+          ],
+          [
+            -25637,
+            5100,
+            700320
+          ]
+        ],
+        "geometric_dihedral_degrees": 14.639397165087619,
+        "stored_normal_jump_degrees": 34.889398582368855
+      },
+      {
+        "vertex_position_keys": [
+          [
+            -36312,
+            11239,
+            660586
+          ],
+          [
+            -21639,
+            40567,
+            647776
+          ]
+        ],
+        "geometric_dihedral_degrees": 12.782883446786453,
+        "stored_normal_jump_degrees": 50.489755552353074
+      },
+      {
+        "vertex_position_keys": [
+          [
+            -14510,
+            -14064,
+            664473
+          ],
+          [
+            -11845,
+            10859,
+            654272
+          ]
+        ],
+        "geometric_dihedral_degrees": 10.272072610717563,
+        "stored_normal_jump_degrees": 35.44375039578543
+      },
+      {
+        "vertex_position_keys": [
+          [
+            17145,
+            188807,
+            760841
+          ],
+          [
+            24533,
+            175423,
+            766415
+          ]
+        ],
+        "geometric_dihedral_degrees": 6.54610367318535,
+        "stored_normal_jump_degrees": 35.124073636966735
+      },
+      {
+        "vertex_position_keys": [
+          [
+            195949,
+            125043,
+            588081
+          ],
+          [
+            197044,
+            126464,
+            576477
+          ]
+        ],
+        "geometric_dihedral_degrees": 10.084536106676522,
+        "stored_normal_jump_degrees": 40.51567811870765
+      }
+    ],
+    "changed_corner_normals": [
+      {
+        "loop": 1856,
+        "angle_degrees": 5.479725021091476
+      },
+      {
+        "loop": 1858,
+        "angle_degrees": 5.479725021091476
+      },
+      {
+        "loop": 1861,
+        "angle_degrees": 5.479725021091476
+      },
+      {
+        "loop": 37501,
+        "angle_degrees": 15.11012868004302
+      },
+      {
+        "loop": 37515,
+        "angle_degrees": 15.11012868004302
+      },
+      {
+        "loop": 37519,
+        "angle_degrees": 15.11012868004302
+      },
+      {
+        "loop": 52457,
+        "angle_degrees": 5.353244004928003
+      },
+      {
+        "loop": 52459,
+        "angle_degrees": 24.161232405860872
+      },
+      {
+        "loop": 52474,
+        "angle_degrees": 5.353244004928003
+      },
+      {
+        "loop": 52499,
+        "angle_degrees": 5.353244004928003
+      },
+      {
+        "loop": 52500,
+        "angle_degrees": 5.353244004928003
+      },
+      {
+        "loop": 52503,
+        "angle_degrees": 5.353244004928003
+      },
+      {
+        "loop": 49515,
+        "angle_degrees": 15.705304534128762
+      },
+      {
+        "loop": 49518,
+        "angle_degrees": 24.674946301263166
+      },
+      {
+        "loop": 49523,
+        "angle_degrees": 15.705304534128762
+      },
+      {
+        "loop": 49524,
+        "angle_degrees": 15.705304534128762
+      },
+      {
+        "loop": 50284,
+        "angle_degrees": 34.79522393409272
+      },
+      {
+        "loop": 50288,
+        "angle_degrees": 34.79522393409272
+      },
+      {
+        "loop": 49403,
+        "angle_degrees": 26.818339917535912
+      },
+      {
+        "loop": 49404,
+        "angle_degrees": 26.818339917535912
+      },
+      {
+        "loop": 49499,
+        "angle_degrees": 8.205496424492654
+      },
+      {
+        "loop": 49501,
+        "angle_degrees": 8.205496424492654
+      },
+      {
+        "loop": 49504,
+        "angle_degrees": 8.205496424492654
+      },
+      {
+        "loop": 49509,
+        "angle_degrees": 8.205496424492654
+      },
+      {
+        "loop": 49512,
+        "angle_degrees": 8.205496424492654
+      },
+      {
+        "loop": 43262,
+        "angle_degrees": 8.972508739038515
+      },
+      {
+        "loop": 43276,
+        "angle_degrees": 8.972508739038515
+      },
+      {
+        "loop": 43291,
+        "angle_degrees": 8.972508739038515
+      },
+      {
+        "loop": 43294,
+        "angle_degrees": 8.972508739038515
+      },
+      {
+        "loop": 44067,
+        "angle_degrees": 22.526949137489826
+      },
+      {
+        "loop": 44073,
+        "angle_degrees": 22.526949137489826
+      },
+      {
+        "loop": 50363,
+        "angle_degrees": 10.707449358981686
+      },
+      {
+        "loop": 50365,
+        "angle_degrees": 10.707449358981686
+      },
+      {
+        "loop": 50369,
+        "angle_degrees": 10.707449358981686
+      },
+      {
+        "loop": 50372,
+        "angle_degrees": 10.707449358981686
+      },
+      {
+        "loop": 50380,
+        "angle_degrees": 10.707449358981686
+      },
+      {
+        "loop": 50385,
+        "angle_degrees": 15.924697040458742
+      },
+      {
+        "loop": 50409,
+        "angle_degrees": 15.924697040458742
+      },
+      {
+        "loop": 42818,
+        "angle_degrees": 17.6331390877432
+      },
+      {
+        "loop": 42821,
+        "angle_degrees": 17.6331390877432
+      },
+      {
+        "loop": 49611,
+        "angle_degrees": 12.35077323649289
+      },
+      {
+        "loop": 1855,
+        "angle_degrees": 11.05811127097014
+      },
+      {
+        "loop": 37502,
+        "angle_degrees": 25.444623243358976
+      },
+      {
+        "loop": 42618,
+        "angle_degrees": 17.272418014654612
+      },
+      {
+        "loop": 42627,
+        "angle_degrees": 17.272418014654612
+      },
+      {
+        "loop": 42822,
+        "angle_degrees": 17.272418014654612
+      },
+      {
+        "loop": 42825,
+        "angle_degrees": 17.272418014654612
+      },
+      {
+        "loop": 43850,
+        "angle_degrees": 25.05952522512261
+      },
+      {
+        "loop": 43852,
+        "angle_degrees": 25.05952522512261
+      },
+      {
+        "loop": 52460,
+        "angle_degrees": 5.195652330868768
+      },
+      {
+        "loop": 52462,
+        "angle_degrees": 5.195652330868768
+      },
+      {
+        "loop": 52468,
+        "angle_degrees": 5.195652330868768
+      },
+      {
+        "loop": 52470,
+        "angle_degrees": 5.195652330868768
+      },
+      {
+        "loop": 52473,
+        "angle_degrees": 37.088634117748335
+      },
+      {
+        "loop": 52476,
+        "angle_degrees": 5.195652330868768
+      },
+      {
+        "loop": 52704,
+        "angle_degrees": 82.85110987760345
+      },
+      {
+        "loop": 42776,
+        "angle_degrees": 31.5398738133946
+      },
+      {
+        "loop": 44143,
+        "angle_degrees": 0.9240804119165317
+      },
+      {
+        "loop": 44173,
+        "angle_degrees": 0.9240804119165317
+      },
+      {
+        "loop": 44175,
+        "angle_degrees": 0.9240804119165317
+      },
+      {
+        "loop": 44179,
+        "angle_degrees": 0.9240804119165317
+      },
+      {
+        "loop": 44181,
+        "angle_degrees": 0.9240804119165317
+      },
+      {
+        "loop": 43051,
+        "angle_degrees": 2.4219622412414843
+      },
+      {
+        "loop": 43053,
+        "angle_degrees": 2.4219622412414843
+      },
+      {
+        "loop": 43078,
+        "angle_degrees": 2.4219622412414843
+      },
+      {
+        "loop": 43099,
+        "angle_degrees": 20.222935085147764
+      },
+      {
+        "loop": 43101,
+        "angle_degrees": 20.222935085147764
+      },
+      {
+        "loop": 43110,
+        "angle_degrees": 2.4219622412414843
+      },
+      {
+        "loop": 50263,
+        "angle_degrees": 114.20498397952026
+      },
+      {
+        "loop": 50350,
+        "angle_degrees": 12.387187536279166
+      },
+      {
+        "loop": 50354,
+        "angle_degrees": 12.387187536279166
+      },
+      {
+        "loop": 50357,
+        "angle_degrees": 12.387187536279166
+      },
+      {
+        "loop": 50381,
+        "angle_degrees": 12.387187536279166
+      },
+      {
+        "loop": 50387,
+        "angle_degrees": 24.056189219067953
+      },
+      {
+        "loop": 50392,
+        "angle_degrees": 12.387187536279166
+      },
+      {
+        "loop": 1838,
+        "angle_degrees": 21.088205647319782
+      },
+      {
+        "loop": 1862,
+        "angle_degrees": 21.088205647319782
+      },
+      {
+        "loop": 2023,
+        "angle_degrees": 21.088205647319782
+      },
+      {
+        "loop": 37518,
+        "angle_degrees": 17.055040414129785
+      },
+      {
+        "loop": 37534,
+        "angle_degrees": 17.055040414129785
+      },
+      {
+        "loop": 37599,
+        "angle_degrees": 17.055040414129785
+      },
+      {
+        "loop": 42820,
+        "angle_degrees": 17.33138303775933
+      },
+      {
+        "loop": 42824,
+        "angle_degrees": 17.33138303775933
+      },
+      {
+        "loop": 42826,
+        "angle_degrees": 17.33138303775933
+      },
+      {
+        "loop": 43845,
+        "angle_degrees": 73.46265286339491
+      },
+      {
+        "loop": 49612,
+        "angle_degrees": 41.21335462166777
+      },
+      {
+        "loop": 49614,
+        "angle_degrees": 41.21335462166777
+      },
+      {
+        "loop": 43098,
+        "angle_degrees": 25.089841019753713
+      },
+      {
+        "loop": 43106,
+        "angle_degrees": 22.865313293877673
+      },
+      {
+        "loop": 43109,
+        "angle_degrees": 22.865313293877673
+      },
+      {
+        "loop": 43111,
+        "angle_degrees": 22.865313293877673
+      },
+      {
+        "loop": 43120,
+        "angle_degrees": 22.865313293877673
+      },
+      {
+        "loop": 43204,
+        "angle_degrees": 15.253859765842185
+      },
+      {
+        "loop": 43222,
+        "angle_degrees": 12.353248326293373
+      },
+      {
+        "loop": 43261,
+        "angle_degrees": 12.353248326293373
+      },
+      {
+        "loop": 43286,
+        "angle_degrees": 15.253859765842185
+      },
+      {
+        "loop": 43289,
+        "angle_degrees": 15.253859765842185
+      },
+      {
+        "loop": 44064,
+        "angle_degrees": 13.400766264767903
+      },
+      {
+        "loop": 44068,
+        "angle_degrees": 13.400766264767903
+      },
+      {
+        "loop": 60326,
+        "angle_degrees": 15.457174006865953
+      },
+      {
+        "loop": 60336,
+        "angle_degrees": 15.457174006865953
+      },
+      {
+        "loop": 76721,
+        "angle_degrees": 5.684100075870713
+      },
+      {
+        "loop": 76722,
+        "angle_degrees": 5.684100075870713
+      },
+      {
+        "loop": 76731,
+        "angle_degrees": 5.684100075870713
+      },
+      {
+        "loop": 60338,
+        "angle_degrees": 22.9688282258438
+      },
+      {
+        "loop": 60339,
+        "angle_degrees": 22.9688282258438
+      },
+      {
+        "loop": 76727,
+        "angle_degrees": 18.15838575755906
+      },
+      {
+        "loop": 76729,
+        "angle_degrees": 18.15838575755906
+      },
+      {
+        "loop": 76732,
+        "angle_degrees": 18.15838575755906
+      },
+      {
+        "loop": 76734,
+        "angle_degrees": 18.15838575755906
+      },
+      {
+        "loop": 42716,
+        "angle_degrees": 8.230248176271134
+      },
+      {
+        "loop": 42718,
+        "angle_degrees": 8.230248176271134
+      },
+      {
+        "loop": 42740,
+        "angle_degrees": 8.230248176271134
+      },
+      {
+        "loop": 42775,
+        "angle_degrees": 8.230248176271134
+      },
+      {
+        "loop": 44145,
+        "angle_degrees": 9.279807487533851
+      },
+      {
+        "loop": 44176,
+        "angle_degrees": 9.279807487533851
+      },
+      {
+        "loop": 42620,
+        "angle_degrees": 15.841213345780968
+      },
+      {
+        "loop": 42632,
+        "angle_degrees": 15.841213345780968
+      },
+      {
+        "loop": 43835,
+        "angle_degrees": 19.202381879742802
+      },
+      {
+        "loop": 43836,
+        "angle_degrees": 19.202381879742802
+      },
+      {
+        "loop": 43853,
+        "angle_degrees": 19.202381879742802
+      },
+      {
+        "loop": 49406,
+        "angle_degrees": 4.724307379548535
+      },
+      {
+        "loop": 49421,
+        "angle_degrees": 4.724307379548535
+      },
+      {
+        "loop": 49422,
+        "angle_degrees": 4.724307379548535
+      },
+      {
+        "loop": 49425,
+        "angle_degrees": 4.724307379548535
+      },
+      {
+        "loop": 49428,
+        "angle_degrees": 4.724307379548535
+      },
+      {
+        "loop": 49513,
+        "angle_degrees": 31.96167214558874
+      },
+      {
+        "loop": 49487,
+        "angle_degrees": 14.612781625439373
+      },
+      {
+        "loop": 49502,
+        "angle_degrees": 14.612781625439373
+      },
+      {
+        "loop": 49503,
+        "angle_degrees": 14.612781625439373
+      },
+      {
+        "loop": 49516,
+        "angle_degrees": 14.612781625439373
+      },
+      {
+        "loop": 49527,
+        "angle_degrees": 14.612781625439373
+      },
+      {
+        "loop": 50259,
+        "angle_degrees": 32.53732048883741
+      },
+      {
+        "loop": 50274,
+        "angle_degrees": 32.53732048883741
+      },
+      {
+        "loop": 50287,
+        "angle_degrees": 32.53732048883741
+      }
+    ],
+    "vertices_moved": 0,
+    "topology_changed": false,
+    "uv_changed": false,
+    "texture_changed": false,
+    "scope": "Only identified head corner normals; no source vertex welding or subdivision."
+  },
+  "geometry_experiment": {
+    "derived_from": "Blender Studio / Project Heist realistic_human_base.blend, CC BY 4.0",
+    "authored_multires_levels_evaluated": 2,
+    "head_cut_plane_donor_z_m": 1.5,
+    "neck_cut_capped": true,
+    "placement_blender_translation_m": [
+      0,
+      0.085,
+      -0.055
+    ],
+    "placement_scale": [
+      1.08,
+      1,
+      1
+    ],
+    "sculpt_form_changes": [
+      "brow projection",
+      "infraorbital roll and groove",
+      "cheek hollow",
+      "nasolabial crease and roll",
+      "glabella crease",
+      "nasal tip projection",
+      "cheek width form",
+      "mouth corner descent"
+    ],
+    "vertices_actually_displaced": 3332,
+    "max_displacement_donor_m": 0.0038646794708204974,
+    "mean_displacement_donor_m": 0.0004644111496400335,
+    "texture_changes": "No old diffuse projection, no invented skin texture; neutral gray shape study.",
+    "identity_status": "Generic licensed head locally reshaped; aged Plato likeness NOT accepted.",
+    "topology_status": "Derived authored subdivision surface, not a new production retopology.",
+    "high_to_low_bake_performed": false
+  },
+  "mesh_stats": {
+    "A_P0_unchanged": {
+      "vertices": 29166,
+      "triangles": 28314,
+      "geometry_hash_local": "a291c892ca66ddcd398c9bde0a4a785e71efd2948cae70f83f0839cfb719e8f6"
+    },
+    "B_Targeted_normal_diagnostic": {
+      "vertices": 29166,
+      "triangles": 28314,
+      "geometry_hash_local": "a291c892ca66ddcd398c9bde0a4a785e71efd2948cae70f83f0839cfb719e8f6"
+    },
+    "C0_Licensed_head_proportion_control": {
+      "vertices": 4604,
+      "triangles": 9094,
+      "geometry_hash_local": "f63ba53f7e637c729db7dde5d6670c8a59bbec4f822b67e2611f5e8e021231a5"
+    },
+    "C1_Local_head_form_candidate": {
+      "vertices": 4604,
+      "triangles": 9094,
+      "geometry_hash_local": "ce09e9453661049c52f39db72abf1a649cfc4d587ca9ddec6cdfc1ef95057b57"
+    },
+    "C_Eyeballs_anatomy_check": {
+      "vertices": 6532,
+      "triangles": 13056,
+      "geometry_hash_local": "b4975772896b648a2cac31e91eb25bc0f42990516d7743aa9594f3e95beb44c0"
+    }
+  },
+  "baseline_geometry_hash": "a291c892ca66ddcd398c9bde0a4a785e71efd2948cae70f83f0839cfb719e8f6",
+  "baseline_uv_preserved_in_B": true,
+  "images": [
+    {
+      "file": "A_front_gray.png",
+      "visible_objects": [
+        "A_P0_unchanged"
+      ],
+      "mode": "gray",
+      "camera_blender_m": [
+        0,
+        -2,
+        1.595
+      ],
+      "target_blender_m": [
+        0,
+        0,
+        1.595
+      ],
+      "orthographic_span_m": 0.37,
+      "resolution": [
+        768,
+        768
+      ],
+      "samples": 32,
+      "denoising": false,
+      "classification": "actual_local_mesh_render"
+    },
+    {
+      "file": "B_front_normals_only_gray.png",
+      "visible_objects": [
+        "B_Targeted_normal_diagnostic"
+      ],
+      "mode": "gray",
+      "camera_blender_m": [
+        0,
+        -2,
+        1.595
+      ],
+      "target_blender_m": [
+        0,
+        0,
+        1.595
+      ],
+      "orthographic_span_m": 0.37,
+      "resolution": [
+        768,
+        768
+      ],
+      "samples": 32,
+      "denoising": false,
+      "classification": "actual_local_mesh_render"
+    },
+    {
+      "file": "A_front_original_albedo_only.png",
+      "visible_objects": [
+        "A_P0_unchanged"
+      ],
+      "mode": "albedo",
+      "camera_blender_m": [
+        0,
+        -2,
+        1.595
+      ],
+      "target_blender_m": [
+        0,
+        0,
+        1.595
+      ],
+      "orthographic_span_m": 0.37,
+      "resolution": [
+        768,
+        768
+      ],
+      "samples": 32,
+      "denoising": false,
+      "classification": "actual_local_mesh_render"
+    },
+    {
+      "file": "A_front_original_full_material.png",
+      "visible_objects": [
+        "A_P0_unchanged"
+      ],
+      "mode": "full",
+      "camera_blender_m": [
+        0,
+        -2,
+        1.595
+      ],
+      "target_blender_m": [
+        0,
+        0,
+        1.595
+      ],
+      "orthographic_span_m": 0.37,
+      "resolution": [
+        768,
+        768
+      ],
+      "samples": 32,
+      "denoising": false,
+      "classification": "actual_local_mesh_render"
+    },
+    {
+      "file": "A_side_gray.png",
+      "visible_objects": [
+        "A_P0_unchanged"
+      ],
+      "mode": "gray",
+      "camera_blender_m": [
+        2,
+        0,
+        1.595
+      ],
+      "target_blender_m": [
+        0,
+        0,
+        1.595
+      ],
+      "orthographic_span_m": 0.37,
+      "resolution": [
+        768,
+        768
+      ],
+      "samples": 32,
+      "denoising": false,
+      "classification": "actual_local_mesh_render"
+    },
+    {
+      "file": "A_quarter_gray.png",
+      "visible_objects": [
+        "A_P0_unchanged"
+      ],
+      "mode": "gray",
+      "camera_blender_m": [
+        0.95,
+        -2,
+        1.595
+      ],
+      "target_blender_m": [
+        0,
+        0,
+        1.595
+      ],
+      "orthographic_span_m": 0.37,
+      "resolution": [
+        768,
+        768
+      ],
+      "samples": 32,
+      "denoising": false,
+      "classification": "actual_local_mesh_render"
+    },
+    {
+      "file": "C0_front_licensed_base_control_gray.png",
+      "visible_objects": [
+        "C0_Licensed_head_proportion_control",
+        "C_Eyeballs_anatomy_check"
+      ],
+      "mode": "gray",
+      "camera_blender_m": [
+        0,
+        -2,
+        1.595
+      ],
+      "target_blender_m": [
+        0,
+        0,
+        1.595
+      ],
+      "orthographic_span_m": 0.37,
+      "resolution": [
+        768,
+        768
+      ],
+      "samples": 32,
+      "denoising": false,
+      "classification": "actual_local_mesh_render"
+    },
+    {
+      "file": "C1_front_reshaped_head_gray.png",
+      "visible_objects": [
+        "C1_Local_head_form_candidate",
+        "C_Eyeballs_anatomy_check"
+      ],
+      "mode": "gray",
+      "camera_blender_m": [
+        0,
+        -2,
+        1.595
+      ],
+      "target_blender_m": [
+        0,
+        0,
+        1.595
+      ],
+      "orthographic_span_m": 0.37,
+      "resolution": [
+        768,
+        768
+      ],
+      "samples": 32,
+      "denoising": false,
+      "classification": "actual_local_mesh_render"
+    },
+    {
+      "file": "C1_side_reshaped_head_gray.png",
+      "visible_objects": [
+        "C1_Local_head_form_candidate",
+        "C_Eyeballs_anatomy_check"
+      ],
+      "mode": "gray",
+      "camera_blender_m": [
+        2,
+        0,
+        1.595
+      ],
+      "target_blender_m": [
+        0,
+        0,
+        1.595
+      ],
+      "orthographic_span_m": 0.37,
+      "resolution": [
+        768,
+        768
+      ],
+      "samples": 32,
+      "denoising": false,
+      "classification": "actual_local_mesh_render"
+    },
+    {
+      "file": "C1_quarter_reshaped_head_gray.png",
+      "visible_objects": [
+        "C1_Local_head_form_candidate",
+        "C_Eyeballs_anatomy_check"
+      ],
+      "mode": "gray",
+      "camera_blender_m": [
+        0.95,
+        -2,
+        1.595
+      ],
+      "target_blender_m": [
+        0,
+        0,
+        1.595
+      ],
+      "orthographic_span_m": 0.37,
+      "resolution": [
+        768,
+        768
+      ],
+      "samples": 32,
+      "denoising": false,
+      "classification": "actual_local_mesh_render"
+    }
+  ],
+  "outputs": {
+    "normals_diagnostic": {
+      "file": "export/plato-normal-diagnostic.glb",
+      "sha256": "697b5b5e2b4408176e89b9842c2ca949728310ea953e0bc5505f6d6666d06d0a",
+      "bytes": 7722888
+    },
+    "head_study": {
+      "file": "export/plato-head-geometry-study.glb",
+      "sha256": "243b8174565f6084f101012bf1e3204a95585a1af254b76b60dd80bb6c71810d",
+      "bytes": 992100
+    }
+  },
+  "relative_blend_path": "work/plato-head-study.blend",
+  "technical_status": "local_candidate_exported",
+  "art_status": "art_not_accepted",
+  "limits": [
+    "Head study only; no body/neck integration, beard/hair, skin texture, baking or animation claim.",
+    "C1 uses real licensed anatomy and small explicit form changes, not recovered face information.",
+    "No source P0 mesh position/UV/texture changes; B has identified corner-normal changes only."
+  ],
+  "asset_role": "standalone_head_geometry_study"
+}

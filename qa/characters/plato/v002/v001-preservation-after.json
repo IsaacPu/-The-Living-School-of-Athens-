@@ -1,0 +1,33 @@
+{
+  "passed": true,
+  "file_count": 27,
+  "files": {
+    "art/characters/plato/v001/delivery.json": true,
+    "art/characters/plato/v001/export/plato-baseline-diagnostic.glb": true,
+    "art/characters/plato/v001/source/plato-lux3d-task-4277623.glb": true,
+    "art/characters/plato/v001/source/provenance.json": true,
+    "art/characters/plato/v001/source/references.json": true,
+    "art/characters/plato/v001/work/plato-baseline-diagnostic.blend": true,
+    "qa/characters/plato/v001/axis_minus_x_subject_right.png": true,
+    "qa/characters/plato/v001/axis_minus_z_candidate_back.png": true,
+    "qa/characters/plato/v001/axis_plus_x_subject_left.png": true,
+    "qa/characters/plato/v001/axis_plus_z_candidate_front.png": true,
+    "qa/characters/plato/v001/blender-inspection.json": true,
+    "qa/characters/plato/v001/delivery_after_same_conditions.png": true,
+    "qa/characters/plato/v001/execution.json": true,
+    "qa/characters/plato/v001/face_front.png": true,
+    "qa/characters/plato/v001/face_three_quarter.png": true,
+    "qa/characters/plato/v001/feet_front.png": true,
+    "qa/characters/plato/v001/front_metric_ruler.png": true,
+    "qa/characters/plato/v001/front_three_quarter.png": true,
+    "qa/characters/plato/v001/hands_book_front.png": true,
+    "qa/characters/plato/v001/hands_book_side.png": true,
+    "qa/characters/plato/v001/material_before.png": true,
+    "qa/characters/plato/v001/material_nonmetal_candidate.png": true,
+    "qa/characters/plato/v001/REPORT.md": true,
+    "qa/characters/plato/v001/roundtrip.json": true,
+    "qa/characters/plato/v001/source_before_same_conditions.png": true,
+    "qa/characters/plato/v001/verification.json": true,
+    "qa/characters/plato/v001/visual-review.json": true
+  }
+}

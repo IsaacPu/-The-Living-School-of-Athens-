@@ -1,0 +1,10 @@
+{
+  "mean_absolute_channel_difference_8bit": [
+    0.040903727213541664,
+    0.040924072265625,
+    0.0409088134765625
+  ],
+  "fraction_pixels_difference_over_3_8bit": 0.004153781467013889,
+  "same_camera_light_image_size": true,
+  "scope": "Image difference describes magnitude only, not improvement; B rejected as sufficient refinement."
+}

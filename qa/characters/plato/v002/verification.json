@@ -1,0 +1,265 @@
+{
+  "schema_version": 1,
+  "verified_utc": "2026-10-23T06:53:16.642850+00:00",
+  "passed": true,
+  "checks": [
+    {
+      "name": "v001_all_27_files_unchanged",
+      "passed": true,
+      "evidence": {
+        "art/characters/plato/v001/delivery.json": true,
+        "art/characters/plato/v001/export/plato-baseline-diagnostic.glb": true,
+        "art/characters/plato/v001/source/plato-lux3d-task-4277623.glb": true,
+        "art/characters/plato/v001/source/provenance.json": true,
+        "art/characters/plato/v001/source/references.json": true,
+        "art/characters/plato/v001/work/plato-baseline-diagnostic.blend": true,
+        "qa/characters/plato/v001/axis_minus_x_subject_right.png": true,
+        "qa/characters/plato/v001/axis_minus_z_candidate_back.png": true,
+        "qa/characters/plato/v001/axis_plus_x_subject_left.png": true,
+        "qa/characters/plato/v001/axis_plus_z_candidate_front.png": true,
+        "qa/characters/plato/v001/blender-inspection.json": true,
+        "qa/characters/plato/v001/delivery_after_same_conditions.png": true,
+        "qa/characters/plato/v001/execution.json": true,
+        "qa/characters/plato/v001/face_front.png": true,
+        "qa/characters/plato/v001/face_three_quarter.png": true,
+        "qa/characters/plato/v001/feet_front.png": true,
+        "qa/characters/plato/v001/front_metric_ruler.png": true,
+        "qa/characters/plato/v001/front_three_quarter.png": true,
+        "qa/characters/plato/v001/hands_book_front.png": true,
+        "qa/characters/plato/v001/hands_book_side.png": true,
+        "qa/characters/plato/v001/material_before.png": true,
+        "qa/characters/plato/v001/material_nonmetal_candidate.png": true,
+        "qa/characters/plato/v001/REPORT.md": true,
+        "qa/characters/plato/v001/roundtrip.json": true,
+        "qa/characters/plato/v001/source_before_same_conditions.png": true,
+        "qa/characters/plato/v001/verification.json": true,
+        "qa/characters/plato/v001/visual-review.json": true
+      }
+    },
+    {
+      "name": "baseline_hash_unchanged",
+      "passed": true,
+      "evidence": "121d42a2df197fe860410dd7f99317318e368ebd1d5253fb58245d13c6cc33a4"
+    },
+    {
+      "name": "B_vertex_and_topology_hash_unchanged",
+      "passed": true,
+      "evidence": "a291c892ca66ddcd398c9bde0a4a785e71efd2948cae70f83f0839cfb719e8f6"
+    },
+    {
+      "name": "B_uv_unchanged",
+      "passed": true,
+      "evidence": "Exact in-memory UV coordinate equality asserted"
+    },
+    {
+      "name": "B_only_identified_normal_edits",
+      "passed": true,
+      "evidence": "12 candidate edges, 135 corner-normal vectors"
+    },
+    {
+      "name": "C1_actual_local_shape_changes",
+      "passed": true,
+      "evidence": {
+        "derived_from": "Blender Studio / Project Heist realistic_human_base.blend, CC BY 4.0",
+        "authored_multires_levels_evaluated": 2,
+        "head_cut_plane_donor_z_m": 1.5,
+        "neck_cut_capped": true,
+        "placement_blender_translation_m": [
+          0,
+          0.085,
+          -0.055
+        ],
+        "placement_scale": [
+          1.08,
+          1,
+          1
+        ],
+        "sculpt_form_changes": [
+          "brow projection",
+          "infraorbital roll and groove",
+          "cheek hollow",
+          "nasolabial crease and roll",
+          "glabella crease",
+          "nasal tip projection",
+          "cheek width form",
+          "mouth corner descent"
+        ],
+        "vertices_actually_displaced": 3332,
+        "max_displacement_donor_m": 0.0038646794708204974,
+        "mean_displacement_donor_m": 0.0004644111496400335,
+        "texture_changes": "No old diffuse projection, no invented skin texture; neutral gray shape study.",
+        "identity_status": "Generic licensed head locally reshaped; aged Plato likeness NOT accepted.",
+        "topology_status": "Derived authored subdivision surface, not a new production retopology.",
+        "high_to_low_bake_performed": false
+      }
+    },
+    {
+      "name": "C0_C1_different_vertex_positions",
+      "passed": true,
+      "evidence": "Same topology and placement, different actual coordinates"
+    },
+    {
+      "name": "all_10_real_images_open",
+      "passed": true,
+      "evidence": [
+        "A_front_gray.png",
+        "B_front_normals_only_gray.png",
+        "A_front_original_albedo_only.png",
+        "A_front_original_full_material.png",
+        "A_side_gray.png",
+        "A_quarter_gray.png",
+        "C0_front_licensed_base_control_gray.png",
+        "C1_front_reshaped_head_gray.png",
+        "C1_side_reshaped_head_gray.png",
+        "C1_quarter_reshaped_head_gray.png"
+      ]
+    },
+    {
+      "name": "same_conditions_front",
+      "passed": true,
+      "evidence": "Camera, light scene, framing, samples and gray material fixed"
+    },
+    {
+      "name": "same_conditions_side",
+      "passed": true,
+      "evidence": "Camera, light scene, framing, samples and gray material fixed"
+    },
+    {
+      "name": "same_conditions_quarter",
+      "passed": true,
+      "evidence": "Camera, light scene, framing, samples and gray material fixed"
+    },
+    {
+      "name": "actual_blend_reopen_glb_reimport",
+      "passed": true,
+      "evidence": {
+        "passed": true,
+        "blend_reopened": true,
+        "glb_reimported_in_empty_scene": true,
+        "head_position_set_preserved_at_0_01mm": true,
+        "mesh_objects": 2,
+        "source_head_blender_bounds_m": {
+          "vertices": 4604,
+          "min": [
+            -0.18915918469429016,
+            -0.07785389572381973,
+            1.4450000524520874
+          ],
+          "max": [
+            0.18915918469429016,
+            0.15796324610710144,
+            1.74334716796875
+          ]
+        },
+        "reimport_bounds_blender_m": {
+          "min": [
+            -0.18915918469429016,
+            -0.07785389572381973,
+            1.4450000524520874
+          ],
+          "max": [
+            0.18915918469429016,
+            0.15796324610710144,
+            1.74334716796875
+          ]
+        },
+        "embedded_attribution": [
+          {
+            "object": "C1_Local_head_form_candidate",
+            "license": "CC BY 4.0",
+            "attribution": "Blender Studio / Project Heist; lesson author Julien Kaspar"
+          },
+          {
+            "object": "C_Eyeballs_anatomy_check",
+            "license": "CC BY 4.0",
+            "attribution": "Blender Studio / Project Heist; lesson author Julien Kaspar"
+          }
+        ],
+        "art_status": "art_not_accepted",
+        "asset_role": "standalone_head_geometry_study"
+      }
+    },
+    {
+      "name": "head_has_two_meshes_no_rig_or_animation",
+      "passed": true,
+      "evidence": {
+        "meshes": 2
+      }
+    },
+    {
+      "name": "head_has_no_external_resources",
+      "passed": true,
+      "evidence": "Geometry gray study, embedded BIN"
+    },
+    {
+      "name": "CC_BY_attribution_embedded",
+      "passed": true,
+      "evidence": [
+        {
+          "source_attribution": "Blender Studio / Project Heist; lesson author Julien Kaspar",
+          "source_license": "CC BY 4.0",
+          "source_license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "source_page": "https://studio.blender.org/training/realistic-human-research/use-of-base-meshes/",
+          "modifications": "Head extraction, proportion placement and localized form edits; see accompanying experiment.json."
+        },
+        {
+          "source_attribution": "Blender Studio / Project Heist; lesson author Julien Kaspar",
+          "source_license": "CC BY 4.0",
+          "source_license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "source_page": "https://studio.blender.org/training/realistic-human-research/use-of-base-meshes/",
+          "modifications": "Head extraction, proportion placement and localized form edits; see accompanying experiment.json."
+        }
+      ]
+    },
+    {
+      "name": "official_base_digest_and_license",
+      "passed": true,
+      "evidence": {
+        "title": "Realistic Human Base Mesh",
+        "source_page": "https://studio.blender.org/training/realistic-human-research/use-of-base-meshes/",
+        "download_url": "https://studio.blender.org/download-source/files/eb/ebd2128a8f2d5c7e625f6ed6ffb32ebf/ebd2128a8f2d5c7e625f6ed6ffb32ebf.blend",
+        "source_page_author": "Julien Kaspar",
+        "attribution": "Blender Studio / Project Heist; source lesson author Julien Kaspar. File-internal attribution pending inspection.",
+        "license": "CC BY 4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0/",
+        "compatibility_label_on_page": "Blender 3.4 File",
+        "downloaded_utc": "2026-10-22T18:32:57.846546+00:00",
+        "file": "realistic_human_base.blend",
+        "bytes": 15652956,
+        "sha256": "1d9d2a6070acd6a3d0d9b676af816001310fb0f6128d07a3ab3e0318c7fdd981",
+        "changes": "Original download; no changes. Candidate use not yet accepted."
+      }
+    },
+    {
+      "name": "all_delivery_references_resolve",
+      "passed": true,
+      "evidence": [
+        "export/plato-head-geometry-study.glb",
+        "work/plato-head-study.blend",
+        "ATTRIBUTION.md",
+        "source/base-mesh-license.json",
+        "../../../../qa/characters/plato/v002/A_front_gray.png",
+        "../../../../qa/characters/plato/v002/B_front_normals_only_gray.png",
+        "../../../../qa/characters/plato/v002/A_front_original_albedo_only.png",
+        "../../../../qa/characters/plato/v002/A_front_original_full_material.png",
+        "../../../../qa/characters/plato/v002/A_side_gray.png",
+        "../../../../qa/characters/plato/v002/A_quarter_gray.png",
+        "../../../../qa/characters/plato/v002/C0_front_licensed_base_control_gray.png",
+        "../../../../qa/characters/plato/v002/C1_front_reshaped_head_gray.png",
+        "../../../../qa/characters/plato/v002/C1_side_reshaped_head_gray.png",
+        "../../../../qa/characters/plato/v002/C1_quarter_reshaped_head_gray.png",
+        "../../../../qa/characters/plato/v002/RESEARCH.md",
+        "../../../../qa/characters/plato/v002/diagnosis.json",
+        "../../../../qa/characters/plato/v002/experiment.json",
+        "../../../../qa/characters/plato/v002/REPORT.md",
+        "../../../../qa/characters/plato/v002/roundtrip.json"
+      ]
+    },
+    {
+      "name": "truthful_scope_and_status",
+      "passed": true,
+      "evidence": "standalone_head_geometry_study"
+    }
+  ],
+  "scope": "Technical evidence and scope truthfulness only; no final likeness/material/animation acceptance."
+}
