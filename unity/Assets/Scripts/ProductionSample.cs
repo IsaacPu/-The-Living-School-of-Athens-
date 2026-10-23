@@ -32,21 +32,34 @@ namespace AthensProduction
         private bool roaming;
         private Font font;
         private string selected = "";
+        private EntranceFlow entrance;
 
         private void Start()
         {
             Application.targetFrameRate = 60;
             font = Resources.Load<Font>("NotoSansSC");
-            SetView("hero");
+            var args = Environment.GetCommandLineArgs();
+            entrance = GetComponent<EntranceFlow>();
+            // The two scenes share movement, but each owns its startup and input route.
+            if (entrance != null) entrance.Initialize(this);
+            else SetView("hero");
             Debug.Log("[AthensProduction] READY product=" + Application.productName + " character=" + characterStatus +
                       " sha256=" + characterSha256 + " body_height_m=" + characterBodyHeight + " backend=disabled");
-            var args = Environment.GetCommandLineArgs();
             for (int i = 0; i < args.Length - 1; i++)
-                if (args[i] == "--verify-production")
+                if (args[i] == "--verify-production" && entrance == null)
                 {
                     verifying = true;
                     hideInterface = true;
                     var probe = gameObject.AddComponent<SampleVerification>();
+                    probe.outputDirectory = Path.GetFullPath(args[i + 1]);
+                    break;
+                }
+                else if ((args[i] == "--verify-entrance" || args[i] == "--preview-entrance") && entrance != null)
+                {
+                    verifying = true;
+                    hideInterface = true;
+                    var probe = gameObject.AddComponent<EntranceVerification>();
+                    probe.previewOnly = args[i] == "--preview-entrance";
                     probe.outputDirectory = Path.GetFullPath(args[i + 1]);
                     break;
                 }
@@ -55,6 +68,7 @@ namespace AthensProduction
         private void Update()
         {
             if (verifying) return;
+            if (entrance != null) { entrance.HandleInput(); return; }
             if (Input.GetKeyDown(KeyCode.Alpha1) || Input.GetKeyDown(KeyCode.R)) SetView("hero");
             if (Input.GetKeyDown(KeyCode.Alpha2)) SetView("close");
             if (Input.GetKeyDown(KeyCode.Alpha3)) SetView("side");
@@ -62,7 +76,14 @@ namespace AthensProduction
             if (Input.GetKeyDown(KeyCode.H)) hideInterface = !hideInterface;
             if (Input.GetKeyDown(KeyCode.Return)) BeginRoaming();
             if (Input.GetKeyDown(KeyCode.Escape)) { Cursor.lockState = CursorLockMode.None; Cursor.visible = true; }
-            if (!roaming) return;
+            ProcessRoamingInput();
+            if (roaming && visitor.transform.position.y < -3) BeginRoaming();
+        }
+
+        public void ProcessRoamingInput()
+        {
+            if (!roaming || !visitor.enabled) return;
+            if (Input.GetKeyDown(KeyCode.Escape)) { Cursor.lockState = CursorLockMode.None; Cursor.visible = true; }
             if (Input.GetMouseButtonDown(1)) { Cursor.lockState = CursorLockMode.Locked; Cursor.visible = false; }
             if (Cursor.lockState == CursorLockMode.Locked)
             {
@@ -72,13 +93,49 @@ namespace AthensProduction
             }
             var direction = visitor.transform.forward * Input.GetAxisRaw("Vertical") + visitor.transform.right * Input.GetAxisRaw("Horizontal");
             Drive(Vector3.ClampMagnitude(direction, 1) * 2.1f, Time.deltaTime);
-            if (visitor.transform.position.y < -3) BeginRoaming();
             if (Input.GetMouseButtonDown(0))
             {
                 var ray = Cursor.lockState == CursorLockMode.Locked ? visitorCamera.ViewportPointToRay(new Vector3(.5f, .5f, 0)) : visitorCamera.ScreenPointToRay(Input.mousePosition);
                 selected = Physics.Raycast(ray, out var hit, 4f) && hit.collider.GetComponentInParent<CharacterMarker>() != null
                     ? "柏拉图 · 静态诊断母版；本阶段无问答服务" : "";
             }
+        }
+
+        public void HoldForCinematic()
+        {
+            roaming = false;
+            visitor.enabled = false;
+            Cursor.lockState = CursorLockMode.None; Cursor.visible = true;
+        }
+
+        public void SetCinematicPose(Vector3 eye, Quaternion rotation, float fov, float aspect, float shift)
+        {
+            visitorCamera.transform.SetPositionAndRotation(eye, rotation);
+            visitorCamera.fieldOfView = fov;
+            visitorCamera.aspect = aspect;
+            var matrix = Matrix4x4.Perspective(fov, aspect, visitorCamera.nearClipPlane, visitorCamera.farClipPlane);
+            matrix[1, 2] = shift;
+            visitorCamera.projectionMatrix = matrix;
+        }
+
+        public void AdoptCurrentView(string view)
+        {
+            var eye = visitorCamera.transform.position;
+            var rotation = visitorCamera.transform.rotation;
+            var projection = visitorCamera.projectionMatrix;
+            var fov = visitorCamera.fieldOfView;
+            var aspect = visitorCamera.aspect;
+            visitor.enabled = false;
+            visitor.transform.SetPositionAndRotation(eye - Vector3.up * 1.65f, Quaternion.Euler(0, rotation.eulerAngles.y, 0));
+            visitorCamera.transform.SetPositionAndRotation(eye, rotation);
+            pitch = Mathf.DeltaAngle(0, visitorCamera.transform.localEulerAngles.x);
+            verticalVelocity = 0;
+            roaming = true; currentView = view;
+            visitor.enabled = true;
+            visitorCamera.fieldOfView = fov; visitorCamera.aspect = aspect;
+            visitorCamera.projectionMatrix = projection;
+            Physics.SyncTransforms();
+            if (!verifying) { Cursor.lockState = CursorLockMode.Locked; Cursor.visible = false; }
         }
 
         public void Drive(Vector3 velocity, float dt)
@@ -136,7 +193,7 @@ namespace AthensProduction
 
         private void OnGUI()
         {
-            if (hideInterface) return;
+            if (hideInterface || entrance != null) return;
             GUI.skin.font = font;
             GUI.skin.label.fontSize = 18;
             GUI.Box(new Rect(18, 18, 660, 116), "");

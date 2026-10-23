@@ -1,0 +1,3365 @@
+{
+    "stage": "visual_preview",
+    "started_utc": "2026-10-23T06:20:53.2855162Z",
+    "finished_utc": "2026-10-23T06:21:09.5659418Z",
+    "unity_version": "6000.0.85f1",
+    "graphics_device": "Direct3D11 / NVIDIA GeForce RTX 3050 Laptop GPU",
+    "failure": "",
+    "scope": "Single normal entry and return visual preview. Actual controller and camera checks are included, but this report is not the final three-cycle P1 acceptance. Requests are API-driven; no physical keyboard/mouse or window-presentation simulation. Art quality requires separate visual review.",
+    "screenshot_source": "Current Player camera via URP StandardRequest, 1200x900. Camera target, aspect, full projection and active render target restored after every capture.",
+    "passed": true,
+    "completed_entries": 1,
+    "completed_returns": 1,
+    "cancelled_entries": 0,
+    "blend_samples": 150,
+    "blend_max_position_error_m": 8.940696716308594e-8,
+    "blend_max_rotation_error_degrees": 0.0,
+    "blend_max_fov_error_degrees": 0.0,
+    "blend_max_projection_shift_error": 0.0,
+    "checks": [
+        {
+            "name": "single_sample_and_flow",
+            "detail": "One sample and one entrance state machine in the loaded scene.",
+            "passed": true
+        },
+        {
+            "name": "verification_input_suppressed",
+            "detail": "Player probe suppresses user input and UI; EntranceFlow.Update still advances normally.",
+            "passed": true
+        },
+        {
+            "name": "real_time_duration_configuration",
+            "detail": "timeScale=1 entry_duration=7",
+            "passed": true
+        },
+        {
+            "name": "urp",
+            "detail": "Actual active rendering pipeline.",
+            "passed": true
+        },
+        {
+            "name": "mural_texture_and_shader",
+            "detail": "Runtime mural has an actual high resolution texture and supported shader.",
+            "passed": true
+        },
+        {
+            "name": "initial_gallery_idle",
+            "detail": "Initial observation pose is controlled and mural is visible.",
+            "passed": true
+        },
+        {
+            "name": "idle_rejects_actions",
+            "detail": "No automatic transition starts outside its allowed state.",
+            "passed": true
+        },
+        {
+            "name": "image_gallery-initial.png",
+            "detail": "GPU colors=2136 dark=3259 pink=0; separate visual review required.",
+            "passed": true
+        },
+        {
+            "name": "capture_preserves_camera_gallery-initial.png",
+            "detail": "position_m=0 rotation_degrees=0 fov_degrees=0 projection_max=0 aspect_error=0",
+            "passed": true
+        },
+        {
+            "name": "capture_preserves_targets_gallery-initial.png",
+            "detail": "Original camera targetTexture and RenderTexture.active restored.",
+            "passed": true
+        },
+        {
+            "name": "gallery_control_enabled",
+            "detail": "Starting gallery roaming adopts the initial view.",
+            "passed": true
+        },
+        {
+            "name": "gallery_route_continuous",
+            "detail": "Endpoint horizontal error=0.03068362 maximum excess over commanded movement=1.077404E-06; no route teleports.",
+            "passed": true
+        },
+        {
+            "name": "gallery_route_floor",
+            "detail": "feet=(-0.02, 0.02, -19.03) support=Gallery structural floor at (-0.02, 0.00, -19.03) inner-capsule overlaps=",
+            "passed": true
+        },
+        {
+            "name": "trigger_reached_by_controller",
+            "detail": "Continuous movement reached trigger; feet=(-0.02, 0.02, -19.03)",
+            "passed": true
+        },
+        {
+            "name": "image_gallery-before-entry.png",
+            "detail": "GPU colors=2405 dark=0 pink=0; separate visual review required.",
+            "passed": true
+        },
+        {
+            "name": "capture_preserves_camera_gallery-before-entry.png",
+            "detail": "position_m=0 rotation_degrees=0 fov_degrees=0 projection_max=0 aspect_error=0",
+            "passed": true
+        },
+        {
+            "name": "capture_preserves_targets_gallery-before-entry.png",
+            "detail": "Original camera targetTexture and RenderTexture.active restored.",
+            "passed": true
+        },
+        {
+            "name": "cycle_1_normal_duplicate_guard",
+            "detail": "Repeated entry and premature return rejected while entering.",
+            "passed": true
+        },
+        {
+            "name": "image_entry-alignment.png",
+            "detail": "GPU colors=2823 dark=4799 pink=0; separate visual review required.",
+            "passed": true
+        },
+        {
+            "name": "capture_preserves_camera_entry-alignment.png",
+            "detail": "position_m=0 rotation_degrees=0 fov_degrees=0 projection_max=0 aspect_error=0",
+            "passed": true
+        },
+        {
+            "name": "capture_preserves_targets_entry-alignment.png",
+            "detail": "Original camera targetTexture and RenderTexture.active restored.",
+            "passed": true
+        },
+        {
+            "name": "image_entry-bridge.png",
+            "detail": "GPU colors=2820 dark=4796 pink=0; separate visual review required.",
+            "passed": true
+        },
+        {
+            "name": "capture_preserves_camera_entry-bridge.png",
+            "detail": "position_m=0 rotation_degrees=0 fov_degrees=0 projection_max=0 aspect_error=0",
+            "passed": true
+        },
+        {
+            "name": "capture_preserves_targets_entry-bridge.png",
+            "detail": "Original camera targetTexture and RenderTexture.active restored.",
+            "passed": true
+        },
+        {
+            "name": "image_entry-match.png",
+            "detail": "GPU colors=2831 dark=4798 pink=0; separate visual review required.",
+            "passed": true
+        },
+        {
+            "name": "capture_preserves_camera_entry-match.png",
+            "detail": "position_m=0 rotation_degrees=0 fov_degrees=0 projection_max=0 aspect_error=0",
+            "passed": true
+        },
+        {
+            "name": "capture_preserves_targets_entry-match.png",
+            "detail": "Original camera targetTexture and RenderTexture.active restored.",
+            "passed": true
+        },
+        {
+            "name": "image_entry-middle.png",
+            "detail": "GPU colors=1793 dark=0 pink=0; separate visual review required.",
+            "passed": true
+        },
+        {
+            "name": "capture_preserves_camera_entry-middle.png",
+            "detail": "position_m=0 rotation_degrees=0 fov_degrees=0 projection_max=0 aspect_error=0",
+            "passed": true
+        },
+        {
+            "name": "capture_preserves_targets_entry-middle.png",
+            "detail": "Original camera targetTexture and RenderTexture.active restored.",
+            "passed": true
+        },
+        {
+            "name": "image_entry-crossed.png",
+            "detail": "GPU colors=1332 dark=0 pink=0; separate visual review required.",
+            "passed": true
+        },
+        {
+            "name": "capture_preserves_camera_entry-crossed.png",
+            "detail": "position_m=0 rotation_degrees=0 fov_degrees=0 projection_max=0 aspect_error=0",
+            "passed": true
+        },
+        {
+            "name": "capture_preserves_targets_entry-crossed.png",
+            "detail": "Original camera targetTexture and RenderTexture.active restored.",
+            "passed": true
+        },
+        {
+            "name": "cycle_1_normal_state",
+            "detail": "Expected=AcademyRoaming actual=AcademyRoaming elapsed=6.835968",
+            "passed": true
+        },
+        {
+            "name": "cycle_1_normal_automatic_controller",
+            "detail": "All sampled automatic frames used a disabled CharacterController.",
+            "passed": true
+        },
+        {
+            "name": "cycle_1_normal_real_duration",
+            "detail": "Actual wall-clock seconds=6.837448; no shortened verification animation.",
+            "passed": true
+        },
+        {
+            "name": "cycle_1_normal_handoff",
+            "detail": "position_m=0 rotation_degrees=0 fov_degrees=0 projection_max=0 aspect_error=0",
+            "passed": true
+        },
+        {
+            "name": "cycle_1_normal_roaming_state",
+            "detail": "Academy controller enabled and actual mural transparent/disabled.",
+            "passed": true
+        },
+        {
+            "name": "cycle_1_normal_landing_floor",
+            "detail": "feet=(0.00, 0.02, -5.00) support=Ground at (0.00, 0.00, -5.00) inner-capsule overlaps=",
+            "passed": true
+        },
+        {
+            "name": "cycle_1_normal_first_move",
+            "detail": "Actual eye delta=(0.04, 0.00, 0.00) expected horizontal=(0.04, 0.00, 0.00); no call to the old fixed roaming spawn.",
+            "passed": true
+        },
+        {
+            "name": "image_academy-after-entry.png",
+            "detail": "GPU colors=1514 dark=0 pink=0; separate visual review required.",
+            "passed": true
+        },
+        {
+            "name": "capture_preserves_camera_academy-after-entry.png",
+            "detail": "position_m=0 rotation_degrees=0 fov_degrees=0 projection_max=0 aspect_error=0",
+            "passed": true
+        },
+        {
+            "name": "capture_preserves_targets_academy-after-entry.png",
+            "detail": "Original camera targetTexture and RenderTexture.active restored.",
+            "passed": true
+        },
+        {
+            "name": "cycle_1_normal_return_guard",
+            "detail": "Duplicate and incompatible requests rejected while returning.",
+            "passed": true
+        },
+        {
+            "name": "cycle_1_normal_return_state",
+            "detail": "Expected=GalleryRoaming actual=GalleryRoaming elapsed=5.933932",
+            "passed": true
+        },
+        {
+            "name": "cycle_1_normal_return_automatic_controller",
+            "detail": "All sampled automatic frames used a disabled CharacterController.",
+            "passed": true
+        },
+        {
+            "name": "cycle_1_normal_return_real_duration",
+            "detail": "Actual wall-clock seconds=5.934215; return path runs at configured duration.",
+            "passed": true
+        },
+        {
+            "name": "cycle_1_normal_return_restored_pose",
+            "detail": "position_m=1.862645E-09 rotation_degrees=0 fov_degrees=0 projection_max=0 aspect_error=0",
+            "passed": true
+        },
+        {
+            "name": "cycle_1_normal_return_ready",
+            "detail": "Actual mural restored, controller enabled and reentry available.",
+            "passed": true
+        },
+        {
+            "name": "cycle_1_normal_return_floor",
+            "detail": "feet=(-0.02, 0.02, -19.03) support=Gallery structural floor at (-0.02, 0.00, -19.03) inner-capsule overlaps=",
+            "passed": true
+        },
+        {
+            "name": "image_gallery-returned.png",
+            "detail": "GPU colors=2405 dark=0 pink=0; separate visual review required.",
+            "passed": true
+        },
+        {
+            "name": "capture_preserves_camera_gallery-returned.png",
+            "detail": "position_m=0 rotation_degrees=0 fov_degrees=0 projection_max=0 aspect_error=0",
+            "passed": true
+        },
+        {
+            "name": "capture_preserves_targets_gallery-returned.png",
+            "detail": "Original camera targetTexture and RenderTexture.active restored.",
+            "passed": true
+        },
+        {
+            "name": "visual_preview_complete",
+            "detail": "One normal entry and return only; final three-cycle acceptance has not run.",
+            "passed": true
+        },
+        {
+            "name": "translucent_bridge_locks_hero_camera",
+            "detail": "Actual translucent bridge frames=150 maximum position_m=8.940697E-08 rotation_degrees=0 fov_degrees=0 projection_shift=0; entry, return and cancellation samples aggregated.",
+            "passed": true
+        },
+        {
+            "name": "runtime_errors",
+            "detail": "Error/Exception/Assert count=0",
+            "passed": true
+        }
+    ],
+    "poses": [
+        {
+            "cycle": 0,
+            "phase": "initial_gallery",
+            "state": "GalleryIdle",
+            "elapsed_seconds": 0.05951857566833496,
+            "progress": 0.0,
+            "material_alpha": 1.0,
+            "bridge_alpha": 0.0,
+            "controller_enabled": false,
+            "mural_enabled": true,
+            "bridge_enabled": false,
+            "pose": {
+                "eye": {
+                    "x": -2.5999999046325685,
+                    "y": 1.649999976158142,
+                    "z": -23.0
+                },
+                "rotation": {
+                    "x": -0.08662663400173187,
+                    "y": 0.1403498649597168,
+                    "z": 0.01232781633734703,
+                    "w": 0.9862280488014221
+                },
+                "fov": 57.0,
+                "aspect": 1.3333333730697632,
+                "projectionShift": 0.0,
+                "projection": {
+                    "e00": 1.3813279867172242,
+                    "e01": 0.0,
+                    "e02": 0.0,
+                    "e03": 0.0,
+                    "e10": 0.0,
+                    "e11": 1.8417707681655884,
+                    "e12": 0.0,
+                    "e13": 0.0,
+                    "e20": 0.0,
+                    "e21": 0.0,
+                    "e22": -1.0010005235671998,
+                    "e23": -0.10005002468824387,
+                    "e30": 0.0,
+                    "e31": 0.0,
+                    "e32": -1.0,
+                    "e33": 0.0
+                }
+            }
+        },
+        {
+            "cycle": 0,
+            "phase": "trigger_reached",
+            "state": "GalleryRoaming",
+            "elapsed_seconds": 3.1472933292388918,
+            "progress": 0.0,
+            "material_alpha": 1.0,
+            "bridge_alpha": 0.0,
+            "controller_enabled": true,
+            "mural_enabled": true,
+            "bridge_enabled": false,
+            "pose": {
+                "eye": {
+                    "x": -0.016722479835152627,
+                    "y": 1.6749999523162842,
+                    "z": -19.025726318359376
+                },
+                "rotation": {
+                    "x": -0.08662663400173187,
+                    "y": 0.1403498649597168,
+                    "z": 0.012327817268669606,
+                    "w": 0.9862280488014221
+                },
+                "fov": 57.0,
+                "aspect": 1.3333333730697632,
+                "projectionShift": 0.0,
+                "projection": {
+                    "e00": 1.3813279867172242,
+                    "e01": 0.0,
+                    "e02": 0.0,
+                    "e03": 0.0,
+                    "e10": 0.0,
+                    "e11": 1.8417707681655884,
+                    "e12": 0.0,
+                    "e13": 0.0,
+                    "e20": 0.0,
+                    "e21": 0.0,
+                    "e22": -1.0010005235671998,
+                    "e23": -0.10005002468824387,
+                    "e30": 0.0,
+                    "e31": 0.0,
+                    "e32": -1.0,
+                    "e33": 0.0
+                }
+            }
+        },
+        {
+            "cycle": 1,
+            "phase": "normal",
+            "state": "Entering",
+            "elapsed_seconds": 3.297236204147339,
+            "progress": 0.0,
+            "material_alpha": 1.0,
+            "bridge_alpha": 0.0,
+            "controller_enabled": false,
+            "mural_enabled": true,
+            "bridge_enabled": false,
+            "pose": {
+                "eye": {
+                    "x": -0.016722479835152627,
+                    "y": 1.6749999523162842,
+                    "z": -19.025726318359376
+                },
+                "rotation": {
+                    "x": -0.08662663400173187,
+                    "y": 0.1403498649597168,
+                    "z": 0.012327817268669606,
+                    "w": 0.9862280488014221
+                },
+                "fov": 57.0,
+                "aspect": 1.3333333730697632,
+                "projectionShift": 0.0,
+                "projection": {
+                    "e00": 1.3813279867172242,
+                    "e01": 0.0,
+                    "e02": 0.0,
+                    "e03": 0.0,
+                    "e10": 0.0,
+                    "e11": 1.8417707681655884,
+                    "e12": 0.0,
+                    "e13": 0.0,
+                    "e20": 0.0,
+                    "e21": 0.0,
+                    "e22": -1.0010005235671998,
+                    "e23": -0.10005002468824387,
+                    "e30": 0.0,
+                    "e31": 0.0,
+                    "e32": -1.0,
+                    "e33": 0.0
+                }
+            }
+        },
+        {
+            "cycle": 1,
+            "phase": "normal",
+            "state": "Entering",
+            "elapsed_seconds": 3.5477993488311769,
+            "progress": 0.060257796198129657,
+            "material_alpha": 1.0,
+            "bridge_alpha": 0.0,
+            "controller_enabled": false,
+            "mural_enabled": true,
+            "bridge_enabled": false,
+            "pose": {
+                "eye": {
+                    "x": -0.008016219362616539,
+                    "y": 1.8834846019744874,
+                    "z": -18.981304168701173
+                },
+                "rotation": {
+                    "x": -0.07764630019664765,
+                    "y": 0.12580019235610963,
+                    "z": 0.011049828492105008,
+                    "w": 0.9889506101608276
+                },
+                "fov": 56.26621627807617,
+                "aspect": 1.3333333730697632,
+                "projectionShift": 0.008386105298995972,
+                "projection": {
+                    "e00": 1.4026737213134766,
+                    "e01": 0.0,
+                    "e02": 0.0,
+                    "e03": 0.0,
+                    "e10": 0.0,
+                    "e11": 1.8702316284179688,
+                    "e12": 0.008386105298995972,
+                    "e13": 0.0,
+                    "e20": 0.0,
+                    "e21": 0.0,
+                    "e22": -1.0010005235671998,
+                    "e23": -0.10005002468824387,
+                    "e30": 0.0,
+                    "e31": 0.0,
+                    "e32": -1.0,
+                    "e33": 0.0
+                }
+            }
+        },
+        {
+            "cycle": 1,
+            "phase": "normal",
+            "state": "Entering",
+            "elapsed_seconds": 3.797816038131714,
+            "progress": 0.09597229957580567,
+            "material_alpha": 1.0,
+            "bridge_alpha": 0.0,
+            "controller_enabled": false,
+            "mural_enabled": true,
+            "bridge_enabled": false,
+            "pose": {
+                "eye": {
+                    "x": 0.003338715061545372,
+                    "y": 2.155395984649658,
+                    "z": -18.923368453979493
+                },
+                "rotation": {
+                    "x": -0.06586893647909165,
+                    "y": 0.10671887546777725,
+                    "z": 0.009373794309794903,
+                    "w": 0.9920607805252075
+                },
+                "fov": 55.30919647216797,
+                "aspect": 1.3333333730697632,
+                "projectionShift": 0.01932348683476448,
+                "projection": {
+                    "e00": 1.4312938451766968,
+                    "e01": 0.0,
+                    "e02": 0.0,
+                    "e03": 0.0,
+                    "e10": 0.0,
+                    "e11": 1.9083918333053589,
+                    "e12": 0.01932348683476448,
+                    "e13": 0.0,
+                    "e20": 0.0,
+                    "e21": 0.0,
+                    "e22": -1.0010005235671998,
+                    "e23": -0.10005002468824387,
+                    "e30": 0.0,
+                    "e31": 0.0,
+                    "e32": -1.0,
+                    "e33": 0.0
+                }
+            }
+        },
+        {
+            "cycle": 1,
+            "phase": "normal",
+            "state": "Entering",
+            "elapsed_seconds": 4.064451217651367,
+            "progress": 0.13406777381896974,
+            "material_alpha": 1.0,
+            "bridge_alpha": 0.0,
+            "controller_enabled": false,
+            "mural_enabled": true,
+            "bridge_enabled": false,
+            "pose": {
+                "eye": {
+                    "x": 0.0182133037596941,
+                    "y": 2.5115909576416017,
+                    "z": -18.84747314453125
+                },
+                "rotation": {
+                    "x": -0.05035743862390518,
+                    "y": 0.08158760517835617,
+                    "z": 0.007166356313973665,
+                    "w": 0.9953674077987671
+                },
+                "fov": 54.0555305480957,
+                "aspect": 1.3333333730697632,
+                "projectionShift": 0.033651091158390048,
+                "projection": {
+                    "e00": 1.470196008682251,
+                    "e01": 0.0,
+                    "e02": 0.0,
+                    "e03": 0.0,
+                    "e10": 0.0,
+                    "e11": 1.9602614641189576,
+                    "e12": 0.033651091158390048,
+                    "e13": 0.0,
+                    "e20": 0.0,
+                    "e21": 0.0,
+                    "e22": -1.0010005235671998,
+                    "e23": -0.10005002468824387,
+                    "e30": 0.0,
+                    "e31": 0.0,
+                    "e32": -1.0,
+                    "e33": 0.0
+                }
+            }
+        },
+        {
+            "cycle": 1,
+            "phase": "normal",
+            "state": "Entering",
+            "elapsed_seconds": 4.314484596252441,
+            "progress": 0.1697821468114853,
+            "material_alpha": 1.0,
+            "bridge_alpha": 0.0,
+            "controller_enabled": false,
+            "mural_enabled": true,
+            "bridge_enabled": false,
+            "pose": {
+                "eye": {
+                    "x": 0.032971933484077457,
+                    "y": 2.86500883102417,
+                    "z": -18.772171020507814
+                },
+                "rotation": {
+                    "x": -0.03491043671965599,
+                    "y": 0.05656082183122635,
+                    "z": 0.004968096036463976,
+                    "w": 0.9977762699127197
+                },
+                "fov": 52.81163787841797,
+                "aspect": 1.3333333730697632,
+                "projectionShift": 0.047867003828287128,
+                "projection": {
+                    "e00": 1.5104799270629883,
+                    "e01": 0.0,
+                    "e02": 0.0,
+                    "e03": 0.0,
+                    "e10": 0.0,
+                    "e11": 2.0139732360839845,
+                    "e12": 0.047867003828287128,
+                    "e13": 0.0,
+                    "e20": 0.0,
+                    "e21": 0.0,
+                    "e22": -1.0010005235671998,
+                    "e23": -0.10005002468824387,
+                    "e30": 0.0,
+                    "e31": 0.0,
+                    "e32": -1.0,
+                    "e33": 0.0
+                }
+            }
+        },
+        {
+            "cycle": 1,
+            "phase": "normal",
+            "state": "Entering",
+            "elapsed_seconds": 4.581104278564453,
+            "progress": 0.20787759125232697,
+            "material_alpha": 1.0,
+            "bridge_alpha": 0.0,
+            "controller_enabled": false,
+            "mural_enabled": true,
+            "bridge_enabled": false,
+            "pose": {
+                "eye": {
+                    "x": 0.047646716237068179,
+                    "y": 3.216418743133545,
+                    "z": -18.697296142578126
+                },
+                "rotation": {
+                    "x": -0.019535668194293977,
+                    "y": 0.0316510871052742,
+                    "z": 0.002780116396024823,
+                    "w": 0.9993041753768921
+                },
+                "fov": 51.57481384277344,
+                "aspect": 1.3333333730697632,
+                "projectionShift": 0.06200215220451355,
+                "projection": {
+                    "e00": 1.5523200035095215,
+                    "e01": 0.0,
+                    "e02": 0.0,
+                    "e03": 0.0,
+                    "e10": 0.0,
+                    "e11": 2.0697600841522219,
+                    "e12": 0.06200215220451355,
+                    "e13": 0.0,
+                    "e20": 0.0,
+                    "e21": 0.0,
+                    "e22": -1.0010005235671998,
+                    "e23": -0.10005002468824387,
+                    "e30": 0.0,
+                    "e31": 0.0,
+                    "e32": -1.0,
+                    "e33": 0.0
+                }
+            }
+        },
+        {
+            "cycle": 1,
+            "phase": "normal",
+            "state": "Entering",
+            "elapsed_seconds": 4.831130027770996,
+            "progress": 0.24359197914600373,
+            "material_alpha": 1.0,
+            "bridge_alpha": 0.0,
+            "controller_enabled": false,
+            "mural_enabled": true,
+            "bridge_enabled": false,
+            "pose": {
+                "eye": {
+                    "x": 0.05862700939178467,
+                    "y": 3.479358673095703,
+                    "z": -18.641271591186525
+                },
+                "rotation": {
+                    "x": -0.00804543774574995,
+                    "y": 0.013034969568252564,
+                    "z": 0.001144944573752582,
+                    "w": 0.9998819828033447
+                },
+                "fov": 50.64937210083008,
+                "aspect": 1.3333333730697632,
+                "projectionShift": 0.07257866114377976,
+                "projection": {
+                    "e00": 1.5848695039749146,
+                    "e01": 0.0,
+                    "e02": 0.0,
+                    "e03": 0.0,
+                    "e10": 0.0,
+                    "e11": 2.113159418106079,
+                    "e12": 0.07257866114377976,
+                    "e13": 0.0,
+                    "e20": 0.0,
+                    "e21": 0.0,
+                    "e22": -1.0010005235671998,
+                    "e23": -0.10005002468824387,
+                    "e30": 0.0,
+                    "e31": 0.0,
+                    "e32": -1.0,
+                    "e33": 0.0
+                }
+            }
+        },
+        {
+            "cycle": 1,
+            "phase": "normal",
+            "state": "Entering",
+            "elapsed_seconds": 5.097786903381348,
+            "progress": 0.2816874086856842,
+            "material_alpha": 1.0,
+            "bridge_alpha": 0.0,
+            "controller_enabled": false,
+            "mural_enabled": true,
+            "bridge_enabled": false,
+            "pose": {
+                "eye": {
+                    "x": 0.0654410794377327,
+                    "y": 3.6425318717956545,
+                    "z": -18.606502532958986
+                },
+                "rotation": {
+                    "x": -0.000929074187297374,
+                    "y": 0.0015052556991577149,
+                    "z": 0.00013221589324530214,
+                    "w": 0.9999984502792358
+                },
+                "fov": 50.07506561279297,
+                "aspect": 1.3333333730697632,
+                "projectionShift": 0.07914216816425324,
+                "projection": {
+                    "e00": 1.60563325881958,
+                    "e01": 0.0,
+                    "e02": 0.0,
+                    "e03": 0.0,
+                    "e10": 0.0,
+                    "e11": 2.1408443450927736,
+                    "e12": 0.07914216816425324,
+                    "e13": 0.0,
+                    "e20": 0.0,
+                    "e21": 0.0,
+                    "e22": -1.0010005235671998,
+                    "e23": -0.10005002468824387,
+                    "e30": 0.0,
+                    "e31": 0.0,
+                    "e32": -1.0,
+                    "e33": 0.0
+                }
+            }
+        },
+        {
+            "cycle": 1,
+            "phase": "normal",
+            "state": "Entering",
+            "elapsed_seconds": 5.384519577026367,
+            "progress": 0.3226252496242523,
+            "material_alpha": 0.0,
+            "bridge_alpha": 1.0,
+            "controller_enabled": false,
+            "mural_enabled": false,
+            "bridge_enabled": true,
+            "pose": {
+                "eye": {
+                    "x": 0.048003412783145908,
+                    "y": 3.6225457191467287,
+                    "z": -18.261117935180665
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                },
+                "fov": 50.0,
+                "aspect": 1.3333333730697632,
+                "projectionShift": 0.08000004291534424,
+                "projection": {
+                    "e00": 1.6083799600601197,
+                    "e01": 0.0,
+                    "e02": 0.0,
+                    "e03": 0.0,
+                    "e10": 0.0,
+                    "e11": 2.1445066928863527,
+                    "e12": 0.08000004291534424,
+                    "e13": 0.0,
+                    "e20": 0.0,
+                    "e21": 0.0,
+                    "e22": -1.0010005235671998,
+                    "e23": -0.10005002468824387,
+                    "e30": 0.0,
+                    "e31": 0.0,
+                    "e32": -1.0,
+                    "e33": 0.0
+                }
+            }
+        },
+        {
+            "cycle": 1,
+            "phase": "normal",
+            "state": "Entering",
+            "elapsed_seconds": 5.651052474975586,
+            "progress": 0.36072081327438357,
+            "material_alpha": 0.0,
+            "bridge_alpha": 1.0,
+            "controller_enabled": false,
+            "mural_enabled": false,
+            "bridge_enabled": true,
+            "pose": {
+                "eye": {
+                    "x": -0.0475485697388649,
+                    "y": 3.407162666320801,
+                    "z": -16.48418426513672
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                },
+                "fov": 50.0,
+                "aspect": 1.3333333730697632,
+                "projectionShift": 0.08000004291534424,
+                "projection": {
+                    "e00": 1.6083799600601197,
+                    "e01": 0.0,
+                    "e02": 0.0,
+                    "e03": 0.0,
+                    "e10": 0.0,
+                    "e11": 2.1445066928863527,
+                    "e12": 0.08000004291534424,
+                    "e13": 0.0,
+                    "e20": 0.0,
+                    "e21": 0.0,
+                    "e22": -1.0010005235671998,
+                    "e23": -0.10005002468824387,
+                    "e30": 0.0,
+                    "e31": 0.0,
+                    "e32": -1.0,
+                    "e33": 0.0
+                }
+            }
+        },
+        {
+            "cycle": 1,
+            "phase": "normal",
+            "state": "Entering",
+            "elapsed_seconds": 5.917722702026367,
+            "progress": 0.39881622791290285,
+            "material_alpha": 0.0,
+            "bridge_alpha": 1.0,
+            "controller_enabled": false,
+            "mural_enabled": false,
+            "bridge_enabled": true,
+            "pose": {
+                "eye": {
+                    "x": -0.1872500628232956,
+                    "y": 3.0922622680664064,
+                    "z": -13.886225700378418
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                },
+                "fov": 50.0,
+                "aspect": 1.3333333730697632,
+                "projectionShift": 0.08000004291534424,
+                "projection": {
+                    "e00": 1.6083799600601197,
+                    "e01": 0.0,
+                    "e02": 0.0,
+                    "e03": 0.0,
+                    "e10": 0.0,
+                    "e11": 2.1445066928863527,
+                    "e12": 0.08000004291534424,
+                    "e13": 0.0,
+                    "e20": 0.0,
+                    "e21": 0.0,
+                    "e22": -1.0010005235671998,
+                    "e23": -0.10005002468824387,
+                    "e30": 0.0,
+                    "e31": 0.0,
+                    "e32": -1.0,
+                    "e33": 0.0
+                }
+            }
+        },
+        {
+            "cycle": 1,
+            "phase": "normal",
+            "state": "Entering",
+            "elapsed_seconds": 6.229016304016113,
+            "progress": 0.44325563311576846,
+            "material_alpha": 0.0,
+            "bridge_alpha": 1.0,
+            "controller_enabled": false,
+            "mural_enabled": false,
+            "bridge_enabled": true,
+            "pose": {
+                "eye": {
+                    "x": -0.3488936722278595,
+                    "y": 2.727902889251709,
+                    "z": -10.880219459533692
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                },
+                "fov": 50.0,
+                "aspect": 1.3333333730697632,
+                "projectionShift": 0.08000004291534424,
+                "projection": {
+                    "e00": 1.6083799600601197,
+                    "e01": 0.0,
+                    "e02": 0.0,
+                    "e03": 0.0,
+                    "e10": 0.0,
+                    "e11": 2.1445066928863527,
+                    "e12": 0.08000004291534424,
+                    "e13": 0.0,
+                    "e20": 0.0,
+                    "e21": 0.0,
+                    "e22": -1.0010005235671998,
+                    "e23": -0.10005002468824387,
+                    "e30": 0.0,
+                    "e31": 0.0,
+                    "e32": -1.0,
+                    "e33": 0.0
+                }
+            }
+        },
+        {
+            "cycle": 1,
+            "phase": "normal",
+            "state": "Entering",
+            "elapsed_seconds": 6.495420455932617,
+            "progress": 0.48135125637054446,
+            "material_alpha": 0.0,
+            "bridge_alpha": 1.0,
+            "controller_enabled": false,
+            "mural_enabled": false,
+            "bridge_enabled": true,
+            "pose": {
+                "eye": {
+                    "x": -0.43736937642097475,
+                    "y": 2.528470039367676,
+                    "z": -9.234881401062012
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                },
+                "fov": 50.0,
+                "aspect": 1.3333333730697632,
+                "projectionShift": 0.08000004291534424,
+                "projection": {
+                    "e00": 1.6083799600601197,
+                    "e01": 0.0,
+                    "e02": 0.0,
+                    "e03": 0.0,
+                    "e10": 0.0,
+                    "e11": 2.1445066928863527,
+                    "e12": 0.08000004291534424,
+                    "e13": 0.0,
+                    "e20": 0.0,
+                    "e21": 0.0,
+                    "e22": -1.0010005235671998,
+                    "e23": -0.10005002468824387,
+                    "e30": 0.0,
+                    "e31": 0.0,
+                    "e32": -1.0,
+                    "e33": 0.0
+                }
+            }
+        },
+        {
+            "cycle": 1,
+            "phase": "normal",
+            "state": "Entering",
+            "elapsed_seconds": 6.782105445861816,
+            "progress": 0.5222653150558472,
+            "material_alpha": 0.0,
+            "bridge_alpha": 0.9713453054428101,
+            "controller_enabled": false,
+            "mural_enabled": false,
+            "bridge_enabled": true,
+            "pose": {
+                "eye": {
+                    "x": -0.4500000774860382,
+                    "y": 2.5,
+                    "z": -9.0
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                },
+                "fov": 50.0,
+                "aspect": 1.3333333730697632,
+                "projectionShift": 0.08000004291534424,
+                "projection": {
+                    "e00": 1.6083799600601197,
+                    "e01": 0.0,
+                    "e02": 0.0,
+                    "e03": 0.0,
+                    "e10": 0.0,
+                    "e11": 2.1445066928863527,
+                    "e12": 0.08000004291534424,
+                    "e13": 0.0,
+                    "e20": 0.0,
+                    "e21": 0.0,
+                    "e22": -1.0010005235671998,
+                    "e23": -0.10005002468824387,
+                    "e30": 0.0,
+                    "e31": 0.0,
+                    "e32": -1.0,
+                    "e33": 0.0
+                }
+            }
+        },
+        {
+            "cycle": 1,
+            "phase": "normal",
+            "state": "Entering",
+            "elapsed_seconds": 7.04852294921875,
+            "progress": 0.5603609681129456,
+            "material_alpha": 0.0,
+            "bridge_alpha": 0.815474271774292,
+            "controller_enabled": false,
+            "mural_enabled": false,
+            "bridge_enabled": true,
+            "pose": {
+                "eye": {
+                    "x": -0.4500000774860382,
+                    "y": 2.5,
+                    "z": -9.0
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                },
+                "fov": 50.0,
+                "aspect": 1.3333333730697632,
+                "projectionShift": 0.08000004291534424,
+                "projection": {
+                    "e00": 1.6083799600601197,
+                    "e01": 0.0,
+                    "e02": 0.0,
+                    "e03": 0.0,
+                    "e10": 0.0,
+                    "e11": 2.1445066928863527,
+                    "e12": 0.08000004291534424,
+                    "e13": 0.0,
+                    "e20": 0.0,
+                    "e21": 0.0,
+                    "e22": -1.0010005235671998,
+                    "e23": -0.10005002468824387,
+                    "e30": 0.0,
+                    "e31": 0.0,
+                    "e32": -1.0,
+                    "e33": 0.0
+                }
+            }
+        },
+        {
+            "cycle": 1,
+            "phase": "normal",
+            "state": "Entering",
+            "elapsed_seconds": 7.315252304077148,
+            "progress": 0.5984564423561096,
+            "material_alpha": 0.0,
+            "bridge_alpha": 0.5784172415733337,
+            "controller_enabled": false,
+            "mural_enabled": false,
+            "bridge_enabled": true,
+            "pose": {
+                "eye": {
+                    "x": -0.4500000774860382,
+                    "y": 2.5,
+                    "z": -9.0
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                },
+                "fov": 50.0,
+                "aspect": 1.3333333730697632,
+                "projectionShift": 0.08000004291534424,
+                "projection": {
+                    "e00": 1.6083799600601197,
+                    "e01": 0.0,
+                    "e02": 0.0,
+                    "e03": 0.0,
+                    "e10": 0.0,
+                    "e11": 2.1445066928863527,
+                    "e12": 0.08000004291534424,
+                    "e13": 0.0,
+                    "e20": 0.0,
+                    "e21": 0.0,
+                    "e22": -1.0010005235671998,
+                    "e23": -0.10005002468824387,
+                    "e30": 0.0,
+                    "e31": 0.0,
+                    "e32": -1.0,
+                    "e33": 0.0
+                }
+            }
+        },
+        {
+            "cycle": 1,
+            "phase": "normal",
+            "state": "Entering",
+            "elapsed_seconds": 7.573728561401367,
+            "progress": 0.6353974938392639,
+            "material_alpha": 0.0,
+            "bridge_alpha": 0.3299124836921692,
+            "controller_enabled": false,
+            "mural_enabled": false,
+            "bridge_enabled": true,
+            "pose": {
+                "eye": {
+                    "x": -0.4500000774860382,
+                    "y": 2.5,
+                    "z": -9.0
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                },
+                "fov": 50.0,
+                "aspect": 1.3333333730697632,
+                "projectionShift": 0.08000004291534424,
+                "projection": {
+                    "e00": 1.6083799600601197,
+                    "e01": 0.0,
+                    "e02": 0.0,
+                    "e03": 0.0,
+                    "e10": 0.0,
+                    "e11": 2.1445066928863527,
+                    "e12": 0.08000004291534424,
+                    "e13": 0.0,
+                    "e20": 0.0,
+                    "e21": 0.0,
+                    "e22": -1.0010005235671998,
+                    "e23": -0.10005002468824387,
+                    "e30": 0.0,
+                    "e31": 0.0,
+                    "e32": -1.0,
+                    "e33": 0.0
+                }
+            }
+        },
+        {
+            "cycle": 1,
+            "phase": "normal",
+            "state": "Entering",
+            "elapsed_seconds": 7.8402910232543949,
+            "progress": 0.6734930276870728,
+            "material_alpha": 0.0,
+            "bridge_alpha": 0.115170419216156,
+            "controller_enabled": false,
+            "mural_enabled": false,
+            "bridge_enabled": true,
+            "pose": {
+                "eye": {
+                    "x": -0.4500000774860382,
+                    "y": 2.5,
+                    "z": -9.0
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                },
+                "fov": 50.0,
+                "aspect": 1.3333333730697632,
+                "projectionShift": 0.08000004291534424,
+                "projection": {
+                    "e00": 1.6083799600601197,
+                    "e01": 0.0,
+                    "e02": 0.0,
+                    "e03": 0.0,
+                    "e10": 0.0,
+                    "e11": 2.1445066928863527,
+                    "e12": 0.08000004291534424,
+                    "e13": 0.0,
+                    "e20": 0.0,
+                    "e21": 0.0,
+                    "e22": -1.0010005235671998,
+                    "e23": -0.10005002468824387,
+                    "e30": 0.0,
+                    "e31": 0.0,
+                    "e32": -1.0,
+                    "e33": 0.0
+                }
+            }
+        },
+        {
+            "cycle": 1,
+            "phase": "normal",
+            "state": "Entering",
+            "elapsed_seconds": 8.090380668640137,
+            "progress": 0.7092076539993286,
+            "material_alpha": 0.0,
+            "bridge_alpha": 0.006983458995819092,
+            "controller_enabled": false,
+            "mural_enabled": false,
+            "bridge_enabled": true,
+            "pose": {
+                "eye": {
+                    "x": -0.4500000774860382,
+                    "y": 2.5,
+                    "z": -9.0
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                },
+                "fov": 50.0,
+                "aspect": 1.3333333730697632,
+                "projectionShift": 0.08000004291534424,
+                "projection": {
+                    "e00": 1.6083799600601197,
+                    "e01": 0.0,
+                    "e02": 0.0,
+                    "e03": 0.0,
+                    "e10": 0.0,
+                    "e11": 2.1445066928863527,
+                    "e12": 0.08000004291534424,
+                    "e13": 0.0,
+                    "e20": 0.0,
+                    "e21": 0.0,
+                    "e22": -1.0010005235671998,
+                    "e23": -0.10005002468824387,
+                    "e30": 0.0,
+                    "e31": 0.0,
+                    "e32": -1.0,
+                    "e33": 0.0
+                }
+            }
+        },
+        {
+            "cycle": 1,
+            "phase": "normal",
+            "state": "Entering",
+            "elapsed_seconds": 8.35705280303955,
+            "progress": 0.7473030090332031,
+            "material_alpha": 0.0,
+            "bridge_alpha": 0.0,
+            "controller_enabled": false,
+            "mural_enabled": false,
+            "bridge_enabled": false,
+            "pose": {
+                "eye": {
+                    "x": -0.43799832463264468,
+                    "y": 2.477996826171875,
+                    "z": -8.893317222595215
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                },
+                "fov": 50.18669509887695,
+                "aspect": 1.3333333730697632,
+                "projectionShift": 0.07786639034748078,
+                "projection": {
+                    "e00": 1.6015625,
+                    "e01": 0.0,
+                    "e02": 0.0,
+                    "e03": 0.0,
+                    "e10": 0.0,
+                    "e11": 2.1354167461395265,
+                    "e12": 0.07786639034748078,
+                    "e13": 0.0,
+                    "e20": 0.0,
+                    "e21": 0.0,
+                    "e22": -1.0010005235671998,
+                    "e23": -0.10005002468824387,
+                    "e30": 0.0,
+                    "e31": 0.0,
+                    "e32": -1.0,
+                    "e33": 0.0
+                }
+            }
+        },
+        {
+            "cycle": 1,
+            "phase": "normal",
+            "state": "Entering",
+            "elapsed_seconds": 8.607074737548829,
+            "progress": 0.7830173969268799,
+            "material_alpha": 0.0,
+            "bridge_alpha": 0.0,
+            "controller_enabled": false,
+            "mural_enabled": false,
+            "bridge_enabled": false,
+            "pose": {
+                "eye": {
+                    "x": -0.3918786346912384,
+                    "y": 2.393444061279297,
+                    "z": -8.483365058898926
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                },
+                "fov": 50.904109954833987,
+                "aspect": 1.3333333730697632,
+                "projectionShift": 0.06966734677553177,
+                "projection": {
+                    "e00": 1.5757997035980225,
+                    "e01": 0.0,
+                    "e02": 0.0,
+                    "e03": 0.0,
+                    "e10": 0.0,
+                    "e11": 2.1010663509368898,
+                    "e12": 0.06966734677553177,
+                    "e13": 0.0,
+                    "e20": 0.0,
+                    "e21": 0.0,
+                    "e22": -1.0010005235671998,
+                    "e23": -0.10005002468824387,
+                    "e30": 0.0,
+                    "e31": 0.0,
+                    "e32": -1.0,
+                    "e33": 0.0
+                }
+            }
+        },
+        {
+            "cycle": 1,
+            "phase": "normal",
+            "state": "Entering",
+            "elapsed_seconds": 8.865151405334473,
+            "progress": 0.8198828101158142,
+            "material_alpha": 0.0,
+            "bridge_alpha": 0.0,
+            "controller_enabled": false,
+            "mural_enabled": false,
+            "bridge_enabled": false,
+            "pose": {
+                "eye": {
+                    "x": -0.3190636932849884,
+                    "y": 2.259951114654541,
+                    "z": -7.836125373840332
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                },
+                "fov": 52.036781311035159,
+                "aspect": 1.3333333730697632,
+                "projectionShift": 0.05672253668308258,
+                "projection": {
+                    "e00": 1.5364758968353272,
+                    "e01": 0.0,
+                    "e02": 0.0,
+                    "e03": 0.0,
+                    "e10": 0.0,
+                    "e11": 2.0486345291137697,
+                    "e12": 0.05672253668308258,
+                    "e13": 0.0,
+                    "e20": 0.0,
+                    "e21": 0.0,
+                    "e22": -1.0010005235671998,
+                    "e23": -0.10005002468824387,
+                    "e30": 0.0,
+                    "e31": 0.0,
+                    "e32": -1.0,
+                    "e33": 0.0
+                }
+            }
+        },
+        {
+            "cycle": 1,
+            "phase": "normal",
+            "state": "Entering",
+            "elapsed_seconds": 9.131799697875977,
+            "progress": 0.8579782843589783,
+            "material_alpha": 0.0,
+            "bridge_alpha": 0.0,
+            "controller_enabled": false,
+            "mural_enabled": false,
+            "bridge_enabled": false,
+            "pose": {
+                "eye": {
+                    "x": -0.22987346351146699,
+                    "y": 2.096435070037842,
+                    "z": -7.043320655822754
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                },
+                "fov": 53.424190521240237,
+                "aspect": 1.3333333730697632,
+                "projectionShift": 0.0408664233982563,
+                "projection": {
+                    "e00": 1.4904249906539918,
+                    "e01": 0.0,
+                    "e02": 0.0,
+                    "e03": 0.0,
+                    "e10": 0.0,
+                    "e11": 1.9872334003448487,
+                    "e12": 0.0408664233982563,
+                    "e13": 0.0,
+                    "e20": 0.0,
+                    "e21": 0.0,
+                    "e22": -1.0010005235671998,
+                    "e23": -0.10005002468824387,
+                    "e30": 0.0,
+                    "e31": 0.0,
+                    "e32": -1.0,
+                    "e33": 0.0
+                }
+            }
+        },
+        {
+            "cycle": 1,
+            "phase": "normal",
+            "state": "Entering",
+            "elapsed_seconds": 9.398477554321289,
+            "progress": 0.8960736989974976,
+            "material_alpha": 0.0,
+            "bridge_alpha": 0.0,
+            "controller_enabled": false,
+            "mural_enabled": false,
+            "bridge_enabled": false,
+            "pose": {
+                "eye": {
+                    "x": -0.13996104896068574,
+                    "y": 1.9315956830978394,
+                    "z": -6.244100570678711
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                },
+                "fov": 54.82282257080078,
+                "aspect": 1.3333333730697632,
+                "projectionShift": 0.02488202042877674,
+                "projection": {
+                    "e00": 1.446191430091858,
+                    "e01": 0.0,
+                    "e02": 0.0,
+                    "e03": 0.0,
+                    "e10": 0.0,
+                    "e11": 1.928255319595337,
+                    "e12": 0.02488202042877674,
+                    "e13": 0.0,
+                    "e20": 0.0,
+                    "e21": 0.0,
+                    "e22": -1.0010005235671998,
+                    "e23": -0.10005002468824387,
+                    "e30": 0.0,
+                    "e31": 0.0,
+                    "e32": -1.0,
+                    "e33": 0.0
+                }
+            }
+        },
+        {
+            "cycle": 1,
+            "phase": "normal",
+            "state": "Entering",
+            "elapsed_seconds": 9.665111541748047,
+            "progress": 0.9341691136360169,
+            "material_alpha": 0.0,
+            "bridge_alpha": 0.0,
+            "controller_enabled": false,
+            "mural_enabled": false,
+            "bridge_enabled": false,
+            "pose": {
+                "eye": {
+                    "x": -0.06292728334665299,
+                    "y": 1.790366530418396,
+                    "z": -5.559352874755859
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                },
+                "fov": 56.02113342285156,
+                "aspect": 1.3333333730697632,
+                "projectionShift": 0.011187072843313218,
+                "projection": {
+                    "e00": 1.4099174737930298,
+                    "e01": 0.0,
+                    "e02": 0.0,
+                    "e03": 0.0,
+                    "e10": 0.0,
+                    "e11": 1.8798900842666627,
+                    "e12": 0.011187072843313218,
+                    "e13": 0.0,
+                    "e20": 0.0,
+                    "e21": 0.0,
+                    "e22": -1.0010005235671998,
+                    "e23": -0.10005002468824387,
+                    "e30": 0.0,
+                    "e31": 0.0,
+                    "e32": -1.0,
+                    "e33": 0.0
+                }
+            }
+        },
+        {
+            "cycle": 1,
+            "phase": "normal",
+            "state": "Entering",
+            "elapsed_seconds": 9.915165901184082,
+            "progress": 0.9698835611343384,
+            "material_alpha": 0.0,
+            "bridge_alpha": 0.0,
+            "controller_enabled": false,
+            "mural_enabled": false,
+            "bridge_enabled": false,
+            "pose": {
+                "eye": {
+                    "x": -0.01449827291071415,
+                    "y": 1.7015798091888428,
+                    "z": -5.128871917724609
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                },
+                "fov": 56.77447509765625,
+                "aspect": 1.3333333730697632,
+                "projectionShift": 0.002577439649030566,
+                "projection": {
+                    "e00": 1.3878346681594849,
+                    "e01": 0.0,
+                    "e02": 0.0,
+                    "e03": 0.0,
+                    "e10": 0.0,
+                    "e11": 1.850446343421936,
+                    "e12": 0.002577439649030566,
+                    "e13": 0.0,
+                    "e20": 0.0,
+                    "e21": 0.0,
+                    "e22": -1.0010005235671998,
+                    "e23": -0.10005002468824387,
+                    "e30": 0.0,
+                    "e31": 0.0,
+                    "e32": -1.0,
+                    "e33": 0.0
+                }
+            }
+        },
+        {
+            "cycle": 1,
+            "phase": "normal_complete",
+            "state": "AcademyRoaming",
+            "elapsed_seconds": 10.13253116607666,
+            "progress": 1.0,
+            "material_alpha": 0.0,
+            "bridge_alpha": 0.0,
+            "controller_enabled": true,
+            "mural_enabled": false,
+            "bridge_enabled": false,
+            "pose": {
+                "eye": {
+                    "x": 1.993030309677124e-7,
+                    "y": 1.6749999523162842,
+                    "z": -5.0
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                },
+                "fov": 57.0,
+                "aspect": 1.3333333730697632,
+                "projectionShift": 0.0,
+                "projection": {
+                    "e00": 1.3813279867172242,
+                    "e01": 0.0,
+                    "e02": 0.0,
+                    "e03": 0.0,
+                    "e10": 0.0,
+                    "e11": 1.8417707681655884,
+                    "e12": 0.0,
+                    "e13": 0.0,
+                    "e20": 0.0,
+                    "e21": 0.0,
+                    "e22": -1.0010005235671998,
+                    "e23": -0.10005002468824387,
+                    "e30": 0.0,
+                    "e31": 0.0,
+                    "e32": -1.0,
+                    "e33": 0.0
+                }
+            }
+        },
+        {
+            "cycle": 1,
+            "phase": "normal_first_move",
+            "state": "AcademyRoaming",
+            "elapsed_seconds": 10.149009704589844,
+            "progress": 1.0,
+            "material_alpha": 0.0,
+            "bridge_alpha": 0.0,
+            "controller_enabled": true,
+            "mural_enabled": false,
+            "bridge_enabled": false,
+            "pose": {
+                "eye": {
+                    "x": 0.040000200271606448,
+                    "y": 1.6749998331069947,
+                    "z": -5.0
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                },
+                "fov": 57.0,
+                "aspect": 1.3333333730697632,
+                "projectionShift": 0.0,
+                "projection": {
+                    "e00": 1.3813279867172242,
+                    "e01": 0.0,
+                    "e02": 0.0,
+                    "e03": 0.0,
+                    "e10": 0.0,
+                    "e11": 1.8417707681655884,
+                    "e12": 0.0,
+                    "e13": 0.0,
+                    "e20": 0.0,
+                    "e21": 0.0,
+                    "e22": -1.0010005235671998,
+                    "e23": -0.10005002468824387,
+                    "e30": 0.0,
+                    "e31": 0.0,
+                    "e32": -1.0,
+                    "e33": 0.0
+                }
+            }
+        },
+        {
+            "cycle": 1,
+            "phase": "normal_return",
+            "state": "Returning",
+            "elapsed_seconds": 10.22826862335205,
+            "progress": 0.0,
+            "material_alpha": 0.0,
+            "bridge_alpha": 0.0,
+            "controller_enabled": false,
+            "mural_enabled": false,
+            "bridge_enabled": false,
+            "pose": {
+                "eye": {
+                    "x": 0.040000200271606448,
+                    "y": 1.6749998331069947,
+                    "z": -5.0
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                },
+                "fov": 57.0,
+                "aspect": 1.3333333730697632,
+                "projectionShift": 0.0,
+                "projection": {
+                    "e00": 1.3813279867172242,
+                    "e01": 0.0,
+                    "e02": 0.0,
+                    "e03": 0.0,
+                    "e10": 0.0,
+                    "e11": 1.8417707681655884,
+                    "e12": 0.0,
+                    "e13": 0.0,
+                    "e20": 0.0,
+                    "e21": 0.0,
+                    "e22": -1.0010005235671998,
+                    "e23": -0.10005002468824387,
+                    "e30": 0.0,
+                    "e31": 0.0,
+                    "e32": -1.0,
+                    "e33": 0.0
+                }
+            }
+        },
+        {
+            "cycle": 1,
+            "phase": "normal_return",
+            "state": "Returning",
+            "elapsed_seconds": 10.478816032409668,
+            "progress": 0.055026549845933917,
+            "material_alpha": 0.0,
+            "bridge_alpha": 0.0,
+            "controller_enabled": false,
+            "mural_enabled": false,
+            "bridge_enabled": false,
+            "pose": {
+                "eye": {
+                    "x": -0.009335126727819443,
+                    "y": 1.7580643892288209,
+                    "z": -5.402737140655518
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                },
+                "fov": 56.29521179199219,
+                "aspect": 1.3333333730697632,
+                "projectionShift": 0.008054748177528382,
+                "projection": {
+                    "e00": 1.4018206596374512,
+                    "e01": 0.0,
+                    "e02": 0.0,
+                    "e03": 0.0,
+                    "e10": 0.0,
+                    "e11": 1.8690942525863648,
+                    "e12": 0.008054748177528382,
+                    "e13": 0.0,
+                    "e20": 0.0,
+                    "e21": 0.0,
+                    "e22": -1.0010005235671998,
+                    "e23": -0.10005002468824387,
+                    "e30": 0.0,
+                    "e31": 0.0,
+                    "e32": -1.0,
+                    "e33": 0.0
+                }
+            }
+        },
+        {
+            "cycle": 1,
+            "phase": "normal_return",
+            "state": "Returning",
+            "elapsed_seconds": 10.745330810546875,
+            "progress": 0.09947114437818527,
+            "material_alpha": 0.0,
+            "bridge_alpha": 0.0,
+            "controller_enabled": false,
+            "mural_enabled": false,
+            "bridge_enabled": false,
+            "pose": {
+                "eye": {
+                    "x": -0.1015835851430893,
+                    "y": 1.9133806228637696,
+                    "z": -6.15578556060791
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                },
+                "fov": 54.97737503051758,
+                "aspect": 1.3333333730697632,
+                "projectionShift": 0.023115724325180055,
+                "projection": {
+                    "e00": 1.4414312839508057,
+                    "e01": 0.0,
+                    "e02": 0.0,
+                    "e03": 0.0,
+                    "e10": 0.0,
+                    "e11": 1.9219083786010743,
+                    "e12": 0.023115724325180055,
+                    "e13": 0.0,
+                    "e20": 0.0,
+                    "e21": 0.0,
+                    "e22": -1.0010005235671998,
+                    "e23": -0.10005002468824387,
+                    "e30": 0.0,
+                    "e31": 0.0,
+                    "e32": -1.0,
+                    "e33": 0.0
+                }
+            }
+        },
+        {
+            "cycle": 1,
+            "phase": "normal_return",
+            "state": "Returning",
+            "elapsed_seconds": 10.995455741882325,
+            "progress": 0.14114779233932496,
+            "material_alpha": 0.0,
+            "bridge_alpha": 0.0,
+            "controller_enabled": false,
+            "mural_enabled": false,
+            "bridge_enabled": false,
+            "pose": {
+                "eye": {
+                    "x": -0.20801278948783875,
+                    "y": 2.0925726890563967,
+                    "z": -7.024595260620117
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                },
+                "fov": 53.45695877075195,
+                "aspect": 1.3333333730697632,
+                "projectionShift": 0.040491923689842227,
+                "projection": {
+                    "e00": 1.4893642663955689,
+                    "e01": 0.0,
+                    "e02": 0.0,
+                    "e03": 0.0,
+                    "e10": 0.0,
+                    "e11": 1.9858191013336182,
+                    "e12": 0.040491923689842227,
+                    "e13": 0.0,
+                    "e20": 0.0,
+                    "e21": 0.0,
+                    "e22": -1.0010005235671998,
+                    "e23": -0.10005002468824387,
+                    "e30": 0.0,
+                    "e31": 0.0,
+                    "e32": -1.0,
+                    "e33": 0.0
+                }
+            }
+        },
+        {
+            "cycle": 1,
+            "phase": "normal_return",
+            "state": "Returning",
+            "elapsed_seconds": 11.262014389038086,
+            "progress": 0.18559254705905915,
+            "material_alpha": 0.0,
+            "bridge_alpha": 0.0,
+            "controller_enabled": false,
+            "mural_enabled": false,
+            "bridge_enabled": false,
+            "pose": {
+                "eye": {
+                    "x": -0.32044947147369387,
+                    "y": 2.281879186630249,
+                    "z": -7.942445278167725
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                },
+                "fov": 51.8507194519043,
+                "aspect": 1.3333333730697632,
+                "projectionShift": 0.05884893611073494,
+                "projection": {
+                    "e00": 1.542825698852539,
+                    "e01": 0.0,
+                    "e02": 0.0,
+                    "e03": 0.0,
+                    "e10": 0.0,
+                    "e11": 2.057101011276245,
+                    "e12": 0.05884893611073494,
+                    "e13": 0.0,
+                    "e20": 0.0,
+                    "e21": 0.0,
+                    "e22": -1.0010005235671998,
+                    "e23": -0.10005002468824387,
+                    "e30": 0.0,
+                    "e31": 0.0,
+                    "e32": -1.0,
+                    "e33": 0.0
+                }
+            }
+        },
+        {
+            "cycle": 1,
+            "phase": "normal_return",
+            "state": "Returning",
+            "elapsed_seconds": 11.512152671813965,
+            "progress": 0.22725948691368104,
+            "material_alpha": 0.0,
+            "bridge_alpha": 0.0,
+            "controller_enabled": false,
+            "mural_enabled": false,
+            "bridge_enabled": false,
+            "pose": {
+                "eye": {
+                    "x": -0.40439483523368838,
+                    "y": 2.423215866088867,
+                    "z": -8.627713203430176
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                },
+                "fov": 50.6515007019043,
+                "aspect": 1.3333333730697632,
+                "projectionShift": 0.07255430519580841,
+                "projection": {
+                    "e00": 1.5847933292388917,
+                    "e01": 0.0,
+                    "e02": 0.0,
+                    "e03": 0.0,
+                    "e10": 0.0,
+                    "e11": 2.113057851791382,
+                    "e12": 0.07255430519580841,
+                    "e13": 0.0,
+                    "e20": 0.0,
+                    "e21": 0.0,
+                    "e22": -1.0010005235671998,
+                    "e23": -0.10005002468824387,
+                    "e30": 0.0,
+                    "e31": 0.0,
+                    "e32": -1.0,
+                    "e33": 0.0
+                }
+            }
+        },
+        {
+            "cycle": 1,
+            "phase": "normal_return",
+            "state": "Returning",
+            "elapsed_seconds": 11.778960227966309,
+            "progress": 0.27170419692993166,
+            "material_alpha": 0.0,
+            "bridge_alpha": 0.0,
+            "controller_enabled": false,
+            "mural_enabled": false,
+            "bridge_enabled": false,
+            "pose": {
+                "eye": {
+                    "x": -0.4487350881099701,
+                    "y": 2.497870445251465,
+                    "z": -8.98967456817627
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                },
+                "fov": 50.018070220947269,
+                "aspect": 1.3333333730697632,
+                "projectionShift": 0.0797935277223587,
+                "projection": {
+                    "e00": 1.6077182292938233,
+                    "e01": 0.0,
+                    "e02": 0.0,
+                    "e03": 0.0,
+                    "e10": 0.0,
+                    "e11": 2.1436243057250978,
+                    "e12": 0.0797935277223587,
+                    "e13": 0.0,
+                    "e20": 0.0,
+                    "e21": 0.0,
+                    "e22": -1.0010005235671998,
+                    "e23": -0.10005002468824387,
+                    "e30": 0.0,
+                    "e31": 0.0,
+                    "e32": -1.0,
+                    "e33": 0.0
+                }
+            }
+        },
+        {
+            "cycle": 1,
+            "phase": "normal_return",
+            "state": "Returning",
+            "elapsed_seconds": 12.045636177062989,
+            "progress": 0.31614917516708376,
+            "material_alpha": 0.0,
+            "bridge_alpha": 0.07212497293949127,
+            "controller_enabled": false,
+            "mural_enabled": false,
+            "bridge_enabled": true,
+            "pose": {
+                "eye": {
+                    "x": -0.44999998807907107,
+                    "y": 2.5,
+                    "z": -9.0
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                },
+                "fov": 50.0,
+                "aspect": 1.3333333730697632,
+                "projectionShift": 0.08000004291534424,
+                "projection": {
+                    "e00": 1.6083799600601197,
+                    "e01": 0.0,
+                    "e02": 0.0,
+                    "e03": 0.0,
+                    "e10": 0.0,
+                    "e11": 2.1445066928863527,
+                    "e12": 0.08000004291534424,
+                    "e13": 0.0,
+                    "e20": 0.0,
+                    "e21": 0.0,
+                    "e22": -1.0010005235671998,
+                    "e23": -0.10005002468824387,
+                    "e30": 0.0,
+                    "e31": 0.0,
+                    "e32": -1.0,
+                    "e33": 0.0
+                }
+            }
+        },
+        {
+            "cycle": 1,
+            "phase": "normal_return",
+            "state": "Returning",
+            "elapsed_seconds": 12.312045097351075,
+            "progress": 0.3605934977531433,
+            "material_alpha": 0.0,
+            "bridge_alpha": 0.3042774200439453,
+            "controller_enabled": false,
+            "mural_enabled": false,
+            "bridge_enabled": true,
+            "pose": {
+                "eye": {
+                    "x": -0.44999998807907107,
+                    "y": 2.5,
+                    "z": -9.0
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                },
+                "fov": 50.0,
+                "aspect": 1.3333333730697632,
+                "projectionShift": 0.08000004291534424,
+                "projection": {
+                    "e00": 1.6083799600601197,
+                    "e01": 0.0,
+                    "e02": 0.0,
+                    "e03": 0.0,
+                    "e10": 0.0,
+                    "e11": 2.1445066928863527,
+                    "e12": 0.08000004291534424,
+                    "e13": 0.0,
+                    "e20": 0.0,
+                    "e21": 0.0,
+                    "e22": -1.0010005235671998,
+                    "e23": -0.10005002468824387,
+                    "e30": 0.0,
+                    "e31": 0.0,
+                    "e32": -1.0,
+                    "e33": 0.0
+                }
+            }
+        },
+        {
+            "cycle": 1,
+            "phase": "normal_return",
+            "state": "Returning",
+            "elapsed_seconds": 12.57872486114502,
+            "progress": 0.40503811836242678,
+            "material_alpha": 0.0,
+            "bridge_alpha": 0.6018938422203064,
+            "controller_enabled": false,
+            "mural_enabled": false,
+            "bridge_enabled": true,
+            "pose": {
+                "eye": {
+                    "x": -0.44999998807907107,
+                    "y": 2.5,
+                    "z": -9.0
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                },
+                "fov": 50.0,
+                "aspect": 1.3333333730697632,
+                "projectionShift": 0.08000004291534424,
+                "projection": {
+                    "e00": 1.6083799600601197,
+                    "e01": 0.0,
+                    "e02": 0.0,
+                    "e03": 0.0,
+                    "e10": 0.0,
+                    "e11": 2.1445066928863527,
+                    "e12": 0.08000004291534424,
+                    "e13": 0.0,
+                    "e20": 0.0,
+                    "e21": 0.0,
+                    "e22": -1.0010005235671998,
+                    "e23": -0.10005002468824387,
+                    "e30": 0.0,
+                    "e31": 0.0,
+                    "e32": -1.0,
+                    "e33": 0.0
+                }
+            }
+        },
+        {
+            "cycle": 1,
+            "phase": "normal_return",
+            "state": "Returning",
+            "elapsed_seconds": 12.828822135925293,
+            "progress": 0.4467049837112427,
+            "material_alpha": 0.0,
+            "bridge_alpha": 0.8523776531219482,
+            "controller_enabled": false,
+            "mural_enabled": false,
+            "bridge_enabled": true,
+            "pose": {
+                "eye": {
+                    "x": -0.44999998807907107,
+                    "y": 2.5,
+                    "z": -9.0
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                },
+                "fov": 50.0,
+                "aspect": 1.3333333730697632,
+                "projectionShift": 0.08000004291534424,
+                "projection": {
+                    "e00": 1.6083799600601197,
+                    "e01": 0.0,
+                    "e02": 0.0,
+                    "e03": 0.0,
+                    "e10": 0.0,
+                    "e11": 2.1445066928863527,
+                    "e12": 0.08000004291534424,
+                    "e13": 0.0,
+                    "e20": 0.0,
+                    "e21": 0.0,
+                    "e22": -1.0010005235671998,
+                    "e23": -0.10005002468824387,
+                    "e30": 0.0,
+                    "e31": 0.0,
+                    "e32": -1.0,
+                    "e33": 0.0
+                }
+            }
+        },
+        {
+            "cycle": 1,
+            "phase": "normal_return",
+            "state": "Returning",
+            "elapsed_seconds": 13.080070495605469,
+            "progress": 0.48837220668792727,
+            "material_alpha": 0.0,
+            "bridge_alpha": 0.9919148087501526,
+            "controller_enabled": false,
+            "mural_enabled": false,
+            "bridge_enabled": true,
+            "pose": {
+                "eye": {
+                    "x": -0.44999998807907107,
+                    "y": 2.5,
+                    "z": -9.0
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                },
+                "fov": 50.0,
+                "aspect": 1.3333333730697632,
+                "projectionShift": 0.08000004291534424,
+                "projection": {
+                    "e00": 1.6083799600601197,
+                    "e01": 0.0,
+                    "e02": 0.0,
+                    "e03": 0.0,
+                    "e10": 0.0,
+                    "e11": 2.1445066928863527,
+                    "e12": 0.08000004291534424,
+                    "e13": 0.0,
+                    "e20": 0.0,
+                    "e21": 0.0,
+                    "e22": -1.0010005235671998,
+                    "e23": -0.10005002468824387,
+                    "e30": 0.0,
+                    "e31": 0.0,
+                    "e32": -1.0,
+                    "e33": 0.0
+                }
+            }
+        },
+        {
+            "cycle": 1,
+            "phase": "normal_return",
+            "state": "Returning",
+            "elapsed_seconds": 13.345437049865723,
+            "progress": 0.5328166484832764,
+            "material_alpha": 0.0,
+            "bridge_alpha": 1.0,
+            "controller_enabled": false,
+            "mural_enabled": false,
+            "bridge_enabled": true,
+            "pose": {
+                "eye": {
+                    "x": -0.4189612865447998,
+                    "y": 2.5699641704559328,
+                    "z": -9.577211380004883
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                },
+                "fov": 50.0,
+                "aspect": 1.3333333730697632,
+                "projectionShift": 0.08000004291534424,
+                "projection": {
+                    "e00": 1.6083799600601197,
+                    "e01": 0.0,
+                    "e02": 0.0,
+                    "e03": 0.0,
+                    "e10": 0.0,
+                    "e11": 2.1445066928863527,
+                    "e12": 0.08000004291534424,
+                    "e13": 0.0,
+                    "e20": 0.0,
+                    "e21": 0.0,
+                    "e22": -1.0010005235671998,
+                    "e23": -0.10005002468824387,
+                    "e30": 0.0,
+                    "e31": 0.0,
+                    "e32": -1.0,
+                    "e33": 0.0
+                }
+            }
+        },
+        {
+            "cycle": 1,
+            "phase": "normal_return",
+            "state": "Returning",
+            "elapsed_seconds": 13.612062454223633,
+            "progress": 0.5772627592086792,
+            "material_alpha": 0.0,
+            "bridge_alpha": 1.0,
+            "controller_enabled": false,
+            "mural_enabled": false,
+            "bridge_enabled": true,
+            "pose": {
+                "eye": {
+                    "x": -0.3036811053752899,
+                    "y": 2.8298163414001467,
+                    "z": -11.72101879119873
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                },
+                "fov": 50.0,
+                "aspect": 1.3333333730697632,
+                "projectionShift": 0.08000004291534424,
+                "projection": {
+                    "e00": 1.6083799600601197,
+                    "e01": 0.0,
+                    "e02": 0.0,
+                    "e03": 0.0,
+                    "e10": 0.0,
+                    "e11": 2.1445066928863527,
+                    "e12": 0.08000004291534424,
+                    "e13": 0.0,
+                    "e20": 0.0,
+                    "e21": 0.0,
+                    "e22": -1.0010005235671998,
+                    "e23": -0.10005002468824387,
+                    "e30": 0.0,
+                    "e31": 0.0,
+                    "e32": -1.0,
+                    "e33": 0.0
+                }
+            }
+        },
+        {
+            "cycle": 1,
+            "phase": "normal_return",
+            "state": "Returning",
+            "elapsed_seconds": 13.878746032714844,
+            "progress": 0.6217072010040283,
+            "material_alpha": 0.0,
+            "bridge_alpha": 1.0,
+            "controller_enabled": false,
+            "mural_enabled": false,
+            "bridge_enabled": true,
+            "pose": {
+                "eye": {
+                    "x": -0.15077520906925202,
+                    "y": 3.174480438232422,
+                    "z": -14.564532279968262
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                },
+                "fov": 50.0,
+                "aspect": 1.3333333730697632,
+                "projectionShift": 0.08000004291534424,
+                "projection": {
+                    "e00": 1.6083799600601197,
+                    "e01": 0.0,
+                    "e02": 0.0,
+                    "e03": 0.0,
+                    "e10": 0.0,
+                    "e11": 2.1445066928863527,
+                    "e12": 0.08000004291534424,
+                    "e13": 0.0,
+                    "e20": 0.0,
+                    "e21": 0.0,
+                    "e22": -1.0010005235671998,
+                    "e23": -0.10005002468824387,
+                    "e30": 0.0,
+                    "e31": 0.0,
+                    "e32": -1.0,
+                    "e33": 0.0
+                }
+            }
+        },
+        {
+            "cycle": 1,
+            "phase": "normal_return",
+            "state": "Returning",
+            "elapsed_seconds": 14.145442962646485,
+            "progress": 0.6661516427993774,
+            "material_alpha": 0.0,
+            "bridge_alpha": 1.0,
+            "controller_enabled": false,
+            "mural_enabled": false,
+            "bridge_enabled": true,
+            "pose": {
+                "eye": {
+                    "x": -0.011325769126415253,
+                    "y": 3.488812208175659,
+                    "z": -17.15780258178711
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                },
+                "fov": 50.0,
+                "aspect": 1.3333333730697632,
+                "projectionShift": 0.08000004291534424,
+                "projection": {
+                    "e00": 1.6083799600601197,
+                    "e01": 0.0,
+                    "e02": 0.0,
+                    "e03": 0.0,
+                    "e10": 0.0,
+                    "e11": 2.1445066928863527,
+                    "e12": 0.08000004291534424,
+                    "e13": 0.0,
+                    "e20": 0.0,
+                    "e21": 0.0,
+                    "e22": -1.0010005235671998,
+                    "e23": -0.10005002468824387,
+                    "e30": 0.0,
+                    "e31": 0.0,
+                    "e32": -1.0,
+                    "e33": 0.0
+                }
+            }
+        },
+        {
+            "cycle": 1,
+            "phase": "normal_return",
+            "state": "Returning",
+            "elapsed_seconds": 14.412094116210938,
+            "progress": 0.7105960845947266,
+            "material_alpha": 0.0,
+            "bridge_alpha": 1.0,
+            "controller_enabled": false,
+            "mural_enabled": false,
+            "bridge_enabled": true,
+            "pose": {
+                "eye": {
+                    "x": 0.06358213722705841,
+                    "y": 3.6576616764068605,
+                    "z": -18.550827026367189
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                },
+                "fov": 50.0,
+                "aspect": 1.3333333730697632,
+                "projectionShift": 0.08000004291534424,
+                "projection": {
+                    "e00": 1.6083799600601197,
+                    "e01": 0.0,
+                    "e02": 0.0,
+                    "e03": 0.0,
+                    "e10": 0.0,
+                    "e11": 2.1445066928863527,
+                    "e12": 0.08000004291534424,
+                    "e13": 0.0,
+                    "e20": 0.0,
+                    "e21": 0.0,
+                    "e22": -1.0010005235671998,
+                    "e23": -0.10005002468824387,
+                    "e30": 0.0,
+                    "e31": 0.0,
+                    "e32": -1.0,
+                    "e33": 0.0
+                }
+            }
+        },
+        {
+            "cycle": 1,
+            "phase": "normal_return",
+            "state": "Returning",
+            "elapsed_seconds": 14.678735733032227,
+            "progress": 0.7550406455993652,
+            "material_alpha": 1.0,
+            "bridge_alpha": 0.0,
+            "controller_enabled": false,
+            "mural_enabled": true,
+            "bridge_enabled": false,
+            "pose": {
+                "eye": {
+                    "x": 0.06275506317615509,
+                    "y": 3.5782110691070558,
+                    "z": -18.620208740234376
+                },
+                "rotation": {
+                    "x": -0.0037326079327613117,
+                    "y": 0.006047458853572607,
+                    "z": 0.0005311865825206041,
+                    "w": 0.9999746084213257
+                },
+                "fov": 50.301448822021487,
+                "aspect": 1.3333333730697632,
+                "projectionShift": 0.07655492424964905,
+                "projection": {
+                    "e00": 1.597395658493042,
+                    "e01": 0.0,
+                    "e02": 0.0,
+                    "e03": 0.0,
+                    "e10": 0.0,
+                    "e11": 2.1298608779907228,
+                    "e12": 0.07655492424964905,
+                    "e13": 0.0,
+                    "e20": 0.0,
+                    "e21": 0.0,
+                    "e22": -1.0010005235671998,
+                    "e23": -0.10005002468824387,
+                    "e30": 0.0,
+                    "e31": 0.0,
+                    "e32": -1.0,
+                    "e33": 0.0
+                }
+            }
+        },
+        {
+            "cycle": 1,
+            "phase": "normal_return",
+            "state": "Returning",
+            "elapsed_seconds": 14.928770065307618,
+            "progress": 0.796707272529602,
+            "material_alpha": 1.0,
+            "bridge_alpha": 0.0,
+            "controller_enabled": false,
+            "mural_enabled": true,
+            "bridge_enabled": false,
+            "pose": {
+                "eye": {
+                    "x": 0.051047079265117648,
+                    "y": 3.2978456020355226,
+                    "z": -18.67994499206543
+                },
+                "rotation": {
+                    "x": -0.015975143760442735,
+                    "y": 0.025882447138428689,
+                    "z": 0.0022734191734343769,
+                    "w": 0.9995347261428833
+                },
+                "fov": 51.28822326660156,
+                "aspect": 1.3333333730697632,
+                "projectionShift": 0.06527747213840485,
+                "projection": {
+                    "e00": 1.5622828006744385,
+                    "e01": 0.0,
+                    "e02": 0.0,
+                    "e03": 0.0,
+                    "e10": 0.0,
+                    "e11": 2.0830438137054445,
+                    "e12": 0.06527747213840485,
+                    "e13": 0.0,
+                    "e20": 0.0,
+                    "e21": 0.0,
+                    "e22": -1.0010005235671998,
+                    "e23": -0.10005002468824387,
+                    "e30": 0.0,
+                    "e31": 0.0,
+                    "e32": -1.0,
+                    "e33": 0.0
+                }
+            }
+        },
+        {
+            "cycle": 1,
+            "phase": "normal_return",
+            "state": "Returning",
+            "elapsed_seconds": 15.195398330688477,
+            "progress": 0.8411517143249512,
+            "material_alpha": 1.0,
+            "bridge_alpha": 0.0,
+            "controller_enabled": false,
+            "mural_enabled": true,
+            "bridge_enabled": false,
+            "pose": {
+                "eye": {
+                    "x": 0.033140186220407489,
+                    "y": 2.869037628173828,
+                    "z": -18.771312713623048
+                },
+                "rotation": {
+                    "x": -0.03473416343331337,
+                    "y": 0.056275248527526858,
+                    "z": 0.004943011328577995,
+                    "w": 0.9977986812591553
+                },
+                "fov": 52.79745864868164,
+                "aspect": 1.3333333730697632,
+                "projectionShift": 0.04802906885743141,
+                "projection": {
+                    "e00": 1.5109492540359498,
+                    "e01": 0.0,
+                    "e02": 0.0,
+                    "e03": 0.0,
+                    "e10": 0.0,
+                    "e11": 2.014599084854126,
+                    "e12": 0.04802906885743141,
+                    "e13": 0.0,
+                    "e20": 0.0,
+                    "e21": 0.0,
+                    "e22": -1.0010005235671998,
+                    "e23": -0.10005002468824387,
+                    "e30": 0.0,
+                    "e31": 0.0,
+                    "e32": -1.0,
+                    "e33": 0.0
+                }
+            }
+        },
+        {
+            "cycle": 1,
+            "phase": "normal_return",
+            "state": "Returning",
+            "elapsed_seconds": 15.445449829101563,
+            "progress": 0.8828184604644775,
+            "material_alpha": 1.0,
+            "bridge_alpha": 0.0,
+            "controller_enabled": false,
+            "mural_enabled": true,
+            "bridge_enabled": false,
+            "pose": {
+                "eye": {
+                    "x": 0.014741839841008187,
+                    "y": 2.4284610748291017,
+                    "z": -18.86518669128418
+                },
+                "rotation": {
+                    "x": -0.05398416519165039,
+                    "y": 0.08746351301670075,
+                    "z": 0.007682474795728922,
+                    "w": 0.9946742057800293
+                },
+                "fov": 54.348114013671878,
+                "aspect": 1.3333333730697632,
+                "projectionShift": 0.030307285487651826,
+                "projection": {
+                    "e00": 1.4609688520431519,
+                    "e01": 0.0,
+                    "e02": 0.0,
+                    "e03": 0.0,
+                    "e10": 0.0,
+                    "e11": 1.9479584693908692,
+                    "e12": 0.030307285487651826,
+                    "e13": 0.0,
+                    "e20": 0.0,
+                    "e21": 0.0,
+                    "e22": -1.0010005235671998,
+                    "e23": -0.10005002468824387,
+                    "e30": 0.0,
+                    "e31": 0.0,
+                    "e32": -1.0,
+                    "e33": 0.0
+                }
+            }
+        },
+        {
+            "cycle": 1,
+            "phase": "normal_return",
+            "state": "Returning",
+            "elapsed_seconds": 15.712142944335938,
+            "progress": 0.9272753596305847,
+            "material_alpha": 1.0,
+            "bridge_alpha": 0.0,
+            "controller_enabled": false,
+            "mural_enabled": true,
+            "bridge_enabled": false,
+            "pose": {
+                "eye": {
+                    "x": -0.0028244033455848696,
+                    "y": 2.007810592651367,
+                    "z": -18.954814910888673
+                },
+                "rotation": {
+                    "x": -0.07226956635713577,
+                    "y": 0.11708897352218628,
+                    "z": 0.0102846659719944,
+                    "w": 0.990435004234314
+                },
+                "fov": 55.828636169433597,
+                "aspect": 1.3333333730697632,
+                "projectionShift": 0.013387005776166916,
+                "projection": {
+                    "e00": 1.4156477451324463,
+                    "e01": 0.0,
+                    "e02": 0.0,
+                    "e03": 0.0,
+                    "e10": 0.0,
+                    "e11": 1.8875304460525513,
+                    "e12": 0.013387005776166916,
+                    "e13": 0.0,
+                    "e20": 0.0,
+                    "e21": 0.0,
+                    "e22": -1.0010005235671998,
+                    "e23": -0.10005002468824387,
+                    "e30": 0.0,
+                    "e31": 0.0,
+                    "e32": -1.0,
+                    "e33": 0.0
+                }
+            }
+        },
+        {
+            "cycle": 1,
+            "phase": "normal_return",
+            "state": "Returning",
+            "elapsed_seconds": 15.978799819946289,
+            "progress": 0.9717199206352234,
+            "material_alpha": 1.0,
+            "bridge_alpha": 0.0,
+            "controller_enabled": false,
+            "mural_enabled": true,
+            "bridge_enabled": false,
+            "pose": {
+                "eye": {
+                    "x": -0.014351896941661835,
+                    "y": 1.731767177581787,
+                    "z": -19.01363182067871
+                },
+                "rotation": {
+                    "x": -0.08418624103069306,
+                    "y": 0.13639600574970246,
+                    "z": 0.011980525217950344,
+                    "w": 0.9869981408119202
+                },
+                "fov": 56.800201416015628,
+                "aspect": 1.3333333730697632,
+                "projectionShift": 0.002283407375216484,
+                "projection": {
+                    "e00": 1.3870900869369507,
+                    "e01": 0.0,
+                    "e02": 0.0,
+                    "e03": 0.0,
+                    "e10": 0.0,
+                    "e11": 1.8494535684585572,
+                    "e12": 0.002283407375216484,
+                    "e13": 0.0,
+                    "e20": 0.0,
+                    "e21": 0.0,
+                    "e22": -1.0010005235671998,
+                    "e23": -0.10005002468824387,
+                    "e30": 0.0,
+                    "e31": 0.0,
+                    "e32": -1.0,
+                    "e33": 0.0
+                }
+            }
+        },
+        {
+            "cycle": 1,
+            "phase": "normal_return_complete",
+            "state": "GalleryRoaming",
+            "elapsed_seconds": 16.16217803955078,
+            "progress": 1.0,
+            "material_alpha": 1.0,
+            "bridge_alpha": 0.0,
+            "controller_enabled": true,
+            "mural_enabled": true,
+            "bridge_enabled": false,
+            "pose": {
+                "eye": {
+                    "x": -0.016722477972507478,
+                    "y": 1.6749999523162842,
+                    "z": -19.025726318359376
+                },
+                "rotation": {
+                    "x": -0.08662663400173187,
+                    "y": 0.1403498649597168,
+                    "z": 0.01232781819999218,
+                    "w": 0.9862280488014221
+                },
+                "fov": 57.0,
+                "aspect": 1.3333333730697632,
+                "projectionShift": 0.0,
+                "projection": {
+                    "e00": 1.3813279867172242,
+                    "e01": 0.0,
+                    "e02": 0.0,
+                    "e03": 0.0,
+                    "e10": 0.0,
+                    "e11": 1.8417707681655884,
+                    "e12": 0.0,
+                    "e13": 0.0,
+                    "e20": 0.0,
+                    "e21": 0.0,
+                    "e22": -1.0010005235671998,
+                    "e23": -0.10005002468824387,
+                    "e30": 0.0,
+                    "e31": 0.0,
+                    "e32": -1.0,
+                    "e33": 0.0
+                }
+            }
+        }
+    ],
+    "handoffs": [
+        {
+            "phase": "normal",
+            "cycle": 1,
+            "automatic": {
+                "eye": {
+                    "x": 1.993030309677124e-7,
+                    "y": 1.6749999523162842,
+                    "z": -5.0
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                },
+                "fov": 57.0,
+                "aspect": 1.3333333730697632,
+                "projectionShift": 0.0,
+                "projection": {
+                    "e00": 1.3813279867172242,
+                    "e01": 0.0,
+                    "e02": 0.0,
+                    "e03": 0.0,
+                    "e10": 0.0,
+                    "e11": 1.8417707681655884,
+                    "e12": 0.0,
+                    "e13": 0.0,
+                    "e20": 0.0,
+                    "e21": 0.0,
+                    "e22": -1.0010005235671998,
+                    "e23": -0.10005002468824387,
+                    "e30": 0.0,
+                    "e31": 0.0,
+                    "e32": -1.0,
+                    "e33": 0.0
+                }
+            },
+            "first_free": {
+                "eye": {
+                    "x": 1.993030309677124e-7,
+                    "y": 1.6749999523162842,
+                    "z": -5.0
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                },
+                "fov": 57.0,
+                "aspect": 1.3333333730697632,
+                "projectionShift": 0.0,
+                "projection": {
+                    "e00": 1.3813279867172242,
+                    "e01": 0.0,
+                    "e02": 0.0,
+                    "e03": 0.0,
+                    "e10": 0.0,
+                    "e11": 1.8417707681655884,
+                    "e12": 0.0,
+                    "e13": 0.0,
+                    "e20": 0.0,
+                    "e21": 0.0,
+                    "e22": -1.0010005235671998,
+                    "e23": -0.10005002468824387,
+                    "e30": 0.0,
+                    "e31": 0.0,
+                    "e32": -1.0,
+                    "e33": 0.0
+                }
+            },
+            "position_error_m": 0.0,
+            "rotation_error_degrees": 0.0,
+            "fov_error_degrees": 0.0,
+            "projection_max_error": 0.0
+        }
+    ],
+    "route": [
+        {
+            "phase": "gallery_route_start",
+            "feet": {
+                "x": -2.5999999046325685,
+                "y": 0.0,
+                "z": -23.0
+            },
+            "elapsed_seconds": 0.0
+        },
+        {
+            "phase": "gallery_approach",
+            "feet": {
+                "x": -2.5836498737335207,
+                "y": 0.024999916553497316,
+                "z": -22.97484588623047
+            },
+            "elapsed_seconds": 0.0015935897827148438
+        },
+        {
+            "phase": "gallery_approach",
+            "feet": {
+                "x": -2.289354085922241,
+                "y": 0.02499997615814209,
+                "z": -22.522083282470704
+            },
+            "elapsed_seconds": 0.20213675498962403
+        },
+        {
+            "phase": "gallery_approach",
+            "feet": {
+                "x": -2.0767927169799806,
+                "y": 0.02499997615814209,
+                "z": -22.195066452026368
+            },
+            "elapsed_seconds": 0.4187965393066406
+        },
+        {
+            "phase": "gallery_approach",
+            "feet": {
+                "x": -1.880594253540039,
+                "y": 0.024999916553497316,
+                "z": -21.89322280883789
+            },
+            "elapsed_seconds": 0.6194934844970703
+        },
+        {
+            "phase": "gallery_approach",
+            "feet": {
+                "x": -1.6680498123168946,
+                "y": 0.02499997615814209,
+                "z": -21.56623077392578
+            },
+            "elapsed_seconds": 0.8355011940002441
+        },
+        {
+            "phase": "gallery_approach",
+            "feet": {
+                "x": -1.455503225326538,
+                "y": 0.02499997615814209,
+                "z": -21.239234924316408
+            },
+            "elapsed_seconds": 1.0521459579467774
+        },
+        {
+            "phase": "gallery_approach",
+            "feet": {
+                "x": -1.25930655002594,
+                "y": 0.02499997615814209,
+                "z": -20.937395095825197
+            },
+            "elapsed_seconds": 1.2521600723266602
+        },
+        {
+            "phase": "gallery_approach",
+            "feet": {
+                "x": -1.0467602014541627,
+                "y": 0.02499997615814209,
+                "z": -20.610401153564454
+            },
+            "elapsed_seconds": 1.4686193466186524
+        },
+        {
+            "phase": "gallery_approach",
+            "feet": {
+                "x": -0.8342137932777405,
+                "y": 0.024999916553497316,
+                "z": -20.283405303955079
+            },
+            "elapsed_seconds": 1.6855335235595704
+        },
+        {
+            "phase": "gallery_approach",
+            "feet": {
+                "x": -0.6216667890548706,
+                "y": 0.024999916553497316,
+                "z": -19.956411361694337
+            },
+            "elapsed_seconds": 1.9022216796875
+        },
+        {
+            "phase": "gallery_approach",
+            "feet": {
+                "x": -0.40911781787872317,
+                "y": 0.02499997615814209,
+                "z": -19.629411697387697
+            },
+            "elapsed_seconds": 2.118884563446045
+        },
+        {
+            "phase": "gallery_approach",
+            "feet": {
+                "x": -0.19657188653945924,
+                "y": 0.02499997615814209,
+                "z": -19.302417755126954
+            },
+            "elapsed_seconds": 2.335549831390381
+        }
+    ],
+    "images": [
+        {
+            "file": "gallery-initial.png",
+            "width": 1200,
+            "height": 900,
+            "quantized_colors": 2136,
+            "dark_pixels": 3259,
+            "pink_pixels": 0,
+            "camera": {
+                "eye": {
+                    "x": -2.5999999046325685,
+                    "y": 1.649999976158142,
+                    "z": -23.0
+                },
+                "rotation": {
+                    "x": -0.08662663400173187,
+                    "y": 0.1403498649597168,
+                    "z": 0.01232781633734703,
+                    "w": 0.9862280488014221
+                },
+                "fov": 57.0,
+                "aspect": 1.3333333730697632,
+                "projectionShift": 0.0,
+                "projection": {
+                    "e00": 1.3813279867172242,
+                    "e01": 0.0,
+                    "e02": 0.0,
+                    "e03": 0.0,
+                    "e10": 0.0,
+                    "e11": 1.8417707681655884,
+                    "e12": 0.0,
+                    "e13": 0.0,
+                    "e20": 0.0,
+                    "e21": 0.0,
+                    "e22": -1.0010005235671998,
+                    "e23": -0.10005002468824387,
+                    "e30": 0.0,
+                    "e31": 0.0,
+                    "e32": -1.0,
+                    "e33": 0.0
+                }
+            }
+        },
+        {
+            "file": "gallery-before-entry.png",
+            "width": 1200,
+            "height": 900,
+            "quantized_colors": 2405,
+            "dark_pixels": 0,
+            "pink_pixels": 0,
+            "camera": {
+                "eye": {
+                    "x": -0.016722479835152627,
+                    "y": 1.6749999523162842,
+                    "z": -19.025726318359376
+                },
+                "rotation": {
+                    "x": -0.08662663400173187,
+                    "y": 0.1403498649597168,
+                    "z": 0.012327817268669606,
+                    "w": 0.9862280488014221
+                },
+                "fov": 57.0,
+                "aspect": 1.3333333730697632,
+                "projectionShift": 0.0,
+                "projection": {
+                    "e00": 1.3813279867172242,
+                    "e01": 0.0,
+                    "e02": 0.0,
+                    "e03": 0.0,
+                    "e10": 0.0,
+                    "e11": 1.8417707681655884,
+                    "e12": 0.0,
+                    "e13": 0.0,
+                    "e20": 0.0,
+                    "e21": 0.0,
+                    "e22": -1.0010005235671998,
+                    "e23": -0.10005002468824387,
+                    "e30": 0.0,
+                    "e31": 0.0,
+                    "e32": -1.0,
+                    "e33": 0.0
+                }
+            }
+        },
+        {
+            "file": "entry-alignment.png",
+            "width": 1200,
+            "height": 900,
+            "quantized_colors": 2823,
+            "dark_pixels": 4799,
+            "pink_pixels": 0,
+            "camera": {
+                "eye": {
+                    "x": 0.0663108304142952,
+                    "y": 3.6638126373291017,
+                    "z": -18.60157012939453
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                },
+                "fov": 50.0,
+                "aspect": 1.3333333730697632,
+                "projectionShift": 0.08000004291534424,
+                "projection": {
+                    "e00": 1.6083799600601197,
+                    "e01": 0.0,
+                    "e02": 0.0,
+                    "e03": 0.0,
+                    "e10": 0.0,
+                    "e11": 2.1445066928863527,
+                    "e12": 0.08000004291534424,
+                    "e13": 0.0,
+                    "e20": 0.0,
+                    "e21": 0.0,
+                    "e22": -1.0010005235671998,
+                    "e23": -0.10005002468824387,
+                    "e30": 0.0,
+                    "e31": 0.0,
+                    "e32": -1.0,
+                    "e33": 0.0
+                }
+            }
+        },
+        {
+            "file": "entry-bridge.png",
+            "width": 1200,
+            "height": 900,
+            "quantized_colors": 2820,
+            "dark_pixels": 4796,
+            "pink_pixels": 0,
+            "camera": {
+                "eye": {
+                    "x": -0.2693544924259186,
+                    "y": 2.9071922302246095,
+                    "z": -12.359375
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                },
+                "fov": 50.0,
+                "aspect": 1.3333333730697632,
+                "projectionShift": 0.08000004291534424,
+                "projection": {
+                    "e00": 1.6083799600601197,
+                    "e01": 0.0,
+                    "e02": 0.0,
+                    "e03": 0.0,
+                    "e10": 0.0,
+                    "e11": 2.1445066928863527,
+                    "e12": 0.08000004291534424,
+                    "e13": 0.0,
+                    "e20": 0.0,
+                    "e21": 0.0,
+                    "e22": -1.0010005235671998,
+                    "e23": -0.10005002468824387,
+                    "e30": 0.0,
+                    "e31": 0.0,
+                    "e32": -1.0,
+                    "e33": 0.0
+                }
+            }
+        },
+        {
+            "file": "entry-match.png",
+            "width": 1200,
+            "height": 900,
+            "quantized_colors": 2831,
+            "dark_pixels": 4798,
+            "pink_pixels": 0,
+            "camera": {
+                "eye": {
+                    "x": -0.4500000774860382,
+                    "y": 2.5,
+                    "z": -9.0
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                },
+                "fov": 50.0,
+                "aspect": 1.3333333730697632,
+                "projectionShift": 0.08000004291534424,
+                "projection": {
+                    "e00": 1.6083799600601197,
+                    "e01": 0.0,
+                    "e02": 0.0,
+                    "e03": 0.0,
+                    "e10": 0.0,
+                    "e11": 2.1445066928863527,
+                    "e12": 0.08000004291534424,
+                    "e13": 0.0,
+                    "e20": 0.0,
+                    "e21": 0.0,
+                    "e22": -1.0010005235671998,
+                    "e23": -0.10005002468824387,
+                    "e30": 0.0,
+                    "e31": 0.0,
+                    "e32": -1.0,
+                    "e33": 0.0
+                }
+            }
+        },
+        {
+            "file": "entry-middle.png",
+            "width": 1200,
+            "height": 900,
+            "quantized_colors": 1793,
+            "dark_pixels": 0,
+            "pink_pixels": 0,
+            "camera": {
+                "eye": {
+                    "x": -0.4500000774860382,
+                    "y": 2.5,
+                    "z": -9.0
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                },
+                "fov": 50.0,
+                "aspect": 1.3333333730697632,
+                "projectionShift": 0.08000004291534424,
+                "projection": {
+                    "e00": 1.6083799600601197,
+                    "e01": 0.0,
+                    "e02": 0.0,
+                    "e03": 0.0,
+                    "e10": 0.0,
+                    "e11": 2.1445066928863527,
+                    "e12": 0.08000004291534424,
+                    "e13": 0.0,
+                    "e20": 0.0,
+                    "e21": 0.0,
+                    "e22": -1.0010005235671998,
+                    "e23": -0.10005002468824387,
+                    "e30": 0.0,
+                    "e31": 0.0,
+                    "e32": -1.0,
+                    "e33": 0.0
+                }
+            }
+        },
+        {
+            "file": "entry-crossed.png",
+            "width": 1200,
+            "height": 900,
+            "quantized_colors": 1332,
+            "dark_pixels": 0,
+            "pink_pixels": 0,
+            "camera": {
+                "eye": {
+                    "x": -0.3566921055316925,
+                    "y": 2.3289356231689455,
+                    "z": -8.1705961227417
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                },
+                "fov": 51.45145797729492,
+                "aspect": 1.3333333730697632,
+                "projectionShift": 0.06341195851564408,
+                "projection": {
+                    "e00": 1.5565954446792603,
+                    "e01": 0.0,
+                    "e02": 0.0,
+                    "e03": 0.0,
+                    "e10": 0.0,
+                    "e11": 2.07546067237854,
+                    "e12": 0.06341195851564408,
+                    "e13": 0.0,
+                    "e20": 0.0,
+                    "e21": 0.0,
+                    "e22": -1.0010005235671998,
+                    "e23": -0.10005002468824387,
+                    "e30": 0.0,
+                    "e31": 0.0,
+                    "e32": -1.0,
+                    "e33": 0.0
+                }
+            }
+        },
+        {
+            "file": "academy-after-entry.png",
+            "width": 1200,
+            "height": 900,
+            "quantized_colors": 1514,
+            "dark_pixels": 0,
+            "pink_pixels": 0,
+            "camera": {
+                "eye": {
+                    "x": 0.040000200271606448,
+                    "y": 1.6749998331069947,
+                    "z": -5.0
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                },
+                "fov": 57.0,
+                "aspect": 1.3333333730697632,
+                "projectionShift": 0.0,
+                "projection": {
+                    "e00": 1.3813279867172242,
+                    "e01": 0.0,
+                    "e02": 0.0,
+                    "e03": 0.0,
+                    "e10": 0.0,
+                    "e11": 1.8417707681655884,
+                    "e12": 0.0,
+                    "e13": 0.0,
+                    "e20": 0.0,
+                    "e21": 0.0,
+                    "e22": -1.0010005235671998,
+                    "e23": -0.10005002468824387,
+                    "e30": 0.0,
+                    "e31": 0.0,
+                    "e32": -1.0,
+                    "e33": 0.0
+                }
+            }
+        },
+        {
+            "file": "gallery-returned.png",
+            "width": 1200,
+            "height": 900,
+            "quantized_colors": 2405,
+            "dark_pixels": 0,
+            "pink_pixels": 0,
+            "camera": {
+                "eye": {
+                    "x": -0.016722477972507478,
+                    "y": 1.6749999523162842,
+                    "z": -19.025726318359376
+                },
+                "rotation": {
+                    "x": -0.08662663400173187,
+                    "y": 0.1403498649597168,
+                    "z": 0.01232781819999218,
+                    "w": 0.9862280488014221
+                },
+                "fov": 57.0,
+                "aspect": 1.3333333730697632,
+                "projectionShift": 0.0,
+                "projection": {
+                    "e00": 1.3813279867172242,
+                    "e01": 0.0,
+                    "e02": 0.0,
+                    "e03": 0.0,
+                    "e10": 0.0,
+                    "e11": 1.8417707681655884,
+                    "e12": 0.0,
+                    "e13": 0.0,
+                    "e20": 0.0,
+                    "e21": 0.0,
+                    "e22": -1.0010005235671998,
+                    "e23": -0.10005002468824387,
+                    "e30": 0.0,
+                    "e31": 0.0,
+                    "e32": -1.0,
+                    "e33": 0.0
+                }
+            }
+        }
+    ],
+    "runtime_errors": []
+}

@@ -1,6 +1,6 @@
 # 从签字厅走进《雅典学院》：入口研究与方案
 
-状态：2026-10-22 完成官方资料核实、实景观察和现有代码的只读审查。本文件是入口体验方案，尚未改写 Unity 程序；P0 冻结成果保持原状。
+状态：2026-10-23 独立 `feature/entrance-experience` 分支的 A-P1 技术灰盒已完成构建与三轮验证，197/197 项通过；美术仍为 `art_not_accepted`，非无缝。原 `production/main` 的 P0 冻结成果保持原状；本轮真实构建、截图和检查以 `qa/environment/entrance/` 的独立记录为准。
 
 ## 已核实的真实场所
 
@@ -51,3 +51,23 @@
 | 输入和失败路径闭环 | 正常完成、跳过、取消、返回再入共三轮 | 相机被两个模块争抢、鼠标锁丢失、控制器未恢复、重复触发卡死 |
 
 旧37项只证明原学院P0，入口新流程必须生成自己的新证据。第一轮暂不增加LLM、群像、动画或付费3D生成。
+
+## A-P1 实现与运行
+
+工作树根即正式项目根。新增场景为 `unity/Assets/Scenes/EntranceSample.unity`；原 `ProductionSample.unity` 和 P0 生成/验证入口保留。入口生成器复用学院建筑及 v001 人物的独立本地副本，再加一间签字厅研究灰盒；不会将官方研究照片打进 Player。
+
+壁画采用 [World History Encyclopedia 的公版复制图](https://www.worldhistory.org/image/272/the-school-of-athens-by-raphael/)，原件 3820×2964，SHA256 `a351b0b9c429d83e71e992df7d3a433775c37e18ac46ef6f663520b075b17ef4`。来源、作者、图像专用公版声明及下载记录见 `art/environment/entrance/source/source.json`。原图像素不改，材质采样顶部 `[0,0,3820,2388]`；与 P0 研究构图的人工初始对应见 `parameters.json`。复制图视角/裁切不同、群像缺失，因此本轮不宣称无缝配准。
+
+控制：Enter 开始展厅漫游；WASD 移动、右键锁定/环视、Esc 释放鼠标；走近壁画按 E 进入；进入中 Space 跳过、Esc 沿原路径取消；学院台阶前中央金色边框内按 R 返回。返回区为 x∈(-2,2)、z∈(-7,-3)，从这里沿入口前庭返回，避免任意位置直线穿过建筑。自动进入 7 秒、返回 6 秒，落地眼点 `(0,1.675,-5)`。初始抬升和穿画属于创作性镜头，不是历史物理通道。
+
+进入镜头分为四段：0–30% 从当前站位对准壁画研究裁切；30–50% 用同一公版图的满画幅裁切桥接，底层相机仍连续移至 P0 主机位；50–72% 底层镜头固定在主机位，桥接画面淡出显露三维；72–100% 继续走到漫游落点。桥接为相机空间四边形和一份透明材质，没有额外相机、加载或模糊遮罩。返回沿相反视觉关系恢复壁画；取消沿当前进入曲线反向。避免在不匹配的相机位置直接叠加两套透视。
+
+不透明桥接期间画面本身短暂停住，底层相机在遮盖下移动。这是受控的绘画到场景转场，不代表真实可透视门户或无缝空间重建。
+
+运行入口：`unity/start-entrance.cmd`。构建：`scripts/environment/build-entrance.ps1`；独立验证：`scripts/environment/verify-entrance.ps1`。构建输出只在本工作树 `unity/Builds/Entrance/`，日志和新验收只在本工作树。验收请求由 API 驱动、真实 CharacterController 移动和 GPU 出图；它不等于人工键鼠或物理窗口展示检查。
+
+`verify-entrance.ps1 -PreviewOnly` 只运行一次正常进入／返回并采关键帧，报告 `stage=visual_preview`，不能代替最终三轮。完整模式三轮分别在进入进度 24%、42%、62% 取消，覆盖对准、桥接和混合。半透明桥接实际帧汇总检查相机始终固定在 P0 主机位，落地后仍检查第一帧重力与第一步位移。
+
+P0 共享运行时回归使用 `EntranceBuilder.BuildP0Regression` 构建原保存场景，再用旧 `verify.ps1` 将结果写入入口下的 `p0-regression/runs/`。这不重建原 P0 场景，也不覆盖旧验收记录。
+
+最终报告：`qa/environment/entrance/runs/20261023-161151-747/report.json`，197/197，通过 9 次进入、9 次返回、3 次取消，运行时错误 0。原 P0 保存场景共享运行时回归 37/37。`qa/environment/entrance/ACCEPTANCE.md` 汇总历史失败图、新桥接预览及最终证据。API 验证期间 `ProductionSample.Update` 不处理用户输入，直接调用真实请求和控制器；因此不能证明实体 E/Space/Esc/R、鼠标锁或真实 WASD 首帧。首帧重力检查通过不等于实体输入验证。

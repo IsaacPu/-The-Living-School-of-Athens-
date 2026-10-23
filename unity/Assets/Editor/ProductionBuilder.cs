@@ -52,6 +52,16 @@ public static class ProductionBuilder
     [MenuItem("Athens Production/Create P0 sample")]
     public static void CreateScene()
     {
+        GenerateArchitecture(true);
+    }
+
+    public static ProductionSample CreateArchitectureForEntrance()
+    {
+        return GenerateArchitecture(false);
+    }
+
+    private static ProductionSample GenerateArchitecture(bool saveP0)
+    {
         meshes.Clear();
         Directory.CreateDirectory(Generated + "/Meshes");
         Directory.CreateDirectory(Generated + "/Materials");
@@ -81,7 +91,7 @@ public static class ProductionBuilder
         Light("Soft face fill", LightType.Point, new Vector3(-1, 3.4f, -2.5f), Quaternion.identity, new Color(.85f, .90f, 1), 5, false, 7);
         var app = new GameObject("Athens Production Sample - single entry").AddComponent<ProductionSample>();
         app.parameters = spec;
-        ImportCharacter(app);
+        ImportCharacter(app, saveP0 ? "qa/environment/character-import.json" : "qa/environment/entrance/character-import.json");
         var visitor = new GameObject("Visitor - 1.65m eye height");
         app.visitor = visitor.AddComponent<CharacterController>();
         app.visitor.height = 1.75f; app.visitor.radius = .25f;
@@ -105,6 +115,7 @@ public static class ProductionBuilder
         foreach(var anchorObject in new[]{"Front coffered barrel closed stone shell","Middle sky aperture","Far nested arch","Upper platform"})
             GameObject.Find(anchorObject).isStatic=false;
         AssetDatabase.SaveAssets();
+        if (!saveP0) return app;
         EditorSceneManager.SaveScene(scene, ScenePath);
         EditorBuildSettings.scenes = new[] { new EditorBuildSettingsScene(ScenePath, true) };
         var dependencies = AssetDatabase.GetDependencies(ScenePath, true);
@@ -113,6 +124,7 @@ public static class ProductionBuilder
         var report = new GenerationRecord { scene = ScenePath, parameters = "art/environment/architecture-parameters.json", renderer_count = UnityEngine.Object.FindObjectsByType<Renderer>(FindObjectsSortMode.None).Length, mesh_assets = meshes.Count, character_sha256 = app.characterSha256, all_scene_dependencies_inside_project = true, scene_dependencies = dependencies };
         File.WriteAllText(Path.Combine(ProductionRoot, "qa/environment/scene-generation.json"), JsonUtility.ToJson(report, true));
         Debug.Log("[AthensProduction] SCENE_CREATED scene=" + ScenePath + " renderers=" + UnityEngine.Object.FindObjectsByType<Renderer>(FindObjectsSortMode.None).Length + " meshes=" + meshes.Count);
+        return app;
     }
 
     private static void BuildFloor()
@@ -337,7 +349,7 @@ public static class ProductionBuilder
         if (type == LightType.Directional) RenderSettings.sun = light;
     }
 
-    private static void ImportCharacter(ProductionSample app)
+    private static void ImportCharacter(ProductionSample app, string reportRelativePath)
     {
         var deliveryPath = Path.Combine(ProductionRoot, "art/characters/plato/v001/delivery.json");
         if (!File.Exists(deliveryPath)) throw new BuildFailedException("B delivery is not ready: " + deliveryPath);
@@ -370,7 +382,9 @@ public static class ProductionBuilder
         app.characterSha256 = digest; app.characterStatus = delivery.art_status;
         app.characterAssetPath = target;
         var record = new ImportRecord { delivery = "art/characters/plato/v001/delivery.json", source_glb = Path.GetRelativePath(ProductionRoot, source).Replace('\\', '/'), imported_glb = target, sha256 = digest, bytes = delivery.bytes, body_height_m = delivery.body_height_m, placement_yaw_degrees = spec.plato_yaw, art_status = delivery.art_status };
-        File.WriteAllText(Path.Combine(ProductionRoot, "qa/environment/character-import.json"), JsonUtility.ToJson(record, true));
+        var reportPath = Path.Combine(ProductionRoot, reportRelativePath);
+        Directory.CreateDirectory(Path.GetDirectoryName(reportPath));
+        File.WriteAllText(reportPath, JsonUtility.ToJson(record, true));
         Debug.Log("[AthensProduction] CHARACTER_IMPORTED hash=" + digest + " rotation=scene_only scale=unchanged art=" + delivery.art_status);
     }
 

@@ -1,0 +1,26 @@
+{
+  "title": "The School of Athens by Raphael",
+  "author": "Raphael (1483-1520)",
+  "work_date": "1510-1511",
+  "source_page": "https://www.worldhistory.org/image/272/the-school-of-athens-by-raphael/",
+  "download_url": "https://www.worldhistory.org/uploads/images/272.jpg?v=1789664725-0",
+  "license_designation": "Public Domain, explicit image-specific License & Copyright section at source page",
+  "license_reference": "https://www.worldhistory.org/image/272/the-school-of-athens-by-raphael/#license",
+  "source_credit": "World History Encyclopedia; uploaded by Joshua J. Mark, 26 April 2012; original reproduction credited by source to Wikimedia Commons",
+  "license_note": "This image-specific Public Domain statement is separate from the websites default text license. Vatican museum research photographs are not used.",
+  "retrieved_date": "2026-10-23",
+  "http_status": 200,
+  "content_type": "image/jpeg",
+  "bytes": 2468838,
+  "sha256": "a351b0b9c429d83e71e992df7d3a433775c37e18ac46ef6f663520b075b17ef4",
+  "width": 3820,
+  "height": 2964,
+  "shipping_use": "Entrance mural texture in A-P1 branch",
+  "modifications": "Unmodified source pixels; engine sampling and study-region mapping recorded separately.",
+  "unavailable_alternative": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Raphael_School_of_Athens.jpg",
+    "http_status": 429,
+    "attempts": 1,
+    "network_settings_changed": false
+  }
+}

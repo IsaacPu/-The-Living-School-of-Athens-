@@ -1,0 +1,39 @@
+{
+  "phase": "A-P1_entrance_graybox",
+  "reviews": [
+    {
+      "run": "runs/20261023-032347-097",
+      "technical_report_passed": true,
+      "technical_checks": 190,
+      "visual_status": "rejected",
+      "reviewer": "project_lead_and_A",
+      "reason": "The translucent physical mural was blended while the camera was far from P0 hero. Painting and 3D arches, stairs and Plato appeared at nearly twice different scales. This was not merely the missing crowd.",
+      "evidence": ["gallery-initial.png", "entry-alignment.png", "entry-middle.png", "entry-crossed.png"],
+      "retained": true
+    },
+    {
+      "run": "runs/20261023-142048-542",
+      "technical_report_passed": true,
+      "technical_checks": 56,
+      "visual_status": "technical_graybox_approved_for_final_QA",
+      "art_status": "art_not_accepted",
+      "seamless": false,
+      "reviewer": "project_lead_actual_image_review",
+      "lead_review": "The near-double-scale error is fixed and the physical left door and ceiling are visible. Proceed to final three-cycle technical QA after the character render window. Visible double images, edge structures, missing crowd and P0 roughness remain; this is not art acceptance or a seamless transition.",
+      "scope": "Single visual preview only, not the final three-cycle acceptance.",
+      "change": "Camera-space crop bridge holds while the hidden camera moves continuously to hero. Translucent mixing only happens at the fixed P0 hero camera. Initial gallery observation moved back 2m to include the physical left door and ceiling.",
+      "A_review": "The near-double-scale mismatch is removed. Remaining stone details, outer frame, colors, character pose and missing crowd still create visible differences; not a seamless or finished art claim.",
+      "evidence": ["gallery-initial.png", "entry-alignment.png", "entry-bridge.png", "entry-match.png", "entry-middle.png", "entry-crossed.png", "academy-after-entry.png"]
+    }
+  ],
+  "final_three_cycle_status": "technical_qa_passed_art_not_accepted",
+  "final_report": "runs/20261023-161151-747/report.json",
+  "final_checks_passed": 197,
+  "final_completed_entries": 9,
+  "final_completed_returns": 9,
+  "final_cancelled_entries": 3,
+  "final_runtime_errors": 0,
+  "independent_code_review": "No mandatory crash or state-corruption issue found; segmented joins, cancel and skip bridge cleanup reviewed.",
+  "bridge_limitation": "Painting image itself holds still during opaque bridge while the underlying camera moves. Not a true portal or seamless reconstruction.",
+  "physical_keyboard_mouse_and_window_presentation": "not_verified_by_API_probe; verifying skips ProductionSample.Update, requests and Drive are direct calls; gravity-first-frame check is not real WASD input"
+}

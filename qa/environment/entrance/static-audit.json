@@ -1,0 +1,14 @@
+{
+  "p0_scene_unchanged": true,
+  "p0_historical_reports_unchanged": true,
+  "character_v001_unchanged": true,
+  "public_domain_source_sha256": "a351b0b9c429d83e71e992df7d3a433775c37e18ac46ef6f663520b075b17ef4",
+  "source_diff_check": "passed for C#, shader, PowerShell, CMD, Markdown and JSON",
+  "unity_generated_format": "Unity native YAML retains Unity-generated empty-field whitespace",
+  "p0_regression_report": "p0-regression/runs/20261023-033126-701/verification.json",
+  "p0_regression_checks": 37,
+  "p0_regression_passed": true,
+  "visual_status": "art_not_accepted",
+  "seamless": false,
+  "physical_input_verified": false
+}
