@@ -1,6 +1,6 @@
 # Einar：来源／许可／资源静态评估
 
-结论：官方来源、免费标签、CC BY 4.0 与指定署名已核实。**raw `.base` 灰模的老人形体未通过；阶段 3／4 已查明该灰模移除了原艺术家的真实雕刻层：基础头对象通过 Subsurf → `texture_displacement` Geometry Nodes，以 UVMap 读取单通道默认 EXR、Midlevel 0.5、Scale 0.008 沿法线变形。材质的 Displacement 未连接不代表对象无位移。** 已找到准确默认层恢复依据，尚未恢复／求值或新渲染，不能评价完整 Einar 是否通过。见 [集中诊断](einar-intake/STAGE3_4.md)；原灰模见 [阶段 2](einar-intake/STAGE2.md)。
+结论：官方来源、免费标签、CC BY 4.0 与指定署名已核实。**阶段 3／4 找到原艺术家默认雕刻的真实几何节点载体后，阶段 5 已按原 Midlevel .5／Scale .008、源 UV 与细分参数在 clean 头上恢复，并完成唯一 A/B 两张图。B 的眉眶、眼下、颊颈皱褶可见增加，技术恢复成立；柏拉图年龄目标仍待视觉验收。** 实际图及数值见 [阶段 5](einar-intake/STAGE5.md)，依据见 [集中诊断](einar-intake/STAGE3_4.md)。原 raw 图移除了雕刻层，不能代表完整 Einar；没有运行来源 rig／driver／Text 或整套角色。
 
 ## 当前证据
 

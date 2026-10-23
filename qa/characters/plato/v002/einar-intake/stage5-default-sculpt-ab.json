@@ -1,0 +1,96 @@
+{
+  "stage": "5_source_default_sculpt_AB",
+  "source_mesh": "DATA_GEO-einar_head.base",
+  "source_page": "https://studio.blender.org/characters/einar/v1/",
+  "required_credit": "Einar Rig (CC-BY) Blender Foundation | studio.blender.org",
+  "license": "CC BY 4.0",
+  "license_url": "https://creativecommons.org/licenses/by/4.0/",
+  "changes": "Independent clean raw base with preserved UVMap/crease/sharp data; source Catmull-Clark L2 and reconstructed nine-node scalar default sculpt. Gray controlled A/B lighting; no artistic deformation or source rig/expression/hair/eyes.",
+  "raw_geometry_sha256": "8e663a29780d9775cc3038bea86d181f5230347c8b985b356a57cef23aa493f6",
+  "source_and_copy_UVMap_sha256": "c6b59002900be2b369db99a16cbee6257a73d76b4cf7c76637e41993b8f41f34",
+  "preserved_crease_attributes": [
+    "crease_edge"
+  ],
+  "texture_source": "D:\\AI\\PROJECT\\hackathon_projects\\Aholo_3D_AI_Hackathon\\project-management\\source-cache\\einar-v1\\extracted\\textures\\displacement\\face\\disp_default.exr",
+  "texture_local_copy": "D:\\AI\\PROJECT\\hackathon_projects\\Aholo_3D_AI_Hackathon\\worktrees\\plato-refinement\\art\\characters\\plato\\v002\\einar-default-sculpt-review\\textures\\disp_default.exr",
+  "texture_sha256": "782488ea8f9107c41a93465a0dcdf31894ce18885cc65c0e2e88241a7d6fe116",
+  "default_parameters": {
+    "midlevel": 0.5,
+    "scale": 0.00800000037997961,
+    "UV": "UVMap",
+    "sampling": "Linear/REPEAT",
+    "capture_domain": "CORNER"
+  },
+  "A_counts": {
+    "vertices": 72666,
+    "polygons": 72352,
+    "triangles": 144704
+  },
+  "B_counts": {
+    "vertices": 72666,
+    "polygons": 72352,
+    "triangles": 144704
+  },
+  "same_evaluated_topology": true,
+  "max_displacement_source_units": 0.002765604488029155,
+  "rms_displacement_source_units": 0.00045126632816344816,
+  "vertices_moved_above_1e_8": 72648,
+  "A_bounds": {
+    "min": [
+      -0.1387650966644287,
+      -0.16056731343269348,
+      1.4047982692718506
+    ],
+    "max": [
+      0.13876555860042572,
+      0.08485494554042816,
+      1.7450358867645264
+    ]
+  },
+  "B_bounds": {
+    "min": [
+      -0.13972653448581696,
+      -0.1611301302909851,
+      1.40451180934906
+    ],
+    "max": [
+      0.1397264003753662,
+      0.08486439287662506,
+      1.746305227279663
+    ]
+  },
+  "A_image": "D:\\AI\\PROJECT\\hackathon_projects\\Aholo_3D_AI_Hackathon\\worktrees\\plato-refinement\\qa\\characters\\plato\\v002\\einar-intake\\einar-default-A-subdiv2.png",
+  "B_image": "D:\\AI\\PROJECT\\hackathon_projects\\Aholo_3D_AI_Hackathon\\worktrees\\plato-refinement\\qa\\characters\\plato\\v002\\einar-intake\\einar-default-B-sculpt.png",
+  "requested_render_count": 2,
+  "completed_render_count": 2,
+  "render_settings": {
+    "resolution": [
+      768,
+      768
+    ],
+    "samples": 16,
+    "CPU_threads": 4,
+    "gray_base_color": [
+      0.24,
+      0.24,
+      0.24,
+      1
+    ],
+    "exposure": 0,
+    "light_watts": [
+      8,
+      2,
+      6
+    ]
+  },
+  "source_IDs_cleared_before_any_geometry_evaluation": true,
+  "only_clean_geometry_evaluated": true,
+  "source_drivers_Text_Objects_or_rig_evaluated": false,
+  "loaded_source_texture_files": [
+    "disp_default.exr"
+  ],
+  "art_accepted": false,
+  "editable_blend": "D:\\AI\\PROJECT\\hackathon_projects\\Aholo_3D_AI_Hackathon\\worktrees\\plato-refinement\\art\\characters\\plato\\v002\\einar-default-sculpt-review\\einar-default-sculpt-AB.blend",
+  "relative_texture_path_in_blend": "//textures/disp_default.exr",
+  "total_script_seconds": 14.7391
+}
