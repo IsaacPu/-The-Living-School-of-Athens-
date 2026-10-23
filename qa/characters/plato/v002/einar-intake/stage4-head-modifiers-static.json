@@ -1,0 +1,2711 @@
+{
+  "schema_version": 1,
+  "stage": "4_static_head_Object_modifiers_only",
+  "created_utc": "2026-10-23T12:50:33.347898+00:00",
+  "source": "D:\\AI\\PROJECT\\hackathon_projects\\Aholo_3D_AI_Hackathon\\project-management\\source-cache\\einar-v1\\extracted\\einar_release_v1.blend",
+  "blender_version": "4.5.15 LTS",
+  "requested_Objects": [
+    "GEO-einar_head",
+    "GEO-einar_head.base",
+    "GEO-einar_head.base.001"
+  ],
+  "explicit_data_to_assigned_members": [
+    "objects"
+  ],
+  "source_Objects": [
+    {
+      "name": "GEO-einar_head",
+      "type": "MESH",
+      "data_name": "DATA_GEO-einar_head",
+      "parent_name": "RIG-einar",
+      "serialized_transform_not_evaluated": {
+        "location": [
+          0.0,
+          -0.00016756815603002906,
+          0.054400041699409485
+        ],
+        "rotation_euler": [
+          0.0,
+          -0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "parent_type": "OBJECT",
+        "parent_bone": ""
+      },
+      "hide_viewport": false,
+      "hide_render": false,
+      "source_scene_memberships": [],
+      "object_driver_paths_only": [
+        {
+          "data_path": "[\"Viewport Bump\"]",
+          "array_index": 0,
+          "mute": false
+        },
+        {
+          "data_path": "modifiers[\"RIG-Tweak Lattice Eye Bulge L\"].strength",
+          "array_index": 0,
+          "mute": false
+        },
+        {
+          "data_path": "modifiers[\"RIG-Tweak Lattice Eye Bulge R\"].strength",
+          "array_index": 0,
+          "mute": false
+        },
+        {
+          "data_path": "modifiers[\"RIG-Subdivision\"].levels",
+          "array_index": 0,
+          "mute": false
+        },
+        {
+          "data_path": "modifiers[\"SH-Stretch Map\"].show_viewport",
+          "array_index": 0,
+          "mute": false
+        },
+        {
+          "data_path": "modifiers[\"RIG-Displacement\"][\"Input_24\"]",
+          "array_index": 0,
+          "mute": false
+        },
+        {
+          "data_path": "modifiers[\"RIG-Displacement\"][\"Input_26\"]",
+          "array_index": 0,
+          "mute": false
+        },
+        {
+          "data_path": "modifiers[\"RIG-Displacement\"][\"Input_28\"]",
+          "array_index": 0,
+          "mute": false
+        },
+        {
+          "data_path": "modifiers[\"RIG-Displacement\"][\"Input_30\"]",
+          "array_index": 0,
+          "mute": false
+        },
+        {
+          "data_path": "modifiers[\"RIG-Displacement\"][\"Input_32\"]",
+          "array_index": 0,
+          "mute": false
+        },
+        {
+          "data_path": "modifiers[\"RIG-Displacement\"][\"Input_34\"]",
+          "array_index": 0,
+          "mute": false
+        },
+        {
+          "data_path": "modifiers[\"RIG-Displacement\"][\"Input_36\"]",
+          "array_index": 0,
+          "mute": false
+        },
+        {
+          "data_path": "modifiers[\"RIG-Displacement\"][\"Input_38\"]",
+          "array_index": 0,
+          "mute": false
+        },
+        {
+          "data_path": "modifiers[\"RIG-Displacement\"][\"Input_40\"]",
+          "array_index": 0,
+          "mute": false
+        },
+        {
+          "data_path": "modifiers[\"RIG-Displacement\"][\"Input_42\"]",
+          "array_index": 0,
+          "mute": false
+        },
+        {
+          "data_path": "modifiers[\"RIG-Displacement\"][\"Input_44\"]",
+          "array_index": 0,
+          "mute": false
+        },
+        {
+          "data_path": "modifiers[\"RIG-Displacement\"][\"Input_46\"]",
+          "array_index": 0,
+          "mute": false
+        },
+        {
+          "data_path": "modifiers[\"RIG-Displacement\"][\"Input_48\"]",
+          "array_index": 0,
+          "mute": false
+        },
+        {
+          "data_path": "modifiers[\"RIG-Displacement\"][\"Input_50\"]",
+          "array_index": 0,
+          "mute": false
+        },
+        {
+          "data_path": "modifiers[\"RIG-Displacement\"][\"Input_52\"]",
+          "array_index": 0,
+          "mute": false
+        },
+        {
+          "data_path": "modifiers[\"RIG-Displacement\"][\"Input_54\"]",
+          "array_index": 0,
+          "mute": false
+        },
+        {
+          "data_path": "modifiers[\"RIG-Displacement\"][\"Input_56\"]",
+          "array_index": 0,
+          "mute": false
+        },
+        {
+          "data_path": "modifiers[\"RIG-Displacement\"][\"Input_58\"]",
+          "array_index": 0,
+          "mute": false
+        },
+        {
+          "data_path": "modifiers[\"RIG-Displacement\"][\"Input_60\"]",
+          "array_index": 0,
+          "mute": false
+        },
+        {
+          "data_path": "modifiers[\"RIG-Displacement\"][\"Input_62\"]",
+          "array_index": 0,
+          "mute": false
+        },
+        {
+          "data_path": "modifiers[\"RIG-Displacement\"][\"Input_64\"]",
+          "array_index": 0,
+          "mute": false
+        },
+        {
+          "data_path": "modifiers[\"RIG-Displacement\"][\"Input_66\"]",
+          "array_index": 0,
+          "mute": false
+        },
+        {
+          "data_path": "modifiers[\"RIG-Displacement\"][\"Input_68\"]",
+          "array_index": 0,
+          "mute": false
+        },
+        {
+          "data_path": "modifiers[\"RIG-Displacement\"][\"Input_70\"]",
+          "array_index": 0,
+          "mute": false
+        },
+        {
+          "data_path": "modifiers[\"RIG-Displacement\"][\"Input_72\"]",
+          "array_index": 0,
+          "mute": false
+        },
+        {
+          "data_path": "modifiers[\"RIG-Displacement\"][\"Input_74\"]",
+          "array_index": 0,
+          "mute": false
+        },
+        {
+          "data_path": "modifiers[\"RIG-Displacement\"][\"Input_76\"]",
+          "array_index": 0,
+          "mute": false
+        },
+        {
+          "data_path": "modifiers[\"RIG-Displacement\"][\"Input_78\"]",
+          "array_index": 0,
+          "mute": false
+        },
+        {
+          "data_path": "modifiers[\"RIG-Displacement\"][\"Input_80\"]",
+          "array_index": 0,
+          "mute": false
+        },
+        {
+          "data_path": "modifiers[\"RIG-Displacement\"][\"Input_82\"]",
+          "array_index": 0,
+          "mute": false
+        },
+        {
+          "data_path": "modifiers[\"RIG-Displacement\"][\"Input_84\"]",
+          "array_index": 0,
+          "mute": false
+        },
+        {
+          "data_path": "modifiers[\"RIG-Displacement\"][\"Input_86\"]",
+          "array_index": 0,
+          "mute": false
+        },
+        {
+          "data_path": "modifiers[\"RIG-Displacement\"][\"Input_88\"]",
+          "array_index": 0,
+          "mute": false
+        },
+        {
+          "data_path": "modifiers[\"RIG-Displacement\"][\"Input_90\"]",
+          "array_index": 0,
+          "mute": false
+        },
+        {
+          "data_path": "modifiers[\"RIG-Displacement\"][\"Input_92\"]",
+          "array_index": 0,
+          "mute": false
+        },
+        {
+          "data_path": "modifiers[\"RIG-Displacement\"][\"Input_94\"]",
+          "array_index": 0,
+          "mute": false
+        },
+        {
+          "data_path": "modifiers[\"RIG-Displacement\"][\"Input_96\"]",
+          "array_index": 0,
+          "mute": false
+        },
+        {
+          "data_path": "modifiers[\"RIG-Displacement\"][\"Input_98\"]",
+          "array_index": 0,
+          "mute": false
+        },
+        {
+          "data_path": "modifiers[\"RIG-Displacement\"][\"Input_100\"]",
+          "array_index": 0,
+          "mute": false
+        },
+        {
+          "data_path": "modifiers[\"RIG-Displacement\"].show_viewport",
+          "array_index": 0,
+          "mute": false
+        },
+        {
+          "data_path": "[\"Distress Stage\"]",
+          "array_index": 0,
+          "mute": false
+        }
+      ],
+      "modifiers": [
+        {
+          "stack_index": 0,
+          "name": "RIG-Armature",
+          "type": "ARMATURE",
+          "show_viewport": true,
+          "show_render": true,
+          "show_in_editmode": true,
+          "show_on_cage": true,
+          "settings": {
+            "object": {
+              "ID_name": "RIG-einar",
+              "ID_type": "OBJECT"
+            },
+            "use_vertex_groups": true,
+            "use_bone_envelopes": false,
+            "use_deform_preserve_volume": false,
+            "vertex_group": "",
+            "invert_vertex_group": false
+          }
+        },
+        {
+          "stack_index": 1,
+          "name": "RIG-CorrectiveSmooth",
+          "type": "CORRECTIVE_SMOOTH",
+          "show_viewport": true,
+          "show_render": true,
+          "show_in_editmode": true,
+          "show_on_cage": true,
+          "settings": {
+            "vertex_group": "corrective_smooth",
+            "factor": 0.800000011920929,
+            "iterations": 2
+          }
+        },
+        {
+          "stack_index": 2,
+          "name": "RIG-Subdivision",
+          "type": "SUBSURF",
+          "show_viewport": true,
+          "show_render": true,
+          "show_in_editmode": true,
+          "show_on_cage": false,
+          "settings": {
+            "subdivision_type": "CATMULL_CLARK",
+            "levels": 0,
+            "render_levels": 2,
+            "quality": 3,
+            "uv_smooth": "PRESERVE_BOUNDARIES",
+            "boundary_smooth": "ALL",
+            "use_creases": true,
+            "use_limit_surface": true
+          }
+        },
+        {
+          "stack_index": 3,
+          "name": "RIG-Tweak Lattice Eye Bulge L",
+          "type": "LATTICE",
+          "show_viewport": true,
+          "show_render": true,
+          "show_in_editmode": true,
+          "show_on_cage": true,
+          "settings": {
+            "vertex_group": "Eye_Cast.L",
+            "strength": 1.0,
+            "object": {
+              "ID_name": "LTC-Eye_Bulge.L",
+              "ID_type": "OBJECT"
+            }
+          }
+        },
+        {
+          "stack_index": 4,
+          "name": "RIG-Tweak Lattice Eye Bulge R",
+          "type": "LATTICE",
+          "show_viewport": true,
+          "show_render": true,
+          "show_in_editmode": true,
+          "show_on_cage": true,
+          "settings": {
+            "vertex_group": "Eye_Cast.R",
+            "strength": 1.0,
+            "object": {
+              "ID_name": "LTC-Eye_Bulge.R",
+              "ID_type": "OBJECT"
+            }
+          }
+        },
+        {
+          "stack_index": 5,
+          "name": "RIG-Displacement",
+          "type": "NODES",
+          "show_viewport": false,
+          "show_render": true,
+          "show_in_editmode": true,
+          "show_on_cage": false,
+          "node_group": "Displacement_Face",
+          "public_parameters_serialized": {
+            "Input_2": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "Input_2_use_attribute": 1,
+            "Input_2_attribute_name": "UVMap",
+            "Input_3": {
+              "ID_name": "disp_default",
+              "ID_type": "IMAGE"
+            },
+            "Input_4": 0.5,
+            "Input_4_use_attribute": 0,
+            "Input_4_attribute_name": "",
+            "Input_5": 0.00800000037997961,
+            "Input_5_use_attribute": 0,
+            "Input_5_attribute_name": "",
+            "Input_6": {
+              "ID_name": "disp_facial_shapes_A",
+              "ID_type": "IMAGE"
+            },
+            "Input_7": 0.5,
+            "Input_7_use_attribute": 0,
+            "Input_7_attribute_name": "",
+            "Input_8": 0.00800000037997961,
+            "Input_8_use_attribute": 0,
+            "Input_8_attribute_name": "",
+            "Input_9": {
+              "ID_name": "disp_facial_shapes_B",
+              "ID_type": "IMAGE"
+            },
+            "Input_10": 0.5,
+            "Input_10_use_attribute": 0,
+            "Input_10_attribute_name": "",
+            "Input_11": 0.00800000037997961,
+            "Input_11_use_attribute": 0,
+            "Input_11_attribute_name": "",
+            "Input_12": {
+              "ID_name": "disp_facial_shapes_C",
+              "ID_type": "IMAGE"
+            },
+            "Input_13": 0.5,
+            "Input_13_use_attribute": 0,
+            "Input_13_attribute_name": "",
+            "Input_14": 0.00800000037997961,
+            "Input_14_use_attribute": 0,
+            "Input_14_attribute_name": "",
+            "Input_15": {
+              "ID_name": "disp_facial_shapes_D",
+              "ID_type": "IMAGE"
+            },
+            "Input_16": 0.5,
+            "Input_16_use_attribute": 0,
+            "Input_16_attribute_name": "",
+            "Input_17": 0.00800000037997961,
+            "Input_17_use_attribute": 0,
+            "Input_17_attribute_name": "",
+            "Input_18": {
+              "ID_name": "disp_facial_shapes_E",
+              "ID_type": "IMAGE"
+            },
+            "Input_19": 0.5,
+            "Input_19_use_attribute": 0,
+            "Input_19_attribute_name": "",
+            "Input_20": 0.00800000037997961,
+            "Input_20_use_attribute": 0,
+            "Input_20_attribute_name": "",
+            "Input_21": {
+              "ID_name": "disp_facial_shapes_F",
+              "ID_type": "IMAGE"
+            },
+            "Input_22": 0.5,
+            "Input_22_use_attribute": 0,
+            "Input_22_attribute_name": "",
+            "Input_23": 0.00800000037997961,
+            "Input_23_use_attribute": 0,
+            "Input_23_attribute_name": "",
+            "Input_24": 0.0,
+            "Input_24_use_attribute": 0,
+            "Input_24_attribute_name": "",
+            "Input_25": 1.0,
+            "Input_25_use_attribute": 1,
+            "Input_25_attribute_name": "SK-A-JawOpen",
+            "Input_26": 0.0,
+            "Input_26_use_attribute": 0,
+            "Input_26_attribute_name": "",
+            "Input_27": 1.0,
+            "Input_27_use_attribute": 1,
+            "Input_27_attribute_name": "SK-A-JawOpen",
+            "Input_28": 0.0,
+            "Input_28_use_attribute": 0,
+            "Input_28_attribute_name": "",
+            "Input_29": 1.0,
+            "Input_29_use_attribute": 1,
+            "Input_29_attribute_name": "SK-C-Eyelid_Upper.L",
+            "Input_30": 0.0,
+            "Input_30_use_attribute": 0,
+            "Input_30_attribute_name": "",
+            "Input_31": 1.0,
+            "Input_31_use_attribute": 1,
+            "Input_31_attribute_name": "SK-C-Eyelid_Upper.R",
+            "Input_32": 0.0,
+            "Input_32_use_attribute": 0,
+            "Input_32_attribute_name": "",
+            "Input_33": 1.0,
+            "Input_33_use_attribute": 1,
+            "Input_33_attribute_name": "SK-A-Eyebrow_Inner.L",
+            "Input_34": 0.0,
+            "Input_34_use_attribute": 0,
+            "Input_34_attribute_name": "",
+            "Input_35": 1.0,
+            "Input_35_use_attribute": 1,
+            "Input_35_attribute_name": "SK-A-Eyebrow_Inner.R",
+            "Input_36": 1.1920928955078125e-05,
+            "Input_36_use_attribute": 0,
+            "Input_36_attribute_name": "",
+            "Input_37": 1.0,
+            "Input_37_use_attribute": 1,
+            "Input_37_attribute_name": "SK-A-Eyebrow_Outer.L",
+            "Input_38": 0.0,
+            "Input_38_use_attribute": 0,
+            "Input_38_attribute_name": "",
+            "Input_39": 1.0,
+            "Input_39_use_attribute": 1,
+            "Input_39_attribute_name": "SK-A-Eyebrow_Outer.R",
+            "Input_40": 3.5762786865234375e-05,
+            "Input_40_use_attribute": 0,
+            "Input_40_attribute_name": "",
+            "Input_41": 1.0,
+            "Input_41_use_attribute": 1,
+            "Input_41_attribute_name": "SK-B-Nose_Sneer.L",
+            "Input_42": 3.5762786865234375e-05,
+            "Input_42_use_attribute": 0,
+            "Input_42_attribute_name": "",
+            "Input_43": 1.0,
+            "Input_43_use_attribute": 1,
+            "Input_43_attribute_name": "SK-B-Nose_Sneer.R",
+            "Input_44": 4.76837158203125e-05,
+            "Input_44_use_attribute": 0,
+            "Input_44_attribute_name": "",
+            "Input_45": 1.0,
+            "Input_45_use_attribute": 1,
+            "Input_45_attribute_name": "SK-UpperLip.L",
+            "Input_46": 2.384185791015625e-05,
+            "Input_46_use_attribute": 0,
+            "Input_46_attribute_name": "",
+            "Input_47": 1.0,
+            "Input_47_use_attribute": 1,
+            "Input_47_attribute_name": "SK-UpperLip.R",
+            "Input_48": 0.0,
+            "Input_48_use_attribute": 0,
+            "Input_48_attribute_name": "",
+            "Input_49": 1.0,
+            "Input_49_use_attribute": 1,
+            "Input_49_attribute_name": "SK-LowerLip.L",
+            "Input_50": 0.0,
+            "Input_50_use_attribute": 0,
+            "Input_50_attribute_name": "",
+            "Input_51": 1.0,
+            "Input_51_use_attribute": 1,
+            "Input_51_attribute_name": "SK-LowerLip.R",
+            "Input_52": 0.0,
+            "Input_52_use_attribute": 0,
+            "Input_52_attribute_name": "",
+            "Input_53": 1.0,
+            "Input_53_use_attribute": 1,
+            "Input_53_attribute_name": "SK-B-Eyebrow_Sneer",
+            "Input_54": 0.0,
+            "Input_54_use_attribute": 0,
+            "Input_54_attribute_name": "",
+            "Input_55": 1.0,
+            "Input_55_use_attribute": 1,
+            "Input_55_attribute_name": "SK-C-Mouth.L",
+            "Input_56": 0.0,
+            "Input_56_use_attribute": 0,
+            "Input_56_attribute_name": "",
+            "Input_57": 1.0,
+            "Input_57_use_attribute": 1,
+            "Input_57_attribute_name": "SK-C-Mouth.R",
+            "Input_58": 0.0,
+            "Input_58_use_attribute": 0,
+            "Input_58_attribute_name": "",
+            "Input_59": 1.0,
+            "Input_59_use_attribute": 1,
+            "Input_59_attribute_name": "SK-C-CheekRaise.L",
+            "Input_60": 0.0,
+            "Input_60_use_attribute": 0,
+            "Input_60_attribute_name": "",
+            "Input_61": 1.0,
+            "Input_61_use_attribute": 1,
+            "Input_61_attribute_name": "SK-C-CheekRaise.R",
+            "Input_62": 3.973643106292002e-05,
+            "Input_62_use_attribute": 0,
+            "Input_62_attribute_name": "",
+            "Input_63": 1.0,
+            "Input_63_use_attribute": 1,
+            "Input_63_attribute_name": "SK-C-Eyelid_Lower.L",
+            "Input_64": 3.973643106292002e-05,
+            "Input_64_use_attribute": 0,
+            "Input_64_attribute_name": "",
+            "Input_65": 1.0,
+            "Input_65_use_attribute": 1,
+            "Input_65_attribute_name": "SK-C-Eyelid_Lower.R",
+            "Input_66": 1.1175870895385742e-06,
+            "Input_66_use_attribute": 0,
+            "Input_66_attribute_name": "",
+            "Input_67": 1.0,
+            "Input_67_use_attribute": 1,
+            "Input_67_attribute_name": "SK-C-Mouth.L",
+            "Input_68": 0.0,
+            "Input_68_use_attribute": 0,
+            "Input_68_attribute_name": "",
+            "Input_69": 1.0,
+            "Input_69_use_attribute": 1,
+            "Input_69_attribute_name": "SK-C-Mouth.R",
+            "Input_70": 9.934107220033184e-05,
+            "Input_70_use_attribute": 0,
+            "Input_70_attribute_name": "",
+            "Input_71": 1.0,
+            "Input_71_use_attribute": 1,
+            "Input_71_attribute_name": "SK-C-Eyelid_Upper.L",
+            "Input_72": 9.934107220033184e-05,
+            "Input_72_use_attribute": 0,
+            "Input_72_attribute_name": "",
+            "Input_73": 1.0,
+            "Input_73_use_attribute": 1,
+            "Input_73_attribute_name": "SK-C-Eyelid_Upper.R",
+            "Input_74": 0.0,
+            "Input_74_use_attribute": 0,
+            "Input_74_attribute_name": "",
+            "Input_75": 1.0,
+            "Input_75_use_attribute": 1,
+            "Input_75_attribute_name": "SK-E-Mouth.L",
+            "Input_76": 0.0,
+            "Input_76_use_attribute": 0,
+            "Input_76_attribute_name": "",
+            "Input_77": 1.0,
+            "Input_77_use_attribute": 1,
+            "Input_77_attribute_name": "SK-E-Mouth.R",
+            "Input_78": 0.0,
+            "Input_78_use_attribute": 0,
+            "Input_78_attribute_name": "",
+            "Input_79": 1.0,
+            "Input_79_use_attribute": 1,
+            "Input_79_attribute_name": "SK-E-Eyebrows_Frown",
+            "Input_80": 0.0,
+            "Input_80_use_attribute": 0,
+            "Input_80_attribute_name": "",
+            "Input_81": 1.0,
+            "Input_81_use_attribute": 1,
+            "Input_81_attribute_name": "SK-E-Eyebrows_Frown",
+            "Input_82": 0.0,
+            "Input_82_use_attribute": 0,
+            "Input_82_attribute_name": "",
+            "Input_83": 1.0,
+            "Input_83_use_attribute": 1,
+            "Input_83_attribute_name": "SK-F-Eyebrow_Inner.L",
+            "Input_84": 0.0,
+            "Input_84_use_attribute": 0,
+            "Input_84_attribute_name": "",
+            "Input_85": 1.0,
+            "Input_85_use_attribute": 1,
+            "Input_85_attribute_name": "SK-F-Eyebrow_Inner.R",
+            "Input_86": 1.7029900334364356e-07,
+            "Input_86_use_attribute": 0,
+            "Input_86_attribute_name": "",
+            "Input_87": 1.0,
+            "Input_87_use_attribute": 1,
+            "Input_87_attribute_name": "SK-F-Lips_Lower",
+            "Input_88": 1.7029900334364356e-07,
+            "Input_88_use_attribute": 0,
+            "Input_88_attribute_name": "",
+            "Input_89": 1.0,
+            "Input_89_use_attribute": 1,
+            "Input_89_attribute_name": "SK-F-Lips_Upper",
+            "Input_90": 0.0,
+            "Input_90_use_attribute": 0,
+            "Input_90_attribute_name": "",
+            "Input_91": 1.0,
+            "Input_91_use_attribute": 1,
+            "Input_91_attribute_name": "SK-F-Eyebrow_Outer.L",
+            "Input_92": 1.1920928955078125e-05,
+            "Input_92_use_attribute": 0,
+            "Input_92_attribute_name": "",
+            "Input_93": 1.0,
+            "Input_93_use_attribute": 1,
+            "Input_93_attribute_name": "SK-F-Eyebrow_Outer.R",
+            "Input_94": 0.0,
+            "Input_94_use_attribute": 0,
+            "Input_94_attribute_name": "",
+            "Input_95": 1.0,
+            "Input_95_use_attribute": 1,
+            "Input_95_attribute_name": "SK-F-Squint.L",
+            "Input_96": 0.0,
+            "Input_96_use_attribute": 0,
+            "Input_96_attribute_name": "",
+            "Input_97": 1.0,
+            "Input_97_use_attribute": 1,
+            "Input_97_attribute_name": "SK-F-Squint.R",
+            "Input_98": 0.0,
+            "Input_98_use_attribute": 0,
+            "Input_98_attribute_name": "",
+            "Input_99": 1.0,
+            "Input_99_use_attribute": 1,
+            "Input_99_attribute_name": "SK-F-Sneer+EyebrowsDown.L",
+            "Input_100": 0.0,
+            "Input_100_use_attribute": 0,
+            "Input_100_attribute_name": "",
+            "Input_101": 1.0,
+            "Input_101_use_attribute": 1,
+            "Input_101_attribute_name": "SK-F-Sneer+EyebrowsDown.R",
+            "Output_102_attribute_name": "shape_influence.BASE",
+            "Output_103_attribute_name": "shape_influence.A",
+            "Output_104_attribute_name": "shape_influence.B",
+            "Output_105_attribute_name": "shape_influence.C",
+            "Output_106_attribute_name": "shape_influence.D",
+            "Output_107_attribute_name": "shape_influence.E",
+            "Output_108_attribute_name": "shape_influence.F"
+          },
+          "interface": [
+            {
+              "name": "Geometry",
+              "identifier": "Output_1",
+              "in_out": "OUTPUT",
+              "socket_type": "NodeSocketGeometry",
+              "serialized_value_not_evaluated": null
+            },
+            {
+              "name": "Shape Influence | BASE",
+              "identifier": "Output_102",
+              "in_out": "OUTPUT",
+              "socket_type": "NodeSocketFloat",
+              "serialized_value_not_evaluated": 0.0
+            },
+            {
+              "name": "Shape Influence | A",
+              "identifier": "Output_103",
+              "in_out": "OUTPUT",
+              "socket_type": "NodeSocketFloat",
+              "serialized_value_not_evaluated": 0.0
+            },
+            {
+              "name": "Shape Influence | B",
+              "identifier": "Output_104",
+              "in_out": "OUTPUT",
+              "socket_type": "NodeSocketFloat",
+              "serialized_value_not_evaluated": 0.0
+            },
+            {
+              "name": "Shape Influence | C",
+              "identifier": "Output_105",
+              "in_out": "OUTPUT",
+              "socket_type": "NodeSocketFloat",
+              "serialized_value_not_evaluated": 0.0
+            },
+            {
+              "name": "Shape Influence | D",
+              "identifier": "Output_106",
+              "in_out": "OUTPUT",
+              "socket_type": "NodeSocketFloat",
+              "serialized_value_not_evaluated": 0.0
+            },
+            {
+              "name": "Shape Influence | E",
+              "identifier": "Output_107",
+              "in_out": "OUTPUT",
+              "socket_type": "NodeSocketFloat",
+              "serialized_value_not_evaluated": 0.0
+            },
+            {
+              "name": "Shape Influence | F",
+              "identifier": "Output_108",
+              "in_out": "OUTPUT",
+              "socket_type": "NodeSocketFloat",
+              "serialized_value_not_evaluated": 0.0
+            },
+            {
+              "name": "Geometry",
+              "identifier": "Input_0",
+              "in_out": "INPUT",
+              "socket_type": "NodeSocketGeometry",
+              "serialized_value_not_evaluated": null
+            },
+            {
+              "name": "UVMap",
+              "identifier": "Input_2",
+              "in_out": "INPUT",
+              "socket_type": "NodeSocketVector",
+              "serialized_value_not_evaluated": [
+                0.0,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "name": "Image | BASE",
+              "identifier": "Input_3",
+              "in_out": "INPUT",
+              "socket_type": "NodeSocketImage",
+              "serialized_value_not_evaluated": null
+            },
+            {
+              "name": "Midlevel | BASE",
+              "identifier": "Input_4",
+              "in_out": "INPUT",
+              "socket_type": "NodeSocketFloat",
+              "serialized_value_not_evaluated": 0.5
+            },
+            {
+              "name": "Scale | BASE",
+              "identifier": "Input_5",
+              "in_out": "INPUT",
+              "socket_type": "NodeSocketFloat",
+              "serialized_value_not_evaluated": 0.00800000037997961
+            },
+            {
+              "name": "Image | A",
+              "identifier": "Input_6",
+              "in_out": "INPUT",
+              "socket_type": "NodeSocketImage",
+              "serialized_value_not_evaluated": null
+            },
+            {
+              "name": "Midlevel | A",
+              "identifier": "Input_7",
+              "in_out": "INPUT",
+              "socket_type": "NodeSocketFloat",
+              "serialized_value_not_evaluated": 0.5
+            },
+            {
+              "name": "Scale | A",
+              "identifier": "Input_8",
+              "in_out": "INPUT",
+              "socket_type": "NodeSocketFloat",
+              "serialized_value_not_evaluated": 0.00800000037997961
+            },
+            {
+              "name": "Image | B",
+              "identifier": "Input_9",
+              "in_out": "INPUT",
+              "socket_type": "NodeSocketImage",
+              "serialized_value_not_evaluated": null
+            },
+            {
+              "name": "Midlevel | B",
+              "identifier": "Input_10",
+              "in_out": "INPUT",
+              "socket_type": "NodeSocketFloat",
+              "serialized_value_not_evaluated": 0.5
+            },
+            {
+              "name": "Scale | B",
+              "identifier": "Input_11",
+              "in_out": "INPUT",
+              "socket_type": "NodeSocketFloat",
+              "serialized_value_not_evaluated": 0.00800000037997961
+            },
+            {
+              "name": "Image | C",
+              "identifier": "Input_12",
+              "in_out": "INPUT",
+              "socket_type": "NodeSocketImage",
+              "serialized_value_not_evaluated": null
+            },
+            {
+              "name": "Midlevel | C",
+              "identifier": "Input_13",
+              "in_out": "INPUT",
+              "socket_type": "NodeSocketFloat",
+              "serialized_value_not_evaluated": 0.5
+            },
+            {
+              "name": "Scale | C",
+              "identifier": "Input_14",
+              "in_out": "INPUT",
+              "socket_type": "NodeSocketFloat",
+              "serialized_value_not_evaluated": 0.00800000037997961
+            },
+            {
+              "name": "Image | D",
+              "identifier": "Input_15",
+              "in_out": "INPUT",
+              "socket_type": "NodeSocketImage",
+              "serialized_value_not_evaluated": null
+            },
+            {
+              "name": "Midlevel | D",
+              "identifier": "Input_16",
+              "in_out": "INPUT",
+              "socket_type": "NodeSocketFloat",
+              "serialized_value_not_evaluated": 0.5
+            },
+            {
+              "name": "Scale | D",
+              "identifier": "Input_17",
+              "in_out": "INPUT",
+              "socket_type": "NodeSocketFloat",
+              "serialized_value_not_evaluated": 0.00800000037997961
+            },
+            {
+              "name": "Image | E",
+              "identifier": "Input_18",
+              "in_out": "INPUT",
+              "socket_type": "NodeSocketImage",
+              "serialized_value_not_evaluated": null
+            },
+            {
+              "name": "Midlevel | E",
+              "identifier": "Input_19",
+              "in_out": "INPUT",
+              "socket_type": "NodeSocketFloat",
+              "serialized_value_not_evaluated": 0.5
+            },
+            {
+              "name": "Scale | E",
+              "identifier": "Input_20",
+              "in_out": "INPUT",
+              "socket_type": "NodeSocketFloat",
+              "serialized_value_not_evaluated": 0.00800000037997961
+            },
+            {
+              "name": "Image | F",
+              "identifier": "Input_21",
+              "in_out": "INPUT",
+              "socket_type": "NodeSocketImage",
+              "serialized_value_not_evaluated": null
+            },
+            {
+              "name": "Midlevel | F",
+              "identifier": "Input_22",
+              "in_out": "INPUT",
+              "socket_type": "NodeSocketFloat",
+              "serialized_value_not_evaluated": 0.5
+            },
+            {
+              "name": "Scale | F",
+              "identifier": "Input_23",
+              "in_out": "INPUT",
+              "socket_type": "NodeSocketFloat",
+              "serialized_value_not_evaluated": 0.00800000037997961
+            },
+            {
+              "name": "JawOpen | A",
+              "identifier": "Input_24",
+              "in_out": "INPUT",
+              "socket_type": "NodeSocketFloat",
+              "serialized_value_not_evaluated": 0.0
+            },
+            {
+              "name": "Mask: JawOpen | A",
+              "identifier": "Input_25",
+              "in_out": "INPUT",
+              "socket_type": "NodeSocketFloat",
+              "serialized_value_not_evaluated": 1.0
+            },
+            {
+              "name": "JawOpenWide | A",
+              "identifier": "Input_26",
+              "in_out": "INPUT",
+              "socket_type": "NodeSocketFloat",
+              "serialized_value_not_evaluated": 0.0
+            },
+            {
+              "name": "Mask: JawOpenWide | A",
+              "identifier": "Input_27",
+              "in_out": "INPUT",
+              "socket_type": "NodeSocketFloat",
+              "serialized_value_not_evaluated": 1.0
+            },
+            {
+              "name": "UpperEyelid_Up.L | A",
+              "identifier": "Input_28",
+              "in_out": "INPUT",
+              "socket_type": "NodeSocketFloat",
+              "serialized_value_not_evaluated": 0.0
+            },
+            {
+              "name": "Mask: UpperEyelid_Up.L | A",
+              "identifier": "Input_29",
+              "in_out": "INPUT",
+              "socket_type": "NodeSocketFloat",
+              "serialized_value_not_evaluated": 1.0
+            },
+            {
+              "name": "UpperEyelid_Up.R | A",
+              "identifier": "Input_30",
+              "in_out": "INPUT",
+              "socket_type": "NodeSocketFloat",
+              "serialized_value_not_evaluated": 0.0
+            },
+            {
+              "name": "Mask: UpperEyelid_Up.R | A",
+              "identifier": "Input_31",
+              "in_out": "INPUT",
+              "socket_type": "NodeSocketFloat",
+              "serialized_value_not_evaluated": 1.0
+            },
+            {
+              "name": "EyebrowRaise_Inner.L | A",
+              "identifier": "Input_32",
+              "in_out": "INPUT",
+              "socket_type": "NodeSocketFloat",
+              "serialized_value_not_evaluated": 0.0
+            },
+            {
+              "name": "Mask: EyebrowRaise_Inner.L | A",
+              "identifier": "Input_33",
+              "in_out": "INPUT",
+              "socket_type": "NodeSocketFloat",
+              "serialized_value_not_evaluated": 1.0
+            },
+            {
+              "name": "EyebrowRaise_Inner.R | A",
+              "identifier": "Input_34",
+              "in_out": "INPUT",
+              "socket_type": "NodeSocketFloat",
+              "serialized_value_not_evaluated": 0.0
+            },
+            {
+              "name": "Mask: EyebrowRaise_Inner.R | A",
+              "identifier": "Input_35",
+              "in_out": "INPUT",
+              "socket_type": "NodeSocketFloat",
+              "serialized_value_not_evaluated": 1.0
+            },
+            {
+              "name": "EyebrowRaise_Outer.L | A",
+              "identifier": "Input_36",
+              "in_out": "INPUT",
+              "socket_type": "NodeSocketFloat",
+              "serialized_value_not_evaluated": 0.0
+            },
+            {
+              "name": "Mask: EyebrowRaise_Outer.L | A",
+              "identifier": "Input_37",
+              "in_out": "INPUT",
+              "socket_type": "NodeSocketFloat",
+              "serialized_value_not_evaluated": 1.0
+            },
+            {
+              "name": "EyebrowRaise_Outer.R | A",
+              "identifier": "Input_38",
+              "in_out": "INPUT",
+              "socket_type": "NodeSocketFloat",
+              "serialized_value_not_evaluated": 0.0
+            },
+            {
+              "name": "Mask: EyebrowRaise_Outer.R | A",
+              "identifier": "Input_39",
+              "in_out": "INPUT",
+              "socket_type": "NodeSocketFloat",
+              "serialized_value_not_evaluated": 1.0
+            },
+            {
+              "name": "Nose_Sneer.L | B",
+              "identifier": "Input_40",
+              "in_out": "INPUT",
+              "socket_type": "NodeSocketFloat",
+              "serialized_value_not_evaluated": 0.0
+            },
+            {
+              "name": "Mask: Nose_Sneer.L | B",
+              "identifier": "Input_41",
+              "in_out": "INPUT",
+              "socket_type": "NodeSocketFloat",
+              "serialized_value_not_evaluated": 1.0
+            },
+            {
+              "name": "Nose_Sneer.R | B",
+              "identifier": "Input_42",
+              "in_out": "INPUT",
+              "socket_type": "NodeSocketFloat",
+              "serialized_value_not_evaluated": 0.0
+            },
+            {
+              "name": "Mask: Nose_Sneer.R | B",
+              "identifier": "Input_43",
+              "in_out": "INPUT",
+              "socket_type": "NodeSocketFloat",
+              "serialized_value_not_evaluated": 1.0
+            },
+            {
+              "name": "Lips_Upper_Sneer.L | B",
+              "identifier": "Input_44",
+              "in_out": "INPUT",
+              "socket_type": "NodeSocketFloat",
+              "serialized_value_not_evaluated": 0.0
+            },
+            {
+              "name": "Mask: Lips_Upper_Sneer.L | B",
+              "identifier": "Input_45",
+              "in_out": "INPUT",
+              "socket_type": "NodeSocketFloat",
+              "serialized_value_not_evaluated": 1.0
+            },
+            {
+              "name": "Lips_Upper_Sneer.R | B",
+              "identifier": "Input_46",
+              "in_out": "INPUT",
+              "socket_type": "NodeSocketFloat",
+              "serialized_value_not_evaluated": 0.0
+            },
+            {
+              "name": "Mask: Lips_Upper_Sneer.R | B",
+              "identifier": "Input_47",
+              "in_out": "INPUT",
+              "socket_type": "NodeSocketFloat",
+              "serialized_value_not_evaluated": 1.0
+            },
+            {
+              "name": "Lips_Lower_Sneer.L | B",
+              "identifier": "Input_48",
+              "in_out": "INPUT",
+              "socket_type": "NodeSocketFloat",
+              "serialized_value_not_evaluated": 0.0
+            },
+            {
+              "name": "Mask: Lips_Lower_Sneer.L | B",
+              "identifier": "Input_49",
+              "in_out": "INPUT",
+              "socket_type": "NodeSocketFloat",
+              "serialized_value_not_evaluated": 1.0
+            },
+            {
+              "name": "Lips_Lower_Sneer.R | B",
+              "identifier": "Input_50",
+              "in_out": "INPUT",
+              "socket_type": "NodeSocketFloat",
+              "serialized_value_not_evaluated": 0.0
+            },
+            {
+              "name": "Mask: Lips_Lower_Sneer.R | B",
+              "identifier": "Input_51",
+              "in_out": "INPUT",
+              "socket_type": "NodeSocketFloat",
+              "serialized_value_not_evaluated": 1.0
+            },
+            {
+              "name": "Eyebrow_Sneer | B",
+              "identifier": "Input_52",
+              "in_out": "INPUT",
+              "socket_type": "NodeSocketFloat",
+              "serialized_value_not_evaluated": 0.0
+            },
+            {
+              "name": "Mask: Eyebrow_Sneer | B",
+              "identifier": "Input_53",
+              "in_out": "INPUT",
+              "socket_type": "NodeSocketFloat",
+              "serialized_value_not_evaluated": 1.0
+            },
+            {
+              "name": "LipsSmile.L | C",
+              "identifier": "Input_54",
+              "in_out": "INPUT",
+              "socket_type": "NodeSocketFloat",
+              "serialized_value_not_evaluated": 0.0
+            },
+            {
+              "name": "Mask: LipsSmile.L | C",
+              "identifier": "Input_55",
+              "in_out": "INPUT",
+              "socket_type": "NodeSocketFloat",
+              "serialized_value_not_evaluated": 1.0
+            },
+            {
+              "name": "LipsSmile.R | C",
+              "identifier": "Input_56",
+              "in_out": "INPUT",
+              "socket_type": "NodeSocketFloat",
+              "serialized_value_not_evaluated": 0.0
+            },
+            {
+              "name": "Mask: LipsSmile.R | C",
+              "identifier": "Input_57",
+              "in_out": "INPUT",
+              "socket_type": "NodeSocketFloat",
+              "serialized_value_not_evaluated": 1.0
+            },
+            {
+              "name": "CheekRaise.L | C",
+              "identifier": "Input_58",
+              "in_out": "INPUT",
+              "socket_type": "NodeSocketFloat",
+              "serialized_value_not_evaluated": 0.0
+            },
+            {
+              "name": "Mask: CheekRaise.L | C",
+              "identifier": "Input_59",
+              "in_out": "INPUT",
+              "socket_type": "NodeSocketFloat",
+              "serialized_value_not_evaluated": 1.0
+            },
+            {
+              "name": "CheekRaise.R | C",
+              "identifier": "Input_60",
+              "in_out": "INPUT",
+              "socket_type": "NodeSocketFloat",
+              "serialized_value_not_evaluated": 0.0
+            },
+            {
+              "name": "Mask: CheekRaise.R | C",
+              "identifier": "Input_61",
+              "in_out": "INPUT",
+              "socket_type": "NodeSocketFloat",
+              "serialized_value_not_evaluated": 1.0
+            },
+            {
+              "name": "Blink_Lower.L | D",
+              "identifier": "Input_62",
+              "in_out": "INPUT",
+              "socket_type": "NodeSocketFloat",
+              "serialized_value_not_evaluated": 0.0
+            },
+            {
+              "name": "Mask: Blink_Lower.L | D",
+              "identifier": "Input_63",
+              "in_out": "INPUT",
+              "socket_type": "NodeSocketFloat",
+              "serialized_value_not_evaluated": 1.0
+            },
+            {
+              "name": "Blink_Lower.R | D",
+              "identifier": "Input_64",
+              "in_out": "INPUT",
+              "socket_type": "NodeSocketFloat",
+              "serialized_value_not_evaluated": 0.0
+            },
+            {
+              "name": "Mask: Blink_Lower.R | D",
+              "identifier": "Input_65",
+              "in_out": "INPUT",
+              "socket_type": "NodeSocketFloat",
+              "serialized_value_not_evaluated": 1.0
+            },
+            {
+              "name": "LipsWide.L | D",
+              "identifier": "Input_66",
+              "in_out": "INPUT",
+              "socket_type": "NodeSocketFloat",
+              "serialized_value_not_evaluated": 0.0
+            },
+            {
+              "name": "Mask: LipsWide.L | D",
+              "identifier": "Input_67",
+              "in_out": "INPUT",
+              "socket_type": "NodeSocketFloat",
+              "serialized_value_not_evaluated": 1.0
+            },
+            {
+              "name": "LipsWide.R | D",
+              "identifier": "Input_68",
+              "in_out": "INPUT",
+              "socket_type": "NodeSocketFloat",
+              "serialized_value_not_evaluated": 0.0
+            },
+            {
+              "name": "Mask: LipsWide.R | D",
+              "identifier": "Input_69",
+              "in_out": "INPUT",
+              "socket_type": "NodeSocketFloat",
+              "serialized_value_not_evaluated": 1.0
+            },
+            {
+              "name": "Blink_Upper.L | D",
+              "identifier": "Input_70",
+              "in_out": "INPUT",
+              "socket_type": "NodeSocketFloat",
+              "serialized_value_not_evaluated": 0.0
+            },
+            {
+              "name": "Mask: Blink_Upper.L | D",
+              "identifier": "Input_71",
+              "in_out": "INPUT",
+              "socket_type": "NodeSocketFloat",
+              "serialized_value_not_evaluated": 1.0
+            },
+            {
+              "name": "Blink_Upper.R | D",
+              "identifier": "Input_72",
+              "in_out": "INPUT",
+              "socket_type": "NodeSocketFloat",
+              "serialized_value_not_evaluated": 0.0
+            },
+            {
+              "name": "Mask: Blink_Upper.R | D",
+              "identifier": "Input_73",
+              "in_out": "INPUT",
+              "socket_type": "NodeSocketFloat",
+              "serialized_value_not_evaluated": 1.0
+            },
+            {
+              "name": "LipsDown.L | E",
+              "identifier": "Input_74",
+              "in_out": "INPUT",
+              "socket_type": "NodeSocketFloat",
+              "serialized_value_not_evaluated": 0.0
+            },
+            {
+              "name": "Mask: LipsDown.L | E",
+              "identifier": "Input_75",
+              "in_out": "INPUT",
+              "socket_type": "NodeSocketFloat",
+              "serialized_value_not_evaluated": 1.0
+            },
+            {
+              "name": "LipsDown.R | E",
+              "identifier": "Input_76",
+              "in_out": "INPUT",
+              "socket_type": "NodeSocketFloat",
+              "serialized_value_not_evaluated": 0.0
+            },
+            {
+              "name": "Mask: LipsDown.R | E",
+              "identifier": "Input_77",
+              "in_out": "INPUT",
+              "socket_type": "NodeSocketFloat",
+              "serialized_value_not_evaluated": 1.0
+            },
+            {
+              "name": "Eyebrows_Frown_Middle | E",
+              "identifier": "Input_78",
+              "in_out": "INPUT",
+              "socket_type": "NodeSocketFloat",
+              "serialized_value_not_evaluated": 0.0
+            },
+            {
+              "name": "Mask: Eyebrows_Frown_Middle | E",
+              "identifier": "Input_79",
+              "in_out": "INPUT",
+              "socket_type": "NodeSocketFloat",
+              "serialized_value_not_evaluated": 1.0
+            },
+            {
+              "name": "EyebrowFurrowOnly | E",
+              "identifier": "Input_80",
+              "in_out": "INPUT",
+              "socket_type": "NodeSocketFloat",
+              "serialized_value_not_evaluated": 0.0
+            },
+            {
+              "name": "Mask: EyebrowFurrowOnly | E",
+              "identifier": "Input_81",
+              "in_out": "INPUT",
+              "socket_type": "NodeSocketFloat",
+              "serialized_value_not_evaluated": 1.0
+            },
+            {
+              "name": "EyebrowsDown_Inner.L | F",
+              "identifier": "Input_82",
+              "in_out": "INPUT",
+              "socket_type": "NodeSocketFloat",
+              "serialized_value_not_evaluated": 0.0
+            },
+            {
+              "name": "Mask: EyebrowsDown_Inner.L | F",
+              "identifier": "Input_83",
+              "in_out": "INPUT",
+              "socket_type": "NodeSocketFloat",
+              "serialized_value_not_evaluated": 1.0
+            },
+            {
+              "name": "EyebrowsDown_Inner.R | F",
+              "identifier": "Input_84",
+              "in_out": "INPUT",
+              "socket_type": "NodeSocketFloat",
+              "serialized_value_not_evaluated": 0.0
+            },
+            {
+              "name": "Mask: EyebrowsDown_Inner.R | F",
+              "identifier": "Input_85",
+              "in_out": "INPUT",
+              "socket_type": "NodeSocketFloat",
+              "serialized_value_not_evaluated": 1.0
+            },
+            {
+              "name": "LipsSquash_Lower | F",
+              "identifier": "Input_86",
+              "in_out": "INPUT",
+              "socket_type": "NodeSocketFloat",
+              "serialized_value_not_evaluated": 0.0
+            },
+            {
+              "name": "Mask: LipsSquash_Lower | F",
+              "identifier": "Input_87",
+              "in_out": "INPUT",
+              "socket_type": "NodeSocketFloat",
+              "serialized_value_not_evaluated": 1.0
+            },
+            {
+              "name": "LipsSquash_Upper | F",
+              "identifier": "Input_88",
+              "in_out": "INPUT",
+              "socket_type": "NodeSocketFloat",
+              "serialized_value_not_evaluated": 0.0
+            },
+            {
+              "name": "Mask: LipsSquash_Upper | F",
+              "identifier": "Input_89",
+              "in_out": "INPUT",
+              "socket_type": "NodeSocketFloat",
+              "serialized_value_not_evaluated": 1.0
+            },
+            {
+              "name": "EyebrowsDown_Outer.L | F",
+              "identifier": "Input_90",
+              "in_out": "INPUT",
+              "socket_type": "NodeSocketFloat",
+              "serialized_value_not_evaluated": 0.0
+            },
+            {
+              "name": "Mask: EyebrowsDown_Outer.L | F",
+              "identifier": "Input_91",
+              "in_out": "INPUT",
+              "socket_type": "NodeSocketFloat",
+              "serialized_value_not_evaluated": 1.0
+            },
+            {
+              "name": "EyebrowsDown_Outer.R | F",
+              "identifier": "Input_92",
+              "in_out": "INPUT",
+              "socket_type": "NodeSocketFloat",
+              "serialized_value_not_evaluated": 0.0
+            },
+            {
+              "name": "Mask: EyebrowsDown_Outer.R | F",
+              "identifier": "Input_93",
+              "in_out": "INPUT",
+              "socket_type": "NodeSocketFloat",
+              "serialized_value_not_evaluated": 1.0
+            },
+            {
+              "name": "Squint.L | F",
+              "identifier": "Input_94",
+              "in_out": "INPUT",
+              "socket_type": "NodeSocketFloat",
+              "serialized_value_not_evaluated": 0.0
+            },
+            {
+              "name": "Mask: Squint.L | F",
+              "identifier": "Input_95",
+              "in_out": "INPUT",
+              "socket_type": "NodeSocketFloat",
+              "serialized_value_not_evaluated": 1.0
+            },
+            {
+              "name": "Squint.R | F",
+              "identifier": "Input_96",
+              "in_out": "INPUT",
+              "socket_type": "NodeSocketFloat",
+              "serialized_value_not_evaluated": 0.0
+            },
+            {
+              "name": "Mask: Squint.R | F",
+              "identifier": "Input_97",
+              "in_out": "INPUT",
+              "socket_type": "NodeSocketFloat",
+              "serialized_value_not_evaluated": 1.0
+            },
+            {
+              "name": "Sneer+EyebrowsDown.L | F",
+              "identifier": "Input_98",
+              "in_out": "INPUT",
+              "socket_type": "NodeSocketFloat",
+              "serialized_value_not_evaluated": 0.0
+            },
+            {
+              "name": "Mask: Sneer+EyebrowsDown.L | F",
+              "identifier": "Input_99",
+              "in_out": "INPUT",
+              "socket_type": "NodeSocketFloat",
+              "serialized_value_not_evaluated": 1.0
+            },
+            {
+              "name": "Sneer+EyebrowsDown.R | F",
+              "identifier": "Input_100",
+              "in_out": "INPUT",
+              "socket_type": "NodeSocketFloat",
+              "serialized_value_not_evaluated": 0.0
+            },
+            {
+              "name": "Mask: Sneer+EyebrowsDown.R | F",
+              "identifier": "Input_101",
+              "in_out": "INPUT",
+              "socket_type": "NodeSocketFloat",
+              "serialized_value_not_evaluated": 1.0
+            }
+          ]
+        },
+        {
+          "stack_index": 6,
+          "name": "SH-Store Attributes",
+          "type": "NODES",
+          "show_viewport": true,
+          "show_render": true,
+          "show_in_editmode": true,
+          "show_on_cage": false,
+          "node_group": "Geometry Nodes.006",
+          "public_parameters_serialized": {},
+          "interface": [
+            {
+              "name": "Geometry",
+              "identifier": "Output_1",
+              "in_out": "OUTPUT",
+              "socket_type": "NodeSocketGeometry",
+              "serialized_value_not_evaluated": null
+            },
+            {
+              "name": "Geometry",
+              "identifier": "Input_0",
+              "in_out": "INPUT",
+              "socket_type": "NodeSocketGeometry",
+              "serialized_value_not_evaluated": null
+            }
+          ]
+        },
+        {
+          "stack_index": 7,
+          "name": "SH-Stretch Map",
+          "type": "NODES",
+          "show_viewport": false,
+          "show_render": true,
+          "show_in_editmode": true,
+          "show_on_cage": false,
+          "node_group": "generate_stretch_map",
+          "public_parameters_serialized": {
+            "Input_2": {
+              "ID_name": "GEO-einar_head.base.001",
+              "ID_type": "OBJECT"
+            },
+            "Input_4": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "Input_4_use_attribute": 1,
+            "Input_4_attribute_name": "Alignment",
+            "Output_3_attribute_name": "face_compression",
+            "Output_5_attribute_name": "edge_compression",
+            "Output_6_attribute_name": "stretch_direction"
+          },
+          "interface": [
+            {
+              "name": "Geometry",
+              "identifier": "Output_1",
+              "in_out": "OUTPUT",
+              "socket_type": "NodeSocketGeometry",
+              "serialized_value_not_evaluated": null
+            },
+            {
+              "name": "Face Compression",
+              "identifier": "Output_3",
+              "in_out": "OUTPUT",
+              "socket_type": "NodeSocketFloat",
+              "serialized_value_not_evaluated": 0.0
+            },
+            {
+              "name": "Edge Compression",
+              "identifier": "Output_5",
+              "in_out": "OUTPUT",
+              "socket_type": "NodeSocketFloat",
+              "serialized_value_not_evaluated": 0.0
+            },
+            {
+              "name": "Stretch Direction (non-euclidian)",
+              "identifier": "Output_6",
+              "in_out": "OUTPUT",
+              "socket_type": "NodeSocketVector",
+              "serialized_value_not_evaluated": [
+                0.0,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "name": "Geometry",
+              "identifier": "Input_0",
+              "in_out": "INPUT",
+              "socket_type": "NodeSocketGeometry",
+              "serialized_value_not_evaluated": null
+            },
+            {
+              "name": "Object",
+              "identifier": "Input_2",
+              "in_out": "INPUT",
+              "socket_type": "NodeSocketObject",
+              "serialized_value_not_evaluated": null
+            },
+            {
+              "name": "UVMap",
+              "identifier": "Input_4",
+              "in_out": "INPUT",
+              "socket_type": "NodeSocketVector",
+              "serialized_value_not_evaluated": [
+                0.0,
+                0.0,
+                0.0
+              ]
+            }
+          ]
+        }
+      ],
+      "vertex_group_names": [
+        "DEF-Cheek_Lower1.L",
+        "DEF-Cheek_Lower1.R",
+        "DEF-Cheek_Lower2.L",
+        "DEF-Cheek_Lower2.R",
+        "DEF-Cheek_Middle1.L",
+        "DEF-Cheek_Middle1.R",
+        "DEF-Cheek_Middle2.L",
+        "DEF-Cheek_Middle2.R",
+        "DEF-Cheek_Upper1.L",
+        "DEF-Cheek_Upper1.R",
+        "DEF-Cheek_Upper2.L",
+        "DEF-Cheek_Upper2.R",
+        "DEF-Cheek_Upper3.L",
+        "DEF-Cheek_Upper3.R",
+        "DEF-Chest",
+        "DEF-Eyebrow1.L",
+        "DEF-Eyebrow1.R",
+        "DEF-Eyebrow2.L",
+        "DEF-Eyebrow2.R",
+        "DEF-Eyebrow3.L",
+        "DEF-Eyebrow3.R",
+        "DEF-Eyebrow_Mid",
+        "DEF-Eyelid_Lower_1.L",
+        "DEF-Eyelid_Lower_1.R",
+        "DEF-Eyelid_Lower_2.L",
+        "DEF-Eyelid_Lower_2.R",
+        "DEF-Eyelid_Lower_3.L",
+        "DEF-Eyelid_Lower_3.R",
+        "DEF-Eyelid_Lower_4.L",
+        "DEF-Eyelid_Lower_4.R",
+        "DEF-Eyelid_Lower_Outer1.L",
+        "DEF-Eyelid_Lower_Outer1.R",
+        "DEF-Eyelid_Lower_Outer2.L",
+        "DEF-Eyelid_Lower_Outer2.R",
+        "DEF-Eyelid_Lower_Outer3.L",
+        "DEF-Eyelid_Lower_Outer3.R",
+        "DEF-Eyelid_Lower_Outer4.L",
+        "DEF-Eyelid_Lower_Outer4.R",
+        "DEF-Eyelid_Outer_Upper1.L",
+        "DEF-Eyelid_Outer_Upper1.R",
+        "DEF-Eyelid_Outer_Upper2.L",
+        "DEF-Eyelid_Outer_Upper2.R",
+        "DEF-Eyelid_Outer_Upper3.L",
+        "DEF-Eyelid_Outer_Upper3.R",
+        "DEF-Eyelid_Outer_Upper4.L",
+        "DEF-Eyelid_Outer_Upper4.R",
+        "DEF-Eyelid_Upper_1.L",
+        "DEF-Eyelid_Upper_1.R",
+        "DEF-Eyelid_Upper_2.L",
+        "DEF-Eyelid_Upper_2.R",
+        "DEF-Eyelid_Upper_3.L",
+        "DEF-Eyelid_Upper_3.R",
+        "DEF-Eyelid_Upper_4.L",
+        "DEF-Eyelid_Upper_4.R",
+        "DEF-EyeRing1.L",
+        "DEF-EyeRing1.R",
+        "DEF-EyeRing2.L",
+        "DEF-EyeRing2.R",
+        "DEF-EyeRing3.L",
+        "DEF-EyeRing3.R",
+        "DEF-EyeRing4.L",
+        "DEF-EyeRing4.R",
+        "DEF-Head",
+        "DEF-Jaw",
+        "DEF-Lip_Bot.L",
+        "DEF-Lip_Bot.R",
+        "DEF-Lip_Center_Bot",
+        "DEF-Lip_Center_Top",
+        "DEF-Lip_Corner.L",
+        "DEF-Lip_Corner.R",
+        "DEF-Lip_Top.L",
+        "DEF-Lip_Top.R",
+        "DEF-Neck",
+        "DEF-Nose_Sneer.L",
+        "DEF-Nose_Sneer.R",
+        "DEF-Nostril.L",
+        "DEF-Nostril.R",
+        "DEF-Shoulder.L",
+        "DEF-Shoulder.R",
+        "Eye_Cast.L",
+        "Eye_Cast.R",
+        "SK-A-Eyebrow_Inner.L",
+        "SK-A-Eyebrow_Inner.R",
+        "SK-A-Eyebrow_Outer.L",
+        "SK-A-Eyebrow_Outer.R",
+        "SK-B-Nose_Sneer.L",
+        "SK-B-Nose_Sneer.R",
+        "SK-C-CheekRaise.L",
+        "SK-C-CheekRaise.R",
+        "SK-C-Eyelid_Lower.L",
+        "SK-C-Eyelid_Lower.R",
+        "SK-C-Mouth.L",
+        "SK-C-Mouth.R",
+        "SK-E-Mouth.L",
+        "SK-E-Mouth.R",
+        "SK-F-Squint.L",
+        "SK-A-JawOpen",
+        "SK-LowerLip.L",
+        "SK-LowerLip.R",
+        "SK-UpperLip.L",
+        "SK-UpperLip.R",
+        "SK-E-Eyebrows_Frown",
+        "SK-F-Squint.R",
+        "Side.L",
+        "Side.R",
+        "SK-B-Eyebrow_Sneer",
+        "SK-F-Lips_Upper",
+        "SK-F-Lips_Lower",
+        "SK-F-Sneer+EyebrowsDown.L",
+        "SK-F-Sneer+EyebrowsDown.R",
+        "DEF-Nose_Tip",
+        "DEF-Nose_Bridge",
+        "SK-F-Eyebrow_Inner.L",
+        "SK-F-Eyebrow_Inner.R",
+        "SK-F-Eyebrow_Outer.L",
+        "SK-F-Eyebrow_Outer.R",
+        "SK-C-Eyelid_Upper.L",
+        "SK-C-Eyelid_Upper.R",
+        "DEF-Ear1.L",
+        "DEF-Ear1.R",
+        "DEF-Lip_Corner_Lower.L",
+        "DEF-Lip_Corner_Lower.R",
+        "DEF-Lip_Corner_Upper.L",
+        "DEF-Lip_Corner_Upper.R",
+        "corrective_smooth"
+      ]
+    },
+    {
+      "name": "GEO-einar_head.base",
+      "type": "MESH",
+      "data_name": "DATA_GEO-einar_head.base",
+      "parent_name": null,
+      "serialized_transform_not_evaluated": {
+        "location": [
+          0.0,
+          -0.00016756815603002906,
+          0.054400041699409485
+        ],
+        "rotation_euler": [
+          0.0,
+          -0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "parent_type": "OBJECT",
+        "parent_bone": ""
+      },
+      "hide_viewport": true,
+      "hide_render": true,
+      "source_scene_memberships": [],
+      "object_driver_paths_only": [
+        {
+          "data_path": "modifiers[\"RIG-Tweak Lattice Eye Bulge L\"].strength",
+          "array_index": 0,
+          "mute": false
+        },
+        {
+          "data_path": "modifiers[\"RIG-Tweak Lattice Eye Bulge R\"].strength",
+          "array_index": 0,
+          "mute": false
+        },
+        {
+          "data_path": "modifiers[\"RIG-Displacement\"][\"Input_26\"]",
+          "array_index": 0,
+          "mute": false
+        },
+        {
+          "data_path": "modifiers[\"RIG-Displacement\"][\"Input_62\"]",
+          "array_index": 0,
+          "mute": false
+        },
+        {
+          "data_path": "modifiers[\"RIG-Displacement\"][\"Input_64\"]",
+          "array_index": 0,
+          "mute": false
+        },
+        {
+          "data_path": "modifiers[\"RIG-Displacement\"][\"Input_40\"]",
+          "array_index": 0,
+          "mute": false
+        },
+        {
+          "data_path": "modifiers[\"RIG-Displacement\"][\"Input_42\"]",
+          "array_index": 0,
+          "mute": false
+        },
+        {
+          "data_path": "modifiers[\"RIG-Displacement\"][\"Input_28\"]",
+          "array_index": 0,
+          "mute": false
+        },
+        {
+          "data_path": "modifiers[\"RIG-Displacement\"][\"Input_30\"]",
+          "array_index": 0,
+          "mute": false
+        },
+        {
+          "data_path": "modifiers[\"RIG-Displacement\"][\"Input_66\"]",
+          "array_index": 0,
+          "mute": false
+        },
+        {
+          "data_path": "modifiers[\"RIG-Displacement\"][\"Input_68\"]",
+          "array_index": 0,
+          "mute": false
+        },
+        {
+          "data_path": "modifiers[\"RIG-Displacement\"][\"Input_54\"]",
+          "array_index": 0,
+          "mute": false
+        },
+        {
+          "data_path": "modifiers[\"RIG-Displacement\"][\"Input_56\"]",
+          "array_index": 0,
+          "mute": false
+        },
+        {
+          "data_path": "modifiers[\"RIG-Displacement\"][\"Input_74\"]",
+          "array_index": 0,
+          "mute": false
+        },
+        {
+          "data_path": "modifiers[\"RIG-Displacement\"][\"Input_76\"]",
+          "array_index": 0,
+          "mute": false
+        },
+        {
+          "data_path": "modifiers[\"RIG-Displacement\"][\"Input_44\"]",
+          "array_index": 0,
+          "mute": false
+        },
+        {
+          "data_path": "modifiers[\"RIG-Displacement\"][\"Input_46\"]",
+          "array_index": 0,
+          "mute": false
+        },
+        {
+          "data_path": "modifiers[\"RIG-Displacement\"][\"Input_48\"]",
+          "array_index": 0,
+          "mute": false
+        },
+        {
+          "data_path": "modifiers[\"RIG-Displacement\"][\"Input_50\"]",
+          "array_index": 0,
+          "mute": false
+        },
+        {
+          "data_path": "modifiers[\"RIG-Displacement\"][\"Input_58\"]",
+          "array_index": 0,
+          "mute": false
+        },
+        {
+          "data_path": "modifiers[\"RIG-Displacement\"][\"Input_60\"]",
+          "array_index": 0,
+          "mute": false
+        },
+        {
+          "data_path": "modifiers[\"RIG-Displacement\"][\"Input_32\"]",
+          "array_index": 0,
+          "mute": false
+        },
+        {
+          "data_path": "modifiers[\"RIG-Displacement\"][\"Input_34\"]",
+          "array_index": 0,
+          "mute": false
+        },
+        {
+          "data_path": "modifiers[\"RIG-Displacement\"][\"Input_24\"]",
+          "array_index": 0,
+          "mute": false
+        },
+        {
+          "data_path": "modifiers[\"RIG-Displacement\"][\"Input_80\"]",
+          "array_index": 0,
+          "mute": false
+        },
+        {
+          "data_path": "modifiers[\"RIG-Displacement\"][\"Input_82\"]",
+          "array_index": 0,
+          "mute": false
+        },
+        {
+          "data_path": "modifiers[\"RIG-Displacement\"][\"Input_84\"]",
+          "array_index": 0,
+          "mute": false
+        },
+        {
+          "data_path": "modifiers[\"RIG-Displacement\"][\"Input_86\"]",
+          "array_index": 0,
+          "mute": false
+        },
+        {
+          "data_path": "modifiers[\"RIG-Displacement\"][\"Input_88\"]",
+          "array_index": 0,
+          "mute": false
+        },
+        {
+          "data_path": "modifiers[\"RIG-Displacement\"][\"Input_90\"]",
+          "array_index": 0,
+          "mute": false
+        },
+        {
+          "data_path": "modifiers[\"RIG-Displacement\"][\"Input_78\"]",
+          "array_index": 0,
+          "mute": false
+        },
+        {
+          "data_path": "modifiers[\"RIG-Displacement\"][\"Input_36\"]",
+          "array_index": 0,
+          "mute": false
+        },
+        {
+          "data_path": "modifiers[\"RIG-Displacement\"][\"Input_38\"]",
+          "array_index": 0,
+          "mute": false
+        },
+        {
+          "data_path": "modifiers[\"RIG-Displacement\"][\"Input_92\"]",
+          "array_index": 0,
+          "mute": false
+        },
+        {
+          "data_path": "modifiers[\"RIG-Displacement\"][\"Input_94\"]",
+          "array_index": 0,
+          "mute": false
+        },
+        {
+          "data_path": "modifiers[\"RIG-Displacement\"][\"Input_52\"]",
+          "array_index": 0,
+          "mute": false
+        },
+        {
+          "data_path": "modifiers[\"RIG-Displacement\"][\"Input_96\"]",
+          "array_index": 0,
+          "mute": false
+        },
+        {
+          "data_path": "modifiers[\"RIG-Displacement\"][\"Input_98\"]",
+          "array_index": 0,
+          "mute": false
+        },
+        {
+          "data_path": "modifiers[\"RIG-Displacement\"][\"Input_70\"]",
+          "array_index": 0,
+          "mute": false
+        },
+        {
+          "data_path": "modifiers[\"RIG-Displacement\"][\"Input_72\"]",
+          "array_index": 0,
+          "mute": false
+        },
+        {
+          "data_path": "modifiers[\"RIG-Displacement\"].show_viewport",
+          "array_index": 0,
+          "mute": false
+        },
+        {
+          "data_path": "modifiers[\"RIG-Subdivision\"].levels",
+          "array_index": 0,
+          "mute": false
+        }
+      ],
+      "modifiers": [
+        {
+          "stack_index": 0,
+          "name": "RIG-Subdivision",
+          "type": "SUBSURF",
+          "show_viewport": true,
+          "show_render": true,
+          "show_in_editmode": true,
+          "show_on_cage": false,
+          "settings": {
+            "subdivision_type": "CATMULL_CLARK",
+            "levels": 0,
+            "render_levels": 2,
+            "quality": 3,
+            "uv_smooth": "PRESERVE_BOUNDARIES",
+            "boundary_smooth": "ALL",
+            "use_creases": true,
+            "use_limit_surface": true
+          }
+        },
+        {
+          "stack_index": 1,
+          "name": "SH-Base Displacement",
+          "type": "NODES",
+          "show_viewport": true,
+          "show_render": true,
+          "show_in_editmode": true,
+          "show_on_cage": false,
+          "node_group": "texture_displacement",
+          "public_parameters_serialized": {
+            "Input_2": {
+              "ID_name": "disp_default",
+              "ID_type": "IMAGE"
+            },
+            "Input_3": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "Input_3_use_attribute": 1,
+            "Input_3_attribute_name": "UVMap",
+            "Input_4": 0.5,
+            "Input_4_use_attribute": 0,
+            "Input_4_attribute_name": "",
+            "Input_5": 0.00800000037997961,
+            "Input_5_use_attribute": 0,
+            "Input_5_attribute_name": ""
+          },
+          "interface": [
+            {
+              "name": "Geometry",
+              "identifier": "Output_1",
+              "in_out": "OUTPUT",
+              "socket_type": "NodeSocketGeometry",
+              "serialized_value_not_evaluated": null
+            },
+            {
+              "name": "Geometry",
+              "identifier": "Input_0",
+              "in_out": "INPUT",
+              "socket_type": "NodeSocketGeometry",
+              "serialized_value_not_evaluated": null
+            },
+            {
+              "name": "Image",
+              "identifier": "Input_2",
+              "in_out": "INPUT",
+              "socket_type": "NodeSocketImage",
+              "serialized_value_not_evaluated": null
+            },
+            {
+              "name": "Vector",
+              "identifier": "Input_3",
+              "in_out": "INPUT",
+              "socket_type": "NodeSocketVector",
+              "serialized_value_not_evaluated": [
+                0.0,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "name": "Midlevel",
+              "identifier": "Input_4",
+              "in_out": "INPUT",
+              "socket_type": "NodeSocketFloat",
+              "serialized_value_not_evaluated": 0.5
+            },
+            {
+              "name": "Scale",
+              "identifier": "Input_5",
+              "in_out": "INPUT",
+              "socket_type": "NodeSocketFloat",
+              "serialized_value_not_evaluated": 0.5
+            }
+          ]
+        },
+        {
+          "stack_index": 2,
+          "name": "SH-Store Face Area",
+          "type": "NODES",
+          "show_viewport": true,
+          "show_render": true,
+          "show_in_editmode": true,
+          "show_on_cage": false,
+          "node_group": "store_face_area",
+          "public_parameters_serialized": {
+            "Output_2_attribute_name": "face_area"
+          },
+          "interface": [
+            {
+              "name": "Geometry",
+              "identifier": "Output_1",
+              "in_out": "OUTPUT",
+              "socket_type": "NodeSocketGeometry",
+              "serialized_value_not_evaluated": null
+            },
+            {
+              "name": "Face Area",
+              "identifier": "Output_2",
+              "in_out": "OUTPUT",
+              "socket_type": "NodeSocketFloat",
+              "serialized_value_not_evaluated": 0.0
+            },
+            {
+              "name": "Geometry",
+              "identifier": "Input_0",
+              "in_out": "INPUT",
+              "socket_type": "NodeSocketGeometry",
+              "serialized_value_not_evaluated": null
+            }
+          ]
+        }
+      ],
+      "vertex_group_names": []
+    },
+    {
+      "name": "GEO-einar_head.base.001",
+      "type": "MESH",
+      "data_name": "DATA_GEO-einar_head.base.001",
+      "parent_name": null,
+      "serialized_transform_not_evaluated": {
+        "location": [
+          0.0,
+          -0.00016756815603002906,
+          0.054400041699409485
+        ],
+        "rotation_euler": [
+          0.0,
+          -0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "parent_type": "OBJECT",
+        "parent_bone": ""
+      },
+      "hide_viewport": true,
+      "hide_render": true,
+      "source_scene_memberships": [],
+      "object_driver_paths_only": [
+        {
+          "data_path": "[\"Viewport Bump\"]",
+          "array_index": 0,
+          "mute": false
+        },
+        {
+          "data_path": "modifiers[\"RIG-Tweak Lattice Eye Bulge L\"].strength",
+          "array_index": 0,
+          "mute": false
+        },
+        {
+          "data_path": "modifiers[\"RIG-Tweak Lattice Eye Bulge R\"].strength",
+          "array_index": 0,
+          "mute": false
+        },
+        {
+          "data_path": "modifiers[\"RIG-Displacement\"][\"Input_26\"]",
+          "array_index": 0,
+          "mute": false
+        },
+        {
+          "data_path": "modifiers[\"RIG-Displacement\"][\"Input_62\"]",
+          "array_index": 0,
+          "mute": false
+        },
+        {
+          "data_path": "modifiers[\"RIG-Displacement\"][\"Input_64\"]",
+          "array_index": 0,
+          "mute": false
+        },
+        {
+          "data_path": "modifiers[\"RIG-Displacement\"][\"Input_40\"]",
+          "array_index": 0,
+          "mute": false
+        },
+        {
+          "data_path": "modifiers[\"RIG-Displacement\"][\"Input_42\"]",
+          "array_index": 0,
+          "mute": false
+        },
+        {
+          "data_path": "modifiers[\"RIG-Displacement\"][\"Input_28\"]",
+          "array_index": 0,
+          "mute": false
+        },
+        {
+          "data_path": "modifiers[\"RIG-Displacement\"][\"Input_30\"]",
+          "array_index": 0,
+          "mute": false
+        },
+        {
+          "data_path": "modifiers[\"RIG-Displacement\"][\"Input_66\"]",
+          "array_index": 0,
+          "mute": false
+        },
+        {
+          "data_path": "modifiers[\"RIG-Displacement\"][\"Input_68\"]",
+          "array_index": 0,
+          "mute": false
+        },
+        {
+          "data_path": "modifiers[\"RIG-Displacement\"][\"Input_54\"]",
+          "array_index": 0,
+          "mute": false
+        },
+        {
+          "data_path": "modifiers[\"RIG-Displacement\"][\"Input_56\"]",
+          "array_index": 0,
+          "mute": false
+        },
+        {
+          "data_path": "modifiers[\"RIG-Displacement\"][\"Input_74\"]",
+          "array_index": 0,
+          "mute": false
+        },
+        {
+          "data_path": "modifiers[\"RIG-Displacement\"][\"Input_76\"]",
+          "array_index": 0,
+          "mute": false
+        },
+        {
+          "data_path": "modifiers[\"RIG-Displacement\"][\"Input_44\"]",
+          "array_index": 0,
+          "mute": false
+        },
+        {
+          "data_path": "modifiers[\"RIG-Displacement\"][\"Input_46\"]",
+          "array_index": 0,
+          "mute": false
+        },
+        {
+          "data_path": "modifiers[\"RIG-Displacement\"][\"Input_48\"]",
+          "array_index": 0,
+          "mute": false
+        },
+        {
+          "data_path": "modifiers[\"RIG-Displacement\"][\"Input_50\"]",
+          "array_index": 0,
+          "mute": false
+        },
+        {
+          "data_path": "modifiers[\"RIG-Displacement\"][\"Input_58\"]",
+          "array_index": 0,
+          "mute": false
+        },
+        {
+          "data_path": "modifiers[\"RIG-Displacement\"][\"Input_60\"]",
+          "array_index": 0,
+          "mute": false
+        },
+        {
+          "data_path": "modifiers[\"RIG-Displacement\"][\"Input_32\"]",
+          "array_index": 0,
+          "mute": false
+        },
+        {
+          "data_path": "modifiers[\"RIG-Displacement\"][\"Input_34\"]",
+          "array_index": 0,
+          "mute": false
+        },
+        {
+          "data_path": "modifiers[\"RIG-Displacement\"][\"Input_24\"]",
+          "array_index": 0,
+          "mute": false
+        },
+        {
+          "data_path": "modifiers[\"RIG-Displacement\"][\"Input_80\"]",
+          "array_index": 0,
+          "mute": false
+        },
+        {
+          "data_path": "modifiers[\"RIG-Displacement\"][\"Input_82\"]",
+          "array_index": 0,
+          "mute": false
+        },
+        {
+          "data_path": "modifiers[\"RIG-Displacement\"][\"Input_84\"]",
+          "array_index": 0,
+          "mute": false
+        },
+        {
+          "data_path": "modifiers[\"RIG-Displacement\"][\"Input_86\"]",
+          "array_index": 0,
+          "mute": false
+        },
+        {
+          "data_path": "modifiers[\"RIG-Displacement\"][\"Input_88\"]",
+          "array_index": 0,
+          "mute": false
+        },
+        {
+          "data_path": "modifiers[\"RIG-Displacement\"][\"Input_90\"]",
+          "array_index": 0,
+          "mute": false
+        },
+        {
+          "data_path": "modifiers[\"RIG-Displacement\"][\"Input_78\"]",
+          "array_index": 0,
+          "mute": false
+        },
+        {
+          "data_path": "modifiers[\"RIG-Displacement\"][\"Input_36\"]",
+          "array_index": 0,
+          "mute": false
+        },
+        {
+          "data_path": "modifiers[\"RIG-Displacement\"][\"Input_38\"]",
+          "array_index": 0,
+          "mute": false
+        },
+        {
+          "data_path": "modifiers[\"RIG-Displacement\"][\"Input_92\"]",
+          "array_index": 0,
+          "mute": false
+        },
+        {
+          "data_path": "modifiers[\"RIG-Displacement\"][\"Input_94\"]",
+          "array_index": 0,
+          "mute": false
+        },
+        {
+          "data_path": "modifiers[\"RIG-Displacement\"][\"Input_52\"]",
+          "array_index": 0,
+          "mute": false
+        },
+        {
+          "data_path": "modifiers[\"RIG-Displacement\"][\"Input_96\"]",
+          "array_index": 0,
+          "mute": false
+        },
+        {
+          "data_path": "modifiers[\"RIG-Displacement\"][\"Input_98\"]",
+          "array_index": 0,
+          "mute": false
+        },
+        {
+          "data_path": "modifiers[\"RIG-Displacement\"][\"Input_70\"]",
+          "array_index": 0,
+          "mute": false
+        },
+        {
+          "data_path": "modifiers[\"RIG-Displacement\"][\"Input_72\"]",
+          "array_index": 0,
+          "mute": false
+        },
+        {
+          "data_path": "modifiers[\"RIG-Displacement\"].show_viewport",
+          "array_index": 0,
+          "mute": false
+        },
+        {
+          "data_path": "modifiers[\"RIG-Subdivision\"].levels",
+          "array_index": 0,
+          "mute": false
+        }
+      ],
+      "modifiers": [
+        {
+          "stack_index": 0,
+          "name": "RIG-Subdivision",
+          "type": "SUBSURF",
+          "show_viewport": true,
+          "show_render": true,
+          "show_in_editmode": true,
+          "show_on_cage": false,
+          "settings": {
+            "subdivision_type": "CATMULL_CLARK",
+            "levels": 2,
+            "render_levels": 2,
+            "quality": 3,
+            "uv_smooth": "PRESERVE_BOUNDARIES",
+            "boundary_smooth": "ALL",
+            "use_creases": true,
+            "use_limit_surface": true
+          }
+        },
+        {
+          "stack_index": 1,
+          "name": "SH-Base Displacement",
+          "type": "NODES",
+          "show_viewport": true,
+          "show_render": true,
+          "show_in_editmode": true,
+          "show_on_cage": false,
+          "node_group": "texture_displacement",
+          "public_parameters_serialized": {
+            "Input_2": {
+              "ID_name": "disp_default",
+              "ID_type": "IMAGE"
+            },
+            "Input_3": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "Input_3_use_attribute": 1,
+            "Input_3_attribute_name": "UVMap",
+            "Input_4": 0.5,
+            "Input_4_use_attribute": 0,
+            "Input_4_attribute_name": "",
+            "Input_5": 0.00800000037997961,
+            "Input_5_use_attribute": 0,
+            "Input_5_attribute_name": ""
+          },
+          "interface": [
+            {
+              "name": "Geometry",
+              "identifier": "Output_1",
+              "in_out": "OUTPUT",
+              "socket_type": "NodeSocketGeometry",
+              "serialized_value_not_evaluated": null
+            },
+            {
+              "name": "Geometry",
+              "identifier": "Input_0",
+              "in_out": "INPUT",
+              "socket_type": "NodeSocketGeometry",
+              "serialized_value_not_evaluated": null
+            },
+            {
+              "name": "Image",
+              "identifier": "Input_2",
+              "in_out": "INPUT",
+              "socket_type": "NodeSocketImage",
+              "serialized_value_not_evaluated": null
+            },
+            {
+              "name": "Vector",
+              "identifier": "Input_3",
+              "in_out": "INPUT",
+              "socket_type": "NodeSocketVector",
+              "serialized_value_not_evaluated": [
+                0.0,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "name": "Midlevel",
+              "identifier": "Input_4",
+              "in_out": "INPUT",
+              "socket_type": "NodeSocketFloat",
+              "serialized_value_not_evaluated": 0.5
+            },
+            {
+              "name": "Scale",
+              "identifier": "Input_5",
+              "in_out": "INPUT",
+              "socket_type": "NodeSocketFloat",
+              "serialized_value_not_evaluated": 0.5
+            }
+          ]
+        },
+        {
+          "stack_index": 2,
+          "name": "SH-Store Face Area",
+          "type": "NODES",
+          "show_viewport": true,
+          "show_render": true,
+          "show_in_editmode": true,
+          "show_on_cage": false,
+          "node_group": "store_face_area",
+          "public_parameters_serialized": {
+            "Output_2_attribute_name": "face_area"
+          },
+          "interface": [
+            {
+              "name": "Geometry",
+              "identifier": "Output_1",
+              "in_out": "OUTPUT",
+              "socket_type": "NodeSocketGeometry",
+              "serialized_value_not_evaluated": null
+            },
+            {
+              "name": "Face Area",
+              "identifier": "Output_2",
+              "in_out": "OUTPUT",
+              "socket_type": "NodeSocketFloat",
+              "serialized_value_not_evaluated": 0.0
+            },
+            {
+              "name": "Geometry",
+              "identifier": "Input_0",
+              "in_out": "INPUT",
+              "socket_type": "NodeSocketGeometry",
+              "serialized_value_not_evaluated": null
+            }
+          ]
+        }
+      ],
+      "vertex_group_names": []
+    }
+  ],
+  "new_ID_names": {
+    "objects": [
+      "GEO-einar_head",
+      "GEO-einar_head.base",
+      "GEO-einar_head.base.001",
+      "GEO-einar_jacket_main",
+      "GEO-einar_pants_main",
+      "GEO-einar_tire_shoulder_surfacedeform",
+      "GEO-elbow_joint",
+      "GEO-hyd_rod_upper_arm",
+      "GEO-lower_arm_frame",
+      "GEO-shoulder_bicep_joint",
+      "GEO-upper_arm_frame",
+      "HLP-piston_biceps",
+      "HLP-piston_biceps2",
+      "Hook_LTC-Eye_Bulge.L",
+      "Hook_LTC-Eye_Bulge.R",
+      "LTC-Eye_Bulge.L",
+      "LTC-Eye_Bulge.R",
+      "LTC-Jacket_Back.L",
+      "LTC-Jacket_Back.R",
+      "LTC-Jacket_Front.L",
+      "LTC-Jacket_Front.R",
+      "LTC-Jacket_Side.L",
+      "LTC-Jacket_Side.R",
+      "LTC-Pants_Back.L",
+      "LTC-Pants_Back.R",
+      "LTC-Pants_Front.L",
+      "LTC-Pants_Front.R",
+      "RIG-einar",
+      "Root_Hook_LTC-Eye_Bulge.L",
+      "Root_Hook_LTC-Eye_Bulge.R",
+      "WGT-Arrow_Head",
+      "WGT-Circle",
+      "WGT-Circle_Spiked_2",
+      "WGT-Clavicle",
+      "WGT-Cogwheel_Y",
+      "WGT-Cube",
+      "WGT-Foot",
+      "WGT-Hyperbola",
+      "WGT-Jaw",
+      "WGT-Line",
+      "WGT-Roll_Flat",
+      "WGT-Root",
+      "WGT-Semicircle",
+      "WGT-Sphere",
+      "WGT-Sphere_Half",
+      "WGT-Square",
+      "WGT-Squares_2",
+      "WGT-Thumb_Parent",
+      "WGT-Torso_Master"
+    ],
+    "meshes": [
+      "DATA_GEO-einar_head",
+      "DATA_GEO-einar_head.base",
+      "DATA_GEO-einar_head.base.001",
+      "DATA_GEO-einar_jacket_main",
+      "DATA_GEO-einar_pants_main",
+      "DATA_GEO-einar_tire_shoulder_surfacedeform",
+      "DATA_GEO-elbow_joint",
+      "DATA_GEO-hyd_rod_upper_arm",
+      "DATA_GEO-lower_arm_frame",
+      "DATA_GEO-shoulder_bicep_joint",
+      "DATA_GEO-upper_arm_frame",
+      "DATA_WGT-Arrow_Head",
+      "DATA_WGT-Circle",
+      "DATA_WGT-Circle_Spiked_2",
+      "DATA_WGT-Clavicle",
+      "DATA_WGT-Cogwheel_Y",
+      "DATA_WGT-Cube",
+      "DATA_WGT-Foot",
+      "DATA_WGT-Hyperbola",
+      "DATA_WGT-Jaw",
+      "DATA_WGT-Line",
+      "DATA_WGT-Roll_Flat",
+      "DATA_WGT-Root",
+      "DATA_WGT-Semicircle",
+      "DATA_WGT-Sphere",
+      "DATA_WGT-Sphere_Half",
+      "DATA_WGT-Square",
+      "DATA_WGT-Squares_2",
+      "DATA_WGT-Thumb_Parent",
+      "DATA_WGT-Torso_Master"
+    ],
+    "materials": [
+      "einar.jacket.canvas",
+      "einar.jacket.rim",
+      "einar.pants_fabric",
+      "einar.pants_leather",
+      "einar.pants_tarp",
+      "einar.skin",
+      "metal_rust",
+      "metal_rust2.002",
+      "metal_rust3",
+      "metal_rust4",
+      "piston"
+    ],
+    "images": [
+      "canvas_01.disp",
+      "canvas_01.normal",
+      "dents_01.normal",
+      "disp_clothing_default",
+      "disp_clothing_shapes_A",
+      "disp_clothing_shapes_B",
+      "disp_clothing_shapes_C",
+      "disp_clothing_shapes_D",
+      "disp_clothing_shapes_E",
+      "disp_default",
+      "disp_facial_shapes_A",
+      "disp_facial_shapes_B",
+      "disp_facial_shapes_C",
+      "disp_facial_shapes_D",
+      "disp_facial_shapes_E",
+      "disp_facial_shapes_F",
+      "distress_stages",
+      "einar.bruises.albedo",
+      "einar.clothing.color_base",
+      "einar.clothing.normal_base",
+      "einar.clothing.pointiness",
+      "einar.robot_arm.normal_base.",
+      "einar.robot_arm.pointiness.",
+      "einar_skin.albedo",
+      "einar_skin.dirt",
+      "einar_skin.roughness",
+      "grime_01",
+      "knit_01.disp",
+      "knit_01.normal",
+      "knit_01.tile_uv",
+      "noise_01",
+      "noise_03",
+      "noise_04",
+      "noise_06",
+      "scratches_01.disp",
+      "scratches_01.normal",
+      "seams.disp",
+      "seams.normal",
+      "shapes-A-B-C-D",
+      "shapes-E-F-DEFAULT-DETAIL",
+      "textile_02.disp",
+      "textile_02.normal",
+      "textile_02.tile_uv"
+    ],
+    "collections": [],
+    "armatures": [
+      "DATA_RIG-einar"
+    ],
+    "actions": [
+      "RIG-Einar_Blink_EyeOpen",
+      "RIG-Einar_Cheek_Lower",
+      "RIG-Einar_Cheek_Raise",
+      "RIG-Einar_EyesMove_Horizontal",
+      "RIG-Einar_EyesMove_Vertical",
+      "RIG-Einar_JawOpen",
+      "RIG-Einar_LipSquash",
+      "RIG-Einar_LipsPucker",
+      "RIG-Einar_Lips_Down",
+      "RIG-Einar_Lips_Lower_Sneer",
+      "RIG-Einar_Lips_Smile",
+      "RIG-Einar_Lips_Upper_Sneer",
+      "RIG-Einar_Lips_Wide",
+      "RIG-Einar_LowerEyelids",
+      "RIG-Einar_Nose_Sneer",
+      "RIG-Einar_ShoulderTire_FowardBack",
+      "RIG-Einar_Squint",
+      "RIG-Einar_UpperEyelids"
+    ],
+    "node_groups": [
+      "Displacement_Face",
+      "Displacement_Jacket",
+      "Displacement_Pants",
+      "Geometry Nodes.006",
+      "NormalBake.002",
+      "SH-canvas_clothing.002",
+      "SH-einar.worn_surface.clothing",
+      "SH-metal_base.002",
+      "SH-mouth_fade",
+      "SH-seams",
+      "SH-seams_2",
+      "SH-wrinkles.002",
+      "TEX-noise_distorted",
+      "TEX-noise_distorted.alternative",
+      "UT-Normal.Combine",
+      "UT-Normal.Flatten",
+      "UT-Normal.Mix",
+      "UT-NormalMap.Combine",
+      "UT-NormalMap.CustomTangent",
+      "UT-NormalMap.CustomTangent.TASK.OLD.001",
+      "UT-TriplanarMapping.002",
+      "UT-Value.Mix.002",
+      "UT-Vector.FillZNormal",
+      "UT-Vector.Mix",
+      "UT-detiling.hex.002",
+      "UT-hex_grid.002",
+      "UT-map_fallback.002",
+      "UT-mixVector",
+      "UT-noise_distortion",
+      "UT-uv_tile.increment.003",
+      "UT-uv_tile.increment.004",
+      "UT-vector_scale_angle(geo)",
+      "UT-vector_scale_angle.002",
+      "einar.distress_stages.002",
+      "generate_stretch_map",
+      "store_face_area",
+      "texture_displacement",
+      "wrinkle_map_step"
+    ],
+    "texts": [
+      "cloudrig.py"
+    ],
+    "lattices": [
+      "DATA_LTC-Eye_Bulge.L",
+      "DATA_LTC-Eye_Bulge.R",
+      "DATA_LTC-Jacket_Back.L",
+      "DATA_LTC-Jacket_Back.R",
+      "DATA_LTC-Jacket_Front.L",
+      "DATA_LTC-Jacket_Front.R",
+      "DATA_LTC-Jacket_Side.L",
+      "DATA_LTC-Jacket_Side.R",
+      "DATA_LTC-Pants_Back.L",
+      "DATA_LTC-Pants_Back.R",
+      "DATA_LTC-Pants_Front.L",
+      "DATA_LTC-Pants_Front.R"
+    ],
+    "scenes": [],
+    "shape_keys": [
+      "SK_GEO-einar_head",
+      "SK_GEO-einar_jacket_main",
+      "SK_GEO-einar_pants_main",
+      "SK_GEO-einar_tire_shoulder_surfacedeform"
+    ],
+    "libraries": [
+      "einar_release_v1.blend"
+    ],
+    "textures": []
+  },
+  "scene_object_names_before": [
+    "Camera",
+    "Cube",
+    "Light"
+  ],
+  "scene_object_names_after": [
+    "Camera",
+    "Cube",
+    "Light"
+  ],
+  "source_Objects_linked_to_any_scene": false,
+  "depsgraph_or_modifiers_evaluated": false,
+  "drivers_or_Text_executed": false,
+  "image_pixels_decoded": false,
+  "blend_saved_or_rendered": false,
+  "serialized_values_are_not_neutral_rig_evaluation": true,
+  "inspection_elapsed_seconds": 3.7879
+}

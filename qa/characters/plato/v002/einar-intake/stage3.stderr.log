@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "D:\AI\PROJECT\hackathon_projects\Aholo_3D_AI_Hackathon\worktrees\plato-refinement\scripts\characters\inspect-einar-displacement.py", line 208, in <module>
+    'all_three_mesh_face_index_orders_identical': all(v == face_arrays[NAMES[0]] for v in face_arrays.values()),
+                                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\AI\PROJECT\hackathon_projects\Aholo_3D_AI_Hackathon\worktrees\plato-refinement\scripts\characters\inspect-einar-displacement.py", line 208, in <genexpr>
+    'all_three_mesh_face_index_orders_identical': all(v == face_arrays[NAMES[0]] for v in face_arrays.values()),
+                                                           ~~~~~~~~~~~^^^^^^^^^^
+KeyError: bpy.data.meshes['DATA_GEO-einar_head']
+
+Error: script failed, file: 'D:\AI\PROJECT\hackathon_projects\Aholo_3D_AI_Hackathon\worktrees\plato-refinement\scripts\characters\inspect-einar-displacement.py', exiting.

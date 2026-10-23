@@ -1,0 +1,248 @@
+{
+  "schema_version": 1,
+  "stage": "3_header_only_four_images",
+  "created_utc": "2026-10-23T12:44:45.356428+00:00",
+  "requested_images": [
+    "disp_default",
+    "shapes-A-B-C-D",
+    "shapes-E-F-DEFAULT-DETAIL",
+    "noise_04"
+  ],
+  "parser": "Python standard-library struct; no image decoding libraries",
+  "all_headers_read": true,
+  "elapsed_seconds": 0.009,
+  "per_image_read_limit_bytes": 1048576,
+  "internal_deadline_seconds": 20,
+  "blender_started": false,
+  "pixel_payload_decoded": false,
+  "source_files_written": false,
+  "headers": [
+    {
+      "name": "disp_default",
+      "cache_path_provenance_only": "D:\\AI\\PROJECT\\hackathon_projects\\Aholo_3D_AI_Hackathon\\project-management\\source-cache\\einar-v1\\extracted\\textures\\displacement\\face\\disp_default.exr",
+      "file_bytes": 3351552,
+      "metadata_bytes_read": 261,
+      "metadata_read_calls": 182,
+      "maximum_metadata_read_end_offset": 277,
+      "metadata_read_limit_bytes": 1048576,
+      "source_size_mtime_unchanged": true,
+      "pixel_payload_decoded": false,
+      "channel_semantics_inferred": false,
+      "format": "OpenEXR",
+      "version": 2,
+      "flags_hex": "0x0",
+      "tiled": false,
+      "data_window": {
+        "min": [
+          0,
+          0
+        ],
+        "max": [
+          4095,
+          4095
+        ]
+      },
+      "channel_count": 1,
+      "channels": [
+        {
+          "name": "Y",
+          "pixel_type": "HALF",
+          "bits": 16,
+          "p_linear": false,
+          "x_sampling": 1,
+          "y_sampling": 1,
+          "native_sample_bytes": 33554432
+        }
+      ],
+      "bits_per_sample": [
+        16
+      ],
+      "compression": {
+        "code": 3,
+        "name": "ZIP"
+      },
+      "memory_estimate": {
+        "width": 4096,
+        "height": 4096,
+        "pixel_count": 16777216,
+        "full_resolution_native_samples_bytes": 33554432,
+        "full_resolution_native_samples_mib": 32.0,
+        "full_resolution_float32_samples_bytes": 67108864,
+        "full_resolution_float32_samples_mib": 64.0,
+        "basis": "One full-resolution sample per channel per pixel; excludes mipmaps, copies, renderer buffers and decode overhead.",
+        "actual_decoded_or_blender_memory_measured": false,
+        "native_samples_accounting_for_channel_subsampling_bytes": 33554432
+      }
+    },
+    {
+      "name": "shapes-A-B-C-D",
+      "cache_path_provenance_only": "D:\\AI\\PROJECT\\hackathon_projects\\Aholo_3D_AI_Hackathon\\project-management\\source-cache\\einar-v1\\extracted\\textures\\displacement\\face\\shapes-A-B-C-D.tif",
+      "file_bytes": 63992578,
+      "metadata_bytes_read": 202,
+      "metadata_read_calls": 7,
+      "maximum_metadata_read_end_offset": 63992578,
+      "metadata_read_limit_bytes": 1048576,
+      "source_size_mtime_unchanged": true,
+      "pixel_payload_decoded": false,
+      "channel_semantics_inferred": false,
+      "format": "TIFF",
+      "byte_order": "little",
+      "ifd_entry_count": 15,
+      "inspected_ifd_index": 0,
+      "next_ifd_offset": 0,
+      "additional_ifds_inspected": false,
+      "channel_count": 4,
+      "bits_per_sample": [
+        16,
+        16,
+        16,
+        16
+      ],
+      "sample_format_codes": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "sample_formats": [
+        "unsigned_integer",
+        "unsigned_integer",
+        "unsigned_integer",
+        "unsigned_integer"
+      ],
+      "compression": {
+        "code": 32946,
+        "name": "DEFLATE"
+      },
+      "photometric_interpretation_code": 2,
+      "planar_configuration_code": 1,
+      "channel_names_available_in_selected_header_tags": false,
+      "memory_estimate_first_ifd": {
+        "width": 4096,
+        "height": 4096,
+        "pixel_count": 16777216,
+        "full_resolution_native_samples_bytes": 134217728,
+        "full_resolution_native_samples_mib": 128.0,
+        "full_resolution_float32_samples_bytes": 268435456,
+        "full_resolution_float32_samples_mib": 256.0,
+        "basis": "One full-resolution sample per channel per pixel; excludes mipmaps, copies, renderer buffers and decode overhead.",
+        "actual_decoded_or_blender_memory_measured": false
+      }
+    },
+    {
+      "name": "shapes-E-F-DEFAULT-DETAIL",
+      "cache_path_provenance_only": "D:\\AI\\PROJECT\\hackathon_projects\\Aholo_3D_AI_Hackathon\\project-management\\source-cache\\einar-v1\\extracted\\textures\\displacement\\face\\shapes-E-F-DEFAULT-DETAIL.tif",
+      "file_bytes": 72356430,
+      "metadata_bytes_read": 202,
+      "metadata_read_calls": 7,
+      "maximum_metadata_read_end_offset": 72356430,
+      "metadata_read_limit_bytes": 1048576,
+      "source_size_mtime_unchanged": true,
+      "pixel_payload_decoded": false,
+      "channel_semantics_inferred": false,
+      "format": "TIFF",
+      "byte_order": "little",
+      "ifd_entry_count": 15,
+      "inspected_ifd_index": 0,
+      "next_ifd_offset": 0,
+      "additional_ifds_inspected": false,
+      "channel_count": 4,
+      "bits_per_sample": [
+        16,
+        16,
+        16,
+        16
+      ],
+      "sample_format_codes": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "sample_formats": [
+        "unsigned_integer",
+        "unsigned_integer",
+        "unsigned_integer",
+        "unsigned_integer"
+      ],
+      "compression": {
+        "code": 32946,
+        "name": "DEFLATE"
+      },
+      "photometric_interpretation_code": 2,
+      "planar_configuration_code": 1,
+      "channel_names_available_in_selected_header_tags": false,
+      "memory_estimate_first_ifd": {
+        "width": 4096,
+        "height": 4096,
+        "pixel_count": 16777216,
+        "full_resolution_native_samples_bytes": 134217728,
+        "full_resolution_native_samples_mib": 128.0,
+        "full_resolution_float32_samples_bytes": 268435456,
+        "full_resolution_float32_samples_mib": 256.0,
+        "basis": "One full-resolution sample per channel per pixel; excludes mipmaps, copies, renderer buffers and decode overhead.",
+        "actual_decoded_or_blender_memory_measured": false
+      }
+    },
+    {
+      "name": "noise_04",
+      "cache_path_provenance_only": "D:\\AI\\PROJECT\\hackathon_projects\\Aholo_3D_AI_Hackathon\\project-management\\source-cache\\einar-v1\\extracted\\textures\\tileable\\noise_04.tif",
+      "file_bytes": 6162662,
+      "metadata_bytes_read": 188,
+      "metadata_read_calls": 7,
+      "maximum_metadata_read_end_offset": 6162662,
+      "metadata_read_limit_bytes": 1048576,
+      "source_size_mtime_unchanged": true,
+      "pixel_payload_decoded": false,
+      "channel_semantics_inferred": false,
+      "format": "TIFF",
+      "byte_order": "little",
+      "ifd_entry_count": 14,
+      "inspected_ifd_index": 0,
+      "next_ifd_offset": 0,
+      "additional_ifds_inspected": false,
+      "channel_count": 3,
+      "bits_per_sample": [
+        16,
+        16,
+        16
+      ],
+      "sample_format_codes": [
+        1,
+        1,
+        1
+      ],
+      "sample_formats": [
+        "unsigned_integer",
+        "unsigned_integer",
+        "unsigned_integer"
+      ],
+      "compression": {
+        "code": 32946,
+        "name": "DEFLATE"
+      },
+      "photometric_interpretation_code": 2,
+      "planar_configuration_code": 1,
+      "channel_names_available_in_selected_header_tags": false,
+      "memory_estimate_first_ifd": {
+        "width": 1024,
+        "height": 1024,
+        "pixel_count": 1048576,
+        "full_resolution_native_samples_bytes": 6291456,
+        "full_resolution_native_samples_mib": 6.0,
+        "full_resolution_float32_samples_bytes": 12582912,
+        "full_resolution_float32_samples_mib": 12.0,
+        "basis": "One full-resolution sample per channel per pixel; excludes mipmaps, copies, renderer buffers and decode overhead.",
+        "actual_decoded_or_blender_memory_measured": false
+      }
+    }
+  ],
+  "errors": [],
+  "limits": [
+    "Header metadata establishes format/type capacity, not actual sample values, ranges or vector/displacement semantics.",
+    "TIFF reads only the first IFD and selected numeric tags; EXR stops before the chunk offset table.",
+    "Memory figures are theoretical sample-buffer sizes, not measured decoding or Blender allocations.",
+    "No image payload decoding, pixel arrays, thumbnails, previews or cache modifications.",
+    "Size/mtime invariance is checked; no full-file hash was computed because that would read image payloads."
+  ]
+}

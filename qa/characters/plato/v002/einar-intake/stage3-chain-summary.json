@@ -1,0 +1,3632 @@
+{
+  "material_output": [
+    {
+      "name": "Material Output",
+      "active": true,
+      "displacement": {
+        "name": "Displacement",
+        "identifier": "Displacement",
+        "type": "VECTOR",
+        "linked": false,
+        "serialized_value_not_evaluated": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    }
+  ],
+  "image_routes": [
+    {
+      "image": {
+        "name": "shapes-E-F-DEFAULT-DETAIL",
+        "filepath": "D:\\AI\\PROJECT\\hackathon_projects\\Aholo_3D_AI_Hackathon\\project-management\\source-cache\\einar-v1\\extracted\\textures\\displacement\\face\\shapes-E-F-DEFAULT-DETAIL.tif",
+        "colorspace": "Non-Color",
+        "source": "FILE",
+        "alpha_mode": "STRAIGHT"
+      },
+      "node": "Image Texture.016",
+      "vector_input_links": [
+        {
+          "from_node": "UV Map.020",
+          "from_socket": "UV",
+          "from_identifier": "UV",
+          "to_node": "Image Texture.016",
+          "to_socket": "Vector",
+          "to_identifier": "Vector",
+          "is_valid": true,
+          "is_muted": false
+        }
+      ],
+      "outgoing": [
+        {
+          "from_node": "Image Texture.016",
+          "from_socket": "Color",
+          "from_identifier": "Color",
+          "to_node": "Separate Color.001",
+          "to_socket": "Color",
+          "to_identifier": "Color",
+          "is_valid": true,
+          "is_muted": false
+        },
+        {
+          "from_node": "Image Texture.016",
+          "from_socket": "Alpha",
+          "from_identifier": "Alpha",
+          "to_node": "Reroute.003",
+          "to_socket": "Input",
+          "to_identifier": "Input",
+          "is_valid": true,
+          "is_muted": false
+        }
+      ],
+      "to_bump": [
+        {
+          "from_node": "Image Texture.016",
+          "from_socket": "Alpha",
+          "from_identifier": "Alpha",
+          "to_node": "Reroute.003",
+          "to_socket": "Input",
+          "to_identifier": "Input",
+          "is_valid": true,
+          "is_muted": false
+        },
+        {
+          "from_node": "Reroute.003",
+          "from_socket": "Output",
+          "from_identifier": "Output",
+          "to_node": "Math.070",
+          "to_socket": "Value",
+          "to_identifier": "Value",
+          "is_valid": true,
+          "is_muted": false
+        },
+        {
+          "from_node": "Math.070",
+          "from_socket": "Value",
+          "from_identifier": "Value",
+          "to_node": "Math.050",
+          "to_socket": "Value",
+          "to_identifier": "Value",
+          "is_valid": true,
+          "is_muted": false
+        },
+        {
+          "from_node": "Math.050",
+          "from_socket": "Value",
+          "from_identifier": "Value",
+          "to_node": "Math.043",
+          "to_socket": "Value",
+          "to_identifier": "Value_001",
+          "is_valid": true,
+          "is_muted": false
+        },
+        {
+          "from_node": "Math.043",
+          "from_socket": "Value",
+          "from_identifier": "Value",
+          "to_node": "Math.105",
+          "to_socket": "Value",
+          "to_identifier": "Value",
+          "is_valid": true,
+          "is_muted": false
+        },
+        {
+          "from_node": "Math.105",
+          "from_socket": "Value",
+          "from_identifier": "Value",
+          "to_node": "Math.123",
+          "to_socket": "Value",
+          "to_identifier": "Value",
+          "is_valid": true,
+          "is_muted": false
+        },
+        {
+          "from_node": "Math.123",
+          "from_socket": "Value",
+          "from_identifier": "Value",
+          "to_node": "Bump.001",
+          "to_socket": "Height",
+          "to_identifier": "Height",
+          "is_valid": true,
+          "is_muted": false
+        }
+      ],
+      "to_surface": [
+        {
+          "from_node": "Image Texture.016",
+          "from_socket": "Alpha",
+          "from_identifier": "Alpha",
+          "to_node": "Reroute.003",
+          "to_socket": "Input",
+          "to_identifier": "Input",
+          "is_valid": true,
+          "is_muted": false
+        },
+        {
+          "from_node": "Reroute.003",
+          "from_socket": "Output",
+          "from_identifier": "Output",
+          "to_node": "Map Range",
+          "to_socket": "Value",
+          "to_identifier": "Value",
+          "is_valid": true,
+          "is_muted": false
+        },
+        {
+          "from_node": "Map Range",
+          "from_socket": "Result",
+          "from_identifier": "Result",
+          "to_node": "Math.064",
+          "to_socket": "Value",
+          "to_identifier": "Value",
+          "is_valid": true,
+          "is_muted": false
+        },
+        {
+          "from_node": "Math.064",
+          "from_socket": "Value",
+          "from_identifier": "Value",
+          "to_node": "Group.009",
+          "to_socket": "Specularity",
+          "to_identifier": "Input_3",
+          "is_valid": true,
+          "is_muted": false
+        },
+        {
+          "from_node": "Group.009",
+          "from_socket": "Specularity",
+          "from_identifier": "Output_4",
+          "to_node": "Math.142",
+          "to_socket": "Value",
+          "to_identifier": "Value",
+          "is_valid": true,
+          "is_muted": false
+        },
+        {
+          "from_node": "Math.142",
+          "from_socket": "Value",
+          "from_identifier": "Value",
+          "to_node": "Principled BSDF.001",
+          "to_socket": "Specular IOR Level",
+          "to_identifier": "Specular IOR Level",
+          "is_valid": true,
+          "is_muted": false
+        },
+        {
+          "from_node": "Principled BSDF.001",
+          "from_socket": "BSDF",
+          "from_identifier": "BSDF",
+          "to_node": "Mix Shader",
+          "to_socket": "Shader",
+          "to_identifier": "Shader",
+          "is_valid": true,
+          "is_muted": false
+        },
+        {
+          "from_node": "Mix Shader",
+          "from_socket": "Shader",
+          "from_identifier": "Shader",
+          "to_node": "Group.004",
+          "to_socket": "Shader",
+          "to_identifier": "Input_1",
+          "is_valid": true,
+          "is_muted": false
+        },
+        {
+          "from_node": "Group.004",
+          "from_socket": "Shader",
+          "from_identifier": "Output_2",
+          "to_node": "Mix Shader.001",
+          "to_socket": "Shader",
+          "to_identifier": "Shader",
+          "is_valid": true,
+          "is_muted": false
+        },
+        {
+          "from_node": "Mix Shader.001",
+          "from_socket": "Shader",
+          "from_identifier": "Shader",
+          "to_node": "Material Output",
+          "to_socket": "Surface",
+          "to_identifier": "Surface",
+          "is_valid": true,
+          "is_muted": false
+        }
+      ]
+    },
+    {
+      "image": {
+        "name": "shapes-A-B-C-D",
+        "filepath": "D:\\AI\\PROJECT\\hackathon_projects\\Aholo_3D_AI_Hackathon\\project-management\\source-cache\\einar-v1\\extracted\\textures\\displacement\\face\\shapes-A-B-C-D.tif",
+        "colorspace": "Non-Color",
+        "source": "FILE",
+        "alpha_mode": "STRAIGHT"
+      },
+      "node": "Image Texture.015",
+      "vector_input_links": [
+        {
+          "from_node": "UV Map.019",
+          "from_socket": "UV",
+          "from_identifier": "UV",
+          "to_node": "Image Texture.015",
+          "to_socket": "Vector",
+          "to_identifier": "Vector",
+          "is_valid": true,
+          "is_muted": false
+        }
+      ],
+      "outgoing": [
+        {
+          "from_node": "Image Texture.015",
+          "from_socket": "Color",
+          "from_identifier": "Color",
+          "to_node": "Separate Color",
+          "to_socket": "Color",
+          "to_identifier": "Color",
+          "is_valid": true,
+          "is_muted": false
+        },
+        {
+          "from_node": "Image Texture.015",
+          "from_socket": "Alpha",
+          "from_identifier": "Alpha",
+          "to_node": "Math.041",
+          "to_socket": "Value",
+          "to_identifier": "Value",
+          "is_valid": true,
+          "is_muted": false
+        }
+      ],
+      "to_bump": [
+        {
+          "from_node": "Image Texture.015",
+          "from_socket": "Alpha",
+          "from_identifier": "Alpha",
+          "to_node": "Math.041",
+          "to_socket": "Value",
+          "to_identifier": "Value",
+          "is_valid": true,
+          "is_muted": false
+        },
+        {
+          "from_node": "Math.041",
+          "from_socket": "Value",
+          "from_identifier": "Value",
+          "to_node": "Math.042",
+          "to_socket": "Value",
+          "to_identifier": "Value",
+          "is_valid": true,
+          "is_muted": false
+        },
+        {
+          "from_node": "Math.042",
+          "from_socket": "Value",
+          "from_identifier": "Value",
+          "to_node": "Math.035",
+          "to_socket": "Value",
+          "to_identifier": "Value_001",
+          "is_valid": true,
+          "is_muted": false
+        },
+        {
+          "from_node": "Math.035",
+          "from_socket": "Value",
+          "from_identifier": "Value",
+          "to_node": "Math.038",
+          "to_socket": "Value",
+          "to_identifier": "Value",
+          "is_valid": true,
+          "is_muted": false
+        },
+        {
+          "from_node": "Math.038",
+          "from_socket": "Value",
+          "from_identifier": "Value",
+          "to_node": "Math.047",
+          "to_socket": "Value",
+          "to_identifier": "Value",
+          "is_valid": true,
+          "is_muted": false
+        },
+        {
+          "from_node": "Math.047",
+          "from_socket": "Value",
+          "from_identifier": "Value",
+          "to_node": "Math.029",
+          "to_socket": "Value",
+          "to_identifier": "Value_001",
+          "is_valid": true,
+          "is_muted": false
+        },
+        {
+          "from_node": "Math.029",
+          "from_socket": "Value",
+          "from_identifier": "Value",
+          "to_node": "Math.044",
+          "to_socket": "Value",
+          "to_identifier": "Value",
+          "is_valid": true,
+          "is_muted": false
+        },
+        {
+          "from_node": "Math.044",
+          "from_socket": "Value",
+          "from_identifier": "Value",
+          "to_node": "Reroute.033",
+          "to_socket": "Input",
+          "to_identifier": "Input",
+          "is_valid": true,
+          "is_muted": false
+        },
+        {
+          "from_node": "Reroute.033",
+          "from_socket": "Output",
+          "from_identifier": "Output",
+          "to_node": "Reroute.010",
+          "to_socket": "Input",
+          "to_identifier": "Input",
+          "is_valid": true,
+          "is_muted": false
+        },
+        {
+          "from_node": "Reroute.010",
+          "from_socket": "Output",
+          "from_identifier": "Output",
+          "to_node": "Math.043",
+          "to_socket": "Value",
+          "to_identifier": "Value",
+          "is_valid": true,
+          "is_muted": false
+        },
+        {
+          "from_node": "Math.043",
+          "from_socket": "Value",
+          "from_identifier": "Value",
+          "to_node": "Math.105",
+          "to_socket": "Value",
+          "to_identifier": "Value",
+          "is_valid": true,
+          "is_muted": false
+        },
+        {
+          "from_node": "Math.105",
+          "from_socket": "Value",
+          "from_identifier": "Value",
+          "to_node": "Math.123",
+          "to_socket": "Value",
+          "to_identifier": "Value",
+          "is_valid": true,
+          "is_muted": false
+        },
+        {
+          "from_node": "Math.123",
+          "from_socket": "Value",
+          "from_identifier": "Value",
+          "to_node": "Bump.001",
+          "to_socket": "Height",
+          "to_identifier": "Height",
+          "is_valid": true,
+          "is_muted": false
+        }
+      ],
+      "to_surface": [
+        {
+          "from_node": "Image Texture.015",
+          "from_socket": "Alpha",
+          "from_identifier": "Alpha",
+          "to_node": "Math.041",
+          "to_socket": "Value",
+          "to_identifier": "Value",
+          "is_valid": true,
+          "is_muted": false
+        },
+        {
+          "from_node": "Math.041",
+          "from_socket": "Value",
+          "from_identifier": "Value",
+          "to_node": "Math.042",
+          "to_socket": "Value",
+          "to_identifier": "Value",
+          "is_valid": true,
+          "is_muted": false
+        },
+        {
+          "from_node": "Math.042",
+          "from_socket": "Value",
+          "from_identifier": "Value",
+          "to_node": "Math.035",
+          "to_socket": "Value",
+          "to_identifier": "Value_001",
+          "is_valid": true,
+          "is_muted": false
+        },
+        {
+          "from_node": "Math.035",
+          "from_socket": "Value",
+          "from_identifier": "Value",
+          "to_node": "Math.038",
+          "to_socket": "Value",
+          "to_identifier": "Value",
+          "is_valid": true,
+          "is_muted": false
+        },
+        {
+          "from_node": "Math.038",
+          "from_socket": "Value",
+          "from_identifier": "Value",
+          "to_node": "Math.047",
+          "to_socket": "Value",
+          "to_identifier": "Value",
+          "is_valid": true,
+          "is_muted": false
+        },
+        {
+          "from_node": "Math.047",
+          "from_socket": "Value",
+          "from_identifier": "Value",
+          "to_node": "Math.029",
+          "to_socket": "Value",
+          "to_identifier": "Value_001",
+          "is_valid": true,
+          "is_muted": false
+        },
+        {
+          "from_node": "Math.029",
+          "from_socket": "Value",
+          "from_identifier": "Value",
+          "to_node": "Math.044",
+          "to_socket": "Value",
+          "to_identifier": "Value",
+          "is_valid": true,
+          "is_muted": false
+        },
+        {
+          "from_node": "Math.044",
+          "from_socket": "Value",
+          "from_identifier": "Value",
+          "to_node": "Reroute.033",
+          "to_socket": "Input",
+          "to_identifier": "Input",
+          "is_valid": true,
+          "is_muted": false
+        },
+        {
+          "from_node": "Reroute.033",
+          "from_socket": "Output",
+          "from_identifier": "Output",
+          "to_node": "Reroute.010",
+          "to_socket": "Input",
+          "to_identifier": "Input",
+          "is_valid": true,
+          "is_muted": false
+        },
+        {
+          "from_node": "Reroute.010",
+          "from_socket": "Output",
+          "from_identifier": "Output",
+          "to_node": "Math.043",
+          "to_socket": "Value",
+          "to_identifier": "Value",
+          "is_valid": true,
+          "is_muted": false
+        },
+        {
+          "from_node": "Math.043",
+          "from_socket": "Value",
+          "from_identifier": "Value",
+          "to_node": "Math.105",
+          "to_socket": "Value",
+          "to_identifier": "Value",
+          "is_valid": true,
+          "is_muted": false
+        },
+        {
+          "from_node": "Math.105",
+          "from_socket": "Value",
+          "from_identifier": "Value",
+          "to_node": "Math.123",
+          "to_socket": "Value",
+          "to_identifier": "Value",
+          "is_valid": true,
+          "is_muted": false
+        },
+        {
+          "from_node": "Math.123",
+          "from_socket": "Value",
+          "from_identifier": "Value",
+          "to_node": "Bump.001",
+          "to_socket": "Height",
+          "to_identifier": "Height",
+          "is_valid": true,
+          "is_muted": false
+        },
+        {
+          "from_node": "Bump.001",
+          "from_socket": "Normal",
+          "from_identifier": "Normal",
+          "to_node": "Reroute.014",
+          "to_socket": "Input",
+          "to_identifier": "Input",
+          "is_valid": true,
+          "is_muted": false
+        },
+        {
+          "from_node": "Reroute.014",
+          "from_socket": "Output",
+          "from_identifier": "Output",
+          "to_node": "Group.008",
+          "to_socket": "Normal A",
+          "to_identifier": "Input_0",
+          "is_valid": true,
+          "is_muted": false
+        },
+        {
+          "from_node": "Group.008",
+          "from_socket": "Normal",
+          "from_identifier": "Output_3",
+          "to_node": "Group.026",
+          "to_socket": "Normal A",
+          "to_identifier": "Input_0",
+          "is_valid": true,
+          "is_muted": false
+        },
+        {
+          "from_node": "Group.026",
+          "from_socket": "Normal",
+          "from_identifier": "Output_3",
+          "to_node": "Principled BSDF.001",
+          "to_socket": "Coat Normal",
+          "to_identifier": "Coat Normal",
+          "is_valid": true,
+          "is_muted": false
+        },
+        {
+          "from_node": "Principled BSDF.001",
+          "from_socket": "BSDF",
+          "from_identifier": "BSDF",
+          "to_node": "Mix Shader",
+          "to_socket": "Shader",
+          "to_identifier": "Shader",
+          "is_valid": true,
+          "is_muted": false
+        },
+        {
+          "from_node": "Mix Shader",
+          "from_socket": "Shader",
+          "from_identifier": "Shader",
+          "to_node": "Group.004",
+          "to_socket": "Shader",
+          "to_identifier": "Input_1",
+          "is_valid": true,
+          "is_muted": false
+        },
+        {
+          "from_node": "Group.004",
+          "from_socket": "Shader",
+          "from_identifier": "Output_2",
+          "to_node": "Mix Shader.001",
+          "to_socket": "Shader",
+          "to_identifier": "Shader",
+          "is_valid": true,
+          "is_muted": false
+        },
+        {
+          "from_node": "Mix Shader.001",
+          "from_socket": "Shader",
+          "from_identifier": "Shader",
+          "to_node": "Material Output",
+          "to_socket": "Surface",
+          "to_identifier": "Surface",
+          "is_valid": true,
+          "is_muted": false
+        }
+      ]
+    },
+    {
+      "image": {
+        "name": "disp_default",
+        "filepath": "D:\\AI\\PROJECT\\hackathon_projects\\Aholo_3D_AI_Hackathon\\project-management\\source-cache\\einar-v1\\extracted\\textures\\displacement\\face\\disp_default.exr",
+        "colorspace": "Non-Color",
+        "source": "FILE",
+        "alpha_mode": "PREMUL"
+      },
+      "node": "Image Texture.002",
+      "vector_input_links": [
+        {
+          "from_node": "UV Map.007",
+          "from_socket": "UV",
+          "from_identifier": "UV",
+          "to_node": "Image Texture.002",
+          "to_socket": "Vector",
+          "to_identifier": "Vector",
+          "is_valid": true,
+          "is_muted": false
+        }
+      ],
+      "outgoing": [
+        {
+          "from_node": "Image Texture.002",
+          "from_socket": "Color",
+          "from_identifier": "Color",
+          "to_node": "Math.024",
+          "to_socket": "Value",
+          "to_identifier": "Value",
+          "is_valid": true,
+          "is_muted": false
+        }
+      ],
+      "to_bump": null,
+      "to_surface": [
+        {
+          "from_node": "Image Texture.002",
+          "from_socket": "Color",
+          "from_identifier": "Color",
+          "to_node": "Math.024",
+          "to_socket": "Value",
+          "to_identifier": "Value",
+          "is_valid": true,
+          "is_muted": false
+        },
+        {
+          "from_node": "Math.024",
+          "from_socket": "Value",
+          "from_identifier": "Value",
+          "to_node": "Map Range.006",
+          "to_socket": "Value",
+          "to_identifier": "Value",
+          "is_valid": true,
+          "is_muted": false
+        },
+        {
+          "from_node": "Map Range.006",
+          "from_socket": "Result",
+          "from_identifier": "Result",
+          "to_node": "Math.011",
+          "to_socket": "Value",
+          "to_identifier": "Value_001",
+          "is_valid": true,
+          "is_muted": false
+        },
+        {
+          "from_node": "Math.011",
+          "from_socket": "Value",
+          "from_identifier": "Value",
+          "to_node": "Math.130",
+          "to_socket": "Value",
+          "to_identifier": "Value",
+          "is_valid": true,
+          "is_muted": false
+        },
+        {
+          "from_node": "Math.130",
+          "from_socket": "Value",
+          "from_identifier": "Value",
+          "to_node": "Math.126",
+          "to_socket": "Value",
+          "to_identifier": "Value",
+          "is_valid": true,
+          "is_muted": false
+        },
+        {
+          "from_node": "Math.126",
+          "from_socket": "Value",
+          "from_identifier": "Value",
+          "to_node": "Math.027",
+          "to_socket": "Value",
+          "to_identifier": "Value",
+          "is_valid": true,
+          "is_muted": false
+        },
+        {
+          "from_node": "Math.027",
+          "from_socket": "Value",
+          "from_identifier": "Value",
+          "to_node": "Reroute.008",
+          "to_socket": "Input",
+          "to_identifier": "Input",
+          "is_valid": true,
+          "is_muted": false
+        },
+        {
+          "from_node": "Reroute.008",
+          "from_socket": "Output",
+          "from_identifier": "Output",
+          "to_node": "Map Range.005",
+          "to_socket": "Value",
+          "to_identifier": "Value",
+          "is_valid": true,
+          "is_muted": false
+        },
+        {
+          "from_node": "Map Range.005",
+          "from_socket": "Result",
+          "from_identifier": "Result",
+          "to_node": "Principled BSDF.001",
+          "to_socket": "Roughness",
+          "to_identifier": "Roughness",
+          "is_valid": true,
+          "is_muted": false
+        },
+        {
+          "from_node": "Principled BSDF.001",
+          "from_socket": "BSDF",
+          "from_identifier": "BSDF",
+          "to_node": "Mix Shader",
+          "to_socket": "Shader",
+          "to_identifier": "Shader",
+          "is_valid": true,
+          "is_muted": false
+        },
+        {
+          "from_node": "Mix Shader",
+          "from_socket": "Shader",
+          "from_identifier": "Shader",
+          "to_node": "Group.004",
+          "to_socket": "Shader",
+          "to_identifier": "Input_1",
+          "is_valid": true,
+          "is_muted": false
+        },
+        {
+          "from_node": "Group.004",
+          "from_socket": "Shader",
+          "from_identifier": "Output_2",
+          "to_node": "Mix Shader.001",
+          "to_socket": "Shader",
+          "to_identifier": "Shader",
+          "is_valid": true,
+          "is_muted": false
+        },
+        {
+          "from_node": "Mix Shader.001",
+          "from_socket": "Shader",
+          "from_identifier": "Shader",
+          "to_node": "Material Output",
+          "to_socket": "Surface",
+          "to_identifier": "Surface",
+          "is_valid": true,
+          "is_muted": false
+        }
+      ]
+    },
+    {
+      "image": {
+        "name": "noise_04",
+        "filepath": "D:\\AI\\PROJECT\\hackathon_projects\\Aholo_3D_AI_Hackathon\\project-management\\source-cache\\einar-v1\\extracted\\textures\\tileable\\noise_04.tif",
+        "colorspace": "Non-Color",
+        "source": "FILE",
+        "alpha_mode": "STRAIGHT"
+      },
+      "node": "Image Texture.003",
+      "vector_input_links": [
+        {
+          "from_node": "Vector Math.021",
+          "from_socket": "Vector",
+          "from_identifier": "Vector",
+          "to_node": "Image Texture.003",
+          "to_socket": "Vector",
+          "to_identifier": "Vector",
+          "is_valid": true,
+          "is_muted": false
+        }
+      ],
+      "outgoing": [
+        {
+          "from_node": "Image Texture.003",
+          "from_socket": "Color",
+          "from_identifier": "Color",
+          "to_node": "Separate Color.003",
+          "to_socket": "Color",
+          "to_identifier": "Color",
+          "is_valid": true,
+          "is_muted": false
+        },
+        {
+          "from_node": "Image Texture.003",
+          "from_socket": "Color",
+          "from_identifier": "Color",
+          "to_node": "Map Range.019",
+          "to_socket": "Vector",
+          "to_identifier": "Vector",
+          "is_valid": true,
+          "is_muted": false
+        }
+      ],
+      "to_bump": null,
+      "to_surface": [
+        {
+          "from_node": "Image Texture.003",
+          "from_socket": "Color",
+          "from_identifier": "Color",
+          "to_node": "Map Range.019",
+          "to_socket": "Vector",
+          "to_identifier": "Vector",
+          "is_valid": true,
+          "is_muted": false
+        },
+        {
+          "from_node": "Map Range.019",
+          "from_socket": "Vector",
+          "from_identifier": "Vector",
+          "to_node": "Normal Map.004",
+          "to_socket": "Color",
+          "to_identifier": "Color",
+          "is_valid": true,
+          "is_muted": false
+        },
+        {
+          "from_node": "Normal Map.004",
+          "from_socket": "Normal",
+          "from_identifier": "Normal",
+          "to_node": "Group.003",
+          "to_socket": "Normal B",
+          "to_identifier": "Input_2",
+          "is_valid": true,
+          "is_muted": false
+        },
+        {
+          "from_node": "Group.003",
+          "from_socket": "Normal",
+          "from_identifier": "Output_3",
+          "to_node": "Reroute",
+          "to_socket": "Input",
+          "to_identifier": "Input",
+          "is_valid": true,
+          "is_muted": false
+        },
+        {
+          "from_node": "Reroute",
+          "from_socket": "Output",
+          "from_identifier": "Output",
+          "to_node": "Principled BSDF.001",
+          "to_socket": "Normal",
+          "to_identifier": "Normal",
+          "is_valid": true,
+          "is_muted": false
+        },
+        {
+          "from_node": "Principled BSDF.001",
+          "from_socket": "BSDF",
+          "from_identifier": "BSDF",
+          "to_node": "Mix Shader",
+          "to_socket": "Shader",
+          "to_identifier": "Shader",
+          "is_valid": true,
+          "is_muted": false
+        },
+        {
+          "from_node": "Mix Shader",
+          "from_socket": "Shader",
+          "from_identifier": "Shader",
+          "to_node": "Group.004",
+          "to_socket": "Shader",
+          "to_identifier": "Input_1",
+          "is_valid": true,
+          "is_muted": false
+        },
+        {
+          "from_node": "Group.004",
+          "from_socket": "Shader",
+          "from_identifier": "Output_2",
+          "to_node": "Mix Shader.001",
+          "to_socket": "Shader",
+          "to_identifier": "Shader",
+          "is_valid": true,
+          "is_muted": false
+        },
+        {
+          "from_node": "Mix Shader.001",
+          "from_socket": "Shader",
+          "from_identifier": "Shader",
+          "to_node": "Material Output",
+          "to_socket": "Surface",
+          "to_identifier": "Surface",
+          "is_valid": true,
+          "is_muted": false
+        }
+      ]
+    }
+  ],
+  "route_node_parameters": [
+    {
+      "name": "Bump.001",
+      "label": "",
+      "bl_idname": "ShaderNodeBump",
+      "type": "BUMP",
+      "mute": false,
+      "inputs": [
+        {
+          "name": "Strength",
+          "identifier": "Strength",
+          "type": "VALUE",
+          "linked": false,
+          "serialized_value_not_evaluated": 1.0
+        },
+        {
+          "name": "Distance",
+          "identifier": "Distance",
+          "type": "VALUE",
+          "linked": false,
+          "serialized_value_not_evaluated": 0.00800000037997961
+        },
+        {
+          "name": "Filter Width",
+          "identifier": "Filter Width",
+          "type": "VALUE",
+          "linked": false,
+          "serialized_value_not_evaluated": 1.0
+        },
+        {
+          "name": "Height",
+          "identifier": "Height",
+          "type": "VALUE",
+          "linked": true,
+          "serialized_value_not_evaluated": 1.0
+        },
+        {
+          "name": "Normal",
+          "identifier": "Normal",
+          "type": "VECTOR",
+          "linked": false,
+          "serialized_value_not_evaluated": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "Normal",
+          "identifier": "Normal",
+          "type": "VECTOR",
+          "linked": true,
+          "serialized_value_not_evaluated": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Group.003",
+      "label": "",
+      "bl_idname": "ShaderNodeGroup",
+      "type": "GROUP",
+      "mute": false,
+      "inputs": [
+        {
+          "name": "Factor",
+          "identifier": "Input_1",
+          "type": "VALUE",
+          "linked": true,
+          "serialized_value_not_evaluated": 0.5
+        },
+        {
+          "name": "Normal A",
+          "identifier": "Input_0",
+          "type": "VECTOR",
+          "linked": true,
+          "serialized_value_not_evaluated": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "name": "Normal B",
+          "identifier": "Input_2",
+          "type": "VECTOR",
+          "linked": true,
+          "serialized_value_not_evaluated": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "Normal",
+          "identifier": "Output_3",
+          "type": "VECTOR",
+          "linked": true,
+          "serialized_value_not_evaluated": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        }
+      ],
+      "node_tree": "UT-Normal.Mix"
+    },
+    {
+      "name": "Group.004",
+      "label": "",
+      "bl_idname": "ShaderNodeGroup",
+      "type": "GROUP",
+      "mute": false,
+      "inputs": [
+        {
+          "name": "Shader",
+          "identifier": "Input_1",
+          "type": "SHADER",
+          "linked": true
+        },
+        {
+          "name": "Specularity",
+          "identifier": "Input_3",
+          "type": "VALUE",
+          "linked": false,
+          "serialized_value_not_evaluated": 0.5
+        }
+      ],
+      "outputs": [
+        {
+          "name": "Shader",
+          "identifier": "Output_2",
+          "type": "SHADER",
+          "linked": true
+        },
+        {
+          "name": "Specularity",
+          "identifier": "Output_4",
+          "type": "VALUE",
+          "linked": false,
+          "serialized_value_not_evaluated": 0.0
+        }
+      ],
+      "node_tree": "SH-mouth_fade"
+    },
+    {
+      "name": "Group.008",
+      "label": "",
+      "bl_idname": "ShaderNodeGroup",
+      "type": "GROUP",
+      "mute": false,
+      "inputs": [
+        {
+          "name": "Factor",
+          "identifier": "Input_1",
+          "type": "VALUE",
+          "linked": true,
+          "serialized_value_not_evaluated": 1.0
+        },
+        {
+          "name": "Normal A",
+          "identifier": "Input_0",
+          "type": "VECTOR",
+          "linked": true,
+          "serialized_value_not_evaluated": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "name": "Normal B",
+          "identifier": "Input_2",
+          "type": "VECTOR",
+          "linked": true,
+          "serialized_value_not_evaluated": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "Normal",
+          "identifier": "Output_3",
+          "type": "VECTOR",
+          "linked": true,
+          "serialized_value_not_evaluated": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "node_tree": "UT-Normal.Combine"
+    },
+    {
+      "name": "Group.009",
+      "label": "",
+      "bl_idname": "ShaderNodeGroup",
+      "type": "GROUP",
+      "mute": false,
+      "inputs": [
+        {
+          "name": "Shader",
+          "identifier": "Input_1",
+          "type": "SHADER",
+          "linked": false
+        },
+        {
+          "name": "Specularity",
+          "identifier": "Input_3",
+          "type": "VALUE",
+          "linked": true,
+          "serialized_value_not_evaluated": 0.5
+        }
+      ],
+      "outputs": [
+        {
+          "name": "Shader",
+          "identifier": "Output_2",
+          "type": "SHADER",
+          "linked": false
+        },
+        {
+          "name": "Specularity",
+          "identifier": "Output_4",
+          "type": "VALUE",
+          "linked": true,
+          "serialized_value_not_evaluated": 0.0
+        }
+      ],
+      "node_tree": "SH-mouth_fade"
+    },
+    {
+      "name": "Group.026",
+      "label": "",
+      "bl_idname": "ShaderNodeGroup",
+      "type": "GROUP",
+      "mute": false,
+      "inputs": [
+        {
+          "name": "Factor",
+          "identifier": "Input_1",
+          "type": "VALUE",
+          "linked": true,
+          "serialized_value_not_evaluated": 0.5
+        },
+        {
+          "name": "Normal A",
+          "identifier": "Input_0",
+          "type": "VECTOR",
+          "linked": true,
+          "serialized_value_not_evaluated": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "name": "Normal B",
+          "identifier": "Input_2",
+          "type": "VECTOR",
+          "linked": true,
+          "serialized_value_not_evaluated": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "Normal",
+          "identifier": "Output_3",
+          "type": "VECTOR",
+          "linked": true,
+          "serialized_value_not_evaluated": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        }
+      ],
+      "node_tree": "UT-Normal.Mix"
+    },
+    {
+      "name": "Image Texture.002",
+      "label": "",
+      "bl_idname": "ShaderNodeTexImage",
+      "type": "TEX_IMAGE",
+      "mute": false,
+      "inputs": [
+        {
+          "name": "Vector",
+          "identifier": "Vector",
+          "type": "VECTOR",
+          "linked": true,
+          "serialized_value_not_evaluated": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "Color",
+          "identifier": "Color",
+          "type": "RGBA",
+          "linked": true,
+          "serialized_value_not_evaluated": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "name": "Alpha",
+          "identifier": "Alpha",
+          "type": "VALUE",
+          "linked": false,
+          "serialized_value_not_evaluated": 0.0
+        }
+      ],
+      "interpolation": "Linear",
+      "projection": "FLAT",
+      "extension": "REPEAT",
+      "image": {
+        "name": "disp_default",
+        "filepath": "D:\\AI\\PROJECT\\hackathon_projects\\Aholo_3D_AI_Hackathon\\project-management\\source-cache\\einar-v1\\extracted\\textures\\displacement\\face\\disp_default.exr",
+        "colorspace": "Non-Color",
+        "source": "FILE",
+        "alpha_mode": "PREMUL"
+      }
+    },
+    {
+      "name": "Image Texture.003",
+      "label": "",
+      "bl_idname": "ShaderNodeTexImage",
+      "type": "TEX_IMAGE",
+      "mute": false,
+      "inputs": [
+        {
+          "name": "Vector",
+          "identifier": "Vector",
+          "type": "VECTOR",
+          "linked": true,
+          "serialized_value_not_evaluated": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "Color",
+          "identifier": "Color",
+          "type": "RGBA",
+          "linked": true,
+          "serialized_value_not_evaluated": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "name": "Alpha",
+          "identifier": "Alpha",
+          "type": "VALUE",
+          "linked": false,
+          "serialized_value_not_evaluated": 0.0
+        }
+      ],
+      "interpolation": "Linear",
+      "projection": "FLAT",
+      "extension": "REPEAT",
+      "image": {
+        "name": "noise_04",
+        "filepath": "D:\\AI\\PROJECT\\hackathon_projects\\Aholo_3D_AI_Hackathon\\project-management\\source-cache\\einar-v1\\extracted\\textures\\tileable\\noise_04.tif",
+        "colorspace": "Non-Color",
+        "source": "FILE",
+        "alpha_mode": "STRAIGHT"
+      }
+    },
+    {
+      "name": "Image Texture.015",
+      "label": "",
+      "bl_idname": "ShaderNodeTexImage",
+      "type": "TEX_IMAGE",
+      "mute": false,
+      "inputs": [
+        {
+          "name": "Vector",
+          "identifier": "Vector",
+          "type": "VECTOR",
+          "linked": true,
+          "serialized_value_not_evaluated": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "Color",
+          "identifier": "Color",
+          "type": "RGBA",
+          "linked": true,
+          "serialized_value_not_evaluated": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "name": "Alpha",
+          "identifier": "Alpha",
+          "type": "VALUE",
+          "linked": true,
+          "serialized_value_not_evaluated": 0.0
+        }
+      ],
+      "interpolation": "Linear",
+      "projection": "FLAT",
+      "extension": "REPEAT",
+      "image": {
+        "name": "shapes-A-B-C-D",
+        "filepath": "D:\\AI\\PROJECT\\hackathon_projects\\Aholo_3D_AI_Hackathon\\project-management\\source-cache\\einar-v1\\extracted\\textures\\displacement\\face\\shapes-A-B-C-D.tif",
+        "colorspace": "Non-Color",
+        "source": "FILE",
+        "alpha_mode": "STRAIGHT"
+      }
+    },
+    {
+      "name": "Image Texture.016",
+      "label": "",
+      "bl_idname": "ShaderNodeTexImage",
+      "type": "TEX_IMAGE",
+      "mute": false,
+      "inputs": [
+        {
+          "name": "Vector",
+          "identifier": "Vector",
+          "type": "VECTOR",
+          "linked": true,
+          "serialized_value_not_evaluated": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "Color",
+          "identifier": "Color",
+          "type": "RGBA",
+          "linked": true,
+          "serialized_value_not_evaluated": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "name": "Alpha",
+          "identifier": "Alpha",
+          "type": "VALUE",
+          "linked": true,
+          "serialized_value_not_evaluated": 0.0
+        }
+      ],
+      "interpolation": "Linear",
+      "projection": "FLAT",
+      "extension": "REPEAT",
+      "image": {
+        "name": "shapes-E-F-DEFAULT-DETAIL",
+        "filepath": "D:\\AI\\PROJECT\\hackathon_projects\\Aholo_3D_AI_Hackathon\\project-management\\source-cache\\einar-v1\\extracted\\textures\\displacement\\face\\shapes-E-F-DEFAULT-DETAIL.tif",
+        "colorspace": "Non-Color",
+        "source": "FILE",
+        "alpha_mode": "STRAIGHT"
+      }
+    },
+    {
+      "name": "Map Range",
+      "label": "",
+      "bl_idname": "ShaderNodeMapRange",
+      "type": "MAP_RANGE",
+      "mute": false,
+      "inputs": [
+        {
+          "name": "Value",
+          "identifier": "Value",
+          "type": "VALUE",
+          "linked": true,
+          "serialized_value_not_evaluated": 1.0
+        },
+        {
+          "name": "From Min",
+          "identifier": "From Min",
+          "type": "VALUE",
+          "linked": false,
+          "serialized_value_not_evaluated": 0.3700000047683716
+        },
+        {
+          "name": "From Max",
+          "identifier": "From Max",
+          "type": "VALUE",
+          "linked": false,
+          "serialized_value_not_evaluated": 0.6600000262260437
+        },
+        {
+          "name": "To Min",
+          "identifier": "To Min",
+          "type": "VALUE",
+          "linked": false,
+          "serialized_value_not_evaluated": 0.050000011920928955
+        },
+        {
+          "name": "To Max",
+          "identifier": "To Max",
+          "type": "VALUE",
+          "linked": false,
+          "serialized_value_not_evaluated": 0.44999998807907104
+        },
+        {
+          "name": "Steps",
+          "identifier": "Steps",
+          "type": "VALUE",
+          "linked": false,
+          "serialized_value_not_evaluated": 4.0
+        },
+        {
+          "name": "Vector",
+          "identifier": "Vector",
+          "type": "VECTOR",
+          "linked": false,
+          "serialized_value_not_evaluated": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "name": "From Min",
+          "identifier": "From_Min_FLOAT3",
+          "type": "VECTOR",
+          "linked": false,
+          "serialized_value_not_evaluated": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "name": "From Max",
+          "identifier": "From_Max_FLOAT3",
+          "type": "VECTOR",
+          "linked": false,
+          "serialized_value_not_evaluated": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "name": "To Min",
+          "identifier": "To_Min_FLOAT3",
+          "type": "VECTOR",
+          "linked": false,
+          "serialized_value_not_evaluated": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "name": "To Max",
+          "identifier": "To_Max_FLOAT3",
+          "type": "VECTOR",
+          "linked": false,
+          "serialized_value_not_evaluated": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "name": "Steps",
+          "identifier": "Steps_FLOAT3",
+          "type": "VECTOR",
+          "linked": false,
+          "serialized_value_not_evaluated": [
+            4.0,
+            4.0,
+            4.0
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "Result",
+          "identifier": "Result",
+          "type": "VALUE",
+          "linked": true,
+          "serialized_value_not_evaluated": 0.0
+        },
+        {
+          "name": "Vector",
+          "identifier": "Vector",
+          "type": "VECTOR",
+          "linked": false,
+          "serialized_value_not_evaluated": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "data_type": "FLOAT"
+    },
+    {
+      "name": "Map Range.005",
+      "label": "",
+      "bl_idname": "ShaderNodeMapRange",
+      "type": "MAP_RANGE",
+      "mute": false,
+      "inputs": [
+        {
+          "name": "Value",
+          "identifier": "Value",
+          "type": "VALUE",
+          "linked": true,
+          "serialized_value_not_evaluated": 1.0
+        },
+        {
+          "name": "From Min",
+          "identifier": "From Min",
+          "type": "VALUE",
+          "linked": false,
+          "serialized_value_not_evaluated": 0.5
+        },
+        {
+          "name": "From Max",
+          "identifier": "From Max",
+          "type": "VALUE",
+          "linked": false,
+          "serialized_value_not_evaluated": 1.0
+        },
+        {
+          "name": "To Min",
+          "identifier": "To Min",
+          "type": "VALUE",
+          "linked": true,
+          "serialized_value_not_evaluated": 0.0
+        },
+        {
+          "name": "To Max",
+          "identifier": "To Max",
+          "type": "VALUE",
+          "linked": false,
+          "serialized_value_not_evaluated": 0.75
+        },
+        {
+          "name": "Steps",
+          "identifier": "Steps",
+          "type": "VALUE",
+          "linked": false,
+          "serialized_value_not_evaluated": 4.0
+        },
+        {
+          "name": "Vector",
+          "identifier": "Vector",
+          "type": "VECTOR",
+          "linked": false,
+          "serialized_value_not_evaluated": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "name": "From Min",
+          "identifier": "From_Min_FLOAT3",
+          "type": "VECTOR",
+          "linked": false,
+          "serialized_value_not_evaluated": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "name": "From Max",
+          "identifier": "From_Max_FLOAT3",
+          "type": "VECTOR",
+          "linked": false,
+          "serialized_value_not_evaluated": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "name": "To Min",
+          "identifier": "To_Min_FLOAT3",
+          "type": "VECTOR",
+          "linked": false,
+          "serialized_value_not_evaluated": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "name": "To Max",
+          "identifier": "To_Max_FLOAT3",
+          "type": "VECTOR",
+          "linked": false,
+          "serialized_value_not_evaluated": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "name": "Steps",
+          "identifier": "Steps_FLOAT3",
+          "type": "VECTOR",
+          "linked": false,
+          "serialized_value_not_evaluated": [
+            4.0,
+            4.0,
+            4.0
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "Result",
+          "identifier": "Result",
+          "type": "VALUE",
+          "linked": true,
+          "serialized_value_not_evaluated": 0.0
+        },
+        {
+          "name": "Vector",
+          "identifier": "Vector",
+          "type": "VECTOR",
+          "linked": false,
+          "serialized_value_not_evaluated": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "data_type": "FLOAT"
+    },
+    {
+      "name": "Map Range.006",
+      "label": "",
+      "bl_idname": "ShaderNodeMapRange",
+      "type": "MAP_RANGE",
+      "mute": false,
+      "inputs": [
+        {
+          "name": "Value",
+          "identifier": "Value",
+          "type": "VALUE",
+          "linked": true,
+          "serialized_value_not_evaluated": 1.0
+        },
+        {
+          "name": "From Min",
+          "identifier": "From Min",
+          "type": "VALUE",
+          "linked": false,
+          "serialized_value_not_evaluated": 0.31000006198883057
+        },
+        {
+          "name": "From Max",
+          "identifier": "From Max",
+          "type": "VALUE",
+          "linked": false,
+          "serialized_value_not_evaluated": 0.699999988079071
+        },
+        {
+          "name": "To Min",
+          "identifier": "To Min",
+          "type": "VALUE",
+          "linked": false,
+          "serialized_value_not_evaluated": 0.699999988079071
+        },
+        {
+          "name": "To Max",
+          "identifier": "To Max",
+          "type": "VALUE",
+          "linked": false,
+          "serialized_value_not_evaluated": 0.0
+        },
+        {
+          "name": "Steps",
+          "identifier": "Steps",
+          "type": "VALUE",
+          "linked": false,
+          "serialized_value_not_evaluated": 4.0
+        },
+        {
+          "name": "Vector",
+          "identifier": "Vector",
+          "type": "VECTOR",
+          "linked": false,
+          "serialized_value_not_evaluated": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "name": "From Min",
+          "identifier": "From_Min_FLOAT3",
+          "type": "VECTOR",
+          "linked": false,
+          "serialized_value_not_evaluated": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "name": "From Max",
+          "identifier": "From_Max_FLOAT3",
+          "type": "VECTOR",
+          "linked": false,
+          "serialized_value_not_evaluated": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "name": "To Min",
+          "identifier": "To_Min_FLOAT3",
+          "type": "VECTOR",
+          "linked": false,
+          "serialized_value_not_evaluated": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "name": "To Max",
+          "identifier": "To_Max_FLOAT3",
+          "type": "VECTOR",
+          "linked": false,
+          "serialized_value_not_evaluated": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "name": "Steps",
+          "identifier": "Steps_FLOAT3",
+          "type": "VECTOR",
+          "linked": false,
+          "serialized_value_not_evaluated": [
+            4.0,
+            4.0,
+            4.0
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "Result",
+          "identifier": "Result",
+          "type": "VALUE",
+          "linked": true,
+          "serialized_value_not_evaluated": 0.0
+        },
+        {
+          "name": "Vector",
+          "identifier": "Vector",
+          "type": "VECTOR",
+          "linked": false,
+          "serialized_value_not_evaluated": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "data_type": "FLOAT"
+    },
+    {
+      "name": "Map Range.019",
+      "label": "",
+      "bl_idname": "ShaderNodeMapRange",
+      "type": "MAP_RANGE",
+      "mute": false,
+      "inputs": [
+        {
+          "name": "Value",
+          "identifier": "Value",
+          "type": "VALUE",
+          "linked": false,
+          "serialized_value_not_evaluated": 1.0
+        },
+        {
+          "name": "From Min",
+          "identifier": "From Min",
+          "type": "VALUE",
+          "linked": false,
+          "serialized_value_not_evaluated": 0.0
+        },
+        {
+          "name": "From Max",
+          "identifier": "From Max",
+          "type": "VALUE",
+          "linked": false,
+          "serialized_value_not_evaluated": 1.0
+        },
+        {
+          "name": "To Min",
+          "identifier": "To Min",
+          "type": "VALUE",
+          "linked": false,
+          "serialized_value_not_evaluated": 0.0
+        },
+        {
+          "name": "To Max",
+          "identifier": "To Max",
+          "type": "VALUE",
+          "linked": false,
+          "serialized_value_not_evaluated": 1.0
+        },
+        {
+          "name": "Steps",
+          "identifier": "Steps",
+          "type": "VALUE",
+          "linked": false,
+          "serialized_value_not_evaluated": 4.0
+        },
+        {
+          "name": "Vector",
+          "identifier": "Vector",
+          "type": "VECTOR",
+          "linked": true,
+          "serialized_value_not_evaluated": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "name": "From Min",
+          "identifier": "From_Min_FLOAT3",
+          "type": "VECTOR",
+          "linked": false,
+          "serialized_value_not_evaluated": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "name": "From Max",
+          "identifier": "From_Max_FLOAT3",
+          "type": "VECTOR",
+          "linked": false,
+          "serialized_value_not_evaluated": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "name": "To Min",
+          "identifier": "To_Min_FLOAT3",
+          "type": "VECTOR",
+          "linked": false,
+          "serialized_value_not_evaluated": [
+            0.0,
+            0.0,
+            0.5
+          ]
+        },
+        {
+          "name": "To Max",
+          "identifier": "To_Max_FLOAT3",
+          "type": "VECTOR",
+          "linked": false,
+          "serialized_value_not_evaluated": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "name": "Steps",
+          "identifier": "Steps_FLOAT3",
+          "type": "VECTOR",
+          "linked": false,
+          "serialized_value_not_evaluated": [
+            4.0,
+            4.0,
+            4.0
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "Result",
+          "identifier": "Result",
+          "type": "VALUE",
+          "linked": false,
+          "serialized_value_not_evaluated": 0.0
+        },
+        {
+          "name": "Vector",
+          "identifier": "Vector",
+          "type": "VECTOR",
+          "linked": true,
+          "serialized_value_not_evaluated": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "data_type": "FLOAT_VECTOR"
+    },
+    {
+      "name": "Material Output",
+      "label": "",
+      "bl_idname": "ShaderNodeOutputMaterial",
+      "type": "OUTPUT_MATERIAL",
+      "mute": false,
+      "inputs": [
+        {
+          "name": "Surface",
+          "identifier": "Surface",
+          "type": "SHADER",
+          "linked": true
+        },
+        {
+          "name": "Volume",
+          "identifier": "Volume",
+          "type": "SHADER",
+          "linked": false
+        },
+        {
+          "name": "Displacement",
+          "identifier": "Displacement",
+          "type": "VECTOR",
+          "linked": false,
+          "serialized_value_not_evaluated": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "name": "Thickness",
+          "identifier": "Thickness",
+          "type": "VALUE",
+          "linked": false,
+          "serialized_value_not_evaluated": 0.0
+        }
+      ],
+      "outputs": [],
+      "is_active_output": true
+    },
+    {
+      "name": "Math.011",
+      "label": "",
+      "bl_idname": "ShaderNodeMath",
+      "type": "MATH",
+      "mute": false,
+      "inputs": [
+        {
+          "name": "Value",
+          "identifier": "Value",
+          "type": "VALUE",
+          "linked": true,
+          "serialized_value_not_evaluated": 0.5
+        },
+        {
+          "name": "Value",
+          "identifier": "Value_001",
+          "type": "VALUE",
+          "linked": true,
+          "serialized_value_not_evaluated": 0.05999999865889549
+        },
+        {
+          "name": "Value",
+          "identifier": "Value_002",
+          "type": "VALUE",
+          "linked": false,
+          "serialized_value_not_evaluated": 0.5
+        }
+      ],
+      "outputs": [
+        {
+          "name": "Value",
+          "identifier": "Value",
+          "type": "VALUE",
+          "linked": true,
+          "serialized_value_not_evaluated": 0.0
+        }
+      ],
+      "operation": "ADD",
+      "use_clamp": false
+    },
+    {
+      "name": "Math.024",
+      "label": "",
+      "bl_idname": "ShaderNodeMath",
+      "type": "MATH",
+      "mute": false,
+      "inputs": [
+        {
+          "name": "Value",
+          "identifier": "Value",
+          "type": "VALUE",
+          "linked": true,
+          "serialized_value_not_evaluated": 0.5
+        },
+        {
+          "name": "Value",
+          "identifier": "Value_001",
+          "type": "VALUE",
+          "linked": true,
+          "serialized_value_not_evaluated": 0.5
+        },
+        {
+          "name": "Value",
+          "identifier": "Value_002",
+          "type": "VALUE",
+          "linked": false,
+          "serialized_value_not_evaluated": 0.5
+        }
+      ],
+      "outputs": [
+        {
+          "name": "Value",
+          "identifier": "Value",
+          "type": "VALUE",
+          "linked": true,
+          "serialized_value_not_evaluated": 0.0
+        }
+      ],
+      "operation": "SUBTRACT",
+      "use_clamp": false
+    },
+    {
+      "name": "Math.027",
+      "label": "",
+      "bl_idname": "ShaderNodeMath",
+      "type": "MATH",
+      "mute": false,
+      "inputs": [
+        {
+          "name": "Value",
+          "identifier": "Value",
+          "type": "VALUE",
+          "linked": true,
+          "serialized_value_not_evaluated": 0.5
+        },
+        {
+          "name": "Value",
+          "identifier": "Value_001",
+          "type": "VALUE",
+          "linked": false,
+          "serialized_value_not_evaluated": 1.0
+        },
+        {
+          "name": "Value",
+          "identifier": "Value_002",
+          "type": "VALUE",
+          "linked": false,
+          "serialized_value_not_evaluated": 0.5
+        }
+      ],
+      "outputs": [
+        {
+          "name": "Value",
+          "identifier": "Value",
+          "type": "VALUE",
+          "linked": true,
+          "serialized_value_not_evaluated": 0.0
+        }
+      ],
+      "operation": "MULTIPLY",
+      "use_clamp": false
+    },
+    {
+      "name": "Math.029",
+      "label": "",
+      "bl_idname": "ShaderNodeMath",
+      "type": "MATH",
+      "mute": false,
+      "inputs": [
+        {
+          "name": "Value",
+          "identifier": "Value",
+          "type": "VALUE",
+          "linked": true,
+          "serialized_value_not_evaluated": 0.5
+        },
+        {
+          "name": "Value",
+          "identifier": "Value_001",
+          "type": "VALUE",
+          "linked": true,
+          "serialized_value_not_evaluated": 0.5
+        },
+        {
+          "name": "Value",
+          "identifier": "Value_002",
+          "type": "VALUE",
+          "linked": false,
+          "serialized_value_not_evaluated": 0.5
+        }
+      ],
+      "outputs": [
+        {
+          "name": "Value",
+          "identifier": "Value",
+          "type": "VALUE",
+          "linked": true,
+          "serialized_value_not_evaluated": 0.0
+        }
+      ],
+      "operation": "ADD",
+      "use_clamp": false
+    },
+    {
+      "name": "Math.035",
+      "label": "",
+      "bl_idname": "ShaderNodeMath",
+      "type": "MATH",
+      "mute": false,
+      "inputs": [
+        {
+          "name": "Value",
+          "identifier": "Value",
+          "type": "VALUE",
+          "linked": true,
+          "serialized_value_not_evaluated": 0.5
+        },
+        {
+          "name": "Value",
+          "identifier": "Value_001",
+          "type": "VALUE",
+          "linked": true,
+          "serialized_value_not_evaluated": 0.5
+        },
+        {
+          "name": "Value",
+          "identifier": "Value_002",
+          "type": "VALUE",
+          "linked": false,
+          "serialized_value_not_evaluated": 0.5
+        }
+      ],
+      "outputs": [
+        {
+          "name": "Value",
+          "identifier": "Value",
+          "type": "VALUE",
+          "linked": true,
+          "serialized_value_not_evaluated": 0.0
+        }
+      ],
+      "operation": "ADD",
+      "use_clamp": false
+    },
+    {
+      "name": "Math.038",
+      "label": "",
+      "bl_idname": "ShaderNodeMath",
+      "type": "MATH",
+      "mute": false,
+      "inputs": [
+        {
+          "name": "Value",
+          "identifier": "Value",
+          "type": "VALUE",
+          "linked": true,
+          "serialized_value_not_evaluated": 0.5
+        },
+        {
+          "name": "Value",
+          "identifier": "Value_001",
+          "type": "VALUE",
+          "linked": true,
+          "serialized_value_not_evaluated": 0.5
+        },
+        {
+          "name": "Value",
+          "identifier": "Value_002",
+          "type": "VALUE",
+          "linked": false,
+          "serialized_value_not_evaluated": 0.5
+        }
+      ],
+      "outputs": [
+        {
+          "name": "Value",
+          "identifier": "Value",
+          "type": "VALUE",
+          "linked": true,
+          "serialized_value_not_evaluated": 0.0
+        }
+      ],
+      "operation": "ADD",
+      "use_clamp": false
+    },
+    {
+      "name": "Math.041",
+      "label": "",
+      "bl_idname": "ShaderNodeMath",
+      "type": "MATH",
+      "mute": false,
+      "inputs": [
+        {
+          "name": "Value",
+          "identifier": "Value",
+          "type": "VALUE",
+          "linked": true,
+          "serialized_value_not_evaluated": 0.5
+        },
+        {
+          "name": "Value",
+          "identifier": "Value_001",
+          "type": "VALUE",
+          "linked": false,
+          "serialized_value_not_evaluated": 0.5
+        },
+        {
+          "name": "Value",
+          "identifier": "Value_002",
+          "type": "VALUE",
+          "linked": false,
+          "serialized_value_not_evaluated": 0.5
+        }
+      ],
+      "outputs": [
+        {
+          "name": "Value",
+          "identifier": "Value",
+          "type": "VALUE",
+          "linked": true,
+          "serialized_value_not_evaluated": 0.0
+        }
+      ],
+      "operation": "SUBTRACT",
+      "use_clamp": false
+    },
+    {
+      "name": "Math.042",
+      "label": "",
+      "bl_idname": "ShaderNodeMath",
+      "type": "MATH",
+      "mute": false,
+      "inputs": [
+        {
+          "name": "Value",
+          "identifier": "Value",
+          "type": "VALUE",
+          "linked": true,
+          "serialized_value_not_evaluated": 0.5
+        },
+        {
+          "name": "Value",
+          "identifier": "Value_001",
+          "type": "VALUE",
+          "linked": true,
+          "serialized_value_not_evaluated": 0.5
+        },
+        {
+          "name": "Value",
+          "identifier": "Value_002",
+          "type": "VALUE",
+          "linked": false,
+          "serialized_value_not_evaluated": 0.5
+        }
+      ],
+      "outputs": [
+        {
+          "name": "Value",
+          "identifier": "Value",
+          "type": "VALUE",
+          "linked": true,
+          "serialized_value_not_evaluated": 0.0
+        }
+      ],
+      "operation": "MULTIPLY",
+      "use_clamp": false
+    },
+    {
+      "name": "Math.043",
+      "label": "",
+      "bl_idname": "ShaderNodeMath",
+      "type": "MATH",
+      "mute": false,
+      "inputs": [
+        {
+          "name": "Value",
+          "identifier": "Value",
+          "type": "VALUE",
+          "linked": true,
+          "serialized_value_not_evaluated": 0.5
+        },
+        {
+          "name": "Value",
+          "identifier": "Value_001",
+          "type": "VALUE",
+          "linked": true,
+          "serialized_value_not_evaluated": 2.0
+        },
+        {
+          "name": "Value",
+          "identifier": "Value_002",
+          "type": "VALUE",
+          "linked": false,
+          "serialized_value_not_evaluated": 0.5
+        }
+      ],
+      "outputs": [
+        {
+          "name": "Value",
+          "identifier": "Value",
+          "type": "VALUE",
+          "linked": true,
+          "serialized_value_not_evaluated": 0.0
+        }
+      ],
+      "operation": "ADD",
+      "use_clamp": false
+    },
+    {
+      "name": "Math.044",
+      "label": "",
+      "bl_idname": "ShaderNodeMath",
+      "type": "MATH",
+      "mute": false,
+      "inputs": [
+        {
+          "name": "Value",
+          "identifier": "Value",
+          "type": "VALUE",
+          "linked": true,
+          "serialized_value_not_evaluated": 0.5
+        },
+        {
+          "name": "Value",
+          "identifier": "Value_001",
+          "type": "VALUE",
+          "linked": false,
+          "serialized_value_not_evaluated": 0.5
+        },
+        {
+          "name": "Value",
+          "identifier": "Value_002",
+          "type": "VALUE",
+          "linked": false,
+          "serialized_value_not_evaluated": 0.5
+        }
+      ],
+      "outputs": [
+        {
+          "name": "Value",
+          "identifier": "Value",
+          "type": "VALUE",
+          "linked": true,
+          "serialized_value_not_evaluated": 0.0
+        }
+      ],
+      "operation": "ADD",
+      "use_clamp": false
+    },
+    {
+      "name": "Math.047",
+      "label": "",
+      "bl_idname": "ShaderNodeMath",
+      "type": "MATH",
+      "mute": false,
+      "inputs": [
+        {
+          "name": "Value",
+          "identifier": "Value",
+          "type": "VALUE",
+          "linked": true,
+          "serialized_value_not_evaluated": 0.5
+        },
+        {
+          "name": "Value",
+          "identifier": "Value_001",
+          "type": "VALUE",
+          "linked": true,
+          "serialized_value_not_evaluated": 0.5
+        },
+        {
+          "name": "Value",
+          "identifier": "Value_002",
+          "type": "VALUE",
+          "linked": false,
+          "serialized_value_not_evaluated": 0.5
+        }
+      ],
+      "outputs": [
+        {
+          "name": "Value",
+          "identifier": "Value",
+          "type": "VALUE",
+          "linked": true,
+          "serialized_value_not_evaluated": 0.0
+        }
+      ],
+      "operation": "ADD",
+      "use_clamp": false
+    },
+    {
+      "name": "Math.050",
+      "label": "",
+      "bl_idname": "ShaderNodeMath",
+      "type": "MATH",
+      "mute": false,
+      "inputs": [
+        {
+          "name": "Value",
+          "identifier": "Value",
+          "type": "VALUE",
+          "linked": true,
+          "serialized_value_not_evaluated": 0.5
+        },
+        {
+          "name": "Value",
+          "identifier": "Value_001",
+          "type": "VALUE",
+          "linked": false,
+          "serialized_value_not_evaluated": 2.0
+        },
+        {
+          "name": "Value",
+          "identifier": "Value_002",
+          "type": "VALUE",
+          "linked": false,
+          "serialized_value_not_evaluated": 0.5
+        }
+      ],
+      "outputs": [
+        {
+          "name": "Value",
+          "identifier": "Value",
+          "type": "VALUE",
+          "linked": true,
+          "serialized_value_not_evaluated": 0.0
+        }
+      ],
+      "operation": "MULTIPLY",
+      "use_clamp": false
+    },
+    {
+      "name": "Math.064",
+      "label": "",
+      "bl_idname": "ShaderNodeMath",
+      "type": "MATH",
+      "mute": false,
+      "inputs": [
+        {
+          "name": "Value",
+          "identifier": "Value",
+          "type": "VALUE",
+          "linked": true,
+          "serialized_value_not_evaluated": 0.5
+        },
+        {
+          "name": "Value",
+          "identifier": "Value_001",
+          "type": "VALUE",
+          "linked": true,
+          "serialized_value_not_evaluated": 0.20000000298023224
+        },
+        {
+          "name": "Value",
+          "identifier": "Value_002",
+          "type": "VALUE",
+          "linked": false,
+          "serialized_value_not_evaluated": 0.5
+        }
+      ],
+      "outputs": [
+        {
+          "name": "Value",
+          "identifier": "Value",
+          "type": "VALUE",
+          "linked": true,
+          "serialized_value_not_evaluated": 0.0
+        }
+      ],
+      "operation": "MULTIPLY",
+      "use_clamp": false
+    },
+    {
+      "name": "Math.070",
+      "label": "",
+      "bl_idname": "ShaderNodeMath",
+      "type": "MATH",
+      "mute": false,
+      "inputs": [
+        {
+          "name": "Value",
+          "identifier": "Value",
+          "type": "VALUE",
+          "linked": true,
+          "serialized_value_not_evaluated": 0.5
+        },
+        {
+          "name": "Value",
+          "identifier": "Value_001",
+          "type": "VALUE",
+          "linked": false,
+          "serialized_value_not_evaluated": 0.5
+        },
+        {
+          "name": "Value",
+          "identifier": "Value_002",
+          "type": "VALUE",
+          "linked": false,
+          "serialized_value_not_evaluated": 0.5
+        }
+      ],
+      "outputs": [
+        {
+          "name": "Value",
+          "identifier": "Value",
+          "type": "VALUE",
+          "linked": true,
+          "serialized_value_not_evaluated": 0.0
+        }
+      ],
+      "operation": "SUBTRACT",
+      "use_clamp": false
+    },
+    {
+      "name": "Math.105",
+      "label": "",
+      "bl_idname": "ShaderNodeMath",
+      "type": "MATH",
+      "mute": false,
+      "inputs": [
+        {
+          "name": "Value",
+          "identifier": "Value",
+          "type": "VALUE",
+          "linked": true,
+          "serialized_value_not_evaluated": 0.5
+        },
+        {
+          "name": "Value",
+          "identifier": "Value_001",
+          "type": "VALUE",
+          "linked": true,
+          "serialized_value_not_evaluated": 2.0
+        },
+        {
+          "name": "Value",
+          "identifier": "Value_002",
+          "type": "VALUE",
+          "linked": false,
+          "serialized_value_not_evaluated": 0.5
+        }
+      ],
+      "outputs": [
+        {
+          "name": "Value",
+          "identifier": "Value",
+          "type": "VALUE",
+          "linked": true,
+          "serialized_value_not_evaluated": 0.0
+        }
+      ],
+      "operation": "ADD",
+      "use_clamp": false
+    },
+    {
+      "name": "Math.123",
+      "label": "",
+      "bl_idname": "ShaderNodeMath",
+      "type": "MATH",
+      "mute": false,
+      "inputs": [
+        {
+          "name": "Value",
+          "identifier": "Value",
+          "type": "VALUE",
+          "linked": true,
+          "serialized_value_not_evaluated": 0.5
+        },
+        {
+          "name": "Value",
+          "identifier": "Value_001",
+          "type": "VALUE",
+          "linked": true,
+          "serialized_value_not_evaluated": 2.0
+        },
+        {
+          "name": "Value",
+          "identifier": "Value_002",
+          "type": "VALUE",
+          "linked": false,
+          "serialized_value_not_evaluated": 0.5
+        }
+      ],
+      "outputs": [
+        {
+          "name": "Value",
+          "identifier": "Value",
+          "type": "VALUE",
+          "linked": true,
+          "serialized_value_not_evaluated": 0.0
+        }
+      ],
+      "operation": "ADD",
+      "use_clamp": false
+    },
+    {
+      "name": "Math.126",
+      "label": "",
+      "bl_idname": "ShaderNodeMath",
+      "type": "MATH",
+      "mute": false,
+      "inputs": [
+        {
+          "name": "Value",
+          "identifier": "Value",
+          "type": "VALUE",
+          "linked": true,
+          "serialized_value_not_evaluated": 0.5
+        },
+        {
+          "name": "Value",
+          "identifier": "Value_001",
+          "type": "VALUE",
+          "linked": true,
+          "serialized_value_not_evaluated": 0.05999999865889549
+        },
+        {
+          "name": "Value",
+          "identifier": "Value_002",
+          "type": "VALUE",
+          "linked": false,
+          "serialized_value_not_evaluated": 0.5
+        }
+      ],
+      "outputs": [
+        {
+          "name": "Value",
+          "identifier": "Value",
+          "type": "VALUE",
+          "linked": true,
+          "serialized_value_not_evaluated": 0.0
+        }
+      ],
+      "operation": "ADD",
+      "use_clamp": false
+    },
+    {
+      "name": "Math.130",
+      "label": "",
+      "bl_idname": "ShaderNodeMath",
+      "type": "MATH",
+      "mute": false,
+      "inputs": [
+        {
+          "name": "Value",
+          "identifier": "Value",
+          "type": "VALUE",
+          "linked": true,
+          "serialized_value_not_evaluated": 0.5
+        },
+        {
+          "name": "Value",
+          "identifier": "Value_001",
+          "type": "VALUE",
+          "linked": true,
+          "serialized_value_not_evaluated": 1.0
+        },
+        {
+          "name": "Value",
+          "identifier": "Value_002",
+          "type": "VALUE",
+          "linked": false,
+          "serialized_value_not_evaluated": 0.5
+        }
+      ],
+      "outputs": [
+        {
+          "name": "Value",
+          "identifier": "Value",
+          "type": "VALUE",
+          "linked": true,
+          "serialized_value_not_evaluated": 0.0
+        }
+      ],
+      "operation": "MULTIPLY",
+      "use_clamp": false
+    },
+    {
+      "name": "Math.142",
+      "label": "",
+      "bl_idname": "ShaderNodeMath",
+      "type": "MATH",
+      "mute": false,
+      "inputs": [
+        {
+          "name": "Value",
+          "identifier": "Value",
+          "type": "VALUE",
+          "linked": true,
+          "serialized_value_not_evaluated": 0.5
+        },
+        {
+          "name": "Value",
+          "identifier": "Value_001",
+          "type": "VALUE",
+          "linked": true,
+          "serialized_value_not_evaluated": 1.0
+        },
+        {
+          "name": "Value",
+          "identifier": "Value_002",
+          "type": "VALUE",
+          "linked": false,
+          "serialized_value_not_evaluated": 0.5
+        }
+      ],
+      "outputs": [
+        {
+          "name": "Value",
+          "identifier": "Value",
+          "type": "VALUE",
+          "linked": true,
+          "serialized_value_not_evaluated": 0.0
+        }
+      ],
+      "operation": "MULTIPLY",
+      "use_clamp": false
+    },
+    {
+      "name": "Mix Shader",
+      "label": "",
+      "bl_idname": "ShaderNodeMixShader",
+      "type": "MIX_SHADER",
+      "mute": false,
+      "inputs": [
+        {
+          "name": "Fac",
+          "identifier": "Fac",
+          "type": "VALUE",
+          "linked": true,
+          "serialized_value_not_evaluated": 0.5
+        },
+        {
+          "name": "Shader",
+          "identifier": "Shader",
+          "type": "SHADER",
+          "linked": true
+        },
+        {
+          "name": "Shader",
+          "identifier": "Shader_001",
+          "type": "SHADER",
+          "linked": true
+        }
+      ],
+      "outputs": [
+        {
+          "name": "Shader",
+          "identifier": "Shader",
+          "type": "SHADER",
+          "linked": true
+        }
+      ]
+    },
+    {
+      "name": "Mix Shader.001",
+      "label": "",
+      "bl_idname": "ShaderNodeMixShader",
+      "type": "MIX_SHADER",
+      "mute": false,
+      "inputs": [
+        {
+          "name": "Fac",
+          "identifier": "Fac",
+          "type": "VALUE",
+          "linked": true,
+          "serialized_value_not_evaluated": 0.5
+        },
+        {
+          "name": "Shader",
+          "identifier": "Shader",
+          "type": "SHADER",
+          "linked": true
+        },
+        {
+          "name": "Shader",
+          "identifier": "Shader_001",
+          "type": "SHADER",
+          "linked": false
+        }
+      ],
+      "outputs": [
+        {
+          "name": "Shader",
+          "identifier": "Shader",
+          "type": "SHADER",
+          "linked": true
+        }
+      ]
+    },
+    {
+      "name": "Normal Map.004",
+      "label": "",
+      "bl_idname": "ShaderNodeNormalMap",
+      "type": "NORMAL_MAP",
+      "mute": false,
+      "inputs": [
+        {
+          "name": "Strength",
+          "identifier": "Strength",
+          "type": "VALUE",
+          "linked": false,
+          "serialized_value_not_evaluated": 0.15000000596046448
+        },
+        {
+          "name": "Color",
+          "identifier": "Color",
+          "type": "RGBA",
+          "linked": true,
+          "serialized_value_not_evaluated": [
+            0.5,
+            0.5,
+            1.0,
+            1.0
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "Normal",
+          "identifier": "Normal",
+          "type": "VECTOR",
+          "linked": true,
+          "serialized_value_not_evaluated": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "space": "TANGENT",
+      "uv_map": "UVMap"
+    },
+    {
+      "name": "Principled BSDF.001",
+      "label": "",
+      "bl_idname": "ShaderNodeBsdfPrincipled",
+      "type": "BSDF_PRINCIPLED",
+      "mute": false,
+      "inputs": [
+        {
+          "name": "Base Color",
+          "identifier": "Base Color",
+          "type": "RGBA",
+          "linked": true,
+          "serialized_value_not_evaluated": [
+            0.25,
+            0.25,
+            0.25,
+            1.0
+          ]
+        },
+        {
+          "name": "Metallic",
+          "identifier": "Metallic",
+          "type": "VALUE",
+          "linked": false,
+          "serialized_value_not_evaluated": 0.0
+        },
+        {
+          "name": "Roughness",
+          "identifier": "Roughness",
+          "type": "VALUE",
+          "linked": true,
+          "serialized_value_not_evaluated": 0.5199999809265137
+        },
+        {
+          "name": "IOR",
+          "identifier": "IOR",
+          "type": "VALUE",
+          "linked": false,
+          "serialized_value_not_evaluated": 1.4500000476837158
+        },
+        {
+          "name": "Alpha",
+          "identifier": "Alpha",
+          "type": "VALUE",
+          "linked": false,
+          "serialized_value_not_evaluated": 1.0
+        },
+        {
+          "name": "Normal",
+          "identifier": "Normal",
+          "type": "VECTOR",
+          "linked": true,
+          "serialized_value_not_evaluated": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "name": "Weight",
+          "identifier": "Weight",
+          "type": "VALUE",
+          "linked": false,
+          "serialized_value_not_evaluated": 0.0
+        },
+        {
+          "name": "Diffuse Roughness",
+          "identifier": "Diffuse Roughness",
+          "type": "VALUE",
+          "linked": false,
+          "serialized_value_not_evaluated": 0.0
+        },
+        {
+          "name": "Subsurface Weight",
+          "identifier": "Subsurface Weight",
+          "type": "VALUE",
+          "linked": false,
+          "serialized_value_not_evaluated": 1.0
+        },
+        {
+          "name": "Subsurface Radius",
+          "identifier": "Subsurface Radius",
+          "type": "VECTOR",
+          "linked": false,
+          "serialized_value_not_evaluated": [
+            1.0,
+            0.20000000298023224,
+            0.10000000149011612
+          ]
+        },
+        {
+          "name": "Subsurface Scale",
+          "identifier": "Subsurface Scale",
+          "type": "VALUE",
+          "linked": false,
+          "serialized_value_not_evaluated": 0.006000000052154064
+        },
+        {
+          "name": "Subsurface IOR",
+          "identifier": "Subsurface IOR",
+          "type": "VALUE",
+          "linked": false,
+          "serialized_value_not_evaluated": 1.399999976158142
+        },
+        {
+          "name": "Subsurface Anisotropy",
+          "identifier": "Subsurface Anisotropy",
+          "type": "VALUE",
+          "linked": false,
+          "serialized_value_not_evaluated": 0.0
+        },
+        {
+          "name": "Specular IOR Level",
+          "identifier": "Specular IOR Level",
+          "type": "VALUE",
+          "linked": true,
+          "serialized_value_not_evaluated": 0.5
+        },
+        {
+          "name": "Specular Tint",
+          "identifier": "Specular Tint",
+          "type": "RGBA",
+          "linked": false,
+          "serialized_value_not_evaluated": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "name": "Anisotropic",
+          "identifier": "Anisotropic",
+          "type": "VALUE",
+          "linked": false,
+          "serialized_value_not_evaluated": 0.0
+        },
+        {
+          "name": "Anisotropic Rotation",
+          "identifier": "Anisotropic Rotation",
+          "type": "VALUE",
+          "linked": false,
+          "serialized_value_not_evaluated": 0.0
+        },
+        {
+          "name": "Tangent",
+          "identifier": "Tangent",
+          "type": "VECTOR",
+          "linked": false,
+          "serialized_value_not_evaluated": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "name": "Transmission Weight",
+          "identifier": "Transmission Weight",
+          "type": "VALUE",
+          "linked": false,
+          "serialized_value_not_evaluated": 0.0
+        },
+        {
+          "name": "Coat Weight",
+          "identifier": "Coat Weight",
+          "type": "VALUE",
+          "linked": true,
+          "serialized_value_not_evaluated": 0.0
+        },
+        {
+          "name": "Coat Roughness",
+          "identifier": "Coat Roughness",
+          "type": "VALUE",
+          "linked": true,
+          "serialized_value_not_evaluated": 0.07999999821186066
+        },
+        {
+          "name": "Coat IOR",
+          "identifier": "Coat IOR",
+          "type": "VALUE",
+          "linked": false,
+          "serialized_value_not_evaluated": 1.2000000476837158
+        },
+        {
+          "name": "Coat Tint",
+          "identifier": "Coat Tint",
+          "type": "RGBA",
+          "linked": false,
+          "serialized_value_not_evaluated": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "name": "Coat Normal",
+          "identifier": "Coat Normal",
+          "type": "VECTOR",
+          "linked": true,
+          "serialized_value_not_evaluated": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "name": "Sheen Weight",
+          "identifier": "Sheen Weight",
+          "type": "VALUE",
+          "linked": true,
+          "serialized_value_not_evaluated": 0.44999998807907104
+        },
+        {
+          "name": "Sheen Roughness",
+          "identifier": "Sheen Roughness",
+          "type": "VALUE",
+          "linked": false,
+          "serialized_value_not_evaluated": 0.5
+        },
+        {
+          "name": "Sheen Tint",
+          "identifier": "Sheen Tint",
+          "type": "RGBA",
+          "linked": false,
+          "serialized_value_not_evaluated": [
+            0.20000000298023224,
+            0.20000000298023224,
+            0.20000000298023224,
+            1.0
+          ]
+        },
+        {
+          "name": "Emission Color",
+          "identifier": "Emission Color",
+          "type": "RGBA",
+          "linked": false,
+          "serialized_value_not_evaluated": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "name": "Emission Strength",
+          "identifier": "Emission Strength",
+          "type": "VALUE",
+          "linked": false,
+          "serialized_value_not_evaluated": 1.0
+        },
+        {
+          "name": "Thin Film Thickness",
+          "identifier": "Thin Film Thickness",
+          "type": "VALUE",
+          "linked": false,
+          "serialized_value_not_evaluated": 0.0
+        },
+        {
+          "name": "Thin Film IOR",
+          "identifier": "Thin Film IOR",
+          "type": "VALUE",
+          "linked": false,
+          "serialized_value_not_evaluated": 1.3300000429153442
+        }
+      ],
+      "outputs": [
+        {
+          "name": "BSDF",
+          "identifier": "BSDF",
+          "type": "SHADER",
+          "linked": true
+        }
+      ]
+    },
+    {
+      "name": "Reroute",
+      "label": "",
+      "bl_idname": "NodeReroute",
+      "type": "REROUTE",
+      "mute": false,
+      "inputs": [
+        {
+          "name": "Input",
+          "identifier": "Input",
+          "type": "VECTOR",
+          "linked": true,
+          "serialized_value_not_evaluated": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "Output",
+          "identifier": "Output",
+          "type": "VECTOR",
+          "linked": true,
+          "serialized_value_not_evaluated": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Reroute.003",
+      "label": "",
+      "bl_idname": "NodeReroute",
+      "type": "REROUTE",
+      "mute": false,
+      "inputs": [
+        {
+          "name": "Input",
+          "identifier": "Input",
+          "type": "VALUE",
+          "linked": true,
+          "serialized_value_not_evaluated": 0.0
+        }
+      ],
+      "outputs": [
+        {
+          "name": "Output",
+          "identifier": "Output",
+          "type": "VALUE",
+          "linked": true,
+          "serialized_value_not_evaluated": 0.0
+        }
+      ]
+    },
+    {
+      "name": "Reroute.008",
+      "label": "",
+      "bl_idname": "NodeReroute",
+      "type": "REROUTE",
+      "mute": false,
+      "inputs": [
+        {
+          "name": "Input",
+          "identifier": "Input",
+          "type": "VALUE",
+          "linked": true,
+          "serialized_value_not_evaluated": 0.0
+        }
+      ],
+      "outputs": [
+        {
+          "name": "Output",
+          "identifier": "Output",
+          "type": "VALUE",
+          "linked": true,
+          "serialized_value_not_evaluated": 0.0
+        }
+      ]
+    },
+    {
+      "name": "Reroute.010",
+      "label": "",
+      "bl_idname": "NodeReroute",
+      "type": "REROUTE",
+      "mute": false,
+      "inputs": [
+        {
+          "name": "Input",
+          "identifier": "Input",
+          "type": "VALUE",
+          "linked": true,
+          "serialized_value_not_evaluated": 0.0
+        }
+      ],
+      "outputs": [
+        {
+          "name": "Output",
+          "identifier": "Output",
+          "type": "VALUE",
+          "linked": true,
+          "serialized_value_not_evaluated": 0.0
+        }
+      ]
+    },
+    {
+      "name": "Reroute.014",
+      "label": "",
+      "bl_idname": "NodeReroute",
+      "type": "REROUTE",
+      "mute": false,
+      "inputs": [
+        {
+          "name": "Input",
+          "identifier": "Input",
+          "type": "VECTOR",
+          "linked": true,
+          "serialized_value_not_evaluated": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "Output",
+          "identifier": "Output",
+          "type": "VECTOR",
+          "linked": true,
+          "serialized_value_not_evaluated": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Reroute.033",
+      "label": "",
+      "bl_idname": "NodeReroute",
+      "type": "REROUTE",
+      "mute": false,
+      "inputs": [
+        {
+          "name": "Input",
+          "identifier": "Input",
+          "type": "VALUE",
+          "linked": true,
+          "serialized_value_not_evaluated": 0.0
+        }
+      ],
+      "outputs": [
+        {
+          "name": "Output",
+          "identifier": "Output",
+          "type": "VALUE",
+          "linked": true,
+          "serialized_value_not_evaluated": 0.0
+        }
+      ]
+    },
+    {
+      "name": "Separate Color",
+      "label": "",
+      "bl_idname": "ShaderNodeSeparateColor",
+      "type": "SEPARATE_COLOR",
+      "mute": false,
+      "inputs": [
+        {
+          "name": "Color",
+          "identifier": "Color",
+          "type": "RGBA",
+          "linked": true,
+          "serialized_value_not_evaluated": [
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929,
+            1.0
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "Red",
+          "identifier": "Red",
+          "type": "VALUE",
+          "linked": true,
+          "serialized_value_not_evaluated": 0.0
+        },
+        {
+          "name": "Green",
+          "identifier": "Green",
+          "type": "VALUE",
+          "linked": true,
+          "serialized_value_not_evaluated": 0.0
+        },
+        {
+          "name": "Blue",
+          "identifier": "Blue",
+          "type": "VALUE",
+          "linked": true,
+          "serialized_value_not_evaluated": 0.0
+        }
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "Separate Color.001",
+      "label": "",
+      "bl_idname": "ShaderNodeSeparateColor",
+      "type": "SEPARATE_COLOR",
+      "mute": false,
+      "inputs": [
+        {
+          "name": "Color",
+          "identifier": "Color",
+          "type": "RGBA",
+          "linked": true,
+          "serialized_value_not_evaluated": [
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929,
+            1.0
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "Red",
+          "identifier": "Red",
+          "type": "VALUE",
+          "linked": true,
+          "serialized_value_not_evaluated": 0.0
+        },
+        {
+          "name": "Green",
+          "identifier": "Green",
+          "type": "VALUE",
+          "linked": true,
+          "serialized_value_not_evaluated": 0.0
+        },
+        {
+          "name": "Blue",
+          "identifier": "Blue",
+          "type": "VALUE",
+          "linked": true,
+          "serialized_value_not_evaluated": 0.0
+        }
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "Separate Color.003",
+      "label": "",
+      "bl_idname": "ShaderNodeSeparateColor",
+      "type": "SEPARATE_COLOR",
+      "mute": false,
+      "inputs": [
+        {
+          "name": "Color",
+          "identifier": "Color",
+          "type": "RGBA",
+          "linked": true,
+          "serialized_value_not_evaluated": [
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929,
+            1.0
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "Red",
+          "identifier": "Red",
+          "type": "VALUE",
+          "linked": true,
+          "serialized_value_not_evaluated": 0.0
+        },
+        {
+          "name": "Green",
+          "identifier": "Green",
+          "type": "VALUE",
+          "linked": true,
+          "serialized_value_not_evaluated": 0.0
+        },
+        {
+          "name": "Blue",
+          "identifier": "Blue",
+          "type": "VALUE",
+          "linked": false,
+          "serialized_value_not_evaluated": 0.0
+        }
+      ],
+      "mode": "RGB"
+    },
+    {
+      "name": "UV Map.007",
+      "label": "",
+      "bl_idname": "ShaderNodeUVMap",
+      "type": "UVMAP",
+      "mute": false,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "UV",
+          "identifier": "UV",
+          "type": "VECTOR",
+          "linked": true,
+          "serialized_value_not_evaluated": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "uv_map": "UVMap"
+    },
+    {
+      "name": "UV Map.019",
+      "label": "",
+      "bl_idname": "ShaderNodeUVMap",
+      "type": "UVMAP",
+      "mute": false,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "UV",
+          "identifier": "UV",
+          "type": "VECTOR",
+          "linked": true,
+          "serialized_value_not_evaluated": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "uv_map": "UVMap"
+    },
+    {
+      "name": "UV Map.020",
+      "label": "",
+      "bl_idname": "ShaderNodeUVMap",
+      "type": "UVMAP",
+      "mute": false,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "UV",
+          "identifier": "UV",
+          "type": "VECTOR",
+          "linked": true,
+          "serialized_value_not_evaluated": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "uv_map": "UVMap"
+    },
+    {
+      "name": "Vector Math.021",
+      "label": "",
+      "bl_idname": "ShaderNodeVectorMath",
+      "type": "VECT_MATH",
+      "mute": false,
+      "inputs": [
+        {
+          "name": "Vector",
+          "identifier": "Vector",
+          "type": "VECTOR",
+          "linked": true,
+          "serialized_value_not_evaluated": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "name": "Vector",
+          "identifier": "Vector_001",
+          "type": "VECTOR",
+          "linked": false,
+          "serialized_value_not_evaluated": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "name": "Vector",
+          "identifier": "Vector_002",
+          "type": "VECTOR",
+          "linked": false,
+          "serialized_value_not_evaluated": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "name": "Scale",
+          "identifier": "Scale",
+          "type": "VALUE",
+          "linked": false,
+          "serialized_value_not_evaluated": 24.299999237060547
+        }
+      ],
+      "outputs": [
+        {
+          "name": "Vector",
+          "identifier": "Vector",
+          "type": "VECTOR",
+          "linked": true,
+          "serialized_value_not_evaluated": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "name": "Value",
+          "identifier": "Value",
+          "type": "VALUE",
+          "linked": false,
+          "serialized_value_not_evaluated": 0.0
+        }
+      ],
+      "operation": "SCALE"
+    }
+  ],
+  "all_displacement_node_types": [],
+  "all_three_mesh_face_index_orders_identical": true,
+  "caution": "Structural links and serialized values only; paths do not evaluate pixels, attributes, expressions or rig. No geometry mapping inferred from filenames."
+}
