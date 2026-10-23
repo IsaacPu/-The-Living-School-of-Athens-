@@ -1,5 +1,5 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "reviewed_date": "2026-10-23",
   "status": "single_candidate_page_and_license_verified_native_file_unverified",
   "title": "Einar - Character Rig",
@@ -17,9 +17,20 @@
   "preview_observation": "Official preview shows a finished older bearded male with fuller brow/orbital and perioral aging structure than C0. Hat/beard/materials still hide parts of the bald form, so that form is not yet accepted.",
   "access_checks": [
     {"method": "ordinary HEAD", "http_status": 403},
-    {"method": "one ordinary Range GET to inspect archive tail only", "http_status": 403}
+    {"method": "one ordinary Range GET to inspect archive tail only", "http_status": 403},
+    {
+      "actor": "project_owner",
+      "method": "Normal IAB downloadMedia on the official page-visible download link",
+      "timeout_seconds": 45,
+      "result": "Timed out without a completed local path",
+      "download_success_verified": false,
+      "evidence": "Project owner coordination message on 2026-10-23; B did not repeat this operation"
+    }
   ],
   "native_model_downloaded": false,
+  "native_file_available_to_B": false,
+  "owner_completed_download_path": null,
+  "owner_partial_download_state": "Unknown; absence of a completed path does not establish whether temporary bytes exist",
   "credentials_headers_or_proxy_workaround_used": false,
   "installed": false,
   "registered_or_paid": false,
@@ -28,10 +39,24 @@
   "local_blender_4_5_15_compatibility_verified": false,
   "head_only_extraction_verified": false,
   "runtime_or_rig_claim": false,
+  "resource_snapshot": {
+    "measured_utc": "2026-10-23T11:00:10Z",
+    "measured_asia_shanghai": "2026-10-23T19:00:10+08:00",
+    "physical_memory_gib": 13.86,
+    "free_memory_gib": 1.91,
+    "D_drive_free_gib": 87.58,
+    "blender_unity_or_entrance_processes_seen": false,
+    "archive_uncompressed_bytes": null,
+    "native_blend_bytes": null,
+    "peak_load_memory_gib": null,
+    "interpretation": "Transient resource measurement, not a capacity pass. The 553 MB compressed label does not establish RAM requirements; no scene load or benchmark performed."
+  },
+  "static_assessment_from_worktree": "qa/characters/plato/v002/EINAR_STATIC_ASSESSMENT.md",
   "decision": "Send this concrete official source, license and preview to project owner. Do not label as a fully downloadable usable elderly base. No model download before source review, and no more renders in this round.",
   "limits": [
     "Whole character source, not a ready Plato head. Body, clothes and grooming are outside the current gate.",
     "Public preview and license do not prove native file access, clean head extraction or compatibility.",
+    "No archive member inventory, embedded attribution, dependencies or native head geometry has been inspected because a completed file is unavailable to B.",
     "Official site comments about rig problems are not local verification and are not adopted as facts."
   ]
 }
