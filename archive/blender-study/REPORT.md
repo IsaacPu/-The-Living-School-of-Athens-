@@ -35,3 +35,6 @@ V4 至 V5 对举手局部增加浅沟槽及贴图细节，以改善指向手势�
 按 [仓库首页](../../README.md) 下载并用 Blender 打开建筑或人物文件。2026-11-19 使用 Blender 4.5.15 后台读取两份源文件，并检查未打包的文件型图片：两者均无未打包图片；建筑文件提示由更新的 Blender 版本写入。此检查不等于完整交互、画面或兼容性验收。Unity 历史检查只适用于当时的独立样板，不代表 Blender 场景通过 Unity 测试。
 
 原画及背景资料：[梵蒂冈博物馆作品介绍](https://www.museivaticani.va/content/musei/en/collezioni/musei/stanze-di-raffaello/stanza-della-segnatura/scuola-di-atene.html)；生成参考图仅用于辅助构思，遮挡部分存在推测。
+## 2026-11-19 默认视角修正
+
+柏拉图候选的默认相机已从脚部近景调整为正面全身视角；源资产仍为独立静态人物，未与上色建筑合成。
