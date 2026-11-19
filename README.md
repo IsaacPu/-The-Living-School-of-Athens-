@@ -1,3 +1,22 @@
+# The Living School of Athens — 本地查看入口
+
+本仓库归档《雅典学院》三维探索的阶段成果。**这是未完成的项目**：包括独立的 Blender 建筑上色场景、柏拉图人物候选，以及另一套 Unity 中央建筑／一人技术样板；它们不是已经合并的完整作品，也没有在线部署。
+
+## 下载并查看 Blender 成果
+
+1. 点击本页右上方 **Code → Download ZIP**，下载并完整解压；或者运行 `git clone https://github.com/IsaacPu/-The-Living-School-of-Athens-.git`。
+2. 安装 [Blender](https://www.blender.org/download/)。建筑文件由 Blender 5.2 系列写入，请优先使用 5.2 或更新的兼容版本；本次仅用 4.5.15 后台读取，出现较新版本警告，未完成界面兼容性验证。
+3. 用 Blender 打开 `archive/blender-study/SchoolOfAthens.blend`。进入相机视角可按数字键盘 `0`；选择材质预览可查看材质。该文件是静态建筑场景，不是独立游戏程序。
+4. 柏拉图候选分卷保存在 `archive/blender-study/plato-v5-parts/`。在 Windows PowerShell 运行 `powershell -ExecutionPolicy Bypass -File .\archive\blender-study\restore-plato.ps1`，生成 `plato-hand-v5.blend` 后用 Blender 打开。人物未合入建筑，手部仍有明显局限。
+
+[查看过程与成果报告（含截图和迭代对比）](archive/blender-study/REPORT.md) · [直接查看建筑效果](archive/blender-study/images/scene-current.png)
+
+## Unity 技术样板
+
+Unity 样板是另一个独立阶段，其源工程在 `unity/`。仓库不包含已构建的 Windows 程序；需使用 Unity 6000.0.85f1 根据下方原始说明重新构建。历史验收不等同于本次重新运行验证。
+
+---
+
 # 《雅典学院》正式项目工作区
 
 状态：**P0 中央建筑／一人合模技术样板通过负责人和独立审查。人物精修、完整场景美术与全场漫游尚未通过。**
